@@ -135,6 +135,7 @@ def build_mechanism_node(m: dict, pubmed_cache: dict | None) -> dict:
         "category": "",            # mechanisms have no category in the schema
         "color": NODE_COLORS["mechanism"],
         "description": m.get("description", ""),
+        "key_genes": m.get("key_genes", []),
         "pubmed_search_terms": m.get("pubmed_search_terms", []),
         "size": 10,
         "confidence": None,
@@ -158,6 +159,8 @@ def build_disease_node(d: dict, pubmed_cache: dict | None) -> dict:
         "color": NODE_COLORS["disease"],
         "description": d.get("description", ""),
         "icd10": d.get("icd10", ""),
+        "key_genes": d.get("key_genes", []),
+        "treatments": d.get("treatments", []),
         "pubmed_search_terms": d.get("pubmed_search_terms", []),
         "size": 10,
         "confidence": None,
