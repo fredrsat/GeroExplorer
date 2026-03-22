@@ -337,6 +337,23 @@ export default function NodeDetail({ node, allNodes, allEdges, onClose, onNodeSe
           </section>
         )}
 
+        {node.treatments?.length > 0 && (
+          <section style={{ marginBottom: 16 }}>
+            <SectionHeading count={node.treatments.length}>Treatments</SectionHeading>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
+              {node.treatments.map((t, i) => (
+                <div key={i} style={{
+                  fontSize: 11, color: '#94a3b8', lineHeight: 1.45,
+                  padding: '5px 8px', background: '#0f172a',
+                  borderRadius: 6, borderLeft: '2px solid #22c55e'
+                }}>
+                  {t}
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
         {siblingsByMech.length > 0 && (
           <section style={{ marginBottom: 16 }}>
             <button
