@@ -1,0 +1,122 @@
+[
+  {
+    "id": "hallmark_genomic_instability",
+    "name": "Genomic Instability",
+    "category": "primary",
+    "year_added": 2013,
+    "description": "Accumulation of DNA damage throughout life is a major driver of aging. Nuclear DNA is continuously exposed to endogenous (reactive oxygen species, replication errors, spontaneous hydrolysis) and exogenous (UV, ionizing radiation, chemical mutagens) genotoxic stresses. Although organisms have evolved sophisticated DNA damage response (DDR) and repair mechanisms, these systems become less efficient with age, leading to progressive genomic instability manifested as point mutations, chromosomal rearrangements, telomere shortening, and epigenetic changes. Persistent DNA damage activates senescence programs and ultimately drives tissue dysfunction.",
+    "key_genes": ["BRCA1", "BRCA2", "ATM", "ATR", "PARP1", "TP53", "MDM2", "CHEK1", "CHEK2", "RAD51", "XRCC1", "OGG1", "MLH1", "MSH2", "MSH6", "WRN", "BLM", "FANCA"],
+    "biomarkers": ["8-OHdG", "gamma-H2AX foci", "comet assay tail moment", "micronuclei frequency", "somatic mutation rate", "copy number variants", "53BP1 foci"],
+    "pubmed_search_terms": ["genomic instability aging", "DNA damage accumulation aging", "DDR aging hallmark", "somatic mutation aging"]
+  },
+  {
+    "id": "hallmark_telomere_attrition",
+    "name": "Telomere Attrition",
+    "category": "primary",
+    "year_added": 2013,
+    "description": "Telomeres are nucleoprotein structures protecting chromosome ends from degradation and illegitimate recombination. With each cell division, telomeres shorten due to the end-replication problem and oxidative damage. When telomeres reach a critically short length, they trigger a persistent DDR leading to senescence or apoptosis. Telomerase, the enzyme that elongates telomeres, is expressed primarily in stem cells and germ cells but is largely absent in somatic tissues. Short telomeres are strongly associated with organismal aging, age-related diseases, and decreased lifespan in humans and model organisms.",
+    "key_genes": ["TERT", "TERC", "TINF2", "POT1", "TPP1", "TRF1", "TRF2", "RAP1", "DKC1", "NHP2", "NOP10", "RTEL1", "WRAP53"],
+    "biomarkers": ["telomere length (TL) by qPCR", "telomere length by FISH", "telomerase activity (TRAP assay)", "T-circle abundance", "telomeric FISH on metaphase spreads"],
+    "pubmed_search_terms": ["telomere attrition aging", "telomere shortening age-related disease", "telomerase aging", "telomere length mortality"]
+  },
+  {
+    "id": "hallmark_epigenetic_alterations",
+    "name": "Epigenetic Alterations",
+    "category": "primary",
+    "year_added": 2013,
+    "description": "Age-related changes in the epigenome include alterations in DNA methylation patterns, histone modifications, chromatin remodeling, and non-coding RNA expression. Global DNA hypomethylation occurs alongside locus-specific hypermethylation at CpG islands. Histone marks such as H3K4me3, H3K27me3, and H4K16ac change quantitatively with age. These epigenetic drifts alter gene expression programs, activate transposable elements, and disrupt heterochromatin structure. Epigenetic clocks based on DNA methylation patterns (Horvath clock, Hannum clock, PhenoAge, GrimAge) can predict biological age more accurately than chronological age.",
+    "key_genes": ["DNMT1", "DNMT3A", "DNMT3B", "TET1", "TET2", "TET3", "EZH2", "KDM6A", "SIRT1", "SIRT6", "SIRT7", "HDAC1", "HDAC2", "CBP", "p300", "LMNB1"],
+    "biomarkers": ["DNA methylation age (Horvath clock)", "GrimAge", "PhenoAge", "H3K27me3 levels", "H4K16ac levels", "LINE-1 methylation", "global 5-methylcytosine"],
+    "pubmed_search_terms": ["epigenetic alterations aging", "DNA methylation clock aging", "histone modifications aging", "epigenetic drift aging"]
+  },
+  {
+    "id": "hallmark_loss_of_proteostasis",
+    "name": "Loss of Proteostasis",
+    "category": "primary",
+    "year_added": 2013,
+    "description": "Proteostasis refers to the integrated network of pathways that control protein synthesis, folding, trafficking, and degradation. This network includes molecular chaperones (HSP70, HSP90, HSP40 families), the ubiquitin-proteasome system (UPS), and autophagy-lysosomal pathway. With aging, proteostasis becomes progressively compromised: chaperone capacity declines, proteasome activity decreases, and autophagic flux is impaired. This leads to the accumulation of misfolded, oxidized, and aggregated proteins. Proteotoxic stress is central to numerous age-related diseases including neurodegeneration and cataracts.",
+    "key_genes": ["HSPA1A", "HSPA5", "HSPB1", "HSP90AA1", "DNAJB1", "CHIP", "PSMD11", "PSMC5", "UBQLN2", "VCP", "SQSTM1", "NBR1", "CALCOCO2"],
+    "biomarkers": ["ubiquitinated protein aggregates", "proteasome activity assay", "chaperone levels (HSP70)", "aggresome formation", "polyubiquitin conjugates", "carbonylated proteins"],
+    "pubmed_search_terms": ["proteostasis aging", "protein aggregation aging", "proteasome dysfunction aging", "chaperone aging"]
+  },
+  {
+    "id": "hallmark_disabled_macroautophagy",
+    "name": "Disabled Macroautophagy",
+    "category": "primary",
+    "year_added": 2023,
+    "description": "Macroautophagy is a lysosome-dependent bulk degradation pathway that selectively targets damaged organelles (mitophagy, ER-phagy), protein aggregates (aggrephagy), and intracellular pathogens (xenophagy) for recycling. Autophagy is essential for cellular homeostasis and its impairment leads to accumulation of damaged cellular components, promoting aging and disease. With age, autophagosome formation, lysosomal acidification, and autophagic flux all decline. Genetic enhancement of autophagy extends lifespan in multiple organisms. Disabled macroautophagy was elevated to hallmark status in 2023 due to compelling evidence of its independent contribution to aging.",
+    "key_genes": ["ATG5", "ATG7", "ATG12", "ATG16L1", "BECN1", "ULK1", "ULK2", "TFEB", "LAMP1", "LAMP2", "CTSD", "CTSL", "PINK1", "PARK2", "SQSTM1", "LC3B"],
+    "biomarkers": ["LC3-II/LC3-I ratio", "p62/SQSTM1 levels", "autophagic flux assay", "lysosomal pH", "lysosomal membrane permeabilization", "mitophagy rate"],
+    "pubmed_search_terms": ["macroautophagy aging hallmark", "autophagy decline aging", "autophagic flux aging", "TFEB aging"]
+  },
+  {
+    "id": "hallmark_deregulated_nutrient_sensing",
+    "name": "Deregulated Nutrient Sensing",
+    "category": "antagonistic",
+    "year_added": 2013,
+    "description": "Four main nutrient-sensing systems govern metabolic homeostasis and their deregulation promotes aging: insulin/IGF-1 signaling (IIS), target of rapamycin (TOR), AMP-activated protein kinase (AMPK), and sirtuins. Reduced IIS extends lifespan in diverse organisms. TOR integrates nutrient signals and promotes anabolism while suppressing autophagy; mTORC1 hyperactivation promotes aging while rapamycin extends lifespan. AMPK acts as an energy sensor activated by caloric restriction and metformin, promoting catabolic processes. Sirtuins (SIRT1-7) are NAD+-dependent deacylases that integrate metabolic status with epigenetic regulation and stress responses. Age-related decline in AMPK activity and sirtuin expression impairs metabolic adaptation.",
+    "key_genes": ["IGF1R", "IRS1", "IRS2", "FOXO1", "FOXO3", "MTOR", "RPTOR", "RICTOR", "TSC1", "TSC2", "PRKAA1", "PRKAA2", "SIRT1", "SIRT3", "SIRT6", "PIK3CA", "AKT1"],
+    "biomarkers": ["IGF-1 serum levels", "insulin levels", "HOMA-IR", "mTORC1 activity (p70S6K phosphorylation)", "AMPK activity", "NAD+ levels", "SIRT1 protein levels", "fasting glucose"],
+    "pubmed_search_terms": ["nutrient sensing aging", "mTOR aging longevity", "IIS pathway aging", "AMPK aging sirtuins"]
+  },
+  {
+    "id": "hallmark_mitochondrial_dysfunction",
+    "name": "Mitochondrial Dysfunction",
+    "category": "antagonistic",
+    "year_added": 2013,
+    "description": "Mitochondria are central to cellular energy production, calcium homeostasis, reactive oxygen species (ROS) generation, and apoptosis regulation. With aging, mitochondrial function declines through multiple mechanisms: accumulation of mitochondrial DNA (mtDNA) mutations and deletions, reduced biogenesis (PGC-1α pathway), impaired mitophagy, decreased electron transport chain (ETC) complex activities, and altered mitochondrial dynamics (fusion/fission balance). The resulting increase in ROS production leads to oxidative damage to proteins, lipids, and nucleic acids. Dysfunctional mitochondria also trigger sterile inflammation through release of mtDNA and other damage-associated molecular patterns (DAMPs).",
+    "key_genes": ["POLG", "POLG2", "TFAM", "PGC1A", "NRF1", "PPARA", "MFN1", "MFN2", "OPA1", "DRP1", "FIS1", "BNIP3", "FUNDC1", "PINK1", "PARK2", "ND1", "ND4", "ND6", "CYTB"],
+    "biomarkers": ["mtDNA copy number", "mitochondrial membrane potential", "oxygen consumption rate (OCR)", "ATP production rate", "mitochondrial ROS (MitoSOX)", "mtDNA deletion frequency", "Complex I-IV activities", "citrate synthase activity"],
+    "pubmed_search_terms": ["mitochondrial dysfunction aging", "mtDNA mutations aging", "mitochondrial biogenesis aging", "ROS aging mitochondria"]
+  },
+  {
+    "id": "hallmark_cellular_senescence",
+    "name": "Cellular Senescence",
+    "category": "antagonistic",
+    "year_added": 2013,
+    "description": "Cellular senescence is a stable cell cycle arrest state triggered by diverse stresses including telomere shortening (replicative senescence), oncogene activation (oncogene-induced senescence), oxidative damage, and genotoxic stress. Senescent cells resist apoptosis and develop the senescence-associated secretory phenotype (SASP), secreting pro-inflammatory cytokines (IL-6, IL-8), chemokines, matrix metalloproteinases, and growth factors. While senescence initially serves as a tumor suppressor and wound healing mechanism, the chronic accumulation of senescent cells with age creates a pro-inflammatory tissue environment that drives age-related dysfunction, tissue degeneration, and cancer progression in surrounding cells.",
+    "key_genes": ["CDKN2A", "CDKN1A", "RB1", "TP53", "LMNB1", "IL6", "IL8", "CXCL1", "MMP3", "MMP9", "PAI1", "GDF15", "HMGB1", "BCL2", "BCL2L1", "MDM2", "E2F1"],
+    "biomarkers": ["p16INK4a (CDKN2A) expression", "p21 (CDKN1A) expression", "senescence-associated beta-galactosidase (SA-β-Gal)", "SASP factors (IL-6, IL-8, MMP3)", "gamma-H2AX foci", "53BP1 foci", "lipofuscin accumulation"],
+    "pubmed_search_terms": ["cellular senescence aging", "SASP aging", "senolytic aging", "p16 senescence aging"]
+  },
+  {
+    "id": "hallmark_stem_cell_exhaustion",
+    "name": "Stem Cell Exhaustion",
+    "category": "integrative",
+    "year_added": 2013,
+    "description": "Tissue homeostasis depends on the regenerative capacity of somatic stem cells (SSCs), which replenish differentiated cells throughout life. With aging, SSCs decline in number and/or functional capacity across multiple compartments: hematopoietic stem cells (HSCs) show myeloid skewing and clonal hematopoiesis; intestinal stem cells (ISCs) lose regenerative capacity; muscle satellite cells decline in number and self-renewal; neural stem cells decrease in proliferative capacity. Stem cell exhaustion is driven by accumulated DNA damage, epigenetic alterations, telomere shortening, mitochondrial dysfunction, and altered niche signaling. This results in impaired tissue repair, reduced organ function, and increased susceptibility to diseases.",
+    "key_genes": ["LGR5", "PCNA", "KI67", "PAX7", "MYOD1", "SOX2", "OCT4", "NANOG", "HIF1A", "FOXO3", "CDKN1A", "CDKN2A", "SIRT1", "TERT", "NF2", "TP53BP1"],
+    "biomarkers": ["HSC frequency and function (colony forming unit)", "satellite cell number", "intestinal crypt organoid capacity", "neural progenitor proliferation", "clonogenic potential assays", "BrdU/EdU incorporation"],
+    "pubmed_search_terms": ["stem cell exhaustion aging", "HSC aging", "muscle satellite cell aging", "neural stem cell aging", "intestinal stem cell aging"]
+  },
+  {
+    "id": "hallmark_altered_intercellular_communication",
+    "name": "Altered Intercellular Communication",
+    "category": "integrative",
+    "year_added": 2013,
+    "description": "Aging is associated with broad changes in cell-to-cell communication at local and systemic levels. This includes alterations in endocrine, paracrine, and neuronal signaling. The aging plasma environment contains increased pro-inflammatory factors (inflammaging) and decreased regenerative factors. Parabiosis experiments demonstrated that young blood can rejuvenate old tissues. Key aging-related changes include increased NF-κB-driven pro-inflammatory signaling, dysregulated hormonal axes (GH/IGF-1, sex hormones, thyroid), altered extracellular vesicle content and secretion, and modified synaptic transmission in the nervous system. Loss of appropriate communication leads to tissue dysfunction, impaired regeneration, and systemic metabolic dysregulation.",
+    "key_genes": ["NF-κB1", "NFKB2", "RELA", "IL6", "TNF", "TGFB1", "GDF11", "CXCL12", "CCL11", "GH1", "IGF1", "GDF15", "FGF21", "VEGFA", "HGF", "EGF"],
+    "biomarkers": ["plasma inflammatory cytokines", "GDF15", "GDF11", "CCL11 (eotaxin)", "CXCL12", "circulating exosome profile", "complement activation", "plasma proteome aging signature"],
+    "pubmed_search_terms": ["intercellular communication aging", "inflammaging aging", "heterochronic parabiosis aging", "aging plasma proteome"]
+  },
+  {
+    "id": "hallmark_chronic_inflammation",
+    "name": "Chronic Inflammation (Inflammaging)",
+    "category": "integrative",
+    "year_added": 2023,
+    "description": "Inflammaging describes the chronic, sterile, low-grade inflammatory state that develops with advancing age and drives most age-related diseases. Unlike acute inflammation, inflammaging is characterized by persistent elevation of pro-inflammatory cytokines (IL-1β, IL-6, IL-18, TNF-α) without an overt infection or injury trigger. Sources include accumulation of senescent cells (SASP), activation of the cGAS-STING pathway by cytosolic DNA (from nuclear and mitochondrial damage), gut dysbiosis-induced bacterial translocation, chronic activation of pattern recognition receptors (TLRs, NLRPs), and macrophage polarization toward M1 phenotype. Inflammaging is now recognized as a distinct hallmark due to its pervasive, causative role in aging pathology.",
+    "key_genes": ["IL1B", "IL6", "IL18", "TNF", "NLRP3", "CASP1", "CGAS", "STING1", "TLR4", "TLR9", "NF-κB1", "RELA", "HMGB1", "S100A8", "S100A9", "CRP", "PTGS2"],
+    "biomarkers": ["hs-CRP", "IL-6", "IL-1β", "TNF-α", "IL-18", "fibrinogen", "D-dimer", "ferritin", "ESR", "cGAS-STING activation markers", "NLRP3 inflammasome activity"],
+    "pubmed_search_terms": ["inflammaging aging", "chronic inflammation aging hallmark", "NLRP3 aging", "cGAS-STING aging", "sterile inflammation aging"]
+  },
+  {
+    "id": "hallmark_dysbiosis",
+    "name": "Dysbiosis",
+    "category": "integrative",
+    "year_added": 2023,
+    "description": "The gut microbiome undergoes substantial compositional and functional changes with aging, a process termed dysbiosis. Age-related dysbiosis is characterized by decreased microbial diversity, loss of beneficial taxa (Bifidobacterium, Lactobacillus, Faecalibacterium prausnitzii), expansion of potentially pathogenic bacteria, reduced short-chain fatty acid (SCFA) production, and increased intestinal permeability. These changes promote systemic inflammation through bacterial translocation, alter immune system education and function, impair nutrient absorption, and dysregulate gut-brain axis signaling. Centenarians show distinct microbiome signatures associated with longevity, supporting the causal role of dysbiosis in aging. Fecal microbiota transplantation from young to old organisms improves aging phenotypes in experimental models.",
+    "key_genes": ["MUC2", "OCLN", "CLDN1", "TJP1", "FUT2", "CARD9", "NOD2", "IL18", "REG3G", "DEFB1", "SLC5A1", "GPR43", "GPR41", "GPR109A", "AHR"],
+    "biomarkers": ["16S rRNA diversity (Shannon index)", "Firmicutes/Bacteroidetes ratio", "SCFA levels (butyrate, propionate, acetate)", "LPS/endotoxin levels", "intestinal permeability (lactulose/mannitol test)", "zonulin", "fecal calprotectin", "microbiome age prediction"],
+    "pubmed_search_terms": ["gut dysbiosis aging", "microbiome aging longevity", "gut microbiota aging hallmark", "intestinal permeability aging"]
+  }
+]
