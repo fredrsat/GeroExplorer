@@ -148,6 +148,27 @@ Death, Drug-Related Side Effects, Insulin Resistance (mechanism), Chromosomal In
 - Grouped by shared mechanism (e.g. "via Endothelial Dysfunction: Atherosclerosis, Hypertension...")
 - Scientifically: reveals mechanistic basis for known clinical comorbidities
 
+### Relation labels in NodeDetail (implemented 2026-03-22, task #13)
+Each connection card shows a short italic label describing the nature of the edge
+from the current node's perspective, derived from the edge `type` field:
+- `hallmark_to_mechanism`: "Drives this mechanism" / "Root hallmark driver"
+- `hallmark_to_disease`: "Directly promotes disease" / "Root cause hallmark"
+- `mechanism_to_disease`: "Mediates this disease" / "Contributing mechanism"
+
+### Inferred mechanism_links for PubTator diseases (implemented 2026-03-22, task #10)
+85 PubTator-discovered diseases had empty `mechanism_links`. These are now populated by
+inferring from `hallmark_direct_links` via the mechanism→hallmark confidence graph.
+
+**Logic:** `inferred_confidence = disease→hallmark_conf × mechanism→hallmark_conf`
+
+**Thresholds (chosen to match manually curated average of ~4 links/disease):**
+- `hallmark_min = 0.65` — only strong hallmark associations
+- `mech_min = 0.85` — only mechanisms strongly tied to that hallmark
+- `top_n = 6` — cap at 6 per disease
+
+Result: 449 new `mechanism_to_disease` edges, avg 5.3/disease (manual: 4.0).
+Links are marked `"notes": "Inferred from hallmark links"` for traceability.
+
 ---
 
 ## Important conventions

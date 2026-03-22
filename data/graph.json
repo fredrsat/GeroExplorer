@@ -1,16 +1,16 @@
 {
   "metadata": {
-    "generated_at": "2026-03-22T16:42:50.424807+00:00",
+    "generated_at": "2026-03-22T19:29:21.297221+00:00",
     "node_count": 206,
-    "edge_count": 1327,
+    "edge_count": 1776,
     "stats": {
       "node_count": 206,
-      "edge_count": 1327,
-      "avg_degree": 12.883,
-      "avg_confidence": 0.666,
+      "edge_count": 1776,
+      "avg_degree": 17.243,
+      "avg_confidence": 0.706,
       "edge_type_counts": {
         "hallmark_to_mechanism": 185,
-        "mechanism_to_disease": 280,
+        "mechanism_to_disease": 729,
         "hallmark_to_disease": 862
       },
       "most_connected_nodes": [
@@ -615,7 +615,7 @@
         "Nrf2 aging",
         "mitochondrial ROS aging"
       ],
-      "size": 62.45,
+      "size": 78.74,
       "confidence": null
     },
     {
@@ -631,7 +631,7 @@
         "brain aging inflammation",
         "neuroinflammation neurodegenerative disease"
       ],
-      "size": 38.73,
+      "size": 55.68,
       "confidence": null
     },
     {
@@ -646,7 +646,7 @@
         "metabolic syndrome aging",
         "type 2 diabetes aging mechanisms"
       ],
-      "size": 42.43,
+      "size": 53.85,
       "confidence": null
     },
     {
@@ -662,7 +662,7 @@
         "mTORC1 aging autophagy",
         "mTOR age-related disease"
       ],
-      "size": 26.46,
+      "size": 45.83,
       "confidence": null
     },
     {
@@ -678,7 +678,7 @@
         "NF-kB senescence SASP",
         "IKK aging"
       ],
-      "size": 44.72,
+      "size": 68.56,
       "confidence": null
     },
     {
@@ -694,7 +694,7 @@
         "proteostasis amyloid aging",
         "IAPP aggregation aging"
       ],
-      "size": 26.46,
+      "size": 41.23,
       "confidence": null
     },
     {
@@ -710,7 +710,7 @@
         "GSK3 tau aging",
         "tauopathy aging"
       ],
-      "size": 24.49,
+      "size": 36.06,
       "confidence": null
     },
     {
@@ -726,7 +726,7 @@
         "mitophagy impairment age-related disease",
         "mitochondrial quality control aging"
       ],
-      "size": 42.43,
+      "size": 60.83,
       "confidence": null
     },
     {
@@ -741,7 +741,7 @@
         "telomere dysfunction senescence",
         "replicative senescence telomere"
       ],
-      "size": 26.46,
+      "size": 63.25,
       "confidence": null
     },
     {
@@ -757,7 +757,7 @@
         "senolytic aging",
         "IL-6 senescence aging"
       ],
-      "size": 58.31,
+      "size": 79.37,
       "confidence": null
     },
     {
@@ -773,7 +773,7 @@
         "intestinal barrier aging",
         "endotoxemia aging"
       ],
-      "size": 38.73,
+      "size": 56.57,
       "confidence": null
     },
     {
@@ -789,7 +789,7 @@
         "SCFA gut microbiome aging",
         "butyrate inflammation aging"
       ],
-      "size": 22.36,
+      "size": 41.23,
       "confidence": null
     },
     {
@@ -805,7 +805,7 @@
         "ubiquitin proteasome aging",
         "UPS aging"
       ],
-      "size": 30.0,
+      "size": 43.59,
       "confidence": null
     },
     {
@@ -821,7 +821,7 @@
         "GrimAge mortality",
         "epigenetic reprogramming aging"
       ],
-      "size": 33.17,
+      "size": 44.72,
       "confidence": null
     },
     {
@@ -837,7 +837,7 @@
         "CHIP cardiovascular disease",
         "somatic mutation hematopoiesis aging"
       ],
-      "size": 34.64,
+      "size": 50.0,
       "confidence": null
     },
     {
@@ -853,7 +853,7 @@
         "AGE crosslinking aging",
         "tissue stiffness aging"
       ],
-      "size": 42.43,
+      "size": 45.83,
       "confidence": null
     },
     {
@@ -869,7 +869,7 @@
         "innate immune aging",
         "inflammaging immunosenescence"
       ],
-      "size": 47.96,
+      "size": 60.83,
       "confidence": null
     },
     {
@@ -885,7 +885,7 @@
         "sirtuins NAD aging",
         "NMN NR aging"
       ],
-      "size": 30.0,
+      "size": 50.0,
       "confidence": null
     },
     {
@@ -901,7 +901,7 @@
         "synuclein clearance autophagy",
         "gut brain synuclein aging"
       ],
-      "size": 28.28,
+      "size": 41.23,
       "confidence": null
     },
     {
@@ -917,7 +917,7 @@
         "arterial stiffness aging",
         "vascular senescence aging"
       ],
-      "size": 44.72,
+      "size": 60.0,
       "confidence": null
     },
     {
@@ -933,7 +933,7 @@
         "lysosome aging disease",
         "lipofuscin aging lysosome"
       ],
-      "size": 26.46,
+      "size": 43.59,
       "confidence": null
     },
     {
@@ -949,7 +949,7 @@
         "PERK IRE1 ATF6 aging",
         "UPR aging disease"
       ],
-      "size": 31.62,
+      "size": 41.23,
       "confidence": null
     },
     {
@@ -981,7 +981,7 @@
         "HSC niche aging",
         "ISC niche aging Wnt"
       ],
-      "size": 34.64,
+      "size": 46.9,
       "confidence": null
     },
     {
@@ -1013,7 +1013,7 @@
         "AMPK mitochondria aging",
         "exercise mitochondria aging"
       ],
-      "size": 30.0,
+      "size": 50.0,
       "confidence": null
     },
     {
@@ -1029,7 +1029,7 @@
         "cytosolic DNA aging",
         "LINE-1 STING aging"
       ],
-      "size": 22.36,
+      "size": 43.59,
       "confidence": null
     },
     {
@@ -1045,7 +1045,7 @@
         "chaperone mediated autophagy aging",
         "LAMP2A aging CMA"
       ],
-      "size": 20.0,
+      "size": 36.06,
       "confidence": null
     },
     {
@@ -1061,7 +1061,7 @@
         "LINE-1 methylation aging",
         "methylation aging cancer"
       ],
-      "size": 36.06,
+      "size": 46.9,
       "confidence": null
     },
     {
@@ -1077,7 +1077,7 @@
         "Beclin-1 aging autophagy",
         "ATG5 ATG7 aging"
       ],
-      "size": 26.46,
+      "size": 43.59,
       "confidence": null
     },
     {
@@ -1093,7 +1093,7 @@
         "satellite cell aging muscle",
         "muscle aging mitochondria"
       ],
-      "size": 28.28,
+      "size": 41.23,
       "confidence": null
     },
     {
@@ -1109,7 +1109,7 @@
         "RANKL OPG aging",
         "osteoporosis aging mechanisms"
       ],
-      "size": 26.46,
+      "size": 30.0,
       "confidence": null
     },
     {
@@ -1125,7 +1125,7 @@
         "BDNF aging cognitive decline",
         "synapse loss neurodegeneration"
       ],
-      "size": 34.64,
+      "size": 36.06,
       "confidence": null
     },
     {
@@ -1141,7 +1141,7 @@
         "SASP MMP aging",
         "cartilage degradation aging MMP"
       ],
-      "size": 26.46,
+      "size": 36.06,
       "confidence": null
     },
     {
@@ -1157,7 +1157,7 @@
         "GH IGF-1 aging",
         "DHEA aging"
       ],
-      "size": 41.23,
+      "size": 47.96,
       "confidence": null
     },
     {
@@ -1173,7 +1173,7 @@
         "adiponectin aging",
         "senescent adipocyte aging"
       ],
-      "size": 34.64,
+      "size": 38.73,
       "confidence": null
     },
     {
@@ -1205,7 +1205,7 @@
         "telomerase insufficiency disease aging",
         "dyskeratosis congenita aging"
       ],
-      "size": 22.36,
+      "size": 54.77,
       "confidence": null
     },
     {
@@ -2285,7 +2285,7 @@
       "pubmed_search_terms": [
         "Diabetes Mellitus aging"
       ],
-      "size": 34.64,
+      "size": 42.43,
       "confidence": null
     },
     {
@@ -2299,7 +2299,7 @@
       "pubmed_search_terms": [
         "Macular Degeneration aging"
       ],
-      "size": 34.64,
+      "size": 42.43,
       "confidence": null
     },
     {
@@ -2313,7 +2313,7 @@
       "pubmed_search_terms": [
         "Diabetes Mellitus Type 2 aging"
       ],
-      "size": 34.64,
+      "size": 42.43,
       "confidence": null
     },
     {
@@ -2327,7 +2327,7 @@
       "pubmed_search_terms": [
         "Pulmonary Disease Chronic Obstructive aging"
       ],
-      "size": 33.17,
+      "size": 41.23,
       "confidence": null
     },
     {
@@ -2341,7 +2341,7 @@
       "pubmed_search_terms": [
         "Renal Insufficiency Chronic aging"
       ],
-      "size": 31.62,
+      "size": 40.0,
       "confidence": null
     },
     {
@@ -2355,7 +2355,7 @@
       "pubmed_search_terms": [
         "Dementia aging"
       ],
-      "size": 34.64,
+      "size": 42.43,
       "confidence": null
     },
     {
@@ -2369,7 +2369,7 @@
       "pubmed_search_terms": [
         "Heart Failure aging"
       ],
-      "size": 33.17,
+      "size": 41.23,
       "confidence": null
     },
     {
@@ -2383,7 +2383,7 @@
       "pubmed_search_terms": [
         "Cardiomyopathy Restrictive aging"
       ],
-      "size": 28.28,
+      "size": 37.42,
       "confidence": null
     },
     {
@@ -2397,7 +2397,7 @@
       "pubmed_search_terms": [
         "Asthma aging"
       ],
-      "size": 28.28,
+      "size": 34.64,
       "confidence": null
     },
     {
@@ -2411,7 +2411,7 @@
       "pubmed_search_terms": [
         "Carcinoma Hepatocellular aging"
       ],
-      "size": 31.62,
+      "size": 40.0,
       "confidence": null
     },
     {
@@ -2425,7 +2425,7 @@
       "pubmed_search_terms": [
         "Intervertebral Disc Degeneration aging"
       ],
-      "size": 26.46,
+      "size": 36.06,
       "confidence": null
     },
     {
@@ -2439,7 +2439,7 @@
       "pubmed_search_terms": [
         "Leukemia aging"
       ],
-      "size": 28.28,
+      "size": 37.42,
       "confidence": null
     },
     {
@@ -2453,7 +2453,7 @@
       "pubmed_search_terms": [
         "AA amyloidosis aging"
       ],
-      "size": 28.28,
+      "size": 37.42,
       "confidence": null
     },
     {
@@ -2467,7 +2467,7 @@
       "pubmed_search_terms": [
         "Cystic Fibrosis aging"
       ],
-      "size": 28.28,
+      "size": 37.42,
       "confidence": null
     },
     {
@@ -2481,7 +2481,7 @@
       "pubmed_search_terms": [
         "Brain Injuries Traumatic aging"
       ],
-      "size": 26.46,
+      "size": 36.06,
       "confidence": null
     },
     {
@@ -2495,7 +2495,7 @@
       "pubmed_search_terms": [
         "Muscular Atrophy aging"
       ],
-      "size": 33.17,
+      "size": 41.23,
       "confidence": null
     },
     {
@@ -2509,7 +2509,7 @@
       "pubmed_search_terms": [
         "Aneuploidy aging"
       ],
-      "size": 28.28,
+      "size": 37.42,
       "confidence": null
     },
     {
@@ -2523,7 +2523,7 @@
       "pubmed_search_terms": [
         "Infertility aging"
       ],
-      "size": 30.0,
+      "size": 38.73,
       "confidence": null
     },
     {
@@ -2537,7 +2537,7 @@
       "pubmed_search_terms": [
         "Liver Failure aging"
       ],
-      "size": 26.46,
+      "size": 36.06,
       "confidence": null
     },
     {
@@ -2551,7 +2551,7 @@
       "pubmed_search_terms": [
         "Arthritis Rheumatoid aging"
       ],
-      "size": 24.49,
+      "size": 34.64,
       "confidence": null
     },
     {
@@ -2565,7 +2565,7 @@
       "pubmed_search_terms": [
         "Genetic Diseases Inborn aging"
       ],
-      "size": 31.62,
+      "size": 40.0,
       "confidence": null
     },
     {
@@ -2579,7 +2579,7 @@
       "pubmed_search_terms": [
         "Periodontitis aging"
       ],
-      "size": 22.36,
+      "size": 33.17,
       "confidence": null
     },
     {
@@ -2593,7 +2593,7 @@
       "pubmed_search_terms": [
         "Proteostasis Deficiencies aging"
       ],
-      "size": 22.36,
+      "size": 33.17,
       "confidence": null
     },
     {
@@ -2607,7 +2607,7 @@
       "pubmed_search_terms": [
         "Progeria aging"
       ],
-      "size": 28.28,
+      "size": 37.42,
       "confidence": null
     },
     {
@@ -2621,7 +2621,7 @@
       "pubmed_search_terms": [
         "Sleep Apnea Obstructive aging"
       ],
-      "size": 24.49,
+      "size": 34.64,
       "confidence": null
     },
     {
@@ -2635,7 +2635,7 @@
       "pubmed_search_terms": [
         "Cognitive Dysfunction aging"
       ],
-      "size": 30.0,
+      "size": 38.73,
       "confidence": null
     },
     {
@@ -2649,35 +2649,35 @@
       "pubmed_search_terms": [
         "Anxiety aging"
       ],
-      "size": 30.0,
+      "size": 36.06,
       "confidence": null
     },
     {
       "id": "disease_heredodegenerative_disorders_nervous_system",
       "label": "Heredodegenerative Disorders Nervous System",
       "type": "disease",
-      "category": "unknown",
+      "category": "neurological",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Heredodegenerative nervous system disorders are a heterogeneous group of genetically determined diseases characterized by progressive neuronal loss in specific anatomical systems, including conditions such as hereditary spastic paraplegia, spinocerebellar ataxias, hereditary motor neuropathies, and familial forms of amyotrophic lateral sclerosis. Many of these disorders involve mutations in genes encoding proteins critical for mitochondrial quality control, autophagy, DNA repair, or axonal transport, directly implicating canonical aging mechanisms even in diseases with early-onset manifestations. The convergence of genetic vulnerability with age-related decline in protein homeostasis, mitochondrial function, and neuroinflammatory suppression explains why many heredodegenerative disorders show symptom onset and progression rates that scale with biological age.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Heredodegenerative Disorders Nervous System aging"
       ],
-      "size": 33.17,
+      "size": 41.23,
       "confidence": null
     },
     {
       "id": "disease_tauopathies",
       "label": "Tauopathies",
       "type": "disease",
-      "category": "unknown",
+      "category": "neurological",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Tauopathies are a class of neurodegenerative diseases defined by the pathological aggregation of hyperphosphorylated tau protein into neurofibrillary tangles, neuropil threads, or other fibrillar inclusions, encompassing Alzheimer's disease, frontotemporal dementia with tau pathology (Pick's disease), progressive supranuclear palsy, and corticobasal degeneration. All tauopathies are strongly age-associated, reflecting the age-dependent decline in proteostasis that permits misfolded tau to escape chaperone-mediated refolding and autophagic clearance, enabling prion-like propagation through neural circuits. Loss of proteostasis capacity and impaired autophagy are the central aging hallmarks converging on tau accumulation, with tau pathology itself generating a positive feedback loop of mitochondrial dysfunction and neuroinflammation that accelerates neuronal aging and death.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Tauopathies aging"
       ],
-      "size": 22.36,
+      "size": 33.17,
       "confidence": null
     },
     {
@@ -2686,12 +2686,12 @@
       "type": "disease",
       "category": "oncological",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Acute myeloid leukemia (AML) is an aggressive hematological malignancy characterized by rapid clonal expansion of immature myeloid progenitors (blasts) in the bone marrow and peripheral blood, causing bone marrow failure with resulting infection, bleeding, and anemia. AML incidence rises sharply with age—median diagnosis age is 68 years—largely because of the age-dependent accumulation of pre-leukemic clonal hematopoiesis (CHIP) mutations in genes such as DNMT3A, TET2, and ASXL1, which represent early epigenetic and genomic alterations in aging hematopoietic stem cells. Stem cell exhaustion, epigenetic deregulation of myeloid differentiation programs, and the pro-inflammatory aged bone marrow microenvironment together create the permissive conditions for AML evolution and explain its dramatically worse prognosis in elderly patients.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Leukemia Myeloid Acute aging"
       ],
-      "size": 20.0,
+      "size": 31.62,
       "confidence": null
     },
     {
@@ -2700,54 +2700,54 @@
       "type": "disease",
       "category": "cardiovascular",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Cardiomyopathies are a heterogeneous group of diseases of the myocardium associated with mechanical or electrical dysfunction, classified as dilated, hypertrophic, restrictive, arrhythmogenic, and unclassified forms, representing the leading indication for heart transplantation. Many cardiomyopathies exhibit age-dependent onset or worsening, as the aging myocardium accumulates cardiomyocyte telomere attrition, mitochondrial dysfunction reducing ATP supply, and autophagic insufficiency leading to toxic protein aggregate accumulation (proteotoxic cardiomyopathy). Chronic low-grade cardiac inflammation, epigenetic remodeling of cardiomyocyte gene expression programs, and telomere-dependent DNA damage responses collectively link aging hallmarks to cardiomyopathy pathogenesis across multiple etiological subtypes.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Cardiomyopathies aging"
       ],
-      "size": 31.62,
+      "size": 40.0,
       "confidence": null
     },
     {
       "id": "disease_614878",
       "label": "614878",
       "type": "disease",
-      "category": "unknown",
+      "category": "gastrointestinal",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "OMIM 614878 corresponds to a form of early-onset inflammatory bowel disease (IBD25) caused by autosomal recessive loss-of-function mutations in the IL10RA gene encoding the interleukin-10 receptor alpha subunit, resulting in inability to respond to the anti-inflammatory cytokine IL-10 and severe, treatment-refractory intestinal inflammation beginning in infancy. This monogenic IBD model is relevant to aging research because IL-10 signaling is a critical immunoregulatory axis whose functional decline with immunosenescence contributes to the inflammaging phenotype of the elderly gut. The convergence of chronic intestinal inflammation, gut microbiome dysbiosis, and impaired anti-inflammatory resolution in this condition mirrors mechanisms that drive age-related intestinal dysfunction and systemic inflammation in the elderly.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "614878 aging"
       ],
-      "size": 30.0,
+      "size": 38.73,
       "confidence": null
     },
     {
       "id": "disease_myopathies_structural_congenital",
       "label": "Myopathies Structural Congenital",
       "type": "disease",
-      "category": "unknown",
+      "category": "musculoskeletal",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Congenital structural myopathies are a genetically heterogeneous group of inherited muscle diseases defined by distinctive ultrastructural abnormalities on muscle biopsy—including central cores, nemaline rods, and myofibrillar disorganization—typically presenting in infancy or childhood with hypotonia, proximal weakness, and often respiratory insufficiency. Many congenital myopathies are caused by mutations in genes encoding sarcomeric proteins, ryanodine receptor, or myosin heavy chain isoforms, whose dysfunction causes impaired proteostasis in muscle with abnormal protein aggregate accumulation—a process that worsens with age as the ubiquitin-proteasome and autophagy systems lose capacity. The aging context is relevant because age-related decline in proteostatic capacity and autophagy in muscle accelerates the manifestation and progression of myofibrillar protein aggregation in these genetically predisposed individuals.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Myopathies Structural Congenital aging"
       ],
-      "size": 17.32,
+      "size": 30.0,
       "confidence": null
     },
     {
       "id": "disease_glioblastoma",
       "label": "Glioblastoma",
       "type": "disease",
-      "category": "unknown",
+      "category": "neurological",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Glioblastoma (GBM, WHO grade IV glioma) is the most aggressive primary brain tumor, arising from glial cells with hallmark features of pseudopalisading necrosis, microvascular proliferation, EGFR amplification, PTEN deletion, and IDH-wildtype status, carrying a median survival of 15 months despite maximal therapy. GBM incidence peaks in the sixth and seventh decades, reflecting the age-related accumulation of somatic mutations, epigenetic deregulation of glial progenitor identity, and mitochondrial dysfunction that collectively create a permissive cellular environment for malignant transformation. The aging brain's impaired DNA repair capacity, dysregulated autophagy that fails to clear oncogenic proteins, and immunosenescence-driven failure of immune surveillance further contribute to GBM initiation and its poor response to therapy in elderly patients.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Glioblastoma aging"
       ],
-      "size": 24.49,
+      "size": 34.64,
       "confidence": null
     },
     {
@@ -2756,12 +2756,12 @@
       "type": "disease",
       "category": "renal",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Acute kidney injury (AKI) is a rapid decline in renal function occurring over hours to days, defined by increase in serum creatinine or decrease in urine output, caused by ischemia, nephrotoxins, or sepsis, and associated with high short-term mortality and long-term risk of chronic kidney disease. Advanced age is the dominant non-modifiable risk factor for AKI, as the aged kidney has diminished functional reserve due to nephron loss, is more susceptible to ischemia-reperfusion injury from reduced endothelial autophagy and mitochondrial biogenesis capacity, and recovers more poorly due to impaired tubular epithelial regeneration reflecting stem cell exhaustion. Mitochondrial dysfunction impairing tubular energetics during recovery and failure of autophagy to remove damaged mitochondria are central aging-related mechanisms that convert transient AKI into progressive chronic kidney disease in older patients.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Acute Kidney Injury aging"
       ],
-      "size": 26.46,
+      "size": 36.06,
       "confidence": null
     },
     {
@@ -2770,12 +2770,12 @@
       "type": "disease",
       "category": "psychiatric",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Schizophrenia is a chronic, severe psychiatric disorder characterized by positive symptoms (hallucinations, delusions, disorganized thought), negative symptoms (avolition, anhedonia, flat affect), and cognitive deficits, with onset typically in late adolescence or early adulthood. Growing evidence supports a model of accelerated biological aging in schizophrenia: patients exhibit shorter telomere length, increased markers of cellular senescence, and elevated neuroinflammation compared to age-matched controls, suggesting premature aging of the central nervous and immune systems. Impaired autophagy in dopaminergic and GABAergic neurons, altered intercellular communication via dysregulated cytokine signaling, and early-life epigenetic programming by environmental stressors contribute to both the pathophysiology of schizophrenia and its association with substantially shortened life expectancy.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Schizophrenia aging"
       ],
-      "size": 26.46,
+      "size": 36.06,
       "confidence": null
     },
     {
@@ -2784,12 +2784,12 @@
       "type": "disease",
       "category": "hematological",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Anemia is defined by a reduction in circulating red blood cell mass below normal thresholds, impairing oxygen delivery to tissues and manifesting as fatigue, dyspnea, reduced exercise capacity, and cognitive impairment; it affects approximately 10–20% of adults over 65 years. Age-related anemia of inflammation (anemia of chronic disease) arises from inflammaging-driven hepcidin excess that sequesters iron, combined with declining erythropoietin responsiveness, while age-related clonal cytopenias reflect hematopoietic stem cell exhaustion and somatic mutation accumulation (CHIP). Epigenetic alterations in erythroid progenitor differentiation, impaired stem cell self-renewal, and chronic inflammatory cytokine-mediated suppression of erythropoiesis represent the primary aging-hallmark mechanisms driving age-associated anemia.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Anemia aging"
       ],
-      "size": 22.36,
+      "size": 33.17,
       "confidence": null
     },
     {
@@ -2798,7 +2798,7 @@
       "type": "disease",
       "category": "ophthalmic",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Leber hereditary optic neuropathy (LHON) is a maternally inherited mitochondrial disorder caused by point mutations in mitochondrial DNA encoding complex I subunits (most commonly m.11778G>A, m.3460G>A, m.14484T>C), leading to selective degeneration of retinal ganglion cells and their axons with rapid, painless, bilateral central vision loss typically in young adults. LHON is directly relevant to aging because mitochondrial dysfunction—the primary pathogenic mechanism—is a central hallmark of both LHON and normal aging, and incomplete penetrance of LHON mutations is explained in part by the progressive accumulation of mitochondrial heteroplasmy and age-related mitochondrial DNA damage reducing the bioenergetic threshold for retinal ganglion cell failure. The disease demonstrates how mitochondrial DNA integrity, oxidative phosphorylation efficiency, and age-related oxidative stress converge to determine when and whether neurodegeneration occurs in genetically vulnerable individuals.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Optic Atrophy Hereditary Leber aging"
@@ -2812,82 +2812,82 @@
       "type": "disease",
       "category": "hematological",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Fanconi anemia (FA) is a rare autosomal (or X-linked) recessive disorder caused by mutations in any of at least 22 FANC genes encoding proteins in the FA/BRCA DNA repair pathway that resolves DNA interstrand crosslinks, manifesting as progressive bone marrow failure, congenital malformations, and markedly elevated risk of acute myeloid leukemia and squamous cell carcinomas. FA is a segmental progeroid syndrome—affected individuals exhibit features of premature aging including premature hematopoietic stem cell exhaustion, accelerated telomere attrition, and elevated inflammatory markers—making it a critical model for understanding how DNA repair capacity determines stem cell longevity and aging rate. The disease demonstrates that compromised genomic integrity accelerates all aging hallmarks dependent on sustained DNA damage signaling, including stem cell exhaustion, senescence, and chronic inflammation.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Fanconi Anemia aging"
       ],
-      "size": 22.36,
+      "size": 33.17,
       "confidence": null
     },
     {
       "id": "disease_overweight",
       "label": "Overweight",
       "type": "disease",
-      "category": "unknown",
+      "category": "metabolic",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Overweight is defined by a body mass index (BMI) of 25–29.9 kg/m², reflecting excess adipose tissue accumulation that increases risk of type 2 diabetes, cardiovascular disease, sleep apnea, osteoarthritis, and several cancers. Adipose tissue dysfunction in overweight individuals drives systemic inflammaging through elevated circulating IL-6, TNF-α, and leptin, creating a pro-aging inflammatory milieu, and visceral fat expansion is associated with accelerated telomere attrition in multiple tissues. Chronic positive energy balance deregulates mTOR and AMPK nutrient-sensing pathways, impairs autophagy in metabolically active tissues, and fosters gut dysbiosis, establishing a multi-hallmark connection between excess adiposity and accelerated biological aging.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Overweight aging"
       ],
-      "size": 26.46,
+      "size": 36.06,
       "confidence": null
     },
     {
       "id": "disease_lead_poisoning_nervous_system",
       "label": "Lead Poisoning Nervous System",
       "type": "disease",
-      "category": "unknown",
+      "category": "neurological",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Lead poisoning of the nervous system results from exposure to inorganic or organic lead compounds that accumulate in the brain, causing neurotoxicity through disruption of calcium signaling, mitochondrial function, glutamate receptor activity, and neurotransmitter synthesis, producing encephalopathy in acute poisoning and cognitive decline, peripheral neuropathy, and increased neurodegeneration risk with chronic low-level exposure. Lead induces DNA strand breaks and oxidative damage to DNA, driving genomic instability and mimicking or accelerating aging-associated neuronal genomic changes, and stored in bone it can be remobilized during the bone resorption that accompanies aging. Epigenetic modifications induced by early-life lead exposure—particularly altered DNA methylation at gene loci controlling brain aging—have been documented to persist across the lifespan and increase late-life risk of Alzheimer's disease and dementia, linking environmental exposures to the hallmarks of brain aging.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Lead Poisoning Nervous System aging"
       ],
-      "size": 26.46,
+      "size": 36.06,
       "confidence": null
     },
     {
       "id": "disease_malnutrition",
       "label": "Malnutrition",
       "type": "disease",
-      "category": "unknown",
+      "category": "metabolic",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Malnutrition encompasses a spectrum of conditions arising from insufficient, excess, or imbalanced intake of macronutrients and micronutrients, including protein-energy malnutrition, micronutrient deficiencies, and the clinically significant syndrome of malnutrition-inflammation-cachexia common in older adults. Aging dramatically increases malnutrition risk through anorexia of aging, reduced absorption efficiency, polypharmacy, and impaired homeostatic nutrient-sensing regulation, and malnutrition in turn accelerates biological aging by shortening telomeres, impairing DNA repair, and promoting chronic inflammation. Deregulated nutrient-sensing pathways—disruption of IGF-1, mTOR, AMPK, and sirtuins that normally transduce dietary signals into longevity-promoting transcriptional responses—represent the mechanistic nexus between malnutrition and accelerated biological aging in the elderly.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Malnutrition aging"
       ],
-      "size": 28.28,
+      "size": 37.42,
       "confidence": null
     },
     {
       "id": "disease_cyclic_neutropenia",
       "label": "Cyclic neutropenia",
       "type": "disease",
-      "category": "unknown",
+      "category": "hematological",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Cyclic neutropenia is a rare hematological disorder characterized by predictable oscillations in absolute neutrophil count every 21 days, with nadirs causing severe neutropenia and susceptibility to life-threatening bacterial infections, caused by autosomal dominant mutations in the ELANE gene encoding neutrophil elastase that disrupt granulopoiesis. The disease is relevant to aging biology because it models the consequences of hematopoietic stem cell dysfunction and disrupted granulocytic differentiation kinetics—processes that deteriorate with normal aging and contribute to age-related immunosenescence and increased infection susceptibility. Telomere attrition in hematopoietic stem cells and mitochondrial dysfunction in neutrophil precursors represent aging mechanisms that exacerbate granulopoietic insufficiency and are relevant to understanding the immune vulnerability of the aged organism.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Cyclic neutropenia aging"
       ],
-      "size": 24.49,
+      "size": 34.64,
       "confidence": null
     },
     {
       "id": "disease_ependymoma",
       "label": "Ependymoma",
       "type": "disease",
-      "category": "unknown",
+      "category": "neurological",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Ependymomas are glial tumors arising from ependymal cells lining the ventricular system and central canal of the spinal cord, classified by molecular subtype and grade (WHO I–III), occurring across all ages but with distinct molecular subtypes predominating in pediatric versus adult patients. Adult spinal and intracranial ependymomas accumulate epigenetic alterations and chromosomal imbalances consistent with age-related genomic instability, and tumor microenvironment senescence contributes to immune evasion. The cellular senescence pathway—including p16INK4a and p21 upregulation in ependymal progenitor cells—is increasingly recognized as relevant to both ependymoma development and its growth rate, linking aging hallmarks in neural stem cell compartments to this glial malignancy.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Ependymoma aging"
       ],
-      "size": 26.46,
+      "size": 36.06,
       "confidence": null
     },
     {
@@ -2896,26 +2896,26 @@
       "type": "disease",
       "category": "hepatic",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Liver cirrhosis is the final common histopathological endpoint of chronic liver injury, characterized by replacement of functional parenchyma with fibrous scar tissue and regenerative nodules, leading to portal hypertension, hepatic insufficiency, and high risk of hepatocellular carcinoma. Advanced age accelerates cirrhosis progression through exhaustion of hepatic progenitor cells that normally mediate liver regeneration, gut dysbiosis that increases portal bacterial translocation driving hepatic inflammation, and cellular senescence of activated hepatic stellate cells that paradoxically sustains pro-fibrotic paracrine signaling via SASP. These aging hallmarks—stem cell exhaustion, dysbiosis, and pathological senescence—converge to render the aged liver less capable of resolving fibrosis and more likely to progress to end-stage disease.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Liver Cirrhosis aging"
       ],
-      "size": 31.62,
+      "size": 40.0,
       "confidence": null
     },
     {
       "id": "disease_fatty_liver",
       "label": "Fatty Liver",
       "type": "disease",
-      "category": "metabolic",
+      "category": "hepatic",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Fatty liver disease (hepatic steatosis) is characterized by excessive triglyceride accumulation (>5% of hepatocytes) without other primary cause, encompassing alcoholic fatty liver disease and non-alcoholic fatty liver disease (NAFLD), which can progress through non-alcoholic steatohepatitis (NASH) to fibrosis, cirrhosis, and hepatocellular carcinoma. NAFLD prevalence and severity increase with age, driven by age-related metabolic dysfunction including insulin resistance, dyslipidemia, telomere-driven hepatocyte stress, and epigenetic reprogramming of hepatic lipid metabolism gene networks. Chronic low-grade hepatic inflammation from gut dysbiosis-derived endotoxin and deregulated mTOR-dependent lipogenesis are central aging-hallmark mechanisms linking systemic aging to hepatic fat accumulation and disease progression.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Fatty Liver aging"
       ],
-      "size": 30.0,
+      "size": 38.73,
       "confidence": null
     },
     {
@@ -2924,12 +2924,12 @@
       "type": "disease",
       "category": "pulmonary",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Pulmonary fibrosis is a progressive scarring of the lung parenchyma in which alveolar epithelial injury triggers aberrant repair with excessive collagen deposition, destroying gas-exchange surface area and causing restrictive respiratory failure; idiopathic pulmonary fibrosis (IPF) is the prototypic form. IPF is now understood as a disease of accelerated lung aging: telomere mutations (TERT, TERC, RTEL1) are the most common genetic risk factors, alveolar type II epithelial cells show premature cellular senescence with SASP-driven fibroblast activation, and genomic instability from critically short telomeres triggers aberrant DNA damage responses in the epithelium. The convergence of telomere attrition, cellular senescence of lung parenchymal cells, and impaired regenerative capacity of epithelial progenitors establishes IPF as among the most compelling examples of an aging-hallmark-driven disease.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Pulmonary Fibrosis aging"
       ],
-      "size": 22.36,
+      "size": 33.17,
       "confidence": null
     },
     {
@@ -2938,21 +2938,21 @@
       "type": "disease",
       "category": "pulmonary",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Acute lung injury (ALI) and its severe manifestation, the acute respiratory distress syndrome (ARDS), are life-threatening conditions characterized by rapid-onset bilateral pulmonary infiltrates, severe hypoxemia, and non-cardiogenic pulmonary edema resulting from disruption of the alveolar-capillary barrier due to direct or indirect lung insults such as pneumonia, sepsis, or trauma. Advanced age dramatically increases both the incidence and mortality of ALI/ARDS because the aged lung has compromised alveolar epithelial repair capacity, reduced surfactant production, and a senescent endothelial and epithelial cell population that mounts an exaggerated and dysregulated inflammatory response. Mitochondrial dysfunction impairing alveolar macrophage phagocytic function, genomic instability reducing proliferative capacity of alveolar type II cells needed for re-epithelialization, and impaired intercellular communication via extracellular vesicles are key aging-hallmark mechanisms contributing to poor ALI outcomes in the elderly.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Acute Lung Injury aging"
       ],
-      "size": 17.32,
+      "size": 30.0,
       "confidence": null
     },
     {
       "id": "disease_paraparesis_tropical_spastic",
       "label": "Paraparesis Tropical Spastic",
       "type": "disease",
-      "category": "unknown",
+      "category": "neurological",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Tropical spastic paraparesis (TSP), also known as HTLV-1-associated myelopathy (HAM/TSP), is a progressive inflammatory myelopathy caused by chronic infection with human T-cell lymphotropic virus type 1 (HTLV-1), characterized by slowly progressive spastic paraparesis, bladder dysfunction, and sensory disturbances. The disease is relevant to aging research because only a minority of HTLV-1-infected individuals develop TSP, with risk increasing with age, reflecting immunosenescence-related loss of viral immune surveillance and age-related changes in altered intercellular communication via cytokine networks in the CNS. Chronic neuroinflammation driven by HTLV-1-infected CD4+ T cells producing IFN-γ and TNF-α mirrors the neuroinflammatory milieu of the aging spinal cord, making TSP a model of virus-accelerated neurological aging.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Paraparesis Tropical Spastic aging"
@@ -2966,7 +2966,7 @@
       "type": "disease",
       "category": "metabolic",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Type 1 diabetes mellitus is an autoimmune disease characterized by T-cell-mediated destruction of pancreatic beta cells leading to absolute insulin deficiency, requiring lifelong exogenous insulin therapy and causing microvascular and macrovascular complications. Although onset typically occurs in childhood or early adulthood, long-duration type 1 diabetes is strongly associated with accelerated biological aging reflected in gut microbiome dysbiosis that may contribute to autoimmune pathogenesis, premature vascular and renal aging driven by chronic hyperglycemia and oxidative stress, and increased risk of age-associated comorbidities decades earlier than in the general population. The aging connection is particularly relevant in long-standing disease where glycation end-products, mitochondrial dysfunction in endothelial cells, and epigenetic metabolic memory perpetuate vascular damage even after glucose normalization.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Diabetes Mellitus Type 1 aging"
@@ -2978,14 +2978,14 @@
       "id": "disease_multiple_organ_failure",
       "label": "Multiple Organ Failure",
       "type": "disease",
-      "category": "unknown",
+      "category": "systemic",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Multiple organ failure (MOF) is a clinical syndrome of sequential or simultaneous failure of two or more organ systems in critically ill patients, most commonly occurring as a consequence of sepsis, major trauma, or severe burns, and representing the primary cause of death in intensive care units. Advanced age is the strongest predictor of MOF development and mortality, as aging diminishes the physiological reserve of each organ system through accumulated cellular senescence, mitochondrial dysfunction, and reduced stem cell regenerative capacity, leaving the elderly unable to mount adequate compensatory responses to systemic insults. The convergence of SASP-driven amplification of systemic inflammation, stem cell exhaustion limiting organ repair, and impaired intercellular communication via dysregulated cytokine signaling explains the dramatically higher incidence and lethality of MOF in older patients.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Multiple Organ Failure aging"
       ],
-      "size": 33.17,
+      "size": 41.23,
       "confidence": null
     },
     {
@@ -2994,26 +2994,26 @@
       "type": "disease",
       "category": "ophthalmic",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Retinal degeneration is a broad category of disorders characterized by progressive loss of photoreceptor cells (rods and cones) and retinal pigment epithelium, leading to visual field loss and blindness, encompassing age-related macular degeneration, retinitis pigmentosa, Stargardt disease, and diabetic retinopathy. Age-related retinal degeneration is driven primarily by mitochondrial dysfunction in photoreceptors and RPE that are among the highest metabolic demand cells in the body, impaired autophagy leading to accumulation of oxidized proteins and lipofuscin in RPE lysosomes (A2E), and failure of phagocytosis of photoreceptor outer segments. The retina provides a unique window into systemic aging biology, with retinal vascular geometry and thickness serving as validated biomarkers of cardiovascular and neurological aging.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Retinal Degeneration aging"
       ],
-      "size": 26.46,
+      "size": 36.06,
       "confidence": null
     },
     {
       "id": "disease_dyskeratosis_congenita",
       "label": "Dyskeratosis Congenita",
       "type": "disease",
-      "category": "unknown",
+      "category": "hematological",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Dyskeratosis congenita (DC) is a rare inherited bone marrow failure syndrome caused by mutations in genes encoding components of the telomerase complex or shelterin proteins (DKC1, TERC, TERT, TINF2, NHP2, NOP10, WRAP53, RTEL1), resulting in critically short telomeres in rapidly proliferating stem cell compartments. The clinical triad of oral leukoplakia, nail dystrophy, and abnormal skin pigmentation reflects mucosal and dermal stem cell exhaustion, while bone marrow failure, pulmonary fibrosis, and liver disease from vascular abnormalities represent the major life-threatening manifestations driven by telomere attrition in hematopoietic and organ stem cells. DC is the paradigmatic human disease of premature telomere attrition, directly modeling how short telomeres accelerate stem cell exhaustion, organ failure, and cancer—providing foundational mechanistic insights into telomere biology in normal human aging.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Dyskeratosis Congenita aging"
       ],
-      "size": 14.14,
+      "size": 20.0,
       "confidence": null
     },
     {
@@ -3022,12 +3022,12 @@
       "type": "disease",
       "category": "pulmonary",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Interstitial lung diseases (ILDs) are a heterogeneous group of diffuse parenchymal lung disorders affecting the alveolar walls, lung interstitium, and often terminal airways, characterized by varying degrees of inflammation and fibrosis that restrict lung expansion and impair gas exchange. Most clinically significant ILDs—including idiopathic pulmonary fibrosis, connective tissue disease-associated ILDs, and hypersensitivity pneumonitis—have markedly age-dependent incidence, reflecting telomere-driven alveolar epithelial vulnerability, epigenetic alterations that reprogram fibroblasts toward a profibrotic phenotype, and impaired autophagy in alveolar macrophages that fails to clear inflammatory stimuli. The age-dependent risk of ILD progression and its convergence with cancer risk in the same patients suggests that shared aging hallmarks—particularly telomere attrition and cellular senescence—drive both fibrotic and neoplastic lung disease.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Lung Diseases Interstitial aging"
       ],
-      "size": 24.49,
+      "size": 28.28,
       "confidence": null
     },
     {
@@ -3036,12 +3036,12 @@
       "type": "disease",
       "category": "cardiovascular",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Myocardial infarction (MI) results from prolonged ischemia of coronary territory due to plaque rupture and thrombosis, causing irreversible cardiomyocyte necrosis whose extent determines subsequent heart failure and mortality risk. Age is the dominant non-modifiable risk factor for MI, as atherosclerotic plaque vulnerability and coronary thrombosis risk increase with the age-related accumulation of senescent endothelial and smooth muscle cells in the vessel wall that amplify plaque inflammation via SASP, while cardiomyocyte renewal from resident progenitor cells is severely limited by stem cell exhaustion in the aged myocardium. Telomere shortening in coronary endothelial cells, chronic vascular inflammation driven by senescent cells, and impaired autophagy-mediated cardioprotection during ischemia-reperfusion are established aging mechanisms linking the hallmarks of aging to increased MI risk and worse recovery outcomes in the elderly.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Myocardial Infarction aging"
       ],
-      "size": 30.0,
+      "size": 38.73,
       "confidence": null
     },
     {
@@ -3050,21 +3050,21 @@
       "type": "disease",
       "category": "oncological",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Accelerated phase chronic myeloid leukemia (CML-AP) represents disease progression from the chronic phase of BCR-ABL1-driven CML, defined by increasing blast percentages (10–19%), clonal cytogenetic evolution, basophilia, or thrombocytopenia, signaling imminent blast crisis and requiring urgent therapeutic intensification. Disease acceleration correlates with the acquisition of additional epigenetic and genomic alterations in BCR-ABL1-positive progenitors—including RUNX1 mutations, CDKN2A/B deletions, and TP53 mutations—that are potentiated by the age-related decline in DNA repair fidelity and hematopoietic stem cell genomic stability. Stem cell exhaustion, driven by both leukemic stress and the aging hematopoietic niche, depletes normal stem cells necessary for disease control and underlies the inferior outcomes of accelerated-phase CML in older patients.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Leukemia Myeloid Accelerated Phase aging"
       ],
-      "size": 22.36,
+      "size": 33.17,
       "confidence": null
     },
     {
       "id": "disease_microsatellite_instability",
       "label": "Microsatellite Instability",
       "type": "disease",
-      "category": "unknown",
+      "category": "oncological",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Microsatellite instability (MSI) is a molecular phenotype of somatic genomic instability arising from deficient DNA mismatch repair (dMMR), characterized by widespread length alterations at repetitive DNA microsatellite sequences throughout the tumor genome, and occurring in colorectal, endometrial, gastric, and other cancers. MSI-high cancers arise predominantly in older adults as a consequence of age-related somatic epigenetic silencing (MLH1 promoter hypermethylation) of the mismatch repair gene or germline Lynch syndrome mutations combined with age-dependent second-hit acquisition. The age-associated accumulation of somatic mutations in key mismatch repair pathway genes, driven by declining DNA repair fidelity—a core aging hallmark of genomic instability—explains why MSI-high sporadic cancers are predominantly diseases of the elderly.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Microsatellite Instability aging"
@@ -3078,77 +3078,77 @@
       "type": "disease",
       "category": "cardiovascular",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Hypertrophic cardiomyopathy (HCM) is an autosomal dominant sarcomeric protein disorder (most commonly MYH7 or MYBPC3 mutations) causing unexplained left ventricular hypertrophy with diastolic dysfunction, outflow tract obstruction, myocardial fibrosis, and risk of sudden cardiac death and atrial fibrillation. While HCM is present from birth at the genetic level, the severity of hypertrophy, fibrosis, and symptoms typically increases with age, as myocardial senescence amplifies fibrotic remodeling, epigenetic alterations accumulate in cardiomyocytes modifying sarcomeric gene expression, and altered intercellular communication via pro-hypertrophic paracrine signaling drives progressive phenotype expression. The age-related worsening of diastolic function in HCM is particularly driven by senescence-associated TGF-β signaling in cardiac fibroblasts, superimposed on the genetic substrate, linking aging hallmarks to HCM disease progression.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Cardiomyopathy Hypertrophic aging"
       ],
-      "size": 24.49,
+      "size": 34.64,
       "confidence": null
     },
     {
       "id": "disease_drug_hypersensitivity",
       "label": "Drug Hypersensitivity",
       "type": "disease",
-      "category": "unknown",
+      "category": "immunological",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Drug hypersensitivity reactions are adverse immunological responses to pharmacological agents, classified by mechanism as IgE-mediated (Type I), cytotoxic (Type II), immune complex-mediated (Type III), or T-cell-mediated (Type IV), and ranging in severity from mild cutaneous reactions to life-threatening anaphylaxis and Stevens-Johnson syndrome. The aging immune system is particularly susceptible to drug hypersensitivity due to immunosenescence-driven shifts in T-cell subsets, gut dysbiosis altering drug metabolism and mucosal immune responses, and altered intercellular communication via cytokine networks that may lower the threshold for hapten-triggered T-cell activation. Increased polypharmacy in older adults combined with declining drug clearance further increases cumulative exposure and the probability of sensitization, making drug hypersensitivity increasingly prevalent in the aged population.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Drug Hypersensitivity aging"
       ],
-      "size": 22.36,
+      "size": 26.46,
       "confidence": null
     },
     {
       "id": "disease_meningioma",
       "label": "Meningioma",
       "type": "disease",
-      "category": "unknown",
+      "category": "neurological",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Meningiomas are the most common primary intracranial tumors, arising from arachnoid cap cells of the meninges, with the majority being benign (WHO grade I) but a significant minority displaying atypical (grade II) or anaplastic (grade III) features associated with high recurrence rates. Meningioma incidence increases steeply with age, peaking in the seventh decade, and the tumors harbor somatic mutations in NF2, TRAF7, AKT1, and SMO that accumulate in aging arachnoid cells exposed to decades of DNA damage from ionizing radiation and oxidative stress. Cellular senescence in the tumor microenvironment promotes a pro-tumorigenic, immunosuppressive milieu via SASP signaling, while altered intercellular communication and genomic instability in aging meningeal cells create the permissive context for meningioma initiation and progression.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Meningioma aging"
       ],
-      "size": 22.36,
+      "size": 33.17,
       "confidence": null
     },
     {
       "id": "disease_premature_birth",
       "label": "Premature Birth",
       "type": "disease",
-      "category": "unknown",
+      "category": "neonatal",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Premature birth, defined as delivery before 37 completed weeks of gestation, is the leading cause of neonatal morbidity and mortality worldwide, with major acute complications including respiratory distress syndrome, intraventricular hemorrhage, necrotizing enterocolitis, and sepsis. Prematurity is relevant to aging biology because preterm infants are born with measurably shorter telomeres than term infants, exhibit mitochondrial dysfunction and oxidative stress from hyperoxia exposure, and show dysbiosis of the neonatal gut microbiome, placing them on an accelerated biological aging trajectory. Survivors of extreme prematurity have elevated rates of cardiovascular, metabolic, cognitive, and pulmonary diseases in early adulthood that resemble the disease burden of individuals decades older, providing evidence that early-life disturbances in the hallmarks of aging have lasting health consequences.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Premature Birth aging"
       ],
-      "size": 20.0,
+      "size": 31.62,
       "confidence": null
     },
     {
       "id": "disease_hypertrophy",
       "label": "Hypertrophy",
       "type": "disease",
-      "category": "unknown",
+      "category": "cardiovascular",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Hypertrophy in the context of aging-related disease most commonly refers to pathological cardiac hypertrophy—concentric left ventricular hypertrophy driven by chronic pressure overload (hypertension) or the intrinsic aging-related remodeling of the myocardium—characterized by cardiomyocyte enlargement, fetal gene program re-expression, interstitial fibrosis, and impaired diastolic filling. The aging heart undergoes progressive hypertrophic remodeling independent of pathological loading, driven by age-related deregulation of the mTOR pathway, impaired macroautophagy that fails to degrade hypertrophied cardiomyocytes' accumulated dysfunctional proteins, and chronic inflammatory signaling promoting TGF-β-mediated fibrosis. Cardiac hypertrophy is a major contributor to diastolic heart failure with preserved ejection fraction (HFpEF)—itself a disease of aging—and shares mechanistic drivers with the systemic aging process.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Hypertrophy aging"
       ],
-      "size": 24.49,
+      "size": 34.64,
       "confidence": null
     },
     {
       "id": "disease_constipation",
       "label": "Constipation",
       "type": "disease",
-      "category": "unknown",
+      "category": "gastrointestinal",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Chronic constipation is characterized by infrequent, difficult, or incomplete defecation, affecting approximately 30–40% of older adults and causing significant morbidity, reduced quality of life, and healthcare utilization. Constipation is a hallmark of gastrointestinal aging, driven primarily by age-related gut dysbiosis with reduced abundance of butyrate-producing bacteria impairing colonic motility, neurodegeneration of the enteric nervous system (loss of myenteric neurons), and decreased colonic mucosal epithelial renewal from stem cell exhaustion. These aging-related changes in the gut microbiome, enteric nervous system, and mucosal biology establish constipation as a clinical manifestation of intestinal aging that overlaps with the same hallmarks driving systemic age-related disease.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Constipation aging"
@@ -3162,12 +3162,12 @@
       "type": "disease",
       "category": "oncological",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Lymphomas are a diverse group of malignancies of lymphoid cells, broadly divided into Hodgkin lymphoma and the heterogeneous non-Hodgkin lymphomas (NHL), arising from B cells, T cells, or NK cells at various stages of differentiation; most NHL subtypes have steeply age-dependent incidence peaking in the seventh decade. The age-associated increase in lymphoma risk reflects immunosenescence—including epigenetic deregulation of B-cell differentiation programs, defective DNA repair in germinal center B cells accumulating somatic hypermutation errors, and impaired immune surveillance by senescent cytotoxic T cells—that collectively permit lymphomagenesis. Deregulated mTOR nutrient-sensing signaling promoting lymphocyte proliferation, epigenetic silencing of tumor suppressor genes in aging lymphocytes, and genomic instability from accumulated reactive oxygen species are the primary aging-hallmark mechanisms driving age-dependent lymphoma incidence.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Lymphoma aging"
       ],
-      "size": 22.36,
+      "size": 33.17,
       "confidence": null
     },
     {
@@ -3176,96 +3176,96 @@
       "type": "disease",
       "category": "cardiovascular",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Myocardial ischemia results from an imbalance between coronary blood supply and myocardial oxygen demand, most commonly due to atherosclerotic coronary artery disease, manifesting clinically as stable angina, acute coronary syndromes, or silent ischemia, and leading to progressive ventricular dysfunction if untreated. Aging accelerates the atherosclerotic substrate for ischemia through telomere-driven endothelial dysfunction reducing nitric oxide bioavailability, cellular senescence in vascular smooth muscle cells and macrophages amplifying plaque vulnerability, and genomic instability in vascular cells permitting clonal smooth muscle cell expansion. The aged myocardium's reduced ischemic preconditioning capacity—from impaired AMPK activation, declining autophagy-mediated cytoprotection, and loss of cardioprotective paracrine signals from cardiac stem cells—further worsens outcomes of ischemic episodes in older patients.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Myocardial Ischemia aging"
       ],
-      "size": 24.49,
+      "size": 34.64,
       "confidence": null
     },
     {
       "id": "disease_overnutrition",
       "label": "Overnutrition",
       "type": "disease",
-      "category": "unknown",
+      "category": "metabolic",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Overnutrition refers to chronic intake of macronutrients in excess of energy expenditure, leading to adiposity, metabolic dysfunction, and the constellation of obesity-related comorbidities including insulin resistance, dyslipidemia, and non-alcoholic fatty liver disease. Overnutrition is a major accelerant of biological aging at the cellular and molecular level: caloric excess chronically hyperactivates mTORC1 and suppresses AMPK signaling, inhibiting autophagy and impairing the proteostatic and mitophagic mechanisms that maintain cellular quality control. The resulting chronic low-grade inflammation, gut dysbiosis with enrichment of lipopolysaccharide-producing bacteria, and impaired autophagic flux that permits accumulation of dysfunctional organelles collectively establish overnutrition as a state of accelerated biological aging through deregulated nutrient sensing.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Overnutrition aging"
       ],
-      "size": 28.28,
+      "size": 37.42,
       "confidence": null
     },
     {
       "id": "disease_stress_disorders_post_traumatic",
       "label": "Stress Disorders Post-Traumatic",
       "type": "disease",
-      "category": "unknown",
+      "category": "psychiatric",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Post-traumatic stress disorder (PTSD) is a psychiatric disorder developing after exposure to life-threatening trauma, characterized by intrusive re-experiencing, hyperarousal, avoidance, and negative alterations in cognition and mood that persist for more than one month and cause significant functional impairment. PTSD is associated with accelerated biological aging: individuals with PTSD exhibit shortened leukocyte telomere length, elevated epigenetic age acceleration, and elevated inflammatory biomarkers compared to trauma-exposed controls, suggesting that chronic HPA-axis dysregulation and sympathetic activation promote aging-hallmark deterioration. Epigenetic alterations in stress-response gene promoters (including NR3C1 and FKBP5) that persist decades after trauma represent enduring modifications to the aging epigenome, linking early-life adversity and PTSD to premature cellular aging and increased risk of age-related disease.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Stress Disorders Post-Traumatic aging"
       ],
-      "size": 17.32,
+      "size": 24.49,
       "confidence": null
     },
     {
       "id": "disease_seizures",
       "label": "Seizures",
       "type": "disease",
-      "category": "unknown",
+      "category": "neurological",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Seizures are paroxysmal episodes of abnormal, excessive, or hypersynchronous neuronal activity causing transient neurological symptoms; epilepsy—defined by recurrent unprovoked seizures—has a bimodal age distribution with a second peak in adults over 60, making late-onset epilepsy among the most common neurological conditions of aging. The aging brain is inherently more epileptogenic due to loss of inhibitory GABAergic interneurons, altered ion channel expression with aging, and the accumulation of neurodegenerative lesions (amyloid plaques, vascular disease) that serve as seizure foci. Stem cell exhaustion in hippocampal neurogenic niches impairing network repair, deregulated nutrient sensing altering neuronal excitability thresholds, and impaired macroautophagy allowing accumulation of excitotoxic aggregates all contribute to the age-dependent increase in seizure susceptibility.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Seizures aging"
       ],
-      "size": 22.36,
+      "size": 33.17,
       "confidence": null
     },
     {
       "id": "disease_hip_fractures",
       "label": "Hip Fractures",
       "type": "disease",
-      "category": "unknown",
+      "category": "musculoskeletal",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Hip fractures are proximal femoral fractures occurring almost exclusively as a consequence of osteoporotic bone fragility combined with a fall, representing the most severe complication of age-related bone loss and carrying a one-year mortality of 20–30% in elderly patients with extensive post-fracture functional decline. Osteoporosis itself is a disease of aging arising from the progressive age-related imbalance between osteoclast-mediated bone resorption and osteoblast-mediated formation, driven by chronic low-grade inflammation (SASP-derived IL-6, IL-1β promoting osteoclastogenesis), epigenetic silencing of osteogenic transcription factors, and senescence of bone marrow mesenchymal stem cells with preferential adipogenic rather than osteogenic differentiation. Hip fractures thus represent the clinical manifestation of aging-hallmark-driven skeletal deterioration, with altered intercellular communication in the bone microenvironment and chronic inflammation as the dominant biological mechanisms.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Hip Fractures aging"
       ],
-      "size": 17.32,
+      "size": 30.0,
       "confidence": null
     },
     {
       "id": "disease_blindness",
       "label": "Blindness",
       "type": "disease",
-      "category": "unknown",
+      "category": "ophthalmic",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Blindness is defined as visual acuity worse than 3/60 or a visual field less than 10 degrees in the better eye, affecting over 43 million people globally; the leading causes—age-related macular degeneration, cataracts, glaucoma, and diabetic retinopathy—share the characteristic of dramatically increasing prevalence with advancing age. Age-related blindness emerges from the convergence of multiple aging hallmarks in ocular tissues: impaired proteostasis leading to crystallin aggregation in the lens (cataracts), mitochondrial dysfunction and autophagy failure in retinal pigment epithelium (macular degeneration), and optic nerve axon loss driven by elevated intraocular pressure and senescent astrocyte SASP in the glial lamina (glaucoma). Vision loss itself constitutes an additional aging accelerant by causing social isolation, reduced physical activity, and cognitive decline, creating a feedback loop between ocular aging and systemic biological aging.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Blindness aging"
       ],
-      "size": 26.46,
+      "size": 36.06,
       "confidence": null
     },
     {
       "id": "disease_hearing_loss",
       "label": "Hearing Loss",
       "type": "disease",
-      "category": "unknown",
+      "category": "otological",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Hearing loss is a reduction in auditory sensitivity affecting more than 1.5 billion people globally; age-related sensorineural hearing loss (presbycusis) is the third most prevalent chronic condition in older adults, affecting over 65% of adults over 70 years of age. Presbycusis results from cumulative damage to cochlear hair cells, the stria vascularis, and spiral ganglion neurons that progressively lose function due to mitochondrial dysfunction from decades of oxidative stress generated during sound transduction, impaired intercellular communication in the cochlear lateral wall, and age-related decline in neurotrophic support for auditory neurons. Hearing loss in older adults is strongly associated with cognitive decline, social isolation, depression, and increased dementia risk, establishing it as both a sentinel of cochlear aging and a driver of accelerated brain aging through reduced auditory cortical stimulation.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Hearing Loss aging"
       ],
-      "size": 24.49,
+      "size": 34.64,
       "confidence": null
     },
     {
@@ -3274,68 +3274,68 @@
       "type": "disease",
       "category": "musculoskeletal",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Fragility fractures are bone fractures occurring with minimal trauma—typically a fall from standing height—reflecting underlying osteoporosis and representing a major cause of morbidity, disability, and mortality in the elderly population. Bone fragility increases with age through a mechanistic convergence of cellular senescence in osteoblasts and osteocytes that reduces bone formation signaling, SASP-driven osteoclastogenesis accelerating bone resorption, and impaired autophagy in osteocytes that compromises their mechanosensory function and structural maintenance role. The age-related shift in bone marrow mesenchymal stem cell differentiation from osteogenesis to adipogenesis—reflecting stem cell exhaustion and epigenetic reprogramming—further depletes the osteoblast progenitor pool, creating a pro-resorptive skeletal environment directly driven by canonical hallmarks of aging.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Fractures Bone aging"
       ],
-      "size": 26.46,
+      "size": 36.06,
       "confidence": null
     },
     {
       "id": "disease_psychological_distress",
       "label": "Psychological Distress",
       "type": "disease",
-      "category": "unknown",
+      "category": "psychiatric",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Psychological distress is a non-specific state of emotional suffering encompassing symptoms of depression, anxiety, and negative affect that falls below full diagnostic criteria for a specific psychiatric disorder but is associated with significant functional impairment and increased risk of physical illness. Chronic psychological distress accelerates biological aging through multiple mechanisms: dysbiosis of the gut-brain axis impairing serotonin and GABA signaling, mitochondrial dysfunction in stressed neurons and glial cells, and elevated glucocorticoid-driven promotion of telomere attrition in immune cells and hippocampal neurons. High psychological distress scores correlate with accelerated epigenetic clock aging and reduced leukocyte telomere length across large population cohorts, establishing psychological stress as an environmental driver of multiple aging hallmarks.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Psychological Distress aging"
       ],
-      "size": 22.36,
+      "size": 33.17,
       "confidence": null
     },
     {
       "id": "disease_tooth_loss",
       "label": "Tooth Loss",
       "type": "disease",
-      "category": "unknown",
+      "category": "dental",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Tooth loss (edentulism) is the permanent loss of natural teeth due to caries, periodontitis, or trauma, with complete edentulism affecting approximately 20% of adults over 65 years; it is considered a sentinel marker of cumulative oral and systemic aging. Tooth loss is bidirectionally associated with systemic aging diseases including cardiovascular disease, diabetes, dementia, and malnutrition, with shared upstream drivers including chronic oral inflammation propagated by dysbiotic biofilms, impaired mucosal immune defense, and altered intercellular communication in alveolar bone and periodontal tissue through inflammaging cytokines. Alveolar bone loss driving tooth loss involves the same cellular senescence, epigenetic, and inflammatory mechanisms that drive skeletal aging systemically, positioning tooth loss as an accessible clinical biomarker and co-consequence of aging hallmarks affecting the craniofacial skeleton.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Tooth Loss aging"
       ],
-      "size": 30.0,
+      "size": 38.73,
       "confidence": null
     },
     {
       "id": "disease_infertility_male",
       "label": "Infertility Male",
       "type": "disease",
-      "category": "unknown",
+      "category": "reproductive",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Male infertility is defined as the inability to achieve conception after 12 months of unprotected intercourse with a fertile partner, attributable to deficiencies in sperm production (oligospermia), motility (asthenospermia), morphology (teratospermia), or function, and accounts for approximately 50% of all infertility cases. Male reproductive aging is characterized by progressive testicular atrophy, declining Leydig cell function with reduced testosterone production, accumulation of mitochondrial DNA damage in sperm that impairs motility and increases embryo aneuploidization risk, and increased sperm DNA fragmentation reflecting impaired epididymal DNA repair. Advanced paternal age correlates with increasing de novo mutations in offspring and epigenetic alterations in sperm methylation patterns driven by oxidative sperm DNA damage and declining epididymal antioxidant defense—directly linking aging-hallmark mechanisms to declining male reproductive fitness.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Infertility Male aging"
       ],
-      "size": 22.36,
+      "size": 33.17,
       "confidence": null
     },
     {
       "id": "disease_pre_eclampsia",
       "label": "Pre-Eclampsia",
       "type": "disease",
-      "category": "unknown",
+      "category": "reproductive",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Pre-eclampsia is a hypertensive disorder of pregnancy defined by new-onset hypertension after 20 weeks gestation with proteinuria or end-organ dysfunction, caused by defective placental trophoblast invasion and spiral artery remodeling that generates placental ischemia and systemic maternal endothelial dysfunction. Pre-eclampsia is associated with premature cellular senescence in placental trophoblasts, telomere shortening in both maternal and placental cells compared to uncomplicated pregnancies, and genomic instability in placental villous cytotrophoblasts impairing invasive differentiation. Critically, pre-eclampsia confers a threefold long-term risk of cardiovascular disease and accelerated vascular aging in affected women, suggesting that the placental insult reveals underlying susceptibility to vascular aging hallmarks and may itself accelerate subsequent maternal biological aging.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Pre-Eclampsia aging"
       ],
-      "size": 20.0,
+      "size": 31.62,
       "confidence": null
     },
     {
@@ -3344,54 +3344,54 @@
       "type": "disease",
       "category": "neurological",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Frontotemporal dementia (FTD) is a clinically and pathologically heterogeneous group of neurodegenerative disorders defined by progressive degeneration of frontal and temporal lobes, presenting with behavioral disinhibition, apathy, semantic or nonfluent speech deficits, and underlying molecular pathology of TDP-43, FUS, or tau inclusions. FTD is predominantly a disease of the sixth and seventh decades, with proteinopathy spread following the same prion-like propagation pattern observed in other age-related neurodegenerative diseases, suggesting that declining proteostasis capacity—a hallmark of aging—is a permissive factor for pathological aggregate propagation. Loss of proteostasis enabling TDP-43 or tau misfolding, impaired autophagy preventing clearance of RNA-binding protein aggregates, and telomere-driven frontotemporal neuron vulnerability are the primary aging mechanisms converging on FTD pathogenesis.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Frontotemporal Dementia aging"
       ],
-      "size": 22.36,
+      "size": 33.17,
       "confidence": null
     },
     {
       "id": "disease_hyperglycemia",
       "label": "Hyperglycemia",
       "type": "disease",
-      "category": "unknown",
+      "category": "metabolic",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Hyperglycemia is the condition of abnormally elevated blood glucose concentrations, occurring acutely in diabetic ketoacidosis and hyperosmolar states, and chronically as the cardinal metabolic abnormality of diabetes mellitus, where it drives microvascular and macrovascular complications through glycation, oxidative stress, and protein kinase C activation. Sustained hyperglycemia accelerates biological aging through non-enzymatic glycation of long-lived proteins forming advanced glycation end-products (AGEs) that crosslink structural proteins and activate the RAGE receptor driving chronic vascular inflammation, and through glucose-driven mitochondrial reactive oxygen species overproduction causing genomic instability. The deregulated nutrient-sensing consequence of hyperglycemia—constitutive mTOR activation and impaired AMPK signaling—further impairs autophagy, mitochondrial quality control, and cellular stress responses, accelerating organ aging in diabetic tissues.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Hyperglycemia aging"
       ],
-      "size": 30.0,
+      "size": 38.73,
       "confidence": null
     },
     {
       "id": "disease_aphasia_conduction",
       "label": "Aphasia Conduction",
       "type": "disease",
-      "category": "unknown",
+      "category": "neurological",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Conduction aphasia is a neurological language disorder characterized by fluent but paraphasic spontaneous speech with preserved comprehension but severely impaired repetition, caused by lesions disconnecting the arcuate fasciculus between Broca's and Wernicke's areas, most commonly from ischemic stroke or trauma. Stroke and cerebrovascular disease—the primary causes of aphasia—are strongly age-related diseases, with incidence rising sharply after age 55, reflecting the cumulative burden of vascular senescence and atherosclerosis that the aging brain sustains. Cellular senescence in cerebrovascular endothelial cells impairing blood-brain barrier integrity, chronic neuroinflammation from activated microglia altering perivascular communication, and impaired axonal repair in the aged white matter after injury collectively impair post-stroke language recovery in older patients.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Aphasia Conduction aging"
       ],
-      "size": 28.28,
+      "size": 37.42,
       "confidence": null
     },
     {
       "id": "disease_synucleinopathies",
       "label": "Synucleinopathies",
       "type": "disease",
-      "category": "unknown",
+      "category": "neurological",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Synucleinopathies are a family of neurodegenerative diseases defined by the pathological accumulation of misfolded alpha-synuclein into Lewy bodies, Lewy neurites, or glial cytoplasmic inclusions, encompassing Parkinson's disease, dementia with Lewy bodies, and multiple system atrophy. All synucleinopathies are strongly age-associated, reflecting the progressive age-dependent decline in the cellular mechanisms—chaperone-mediated autophagy, macroautophagy, and the ubiquitin-proteasome system—that normally prevent alpha-synuclein from adopting toxic oligomeric conformations and propagating prion-like through neural circuits. Loss of proteostasis enabling alpha-synuclein aggregation and impaired macroautophagy preventing aggregate clearance are the two primary aging hallmarks driving synucleinopathy pathogenesis, with mitochondrial dysfunction from aggregated alpha-synuclein disrupting Complex I creating a pathological amplification loop.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Synucleinopathies aging"
       ],
-      "size": 24.49,
+      "size": 34.64,
       "confidence": null
     },
     {
@@ -3400,12 +3400,12 @@
       "type": "disease",
       "category": "dermatological",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Psoriasis is a chronic immune-mediated inflammatory skin disease characterized by hyperproliferating keratinocytes, aberrant epidermal differentiation, and dermal infiltration of activated T cells and dendritic cells, producing well-demarcated, erythematous, scaly plaques with systemic manifestations including psoriatic arthritis and cardiovascular comorbidities. Aging profoundly modulates psoriasis through skin microbiome dysbiosis that shifts cutaneous immune homeostasis, chronic skin inflammation that accelerates local cellular senescence in fibroblasts and keratinocytes, and the age-related shift in the adaptive immune system toward Th17-skewed responses that underlie plaque formation. Psoriasis is associated with an increased epigenetic aging clock rate in non-lesional skin, suggesting that the systemic inflammatory burden of chronic psoriasis accelerates biological aging beyond the visible skin lesions.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Psoriasis aging"
       ],
-      "size": 22.36,
+      "size": 26.46,
       "confidence": null
     },
     {
@@ -3414,40 +3414,40 @@
       "type": "disease",
       "category": "pulmonary",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Respiratory insufficiency is the failure of the respiratory system to maintain adequate gas exchange, defined by hypoxemia and/or hypercapnia at rest or with exertion, arising from diseases affecting the airways, lung parenchyma, pleura, chest wall, neuromuscular system, or respiratory drive. Age is the most significant predictor of respiratory insufficiency across all etiologies, as the aging lung loses elastic recoil, the aging chest wall stiffens, and the aging respiratory musculature atrophies through the same sarcopenic processes affecting limb muscles, collectively reducing ventilatory reserve. Telomere attrition in alveolar epithelial cells, gut dysbiosis altering pulmonary immunity via the gut-lung axis, and impaired autophagic clearance of damaged airway epithelial cells are aging mechanisms that converge on progressive loss of pulmonary functional reserve in the elderly.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Respiratory Insufficiency aging"
       ],
-      "size": 28.28,
+      "size": 34.64,
       "confidence": null
     },
     {
       "id": "disease_weight_gain",
       "label": "Weight Gain",
       "type": "disease",
-      "category": "unknown",
+      "category": "metabolic",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Age-associated weight gain refers to the progressive increase in adiposity—particularly visceral fat—that occurs with aging even in the absence of increased caloric intake, driven by the age-related decline in basal metabolic rate, loss of lean muscle mass, and shift in adipose tissue distribution from subcutaneous to visceral depots. The aging adipose tissue accumulates senescent adipocytes and stromal vascular cells with SASP-driven inflammation, gut dysbiosis with enrichment of energy-harvesting bacteria, and epigenetic modifications in adipogenic progenitors that promote lipogenesis while impairing adipocyte differentiation quality. This age-related redistribution of adiposity, driven by telomere attrition, dysbiosis, and epigenetic reprogramming of the adipose tissue stem cell niche, creates a pro-inflammatory, insulin-resistant state that accelerates multiple downstream aging-related diseases.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Weight Gain aging"
       ],
-      "size": 24.49,
+      "size": 31.62,
       "confidence": null
     },
     {
       "id": "disease_myopathy_with_giant_abnormal_mitochondria",
       "label": "Myopathy with Giant Abnormal Mitochondria",
       "type": "disease",
-      "category": "unknown",
+      "category": "musculoskeletal",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Myopathy with giant abnormal mitochondria is a rare muscle disease characterized by marked weakness and the presence of dramatically enlarged, structurally disorganized mitochondria in muscle biopsy, representing a severe form of mitochondrial myopathy in which impaired organelle quality control allows expansion of dysfunctional mitochondria beyond physiological limits. Mitochondrial dysfunction—the defining feature of this condition—is simultaneously a central hallmark of normal aging, and the disease models in an extreme form what occurs progressively in aging skeletal muscle (sarcopenia) through declining PINK1-Parkin-dependent mitophagy and fusion/fission dynamics. Telomere attrition reducing the regenerative capacity of muscle satellite cells to replace mitochondria-laden fibers, combined with impaired macroautophagy preventing clearance of giant dysfunctional organelles, establishes this disease as a mechanistic convergence point of aging-hallmark biology and rare mitochondrial pathology.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Myopathy with Giant Abnormal Mitochondria aging"
       ],
-      "size": 28.28,
+      "size": 37.42,
       "confidence": null
     },
     {
@@ -3456,12 +3456,12 @@
       "type": "disease",
       "category": "metabolic",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Gestational diabetes mellitus (GDM) is a form of glucose intolerance first diagnosed during pregnancy, resulting from the inability of pancreatic beta cells to compensate for the physiological insulin resistance induced by placental hormones, resolving after delivery but conferring a 7–10-fold lifetime risk of type 2 diabetes. GDM is relevant to aging research because women with a history of GDM demonstrate accelerated biological aging including shorter leukocyte telomere length and epigenetic age acceleration in subsequent years, and gut microbiome dysbiosis during GDM may contribute to metabolic reprogramming that persists after pregnancy. The disease also programs intergenerational metabolic risk through epigenetic modifications in offspring exposed to intrauterine hyperglycemia, demonstrating how a gestational insult can alter the trajectory of aging-related disease in the next generation.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Diabetes Gestational aging"
       ],
-      "size": 17.32,
+      "size": 22.36,
       "confidence": null
     }
   ],
@@ -7185,6 +7185,3598 @@
       "type": "mechanism_to_disease",
       "color": "#92BA2D",
       "width": 3.88
+    },
+    {
+      "source": "mech_telomere_ddr",
+      "target": "disease_diabetes_mellitus",
+      "confidence": 0.882,
+      "type": "mechanism_to_disease",
+      "color": "#51C049",
+      "width": 4.528
+    },
+    {
+      "source": "mech_telomerase_insufficiency",
+      "target": "disease_diabetes_mellitus",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_mtor_hyperactivation",
+      "target": "disease_diabetes_mellitus",
+      "confidence": 0.737,
+      "type": "mechanism_to_disease",
+      "color": "#8BBB30",
+      "width": 3.948
+    },
+    {
+      "source": "mech_insulin_resistance",
+      "target": "disease_diabetes_mellitus",
+      "confidence": 0.722,
+      "type": "mechanism_to_disease",
+      "color": "#91BA2E",
+      "width": 3.888
+    },
+    {
+      "source": "mech_nad_depletion",
+      "target": "disease_diabetes_mellitus",
+      "confidence": 0.699,
+      "type": "mechanism_to_disease",
+      "color": "#9ABA2A",
+      "width": 3.796
+    },
+    {
+      "source": "mech_sasp",
+      "target": "disease_diabetes_mellitus",
+      "confidence": 0.676,
+      "type": "mechanism_to_disease",
+      "color": "#A3B926",
+      "width": 3.704
+    },
+    {
+      "source": "mech_telomere_ddr",
+      "target": "disease_macular_degeneration",
+      "confidence": 0.882,
+      "type": "mechanism_to_disease",
+      "color": "#51C049",
+      "width": 4.528
+    },
+    {
+      "source": "mech_autophagy_flux_decline",
+      "target": "disease_macular_degeneration",
+      "confidence": 0.882,
+      "type": "mechanism_to_disease",
+      "color": "#51C049",
+      "width": 4.528
+    },
+    {
+      "source": "mech_telomerase_insufficiency",
+      "target": "disease_macular_degeneration",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_mitophagy_impairment",
+      "target": "disease_macular_degeneration",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_autophagy_lysosomal",
+      "target": "disease_macular_degeneration",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_oxidative_stress",
+      "target": "disease_macular_degeneration",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_proteome_imbalance",
+      "target": "disease_diabetes_mellitus_type_2",
+      "confidence": 0.825,
+      "type": "mechanism_to_disease",
+      "color": "#68BE3F",
+      "width": 4.3
+    },
+    {
+      "source": "mech_amyloid_aggregation",
+      "target": "disease_diabetes_mellitus_type_2",
+      "confidence": 0.807,
+      "type": "mechanism_to_disease",
+      "color": "#6FBE3C",
+      "width": 4.228
+    },
+    {
+      "source": "mech_alpha_synuclein",
+      "target": "disease_diabetes_mellitus_type_2",
+      "confidence": 0.807,
+      "type": "mechanism_to_disease",
+      "color": "#6FBE3C",
+      "width": 4.228
+    },
+    {
+      "source": "mech_proteostasis_er",
+      "target": "disease_diabetes_mellitus_type_2",
+      "confidence": 0.807,
+      "type": "mechanism_to_disease",
+      "color": "#6FBE3C",
+      "width": 4.228
+    },
+    {
+      "source": "mech_er_stress",
+      "target": "disease_diabetes_mellitus_type_2",
+      "confidence": 0.79,
+      "type": "mechanism_to_disease",
+      "color": "#75BD39",
+      "width": 4.16
+    },
+    {
+      "source": "mech_tau_hyperphosphorylation",
+      "target": "disease_diabetes_mellitus_type_2",
+      "confidence": 0.765,
+      "type": "mechanism_to_disease",
+      "color": "#80BC35",
+      "width": 4.06
+    },
+    {
+      "source": "mech_telomere_ddr",
+      "target": "disease_pulmonary_disease_chronic_obstructive",
+      "confidence": 0.882,
+      "type": "mechanism_to_disease",
+      "color": "#51C049",
+      "width": 4.528
+    },
+    {
+      "source": "mech_sasp",
+      "target": "disease_pulmonary_disease_chronic_obstructive",
+      "confidence": 0.882,
+      "type": "mechanism_to_disease",
+      "color": "#51C049",
+      "width": 4.528
+    },
+    {
+      "source": "mech_telomerase_insufficiency",
+      "target": "disease_pulmonary_disease_chronic_obstructive",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_nfkb_signaling",
+      "target": "disease_pulmonary_disease_chronic_obstructive",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_immunosenescence",
+      "target": "disease_pulmonary_disease_chronic_obstructive",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_vascular_inflammation",
+      "target": "disease_pulmonary_disease_chronic_obstructive",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_telomere_ddr",
+      "target": "disease_renal_insufficiency_chronic",
+      "confidence": 0.882,
+      "type": "mechanism_to_disease",
+      "color": "#51C049",
+      "width": 4.528
+    },
+    {
+      "source": "mech_telomerase_insufficiency",
+      "target": "disease_renal_insufficiency_chronic",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_oxidative_stress",
+      "target": "disease_renal_insufficiency_chronic",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_mitophagy_impairment",
+      "target": "disease_renal_insufficiency_chronic",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_mitochondrial_biogenesis",
+      "target": "disease_renal_insufficiency_chronic",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_gut_permeability",
+      "target": "disease_renal_insufficiency_chronic",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_proteome_imbalance",
+      "target": "disease_dementia",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_mtor_hyperactivation",
+      "target": "disease_dementia",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_amyloid_aggregation",
+      "target": "disease_dementia",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_alpha_synuclein",
+      "target": "disease_dementia",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_proteostasis_er",
+      "target": "disease_dementia",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_insulin_resistance",
+      "target": "disease_dementia",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_gut_permeability",
+      "target": "disease_heart_failure",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_scfa_reduction",
+      "target": "disease_heart_failure",
+      "confidence": 0.828,
+      "type": "mechanism_to_disease",
+      "color": "#66BE40",
+      "width": 4.312
+    },
+    {
+      "source": "mech_epigenetic_clock",
+      "target": "disease_heart_failure",
+      "confidence": 0.718,
+      "type": "mechanism_to_disease",
+      "color": "#92BA2D",
+      "width": 3.872
+    },
+    {
+      "source": "mech_dna_methylation_drift",
+      "target": "disease_heart_failure",
+      "confidence": 0.718,
+      "type": "mechanism_to_disease",
+      "color": "#92BA2D",
+      "width": 3.872
+    },
+    {
+      "source": "mech_nfkb_signaling",
+      "target": "disease_heart_failure",
+      "confidence": 0.718,
+      "type": "mechanism_to_disease",
+      "color": "#92BA2D",
+      "width": 3.872
+    },
+    {
+      "source": "mech_neuroinflammation",
+      "target": "disease_heart_failure",
+      "confidence": 0.703,
+      "type": "mechanism_to_disease",
+      "color": "#98BA2A",
+      "width": 3.812
+    },
+    {
+      "source": "mech_mtor_hyperactivation",
+      "target": "disease_cardiomyopathy_restrictive",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_insulin_resistance",
+      "target": "disease_cardiomyopathy_restrictive",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_nad_depletion",
+      "target": "disease_cardiomyopathy_restrictive",
+      "confidence": 0.828,
+      "type": "mechanism_to_disease",
+      "color": "#66BE40",
+      "width": 4.312
+    },
+    {
+      "source": "mech_mitochondrial_biogenesis",
+      "target": "disease_cardiomyopathy_restrictive",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_muscle_atrophy",
+      "target": "disease_cardiomyopathy_restrictive",
+      "confidence": 0.765,
+      "type": "mechanism_to_disease",
+      "color": "#80BC35",
+      "width": 4.06
+    },
+    {
+      "source": "mech_adipose_dysfunction",
+      "target": "disease_cardiomyopathy_restrictive",
+      "confidence": 0.765,
+      "type": "mechanism_to_disease",
+      "color": "#80BC35",
+      "width": 4.06
+    },
+    {
+      "source": "mech_telomere_ddr",
+      "target": "disease_asthma",
+      "confidence": 0.882,
+      "type": "mechanism_to_disease",
+      "color": "#51C049",
+      "width": 4.528
+    },
+    {
+      "source": "mech_telomerase_insufficiency",
+      "target": "disease_asthma",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_gut_permeability",
+      "target": "disease_asthma",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_scfa_reduction",
+      "target": "disease_asthma",
+      "confidence": 0.828,
+      "type": "mechanism_to_disease",
+      "color": "#66BE40",
+      "width": 4.312
+    },
+    {
+      "source": "mech_telomere_ddr",
+      "target": "disease_carcinoma_hepatocellular",
+      "confidence": 0.882,
+      "type": "mechanism_to_disease",
+      "color": "#51C049",
+      "width": 4.528
+    },
+    {
+      "source": "mech_autophagy_flux_decline",
+      "target": "disease_carcinoma_hepatocellular",
+      "confidence": 0.882,
+      "type": "mechanism_to_disease",
+      "color": "#51C049",
+      "width": 4.528
+    },
+    {
+      "source": "mech_telomerase_insufficiency",
+      "target": "disease_carcinoma_hepatocellular",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_autophagy_lysosomal",
+      "target": "disease_carcinoma_hepatocellular",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_mtor_hyperactivation",
+      "target": "disease_carcinoma_hepatocellular",
+      "confidence": 0.837,
+      "type": "mechanism_to_disease",
+      "color": "#63BF41",
+      "width": 4.348
+    },
+    {
+      "source": "mech_mitophagy_impairment",
+      "target": "disease_carcinoma_hepatocellular",
+      "confidence": 0.837,
+      "type": "mechanism_to_disease",
+      "color": "#63BF41",
+      "width": 4.348
+    },
+    {
+      "source": "mech_sasp",
+      "target": "disease_intervertebral_disc_degeneration",
+      "confidence": 0.882,
+      "type": "mechanism_to_disease",
+      "color": "#51C049",
+      "width": 4.528
+    },
+    {
+      "source": "mech_telomere_ddr",
+      "target": "disease_intervertebral_disc_degeneration",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_oxidative_stress",
+      "target": "disease_intervertebral_disc_degeneration",
+      "confidence": 0.795,
+      "type": "mechanism_to_disease",
+      "color": "#73BD3A",
+      "width": 4.18
+    },
+    {
+      "source": "mech_mitophagy_impairment",
+      "target": "disease_intervertebral_disc_degeneration",
+      "confidence": 0.795,
+      "type": "mechanism_to_disease",
+      "color": "#73BD3A",
+      "width": 4.18
+    },
+    {
+      "source": "mech_nfkb_signaling",
+      "target": "disease_intervertebral_disc_degeneration",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_immunosenescence",
+      "target": "disease_intervertebral_disc_degeneration",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_telomerase_insufficiency",
+      "target": "disease_leukemia",
+      "confidence": 0.837,
+      "type": "mechanism_to_disease",
+      "color": "#63BF41",
+      "width": 4.348
+    },
+    {
+      "source": "mech_stem_niche_dysfunction",
+      "target": "disease_leukemia",
+      "confidence": 0.828,
+      "type": "mechanism_to_disease",
+      "color": "#66BE40",
+      "width": 4.312
+    },
+    {
+      "source": "mech_telomere_ddr",
+      "target": "disease_leukemia",
+      "confidence": 0.794,
+      "type": "mechanism_to_disease",
+      "color": "#74BD3A",
+      "width": 4.176
+    },
+    {
+      "source": "mech_clonal_hematopoiesis",
+      "target": "disease_leukemia",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_muscle_atrophy",
+      "target": "disease_leukemia",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_immunosenescence",
+      "target": "disease_leukemia",
+      "confidence": 0.765,
+      "type": "mechanism_to_disease",
+      "color": "#80BC35",
+      "width": 4.06
+    },
+    {
+      "source": "mech_proteome_imbalance",
+      "target": "disease_aa_amyloidosis",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_amyloid_aggregation",
+      "target": "disease_aa_amyloidosis",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_alpha_synuclein",
+      "target": "disease_aa_amyloidosis",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_proteostasis_er",
+      "target": "disease_aa_amyloidosis",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_er_stress",
+      "target": "disease_aa_amyloidosis",
+      "confidence": 0.837,
+      "type": "mechanism_to_disease",
+      "color": "#63BF41",
+      "width": 4.348
+    },
+    {
+      "source": "mech_tau_hyperphosphorylation",
+      "target": "disease_aa_amyloidosis",
+      "confidence": 0.81,
+      "type": "mechanism_to_disease",
+      "color": "#6DBE3D",
+      "width": 4.24
+    },
+    {
+      "source": "mech_nfkb_signaling",
+      "target": "disease_cystic_fibrosis",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_neuroinflammation",
+      "target": "disease_cystic_fibrosis",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_sasp",
+      "target": "disease_cystic_fibrosis",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_cgas_sting",
+      "target": "disease_cystic_fibrosis",
+      "confidence": 0.837,
+      "type": "mechanism_to_disease",
+      "color": "#63BF41",
+      "width": 4.348
+    },
+    {
+      "source": "mech_vascular_inflammation",
+      "target": "disease_cystic_fibrosis",
+      "confidence": 0.828,
+      "type": "mechanism_to_disease",
+      "color": "#66BE40",
+      "width": 4.312
+    },
+    {
+      "source": "mech_gut_permeability",
+      "target": "disease_cystic_fibrosis",
+      "confidence": 0.81,
+      "type": "mechanism_to_disease",
+      "color": "#6DBE3D",
+      "width": 4.24
+    },
+    {
+      "source": "mech_sasp",
+      "target": "disease_brain_injuries_traumatic",
+      "confidence": 0.872,
+      "type": "mechanism_to_disease",
+      "color": "#55C047",
+      "width": 4.488
+    },
+    {
+      "source": "mech_telomere_ddr",
+      "target": "disease_brain_injuries_traumatic",
+      "confidence": 0.845,
+      "type": "mechanism_to_disease",
+      "color": "#60BF43",
+      "width": 4.38
+    },
+    {
+      "source": "mech_hormonal_dysregulation",
+      "target": "disease_brain_injuries_traumatic",
+      "confidence": 0.81,
+      "type": "mechanism_to_disease",
+      "color": "#6DBE3D",
+      "width": 4.24
+    },
+    {
+      "source": "mech_nfkb_signaling",
+      "target": "disease_brain_injuries_traumatic",
+      "confidence": 0.805,
+      "type": "mechanism_to_disease",
+      "color": "#6FBD3C",
+      "width": 4.22
+    },
+    {
+      "source": "mech_ecm_stiffening",
+      "target": "disease_brain_injuries_traumatic",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_stem_niche_dysfunction",
+      "target": "disease_brain_injuries_traumatic",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_autophagy_flux_decline",
+      "target": "disease_muscular_atrophy",
+      "confidence": 0.882,
+      "type": "mechanism_to_disease",
+      "color": "#51C049",
+      "width": 4.528
+    },
+    {
+      "source": "mech_oxidative_stress",
+      "target": "disease_muscular_atrophy",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_proteome_imbalance",
+      "target": "disease_muscular_atrophy",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_autophagy_lysosomal",
+      "target": "disease_muscular_atrophy",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_mitophagy_impairment",
+      "target": "disease_muscular_atrophy",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_amyloid_aggregation",
+      "target": "disease_muscular_atrophy",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_sasp",
+      "target": "disease_aneuploidy",
+      "confidence": 0.882,
+      "type": "mechanism_to_disease",
+      "color": "#51C049",
+      "width": 4.528
+    },
+    {
+      "source": "mech_telomere_ddr",
+      "target": "disease_aneuploidy",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_oxidative_stress",
+      "target": "disease_aneuploidy",
+      "confidence": 0.819,
+      "type": "mechanism_to_disease",
+      "color": "#6ABE3E",
+      "width": 4.276
+    },
+    {
+      "source": "mech_clonal_hematopoiesis",
+      "target": "disease_aneuploidy",
+      "confidence": 0.81,
+      "type": "mechanism_to_disease",
+      "color": "#6DBE3D",
+      "width": 4.24
+    },
+    {
+      "source": "mech_cgas_sting",
+      "target": "disease_aneuploidy",
+      "confidence": 0.81,
+      "type": "mechanism_to_disease",
+      "color": "#6DBE3D",
+      "width": 4.24
+    },
+    {
+      "source": "mech_nfkb_signaling",
+      "target": "disease_aneuploidy",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_telomere_ddr",
+      "target": "disease_infertility",
+      "confidence": 0.882,
+      "type": "mechanism_to_disease",
+      "color": "#51C049",
+      "width": 4.528
+    },
+    {
+      "source": "mech_telomerase_insufficiency",
+      "target": "disease_infertility",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_oxidative_stress",
+      "target": "disease_infertility",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_mitophagy_impairment",
+      "target": "disease_infertility",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_mitochondrial_biogenesis",
+      "target": "disease_infertility",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_nad_depletion",
+      "target": "disease_infertility",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_gut_permeability",
+      "target": "disease_liver_failure",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_scfa_reduction",
+      "target": "disease_liver_failure",
+      "confidence": 0.828,
+      "type": "mechanism_to_disease",
+      "color": "#66BE40",
+      "width": 4.312
+    },
+    {
+      "source": "mech_autophagy_flux_decline",
+      "target": "disease_liver_failure",
+      "confidence": 0.755,
+      "type": "mechanism_to_disease",
+      "color": "#84BC33",
+      "width": 4.02
+    },
+    {
+      "source": "mech_mitophagy_impairment",
+      "target": "disease_liver_failure",
+      "confidence": 0.747,
+      "type": "mechanism_to_disease",
+      "color": "#87BB32",
+      "width": 3.988
+    },
+    {
+      "source": "mech_autophagy_lysosomal",
+      "target": "disease_liver_failure",
+      "confidence": 0.747,
+      "type": "mechanism_to_disease",
+      "color": "#87BB32",
+      "width": 3.988
+    },
+    {
+      "source": "mech_oxidative_stress",
+      "target": "disease_liver_failure",
+      "confidence": 0.747,
+      "type": "mechanism_to_disease",
+      "color": "#87BB32",
+      "width": 3.988
+    },
+    {
+      "source": "mech_nfkb_signaling",
+      "target": "disease_arthritis_rheumatoid",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_sasp",
+      "target": "disease_arthritis_rheumatoid",
+      "confidence": 0.862,
+      "type": "mechanism_to_disease",
+      "color": "#59C046",
+      "width": 4.448
+    },
+    {
+      "source": "mech_neuroinflammation",
+      "target": "disease_arthritis_rheumatoid",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_cgas_sting",
+      "target": "disease_arthritis_rheumatoid",
+      "confidence": 0.837,
+      "type": "mechanism_to_disease",
+      "color": "#63BF41",
+      "width": 4.348
+    },
+    {
+      "source": "mech_telomere_ddr",
+      "target": "disease_arthritis_rheumatoid",
+      "confidence": 0.836,
+      "type": "mechanism_to_disease",
+      "color": "#63BF41",
+      "width": 4.344
+    },
+    {
+      "source": "mech_vascular_inflammation",
+      "target": "disease_arthritis_rheumatoid",
+      "confidence": 0.828,
+      "type": "mechanism_to_disease",
+      "color": "#66BE40",
+      "width": 4.312
+    },
+    {
+      "source": "mech_oxidative_stress",
+      "target": "disease_genetic_diseases_inborn",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_mitophagy_impairment",
+      "target": "disease_genetic_diseases_inborn",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_mitochondrial_biogenesis",
+      "target": "disease_genetic_diseases_inborn",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_epigenetic_clock",
+      "target": "disease_genetic_diseases_inborn",
+      "confidence": 0.854,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF44",
+      "width": 4.416
+    },
+    {
+      "source": "mech_dna_methylation_drift",
+      "target": "disease_genetic_diseases_inborn",
+      "confidence": 0.854,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF44",
+      "width": 4.416
+    },
+    {
+      "source": "mech_clonal_hematopoiesis",
+      "target": "disease_genetic_diseases_inborn",
+      "confidence": 0.81,
+      "type": "mechanism_to_disease",
+      "color": "#6DBE3D",
+      "width": 4.24
+    },
+    {
+      "source": "mech_nfkb_signaling",
+      "target": "disease_periodontitis",
+      "confidence": 0.854,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF44",
+      "width": 4.416
+    },
+    {
+      "source": "mech_neuroinflammation",
+      "target": "disease_periodontitis",
+      "confidence": 0.836,
+      "type": "mechanism_to_disease",
+      "color": "#63BF41",
+      "width": 4.344
+    },
+    {
+      "source": "mech_sasp",
+      "target": "disease_periodontitis",
+      "confidence": 0.836,
+      "type": "mechanism_to_disease",
+      "color": "#63BF41",
+      "width": 4.344
+    },
+    {
+      "source": "mech_cgas_sting",
+      "target": "disease_periodontitis",
+      "confidence": 0.818,
+      "type": "mechanism_to_disease",
+      "color": "#6ABE3E",
+      "width": 4.272
+    },
+    {
+      "source": "mech_vascular_inflammation",
+      "target": "disease_periodontitis",
+      "confidence": 0.81,
+      "type": "mechanism_to_disease",
+      "color": "#6DBE3D",
+      "width": 4.24
+    },
+    {
+      "source": "mech_hormonal_dysregulation",
+      "target": "disease_periodontitis",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_proteome_imbalance",
+      "target": "disease_proteostasis_deficiencies",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_amyloid_aggregation",
+      "target": "disease_proteostasis_deficiencies",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_alpha_synuclein",
+      "target": "disease_proteostasis_deficiencies",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_proteostasis_er",
+      "target": "disease_proteostasis_deficiencies",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_er_stress",
+      "target": "disease_proteostasis_deficiencies",
+      "confidence": 0.837,
+      "type": "mechanism_to_disease",
+      "color": "#63BF41",
+      "width": 4.348
+    },
+    {
+      "source": "mech_tau_hyperphosphorylation",
+      "target": "disease_proteostasis_deficiencies",
+      "confidence": 0.81,
+      "type": "mechanism_to_disease",
+      "color": "#6DBE3D",
+      "width": 4.24
+    },
+    {
+      "source": "mech_epigenetic_clock",
+      "target": "disease_progeria",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_dna_methylation_drift",
+      "target": "disease_progeria",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_mtor_hyperactivation",
+      "target": "disease_progeria",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_insulin_resistance",
+      "target": "disease_progeria",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_nad_depletion",
+      "target": "disease_progeria",
+      "confidence": 0.828,
+      "type": "mechanism_to_disease",
+      "color": "#66BE40",
+      "width": 4.312
+    },
+    {
+      "source": "mech_oxidative_stress",
+      "target": "disease_progeria",
+      "confidence": 0.819,
+      "type": "mechanism_to_disease",
+      "color": "#6ABE3E",
+      "width": 4.276
+    },
+    {
+      "source": "mech_mtor_hyperactivation",
+      "target": "disease_sleep_apnea_obstructive",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_insulin_resistance",
+      "target": "disease_sleep_apnea_obstructive",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_nad_depletion",
+      "target": "disease_sleep_apnea_obstructive",
+      "confidence": 0.828,
+      "type": "mechanism_to_disease",
+      "color": "#66BE40",
+      "width": 4.312
+    },
+    {
+      "source": "mech_oxidative_stress",
+      "target": "disease_sleep_apnea_obstructive",
+      "confidence": 0.819,
+      "type": "mechanism_to_disease",
+      "color": "#6ABE3E",
+      "width": 4.276
+    },
+    {
+      "source": "mech_clonal_hematopoiesis",
+      "target": "disease_sleep_apnea_obstructive",
+      "confidence": 0.81,
+      "type": "mechanism_to_disease",
+      "color": "#6DBE3D",
+      "width": 4.24
+    },
+    {
+      "source": "mech_cgas_sting",
+      "target": "disease_sleep_apnea_obstructive",
+      "confidence": 0.81,
+      "type": "mechanism_to_disease",
+      "color": "#6DBE3D",
+      "width": 4.24
+    },
+    {
+      "source": "mech_telomere_ddr",
+      "target": "disease_cognitive_dysfunction",
+      "confidence": 0.882,
+      "type": "mechanism_to_disease",
+      "color": "#51C049",
+      "width": 4.528
+    },
+    {
+      "source": "mech_telomerase_insufficiency",
+      "target": "disease_cognitive_dysfunction",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_autophagy_flux_decline",
+      "target": "disease_cognitive_dysfunction",
+      "confidence": 0.804,
+      "type": "mechanism_to_disease",
+      "color": "#70BD3C",
+      "width": 4.216
+    },
+    {
+      "source": "mech_autophagy_lysosomal",
+      "target": "disease_cognitive_dysfunction",
+      "confidence": 0.795,
+      "type": "mechanism_to_disease",
+      "color": "#73BD3A",
+      "width": 4.18
+    },
+    {
+      "source": "mech_mtor_hyperactivation",
+      "target": "disease_cognitive_dysfunction",
+      "confidence": 0.763,
+      "type": "mechanism_to_disease",
+      "color": "#80BC35",
+      "width": 4.052
+    },
+    {
+      "source": "mech_mitophagy_impairment",
+      "target": "disease_cognitive_dysfunction",
+      "confidence": 0.763,
+      "type": "mechanism_to_disease",
+      "color": "#80BC35",
+      "width": 4.052
+    },
+    {
+      "source": "mech_telomere_ddr",
+      "target": "disease_anxiety",
+      "confidence": 0.882,
+      "type": "mechanism_to_disease",
+      "color": "#51C049",
+      "width": 4.528
+    },
+    {
+      "source": "mech_telomerase_insufficiency",
+      "target": "disease_anxiety",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_gut_permeability",
+      "target": "disease_anxiety",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_scfa_reduction",
+      "target": "disease_anxiety",
+      "confidence": 0.828,
+      "type": "mechanism_to_disease",
+      "color": "#66BE40",
+      "width": 4.312
+    },
+    {
+      "source": "mech_autophagy_flux_decline",
+      "target": "disease_heredodegenerative_disorders_nervous_system",
+      "confidence": 0.882,
+      "type": "mechanism_to_disease",
+      "color": "#51C049",
+      "width": 4.528
+    },
+    {
+      "source": "mech_autophagy_lysosomal",
+      "target": "disease_heredodegenerative_disorders_nervous_system",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_gut_permeability",
+      "target": "disease_heredodegenerative_disorders_nervous_system",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_mtor_hyperactivation",
+      "target": "disease_heredodegenerative_disorders_nervous_system",
+      "confidence": 0.837,
+      "type": "mechanism_to_disease",
+      "color": "#63BF41",
+      "width": 4.348
+    },
+    {
+      "source": "mech_mitophagy_impairment",
+      "target": "disease_heredodegenerative_disorders_nervous_system",
+      "confidence": 0.837,
+      "type": "mechanism_to_disease",
+      "color": "#63BF41",
+      "width": 4.348
+    },
+    {
+      "source": "mech_scfa_reduction",
+      "target": "disease_heredodegenerative_disorders_nervous_system",
+      "confidence": 0.828,
+      "type": "mechanism_to_disease",
+      "color": "#66BE40",
+      "width": 4.312
+    },
+    {
+      "source": "mech_proteome_imbalance",
+      "target": "disease_tauopathies",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_amyloid_aggregation",
+      "target": "disease_tauopathies",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_alpha_synuclein",
+      "target": "disease_tauopathies",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_proteostasis_er",
+      "target": "disease_tauopathies",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_er_stress",
+      "target": "disease_tauopathies",
+      "confidence": 0.837,
+      "type": "mechanism_to_disease",
+      "color": "#63BF41",
+      "width": 4.348
+    },
+    {
+      "source": "mech_tau_hyperphosphorylation",
+      "target": "disease_tauopathies",
+      "confidence": 0.81,
+      "type": "mechanism_to_disease",
+      "color": "#6DBE3D",
+      "width": 4.24
+    },
+    {
+      "source": "mech_telomerase_insufficiency",
+      "target": "disease_leukemia_myeloid_acute",
+      "confidence": 0.837,
+      "type": "mechanism_to_disease",
+      "color": "#63BF41",
+      "width": 4.348
+    },
+    {
+      "source": "mech_stem_niche_dysfunction",
+      "target": "disease_leukemia_myeloid_acute",
+      "confidence": 0.828,
+      "type": "mechanism_to_disease",
+      "color": "#66BE40",
+      "width": 4.312
+    },
+    {
+      "source": "mech_clonal_hematopoiesis",
+      "target": "disease_leukemia_myeloid_acute",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_muscle_atrophy",
+      "target": "disease_leukemia_myeloid_acute",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_immunosenescence",
+      "target": "disease_leukemia_myeloid_acute",
+      "confidence": 0.765,
+      "type": "mechanism_to_disease",
+      "color": "#80BC35",
+      "width": 4.06
+    },
+    {
+      "source": "mech_bone_remodeling",
+      "target": "disease_leukemia_myeloid_acute",
+      "confidence": 0.765,
+      "type": "mechanism_to_disease",
+      "color": "#80BC35",
+      "width": 4.06
+    },
+    {
+      "source": "mech_nfkb_signaling",
+      "target": "disease_cardiomyopathies",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_neuroinflammation",
+      "target": "disease_cardiomyopathies",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_sasp",
+      "target": "disease_cardiomyopathies",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_telomere_ddr",
+      "target": "disease_cardiomyopathies",
+      "confidence": 0.853,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF44",
+      "width": 4.412
+    },
+    {
+      "source": "mech_telomerase_insufficiency",
+      "target": "disease_cardiomyopathies",
+      "confidence": 0.844,
+      "type": "mechanism_to_disease",
+      "color": "#60BF43",
+      "width": 4.376
+    },
+    {
+      "source": "mech_oxidative_stress",
+      "target": "disease_cardiomyopathies",
+      "confidence": 0.844,
+      "type": "mechanism_to_disease",
+      "color": "#60BF43",
+      "width": 4.376
+    },
+    {
+      "source": "mech_nfkb_signaling",
+      "target": "disease_614878",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_neuroinflammation",
+      "target": "disease_614878",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_sasp",
+      "target": "disease_614878",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_gut_permeability",
+      "target": "disease_614878",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_cgas_sting",
+      "target": "disease_614878",
+      "confidence": 0.837,
+      "type": "mechanism_to_disease",
+      "color": "#63BF41",
+      "width": 4.348
+    },
+    {
+      "source": "mech_vascular_inflammation",
+      "target": "disease_614878",
+      "confidence": 0.828,
+      "type": "mechanism_to_disease",
+      "color": "#66BE40",
+      "width": 4.312
+    },
+    {
+      "source": "mech_proteome_imbalance",
+      "target": "disease_myopathies_structural_congenital",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_amyloid_aggregation",
+      "target": "disease_myopathies_structural_congenital",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_alpha_synuclein",
+      "target": "disease_myopathies_structural_congenital",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_proteostasis_er",
+      "target": "disease_myopathies_structural_congenital",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_er_stress",
+      "target": "disease_myopathies_structural_congenital",
+      "confidence": 0.837,
+      "type": "mechanism_to_disease",
+      "color": "#63BF41",
+      "width": 4.348
+    },
+    {
+      "source": "mech_tau_hyperphosphorylation",
+      "target": "disease_myopathies_structural_congenital",
+      "confidence": 0.81,
+      "type": "mechanism_to_disease",
+      "color": "#6DBE3D",
+      "width": 4.24
+    },
+    {
+      "source": "mech_oxidative_stress",
+      "target": "disease_glioblastoma",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_mitophagy_impairment",
+      "target": "disease_glioblastoma",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_mitochondrial_biogenesis",
+      "target": "disease_glioblastoma",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_nad_depletion",
+      "target": "disease_glioblastoma",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_autophagy_flux_decline",
+      "target": "disease_glioblastoma",
+      "confidence": 0.774,
+      "type": "mechanism_to_disease",
+      "color": "#7CBC37",
+      "width": 4.096
+    },
+    {
+      "source": "mech_autophagy_lysosomal",
+      "target": "disease_glioblastoma",
+      "confidence": 0.766,
+      "type": "mechanism_to_disease",
+      "color": "#7FBC35",
+      "width": 4.064
+    },
+    {
+      "source": "mech_oxidative_stress",
+      "target": "disease_acute_kidney_injury",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_mitophagy_impairment",
+      "target": "disease_acute_kidney_injury",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_mitochondrial_biogenesis",
+      "target": "disease_acute_kidney_injury",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_autophagy_flux_decline",
+      "target": "disease_acute_kidney_injury",
+      "confidence": 0.823,
+      "type": "mechanism_to_disease",
+      "color": "#68BE3F",
+      "width": 4.292
+    },
+    {
+      "source": "mech_autophagy_lysosomal",
+      "target": "disease_acute_kidney_injury",
+      "confidence": 0.815,
+      "type": "mechanism_to_disease",
+      "color": "#6CBE3E",
+      "width": 4.26
+    },
+    {
+      "source": "mech_nad_depletion",
+      "target": "disease_acute_kidney_injury",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_autophagy_flux_decline",
+      "target": "disease_schizophrenia",
+      "confidence": 0.823,
+      "type": "mechanism_to_disease",
+      "color": "#68BE3F",
+      "width": 4.292
+    },
+    {
+      "source": "mech_sasp",
+      "target": "disease_schizophrenia",
+      "confidence": 0.823,
+      "type": "mechanism_to_disease",
+      "color": "#68BE3F",
+      "width": 4.292
+    },
+    {
+      "source": "mech_autophagy_lysosomal",
+      "target": "disease_schizophrenia",
+      "confidence": 0.815,
+      "type": "mechanism_to_disease",
+      "color": "#6CBE3E",
+      "width": 4.26
+    },
+    {
+      "source": "mech_nfkb_signaling",
+      "target": "disease_schizophrenia",
+      "confidence": 0.815,
+      "type": "mechanism_to_disease",
+      "color": "#6CBE3E",
+      "width": 4.26
+    },
+    {
+      "source": "mech_telomere_ddr",
+      "target": "disease_schizophrenia",
+      "confidence": 0.798,
+      "type": "mechanism_to_disease",
+      "color": "#72BD3B",
+      "width": 4.192
+    },
+    {
+      "source": "mech_neuroinflammation",
+      "target": "disease_schizophrenia",
+      "confidence": 0.798,
+      "type": "mechanism_to_disease",
+      "color": "#72BD3B",
+      "width": 4.192
+    },
+    {
+      "source": "mech_epigenetic_clock",
+      "target": "disease_anemia",
+      "confidence": 0.698,
+      "type": "mechanism_to_disease",
+      "color": "#9ABA2A",
+      "width": 3.792
+    },
+    {
+      "source": "mech_dna_methylation_drift",
+      "target": "disease_anemia",
+      "confidence": 0.698,
+      "type": "mechanism_to_disease",
+      "color": "#9ABA2A",
+      "width": 3.792
+    },
+    {
+      "source": "mech_nfkb_signaling",
+      "target": "disease_anemia",
+      "confidence": 0.63,
+      "type": "mechanism_to_disease",
+      "color": "#B6B71E",
+      "width": 3.52
+    },
+    {
+      "source": "mech_neuroinflammation",
+      "target": "disease_anemia",
+      "confidence": 0.617,
+      "type": "mechanism_to_disease",
+      "color": "#BBB71C",
+      "width": 3.468
+    },
+    {
+      "source": "mech_sasp",
+      "target": "disease_anemia",
+      "confidence": 0.617,
+      "type": "mechanism_to_disease",
+      "color": "#BBB71C",
+      "width": 3.468
+    },
+    {
+      "source": "mech_clonal_hematopoiesis",
+      "target": "disease_anemia",
+      "confidence": 0.612,
+      "type": "mechanism_to_disease",
+      "color": "#BDB71B",
+      "width": 3.448
+    },
+    {
+      "source": "mech_nfkb_signaling",
+      "target": "disease_fanconi_anemia",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_neuroinflammation",
+      "target": "disease_fanconi_anemia",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_sasp",
+      "target": "disease_fanconi_anemia",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_cgas_sting",
+      "target": "disease_fanconi_anemia",
+      "confidence": 0.837,
+      "type": "mechanism_to_disease",
+      "color": "#63BF41",
+      "width": 4.348
+    },
+    {
+      "source": "mech_vascular_inflammation",
+      "target": "disease_fanconi_anemia",
+      "confidence": 0.828,
+      "type": "mechanism_to_disease",
+      "color": "#66BE40",
+      "width": 4.312
+    },
+    {
+      "source": "mech_oxidative_stress",
+      "target": "disease_fanconi_anemia",
+      "confidence": 0.819,
+      "type": "mechanism_to_disease",
+      "color": "#6ABE3E",
+      "width": 4.276
+    },
+    {
+      "source": "mech_telomere_ddr",
+      "target": "disease_overweight",
+      "confidence": 0.882,
+      "type": "mechanism_to_disease",
+      "color": "#51C049",
+      "width": 4.528
+    },
+    {
+      "source": "mech_telomerase_insufficiency",
+      "target": "disease_overweight",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_nfkb_signaling",
+      "target": "disease_overweight",
+      "confidence": 0.757,
+      "type": "mechanism_to_disease",
+      "color": "#83BC34",
+      "width": 4.028
+    },
+    {
+      "source": "mech_neuroinflammation",
+      "target": "disease_overweight",
+      "confidence": 0.741,
+      "type": "mechanism_to_disease",
+      "color": "#89BB31",
+      "width": 3.964
+    },
+    {
+      "source": "mech_sasp",
+      "target": "disease_overweight",
+      "confidence": 0.741,
+      "type": "mechanism_to_disease",
+      "color": "#89BB31",
+      "width": 3.964
+    },
+    {
+      "source": "mech_cgas_sting",
+      "target": "disease_overweight",
+      "confidence": 0.725,
+      "type": "mechanism_to_disease",
+      "color": "#90BB2E",
+      "width": 3.9
+    },
+    {
+      "source": "mech_oxidative_stress",
+      "target": "disease_lead_poisoning_nervous_system",
+      "confidence": 0.819,
+      "type": "mechanism_to_disease",
+      "color": "#6ABE3E",
+      "width": 4.276
+    },
+    {
+      "source": "mech_clonal_hematopoiesis",
+      "target": "disease_lead_poisoning_nervous_system",
+      "confidence": 0.81,
+      "type": "mechanism_to_disease",
+      "color": "#6DBE3D",
+      "width": 4.24
+    },
+    {
+      "source": "mech_cgas_sting",
+      "target": "disease_lead_poisoning_nervous_system",
+      "confidence": 0.81,
+      "type": "mechanism_to_disease",
+      "color": "#6DBE3D",
+      "width": 4.24
+    },
+    {
+      "source": "mech_telomere_ddr",
+      "target": "disease_lead_poisoning_nervous_system",
+      "confidence": 0.765,
+      "type": "mechanism_to_disease",
+      "color": "#80BC35",
+      "width": 4.06
+    },
+    {
+      "source": "mech_mtor_hyperactivation",
+      "target": "disease_lead_poisoning_nervous_system",
+      "confidence": 0.66,
+      "type": "mechanism_to_disease",
+      "color": "#AAB823",
+      "width": 3.64
+    },
+    {
+      "source": "mech_insulin_resistance",
+      "target": "disease_lead_poisoning_nervous_system",
+      "confidence": 0.646,
+      "type": "mechanism_to_disease",
+      "color": "#AFB821",
+      "width": 3.584
+    },
+    {
+      "source": "mech_telomere_ddr",
+      "target": "disease_malnutrition",
+      "confidence": 0.882,
+      "type": "mechanism_to_disease",
+      "color": "#51C049",
+      "width": 4.528
+    },
+    {
+      "source": "mech_telomerase_insufficiency",
+      "target": "disease_malnutrition",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_mtor_hyperactivation",
+      "target": "disease_malnutrition",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_nfkb_signaling",
+      "target": "disease_malnutrition",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_insulin_resistance",
+      "target": "disease_malnutrition",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_neuroinflammation",
+      "target": "disease_malnutrition",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_telomere_ddr",
+      "target": "disease_cyclic_neutropenia",
+      "confidence": 0.882,
+      "type": "mechanism_to_disease",
+      "color": "#51C049",
+      "width": 4.528
+    },
+    {
+      "source": "mech_telomerase_insufficiency",
+      "target": "disease_cyclic_neutropenia",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_stem_niche_dysfunction",
+      "target": "disease_cyclic_neutropenia",
+      "confidence": 0.828,
+      "type": "mechanism_to_disease",
+      "color": "#66BE40",
+      "width": 4.312
+    },
+    {
+      "source": "mech_clonal_hematopoiesis",
+      "target": "disease_cyclic_neutropenia",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_muscle_atrophy",
+      "target": "disease_cyclic_neutropenia",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_immunosenescence",
+      "target": "disease_cyclic_neutropenia",
+      "confidence": 0.765,
+      "type": "mechanism_to_disease",
+      "color": "#80BC35",
+      "width": 4.06
+    },
+    {
+      "source": "mech_sasp",
+      "target": "disease_ependymoma",
+      "confidence": 0.882,
+      "type": "mechanism_to_disease",
+      "color": "#51C049",
+      "width": 4.528
+    },
+    {
+      "source": "mech_telomere_ddr",
+      "target": "disease_ependymoma",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_nfkb_signaling",
+      "target": "disease_ependymoma",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_immunosenescence",
+      "target": "disease_ependymoma",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_vascular_inflammation",
+      "target": "disease_ependymoma",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_proteolytic_imbalance",
+      "target": "disease_ependymoma",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_gut_permeability",
+      "target": "disease_liver_cirrhosis",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_telomerase_insufficiency",
+      "target": "disease_liver_cirrhosis",
+      "confidence": 0.837,
+      "type": "mechanism_to_disease",
+      "color": "#63BF41",
+      "width": 4.348
+    },
+    {
+      "source": "mech_stem_niche_dysfunction",
+      "target": "disease_liver_cirrhosis",
+      "confidence": 0.828,
+      "type": "mechanism_to_disease",
+      "color": "#66BE40",
+      "width": 4.312
+    },
+    {
+      "source": "mech_scfa_reduction",
+      "target": "disease_liver_cirrhosis",
+      "confidence": 0.828,
+      "type": "mechanism_to_disease",
+      "color": "#66BE40",
+      "width": 4.312
+    },
+    {
+      "source": "mech_clonal_hematopoiesis",
+      "target": "disease_liver_cirrhosis",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_muscle_atrophy",
+      "target": "disease_liver_cirrhosis",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_nfkb_signaling",
+      "target": "disease_fatty_liver",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_neuroinflammation",
+      "target": "disease_fatty_liver",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_sasp",
+      "target": "disease_fatty_liver",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_cgas_sting",
+      "target": "disease_fatty_liver",
+      "confidence": 0.837,
+      "type": "mechanism_to_disease",
+      "color": "#63BF41",
+      "width": 4.348
+    },
+    {
+      "source": "mech_vascular_inflammation",
+      "target": "disease_fatty_liver",
+      "confidence": 0.828,
+      "type": "mechanism_to_disease",
+      "color": "#66BE40",
+      "width": 4.312
+    },
+    {
+      "source": "mech_gut_permeability",
+      "target": "disease_fatty_liver",
+      "confidence": 0.81,
+      "type": "mechanism_to_disease",
+      "color": "#6DBE3D",
+      "width": 4.24
+    },
+    {
+      "source": "mech_telomere_ddr",
+      "target": "disease_pulmonary_fibrosis",
+      "confidence": 0.882,
+      "type": "mechanism_to_disease",
+      "color": "#51C049",
+      "width": 4.528
+    },
+    {
+      "source": "mech_sasp",
+      "target": "disease_pulmonary_fibrosis",
+      "confidence": 0.882,
+      "type": "mechanism_to_disease",
+      "color": "#51C049",
+      "width": 4.528
+    },
+    {
+      "source": "mech_telomerase_insufficiency",
+      "target": "disease_pulmonary_fibrosis",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_nfkb_signaling",
+      "target": "disease_pulmonary_fibrosis",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_immunosenescence",
+      "target": "disease_pulmonary_fibrosis",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_vascular_inflammation",
+      "target": "disease_pulmonary_fibrosis",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_oxidative_stress",
+      "target": "disease_acute_lung_injury",
+      "confidence": 0.776,
+      "type": "mechanism_to_disease",
+      "color": "#7BBC37",
+      "width": 4.104
+    },
+    {
+      "source": "mech_mitophagy_impairment",
+      "target": "disease_acute_lung_injury",
+      "confidence": 0.776,
+      "type": "mechanism_to_disease",
+      "color": "#7BBC37",
+      "width": 4.104
+    },
+    {
+      "source": "mech_mitochondrial_biogenesis",
+      "target": "disease_acute_lung_injury",
+      "confidence": 0.76,
+      "type": "mechanism_to_disease",
+      "color": "#82BC34",
+      "width": 4.04
+    },
+    {
+      "source": "mech_clonal_hematopoiesis",
+      "target": "disease_acute_lung_injury",
+      "confidence": 0.72,
+      "type": "mechanism_to_disease",
+      "color": "#92BA2D",
+      "width": 3.88
+    },
+    {
+      "source": "mech_cgas_sting",
+      "target": "disease_acute_lung_injury",
+      "confidence": 0.72,
+      "type": "mechanism_to_disease",
+      "color": "#92BA2D",
+      "width": 3.88
+    },
+    {
+      "source": "mech_nad_depletion",
+      "target": "disease_acute_lung_injury",
+      "confidence": 0.704,
+      "type": "mechanism_to_disease",
+      "color": "#98BA2B",
+      "width": 3.816
+    },
+    {
+      "source": "mech_nfkb_signaling",
+      "target": "disease_multiple_organ_failure",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_neuroinflammation",
+      "target": "disease_multiple_organ_failure",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_sasp",
+      "target": "disease_multiple_organ_failure",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_telomerase_insufficiency",
+      "target": "disease_multiple_organ_failure",
+      "confidence": 0.837,
+      "type": "mechanism_to_disease",
+      "color": "#63BF41",
+      "width": 4.348
+    },
+    {
+      "source": "mech_cgas_sting",
+      "target": "disease_multiple_organ_failure",
+      "confidence": 0.837,
+      "type": "mechanism_to_disease",
+      "color": "#63BF41",
+      "width": 4.348
+    },
+    {
+      "source": "mech_stem_niche_dysfunction",
+      "target": "disease_multiple_organ_failure",
+      "confidence": 0.828,
+      "type": "mechanism_to_disease",
+      "color": "#66BE40",
+      "width": 4.312
+    },
+    {
+      "source": "mech_oxidative_stress",
+      "target": "disease_retinal_degeneration",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_mitophagy_impairment",
+      "target": "disease_retinal_degeneration",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_autophagy_flux_decline",
+      "target": "disease_retinal_degeneration",
+      "confidence": 0.862,
+      "type": "mechanism_to_disease",
+      "color": "#59C046",
+      "width": 4.448
+    },
+    {
+      "source": "mech_mitochondrial_biogenesis",
+      "target": "disease_retinal_degeneration",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_autophagy_lysosomal",
+      "target": "disease_retinal_degeneration",
+      "confidence": 0.854,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF44",
+      "width": 4.416
+    },
+    {
+      "source": "mech_mtor_hyperactivation",
+      "target": "disease_retinal_degeneration",
+      "confidence": 0.818,
+      "type": "mechanism_to_disease",
+      "color": "#6ABE3E",
+      "width": 4.272
+    },
+    {
+      "source": "mech_telomere_ddr",
+      "target": "disease_dyskeratosis_congenita",
+      "confidence": 0.882,
+      "type": "mechanism_to_disease",
+      "color": "#51C049",
+      "width": 4.528
+    },
+    {
+      "source": "mech_telomerase_insufficiency",
+      "target": "disease_dyskeratosis_congenita",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_telomere_ddr",
+      "target": "disease_lung_diseases_interstitial",
+      "confidence": 0.882,
+      "type": "mechanism_to_disease",
+      "color": "#51C049",
+      "width": 4.528
+    },
+    {
+      "source": "mech_telomerase_insufficiency",
+      "target": "disease_lung_diseases_interstitial",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_sasp",
+      "target": "disease_myocardial_infarction",
+      "confidence": 0.882,
+      "type": "mechanism_to_disease",
+      "color": "#51C049",
+      "width": 4.528
+    },
+    {
+      "source": "mech_telomere_ddr",
+      "target": "disease_myocardial_infarction",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_nfkb_signaling",
+      "target": "disease_myocardial_infarction",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_immunosenescence",
+      "target": "disease_myocardial_infarction",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_vascular_inflammation",
+      "target": "disease_myocardial_infarction",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_proteolytic_imbalance",
+      "target": "disease_myocardial_infarction",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_epigenetic_clock",
+      "target": "disease_leukemia_myeloid_accelerated_phase",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_dna_methylation_drift",
+      "target": "disease_leukemia_myeloid_accelerated_phase",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_telomerase_insufficiency",
+      "target": "disease_leukemia_myeloid_accelerated_phase",
+      "confidence": 0.837,
+      "type": "mechanism_to_disease",
+      "color": "#63BF41",
+      "width": 4.348
+    },
+    {
+      "source": "mech_stem_niche_dysfunction",
+      "target": "disease_leukemia_myeloid_accelerated_phase",
+      "confidence": 0.828,
+      "type": "mechanism_to_disease",
+      "color": "#66BE40",
+      "width": 4.312
+    },
+    {
+      "source": "mech_clonal_hematopoiesis",
+      "target": "disease_leukemia_myeloid_accelerated_phase",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_muscle_atrophy",
+      "target": "disease_leukemia_myeloid_accelerated_phase",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_epigenetic_clock",
+      "target": "disease_cardiomyopathy_hypertrophic",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_dna_methylation_drift",
+      "target": "disease_cardiomyopathy_hypertrophic",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_sasp",
+      "target": "disease_cardiomyopathy_hypertrophic",
+      "confidence": 0.828,
+      "type": "mechanism_to_disease",
+      "color": "#66BE40",
+      "width": 4.312
+    },
+    {
+      "source": "mech_hormonal_dysregulation",
+      "target": "disease_cardiomyopathy_hypertrophic",
+      "confidence": 0.81,
+      "type": "mechanism_to_disease",
+      "color": "#6DBE3D",
+      "width": 4.24
+    },
+    {
+      "source": "mech_ecm_stiffening",
+      "target": "disease_cardiomyopathy_hypertrophic",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_stem_niche_dysfunction",
+      "target": "disease_cardiomyopathy_hypertrophic",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_gut_permeability",
+      "target": "disease_drug_hypersensitivity",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_scfa_reduction",
+      "target": "disease_drug_hypersensitivity",
+      "confidence": 0.828,
+      "type": "mechanism_to_disease",
+      "color": "#66BE40",
+      "width": 4.312
+    },
+    {
+      "source": "mech_sasp",
+      "target": "disease_meningioma",
+      "confidence": 0.882,
+      "type": "mechanism_to_disease",
+      "color": "#51C049",
+      "width": 4.528
+    },
+    {
+      "source": "mech_telomere_ddr",
+      "target": "disease_meningioma",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_nfkb_signaling",
+      "target": "disease_meningioma",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_immunosenescence",
+      "target": "disease_meningioma",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_vascular_inflammation",
+      "target": "disease_meningioma",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_proteolytic_imbalance",
+      "target": "disease_meningioma",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_oxidative_stress",
+      "target": "disease_premature_birth",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_mitophagy_impairment",
+      "target": "disease_premature_birth",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_mitochondrial_biogenesis",
+      "target": "disease_premature_birth",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_telomere_ddr",
+      "target": "disease_premature_birth",
+      "confidence": 0.833,
+      "type": "mechanism_to_disease",
+      "color": "#64BE41",
+      "width": 4.332
+    },
+    {
+      "source": "mech_telomerase_insufficiency",
+      "target": "disease_premature_birth",
+      "confidence": 0.825,
+      "type": "mechanism_to_disease",
+      "color": "#68BE3F",
+      "width": 4.3
+    },
+    {
+      "source": "mech_nad_depletion",
+      "target": "disease_premature_birth",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_mtor_hyperactivation",
+      "target": "disease_hypertrophy",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_insulin_resistance",
+      "target": "disease_hypertrophy",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_nad_depletion",
+      "target": "disease_hypertrophy",
+      "confidence": 0.828,
+      "type": "mechanism_to_disease",
+      "color": "#66BE40",
+      "width": 4.312
+    },
+    {
+      "source": "mech_mitochondrial_biogenesis",
+      "target": "disease_hypertrophy",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_muscle_atrophy",
+      "target": "disease_hypertrophy",
+      "confidence": 0.765,
+      "type": "mechanism_to_disease",
+      "color": "#80BC35",
+      "width": 4.06
+    },
+    {
+      "source": "mech_adipose_dysfunction",
+      "target": "disease_hypertrophy",
+      "confidence": 0.765,
+      "type": "mechanism_to_disease",
+      "color": "#80BC35",
+      "width": 4.06
+    },
+    {
+      "source": "mech_epigenetic_clock",
+      "target": "disease_lymphoma",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_dna_methylation_drift",
+      "target": "disease_lymphoma",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_mtor_hyperactivation",
+      "target": "disease_lymphoma",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_insulin_resistance",
+      "target": "disease_lymphoma",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_nad_depletion",
+      "target": "disease_lymphoma",
+      "confidence": 0.828,
+      "type": "mechanism_to_disease",
+      "color": "#66BE40",
+      "width": 4.312
+    },
+    {
+      "source": "mech_mitochondrial_biogenesis",
+      "target": "disease_lymphoma",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_sasp",
+      "target": "disease_myocardial_ischemia",
+      "confidence": 0.882,
+      "type": "mechanism_to_disease",
+      "color": "#51C049",
+      "width": 4.528
+    },
+    {
+      "source": "mech_telomere_ddr",
+      "target": "disease_myocardial_ischemia",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_oxidative_stress",
+      "target": "disease_myocardial_ischemia",
+      "confidence": 0.801,
+      "type": "mechanism_to_disease",
+      "color": "#71BD3B",
+      "width": 4.204
+    },
+    {
+      "source": "mech_nfkb_signaling",
+      "target": "disease_myocardial_ischemia",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_immunosenescence",
+      "target": "disease_myocardial_ischemia",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_vascular_inflammation",
+      "target": "disease_myocardial_ischemia",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_autophagy_flux_decline",
+      "target": "disease_overnutrition",
+      "confidence": 0.784,
+      "type": "mechanism_to_disease",
+      "color": "#78BD38",
+      "width": 4.136
+    },
+    {
+      "source": "mech_autophagy_lysosomal",
+      "target": "disease_overnutrition",
+      "confidence": 0.776,
+      "type": "mechanism_to_disease",
+      "color": "#7BBC37",
+      "width": 4.104
+    },
+    {
+      "source": "mech_nfkb_signaling",
+      "target": "disease_overnutrition",
+      "confidence": 0.776,
+      "type": "mechanism_to_disease",
+      "color": "#7BBC37",
+      "width": 4.104
+    },
+    {
+      "source": "mech_neuroinflammation",
+      "target": "disease_overnutrition",
+      "confidence": 0.76,
+      "type": "mechanism_to_disease",
+      "color": "#82BC34",
+      "width": 4.04
+    },
+    {
+      "source": "mech_sasp",
+      "target": "disease_overnutrition",
+      "confidence": 0.76,
+      "type": "mechanism_to_disease",
+      "color": "#82BC34",
+      "width": 4.04
+    },
+    {
+      "source": "mech_gut_permeability",
+      "target": "disease_overnutrition",
+      "confidence": 0.76,
+      "type": "mechanism_to_disease",
+      "color": "#82BC34",
+      "width": 4.04
+    },
+    {
+      "source": "mech_epigenetic_clock",
+      "target": "disease_stress_disorders_post_traumatic",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_dna_methylation_drift",
+      "target": "disease_stress_disorders_post_traumatic",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_clonal_hematopoiesis",
+      "target": "disease_stress_disorders_post_traumatic",
+      "confidence": 0.765,
+      "type": "mechanism_to_disease",
+      "color": "#80BC35",
+      "width": 4.06
+    },
+    {
+      "source": "mech_telomerase_insufficiency",
+      "target": "disease_seizures",
+      "confidence": 0.837,
+      "type": "mechanism_to_disease",
+      "color": "#63BF41",
+      "width": 4.348
+    },
+    {
+      "source": "mech_stem_niche_dysfunction",
+      "target": "disease_seizures",
+      "confidence": 0.828,
+      "type": "mechanism_to_disease",
+      "color": "#66BE40",
+      "width": 4.312
+    },
+    {
+      "source": "mech_clonal_hematopoiesis",
+      "target": "disease_seizures",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_muscle_atrophy",
+      "target": "disease_seizures",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_immunosenescence",
+      "target": "disease_seizures",
+      "confidence": 0.765,
+      "type": "mechanism_to_disease",
+      "color": "#80BC35",
+      "width": 4.06
+    },
+    {
+      "source": "mech_bone_remodeling",
+      "target": "disease_seizures",
+      "confidence": 0.765,
+      "type": "mechanism_to_disease",
+      "color": "#80BC35",
+      "width": 4.06
+    },
+    {
+      "source": "mech_nfkb_signaling",
+      "target": "disease_hip_fractures",
+      "confidence": 0.669,
+      "type": "mechanism_to_disease",
+      "color": "#A6B925",
+      "width": 3.676
+    },
+    {
+      "source": "mech_neuroinflammation",
+      "target": "disease_hip_fractures",
+      "confidence": 0.655,
+      "type": "mechanism_to_disease",
+      "color": "#ACB822",
+      "width": 3.62
+    },
+    {
+      "source": "mech_sasp",
+      "target": "disease_hip_fractures",
+      "confidence": 0.655,
+      "type": "mechanism_to_disease",
+      "color": "#ACB822",
+      "width": 3.62
+    },
+    {
+      "source": "mech_cgas_sting",
+      "target": "disease_hip_fractures",
+      "confidence": 0.642,
+      "type": "mechanism_to_disease",
+      "color": "#B1B820",
+      "width": 3.568
+    },
+    {
+      "source": "mech_vascular_inflammation",
+      "target": "disease_hip_fractures",
+      "confidence": 0.635,
+      "type": "mechanism_to_disease",
+      "color": "#B4B71F",
+      "width": 3.54
+    },
+    {
+      "source": "mech_hormonal_dysregulation",
+      "target": "disease_hip_fractures",
+      "confidence": 0.621,
+      "type": "mechanism_to_disease",
+      "color": "#B9B71C",
+      "width": 3.484
+    },
+    {
+      "source": "mech_proteome_imbalance",
+      "target": "disease_blindness",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_amyloid_aggregation",
+      "target": "disease_blindness",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_alpha_synuclein",
+      "target": "disease_blindness",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_proteostasis_er",
+      "target": "disease_blindness",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_er_stress",
+      "target": "disease_blindness",
+      "confidence": 0.837,
+      "type": "mechanism_to_disease",
+      "color": "#63BF41",
+      "width": 4.348
+    },
+    {
+      "source": "mech_tau_hyperphosphorylation",
+      "target": "disease_blindness",
+      "confidence": 0.81,
+      "type": "mechanism_to_disease",
+      "color": "#6DBE3D",
+      "width": 4.24
+    },
+    {
+      "source": "mech_oxidative_stress",
+      "target": "disease_hearing_loss",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_mitophagy_impairment",
+      "target": "disease_hearing_loss",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_mitochondrial_biogenesis",
+      "target": "disease_hearing_loss",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_sasp",
+      "target": "disease_hearing_loss",
+      "confidence": 0.828,
+      "type": "mechanism_to_disease",
+      "color": "#66BE40",
+      "width": 4.312
+    },
+    {
+      "source": "mech_hormonal_dysregulation",
+      "target": "disease_hearing_loss",
+      "confidence": 0.81,
+      "type": "mechanism_to_disease",
+      "color": "#6DBE3D",
+      "width": 4.24
+    },
+    {
+      "source": "mech_nad_depletion",
+      "target": "disease_hearing_loss",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_sasp",
+      "target": "disease_fractures_bone",
+      "confidence": 0.882,
+      "type": "mechanism_to_disease",
+      "color": "#51C049",
+      "width": 4.528
+    },
+    {
+      "source": "mech_telomere_ddr",
+      "target": "disease_fractures_bone",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_nfkb_signaling",
+      "target": "disease_fractures_bone",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_immunosenescence",
+      "target": "disease_fractures_bone",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_vascular_inflammation",
+      "target": "disease_fractures_bone",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_proteolytic_imbalance",
+      "target": "disease_fractures_bone",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_gut_permeability",
+      "target": "disease_psychological_distress",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_scfa_reduction",
+      "target": "disease_psychological_distress",
+      "confidence": 0.828,
+      "type": "mechanism_to_disease",
+      "color": "#66BE40",
+      "width": 4.312
+    },
+    {
+      "source": "mech_oxidative_stress",
+      "target": "disease_psychological_distress",
+      "confidence": 0.65,
+      "type": "mechanism_to_disease",
+      "color": "#AEB821",
+      "width": 3.6
+    },
+    {
+      "source": "mech_mitophagy_impairment",
+      "target": "disease_psychological_distress",
+      "confidence": 0.65,
+      "type": "mechanism_to_disease",
+      "color": "#AEB821",
+      "width": 3.6
+    },
+    {
+      "source": "mech_mitochondrial_biogenesis",
+      "target": "disease_psychological_distress",
+      "confidence": 0.636,
+      "type": "mechanism_to_disease",
+      "color": "#B3B71F",
+      "width": 3.544
+    },
+    {
+      "source": "mech_nad_depletion",
+      "target": "disease_psychological_distress",
+      "confidence": 0.59,
+      "type": "mechanism_to_disease",
+      "color": "#C6B617",
+      "width": 3.36
+    },
+    {
+      "source": "mech_sasp",
+      "target": "disease_tooth_loss",
+      "confidence": 0.828,
+      "type": "mechanism_to_disease",
+      "color": "#66BE40",
+      "width": 4.312
+    },
+    {
+      "source": "mech_hormonal_dysregulation",
+      "target": "disease_tooth_loss",
+      "confidence": 0.81,
+      "type": "mechanism_to_disease",
+      "color": "#6DBE3D",
+      "width": 4.24
+    },
+    {
+      "source": "mech_ecm_stiffening",
+      "target": "disease_tooth_loss",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_stem_niche_dysfunction",
+      "target": "disease_tooth_loss",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_synaptic_dysfunction",
+      "target": "disease_tooth_loss",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_neuroinflammation",
+      "target": "disease_tooth_loss",
+      "confidence": 0.765,
+      "type": "mechanism_to_disease",
+      "color": "#80BC35",
+      "width": 4.06
+    },
+    {
+      "source": "mech_oxidative_stress",
+      "target": "disease_infertility_male",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_mitophagy_impairment",
+      "target": "disease_infertility_male",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_mitochondrial_biogenesis",
+      "target": "disease_infertility_male",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_nad_depletion",
+      "target": "disease_infertility_male",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_epigenetic_clock",
+      "target": "disease_infertility_male",
+      "confidence": 0.786,
+      "type": "mechanism_to_disease",
+      "color": "#77BD39",
+      "width": 4.144
+    },
+    {
+      "source": "mech_dna_methylation_drift",
+      "target": "disease_infertility_male",
+      "confidence": 0.786,
+      "type": "mechanism_to_disease",
+      "color": "#77BD39",
+      "width": 4.144
+    },
+    {
+      "source": "mech_sasp",
+      "target": "disease_pre_eclampsia",
+      "confidence": 0.843,
+      "type": "mechanism_to_disease",
+      "color": "#60BF42",
+      "width": 4.372
+    },
+    {
+      "source": "mech_telomere_ddr",
+      "target": "disease_pre_eclampsia",
+      "confidence": 0.817,
+      "type": "mechanism_to_disease",
+      "color": "#6BBE3E",
+      "width": 4.268
+    },
+    {
+      "source": "mech_nfkb_signaling",
+      "target": "disease_pre_eclampsia",
+      "confidence": 0.757,
+      "type": "mechanism_to_disease",
+      "color": "#83BC34",
+      "width": 4.028
+    },
+    {
+      "source": "mech_immunosenescence",
+      "target": "disease_pre_eclampsia",
+      "confidence": 0.757,
+      "type": "mechanism_to_disease",
+      "color": "#83BC34",
+      "width": 4.028
+    },
+    {
+      "source": "mech_vascular_inflammation",
+      "target": "disease_pre_eclampsia",
+      "confidence": 0.757,
+      "type": "mechanism_to_disease",
+      "color": "#83BC34",
+      "width": 4.028
+    },
+    {
+      "source": "mech_proteolytic_imbalance",
+      "target": "disease_pre_eclampsia",
+      "confidence": 0.757,
+      "type": "mechanism_to_disease",
+      "color": "#83BC34",
+      "width": 4.028
+    },
+    {
+      "source": "mech_proteome_imbalance",
+      "target": "disease_frontotemporal_dementia",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_amyloid_aggregation",
+      "target": "disease_frontotemporal_dementia",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_alpha_synuclein",
+      "target": "disease_frontotemporal_dementia",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_proteostasis_er",
+      "target": "disease_frontotemporal_dementia",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_er_stress",
+      "target": "disease_frontotemporal_dementia",
+      "confidence": 0.837,
+      "type": "mechanism_to_disease",
+      "color": "#63BF41",
+      "width": 4.348
+    },
+    {
+      "source": "mech_tau_hyperphosphorylation",
+      "target": "disease_frontotemporal_dementia",
+      "confidence": 0.81,
+      "type": "mechanism_to_disease",
+      "color": "#6DBE3D",
+      "width": 4.24
+    },
+    {
+      "source": "mech_mtor_hyperactivation",
+      "target": "disease_hyperglycemia",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_insulin_resistance",
+      "target": "disease_hyperglycemia",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_nad_depletion",
+      "target": "disease_hyperglycemia",
+      "confidence": 0.828,
+      "type": "mechanism_to_disease",
+      "color": "#66BE40",
+      "width": 4.312
+    },
+    {
+      "source": "mech_mitochondrial_biogenesis",
+      "target": "disease_hyperglycemia",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_muscle_atrophy",
+      "target": "disease_hyperglycemia",
+      "confidence": 0.765,
+      "type": "mechanism_to_disease",
+      "color": "#80BC35",
+      "width": 4.06
+    },
+    {
+      "source": "mech_adipose_dysfunction",
+      "target": "disease_hyperglycemia",
+      "confidence": 0.765,
+      "type": "mechanism_to_disease",
+      "color": "#80BC35",
+      "width": 4.06
+    },
+    {
+      "source": "mech_sasp",
+      "target": "disease_aphasia_conduction",
+      "confidence": 0.882,
+      "type": "mechanism_to_disease",
+      "color": "#51C049",
+      "width": 4.528
+    },
+    {
+      "source": "mech_telomere_ddr",
+      "target": "disease_aphasia_conduction",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_nfkb_signaling",
+      "target": "disease_aphasia_conduction",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_immunosenescence",
+      "target": "disease_aphasia_conduction",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_vascular_inflammation",
+      "target": "disease_aphasia_conduction",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_proteolytic_imbalance",
+      "target": "disease_aphasia_conduction",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_autophagy_flux_decline",
+      "target": "disease_synucleinopathies",
+      "confidence": 0.882,
+      "type": "mechanism_to_disease",
+      "color": "#51C049",
+      "width": 4.528
+    },
+    {
+      "source": "mech_proteome_imbalance",
+      "target": "disease_synucleinopathies",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_autophagy_lysosomal",
+      "target": "disease_synucleinopathies",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_amyloid_aggregation",
+      "target": "disease_synucleinopathies",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_alpha_synuclein",
+      "target": "disease_synucleinopathies",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_proteostasis_er",
+      "target": "disease_synucleinopathies",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_gut_permeability",
+      "target": "disease_psoriasis",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_scfa_reduction",
+      "target": "disease_psoriasis",
+      "confidence": 0.828,
+      "type": "mechanism_to_disease",
+      "color": "#66BE40",
+      "width": 4.312
+    },
+    {
+      "source": "mech_telomere_ddr",
+      "target": "disease_respiratory_insufficiency",
+      "confidence": 0.882,
+      "type": "mechanism_to_disease",
+      "color": "#51C049",
+      "width": 4.528
+    },
+    {
+      "source": "mech_telomerase_insufficiency",
+      "target": "disease_respiratory_insufficiency",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_gut_permeability",
+      "target": "disease_respiratory_insufficiency",
+      "confidence": 0.665,
+      "type": "mechanism_to_disease",
+      "color": "#A8B824",
+      "width": 3.66
+    },
+    {
+      "source": "mech_scfa_reduction",
+      "target": "disease_respiratory_insufficiency",
+      "confidence": 0.644,
+      "type": "mechanism_to_disease",
+      "color": "#B0B820",
+      "width": 3.576
+    },
+    {
+      "source": "mech_telomere_ddr",
+      "target": "disease_weight_gain",
+      "confidence": 0.882,
+      "type": "mechanism_to_disease",
+      "color": "#51C049",
+      "width": 4.528
+    },
+    {
+      "source": "mech_telomerase_insufficiency",
+      "target": "disease_weight_gain",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_gut_permeability",
+      "target": "disease_weight_gain",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_scfa_reduction",
+      "target": "disease_weight_gain",
+      "confidence": 0.828,
+      "type": "mechanism_to_disease",
+      "color": "#66BE40",
+      "width": 4.312
+    },
+    {
+      "source": "mech_oxidative_stress",
+      "target": "disease_myopathy_with_giant_abnormal_mitochondria",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_mitophagy_impairment",
+      "target": "disease_myopathy_with_giant_abnormal_mitochondria",
+      "confidence": 0.873,
+      "type": "mechanism_to_disease",
+      "color": "#54C048",
+      "width": 4.492
+    },
+    {
+      "source": "mech_mitochondrial_biogenesis",
+      "target": "disease_myopathy_with_giant_abnormal_mitochondria",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_nad_depletion",
+      "target": "disease_myopathy_with_giant_abnormal_mitochondria",
+      "confidence": 0.792,
+      "type": "mechanism_to_disease",
+      "color": "#75BD3A",
+      "width": 4.168
+    },
+    {
+      "source": "mech_insulin_resistance",
+      "target": "disease_myopathy_with_giant_abnormal_mitochondria",
+      "confidence": 0.765,
+      "type": "mechanism_to_disease",
+      "color": "#80BC35",
+      "width": 4.06
+    },
+    {
+      "source": "mech_cgas_sting",
+      "target": "disease_myopathy_with_giant_abnormal_mitochondria",
+      "confidence": 0.765,
+      "type": "mechanism_to_disease",
+      "color": "#80BC35",
+      "width": 4.06
+    },
+    {
+      "source": "mech_gut_permeability",
+      "target": "disease_diabetes_gestational",
+      "confidence": 0.855,
+      "type": "mechanism_to_disease",
+      "color": "#5CBF45",
+      "width": 4.42
+    },
+    {
+      "source": "mech_scfa_reduction",
+      "target": "disease_diabetes_gestational",
+      "confidence": 0.828,
+      "type": "mechanism_to_disease",
+      "color": "#66BE40",
+      "width": 4.312
     },
     {
       "source": "hallmark_loss_of_proteostasis",

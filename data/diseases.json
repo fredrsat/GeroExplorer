@@ -3621,7 +3621,38 @@
     "icd10": "TBD",
     "system": "metabolic",
     "description": "Diabetes mellitus is a group of metabolic disorders characterized by chronic hyperglycemia resulting from defects in insulin secretion, insulin action, or both, leading to widespread microvascular and macrovascular complications. Aging is a major risk factor, as decades of metabolic stress drive progressive beta-cell senescence, insulin resistance, and telomere shortening in pancreatic and peripheral tissues. The disease shares core aging hallmarks including deregulated nutrient sensing via the mTOR and AMPK pathways, chronic low-grade inflammation, and mitochondrial dysfunction in muscle and adipose tissue.",
-    "mechanism_links": [],
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_telomere_ddr",
+        "confidence": 0.882,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_telomerase_insufficiency",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_mtor_hyperactivation",
+        "confidence": 0.737,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_insulin_resistance",
+        "confidence": 0.722,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_nad_depletion",
+        "confidence": 0.699,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_sasp",
+        "confidence": 0.676,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_telomere_attrition",
@@ -3695,7 +3726,38 @@
     "icd10": "TBD",
     "system": "ophthalmic",
     "description": "Macular degeneration is a progressive retinal disorder causing deterioration of the macula, the central region of the retina responsible for high-acuity vision, leading to central vision loss. Age-related macular degeneration (AMD) is the leading cause of irreversible blindness in adults over 60, driven by accumulation of drusen deposits, oxidative damage to retinal pigment epithelium (RPE), and complement dysregulation. Key aging mechanisms include mitochondrial dysfunction in RPE cells, impaired autophagy leading to lipofuscin accumulation, and telomere shortening accelerating photoreceptor and RPE cell loss.",
-    "mechanism_links": [],
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_telomere_ddr",
+        "confidence": 0.882,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_autophagy_flux_decline",
+        "confidence": 0.882,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_telomerase_insufficiency",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_mitophagy_impairment",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_autophagy_lysosomal",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_oxidative_stress",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_telomere_attrition",
@@ -3769,7 +3831,38 @@
     "icd10": "TBD",
     "system": "metabolic",
     "description": "Type 2 diabetes mellitus is a chronic metabolic disorder characterized by progressive insulin resistance in peripheral tissues and relative insulin deficiency due to beta-cell dysfunction, resulting in sustained hyperglycemia. It is strongly age-associated, with prevalence rising sharply after age 45, and shares mechanistic overlap with the hallmarks of aging including cellular senescence in adipose tissue, impaired proteostasis, dysbiosis of the gut microbiome, and deregulated mTOR/IRS-1 nutrient-sensing signaling. Chronic low-grade inflammation mediated by adipokines and pro-inflammatory cytokines further accelerates both diabetes progression and systemic aging.",
-    "mechanism_links": [],
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_proteome_imbalance",
+        "confidence": 0.825,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_amyloid_aggregation",
+        "confidence": 0.807,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_alpha_synuclein",
+        "confidence": 0.807,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_proteostasis_er",
+        "confidence": 0.807,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_er_stress",
+        "confidence": 0.79,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_tau_hyperphosphorylation",
+        "confidence": 0.765,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_loss_of_proteostasis",
@@ -3843,7 +3936,38 @@
     "icd10": "TBD",
     "system": "pulmonary",
     "description": "Chronic obstructive pulmonary disease (COPD) is characterized by persistent, largely irreversible airflow limitation resulting from chronic bronchitis, emphysema, or both, typically caused by long-term exposure to noxious particles or gases. COPD exhibits striking hallmarks of accelerated lung aging, including telomere shortening in airway epithelial cells, premature cellular senescence with senescence-associated secretory phenotype (SASP) driving ongoing inflammation, and impaired autophagy that fails to clear damaged cellular components. The disease exemplifies the concept of accelerated organ aging, with COPD lungs displaying transcriptomic and epigenetic profiles resembling tissues 20–30 years older than chronological age.",
-    "mechanism_links": [],
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_telomere_ddr",
+        "confidence": 0.882,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_sasp",
+        "confidence": 0.882,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_telomerase_insufficiency",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_nfkb_signaling",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_immunosenescence",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_vascular_inflammation",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_telomere_attrition",
@@ -3912,7 +4036,38 @@
     "icd10": "TBD",
     "system": "renal",
     "description": "Chronic renal insufficiency, also termed chronic kidney disease (CKD), is a progressive and irreversible loss of renal function characterized by sustained reduction in glomerular filtration rate, leading to accumulation of uremic toxins and dysregulation of fluid, electrolyte, and hormonal homeostasis. The aging kidney undergoes progressive nephron loss, glomerulosclerosis, tubular atrophy, and interstitial fibrosis that are mechanistically indistinguishable from CKD pathology, making advanced age the strongest independent risk factor. Telomere attrition in renal tubular cells, mitochondrial dysfunction impairing tubular energetics, dysbiosis-driven uremic toxin production, and cellular senescence of pericytes and podocytes are central to both age-related renal decline and CKD progression.",
-    "mechanism_links": [],
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_telomere_ddr",
+        "confidence": 0.882,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_telomerase_insufficiency",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_oxidative_stress",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_mitophagy_impairment",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_mitochondrial_biogenesis",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_gut_permeability",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_telomere_attrition",
@@ -3976,7 +4131,38 @@
     "icd10": "TBD",
     "system": "neurological",
     "description": "Dementia is an umbrella clinical syndrome of progressive cognitive decline—affecting memory, language, executive function, and behavior—severe enough to impair daily activities, arising from diverse underlying neurodegenerative and vascular pathologies. Age is the dominant risk factor, with dementia prevalence doubling approximately every five years after age 65, reflecting decades of cumulative neuronal loss, protein aggregation, synaptic failure, and neuroinflammation. Common upstream aging mechanisms include deregulated nutrient sensing via IGF-1/insulin signaling, impaired proteostasis enabling accumulation of amyloid-beta, tau, and TDP-43 aggregates, and chronic neuroinflammation sustained by senescent microglia.",
-    "mechanism_links": [],
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_proteome_imbalance",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_mtor_hyperactivation",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_amyloid_aggregation",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_alpha_synuclein",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_proteostasis_er",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_insulin_resistance",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_loss_of_proteostasis",
@@ -4050,7 +4236,38 @@
     "icd10": "TBD",
     "system": "cardiovascular",
     "description": "Heart failure is a clinical syndrome in which the heart is unable to pump sufficient blood to meet the body's metabolic demands or can do so only at elevated filling pressures, resulting in dyspnea, fatigue, and fluid retention. Age is the most powerful risk factor, as the aging myocardium undergoes cardiomyocyte hypertrophy, loss of regenerative capacity, increased fibrosis, and impaired calcium handling that collectively reduce systolic and diastolic reserve. Key aging hallmarks driving heart failure include gut dysbiosis promoting TMAO-mediated cardiac fibrosis, epigenetic reprogramming of cardiomyocytes, deregulated mTOR-dependent hypertrophic signaling, and telomere attrition limiting cardiomyocyte renewal.",
-    "mechanism_links": [],
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_gut_permeability",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_scfa_reduction",
+        "confidence": 0.828,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_epigenetic_clock",
+        "confidence": 0.718,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_dna_methylation_drift",
+        "confidence": 0.718,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_nfkb_signaling",
+        "confidence": 0.718,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_neuroinflammation",
+        "confidence": 0.703,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_dysbiosis",
@@ -4119,7 +4336,38 @@
     "icd10": "TBD",
     "system": "cardiovascular",
     "description": "Restrictive cardiomyopathy is characterized by abnormal diastolic filling of one or both ventricles due to increased myocardial stiffness, typically with preserved or near-normal systolic function and normal or reduced ventricular volumes. Many forms arise from infiltrative pathologies (amyloidosis, hemochromatosis, sarcoidosis) whose prevalence or severity increases with age, and idiopathic forms share mechanisms of age-related myocardial fibrosis including TGF-β–mediated collagen deposition and impaired proteostasis. Deregulated nutrient-sensing pathways, epigenetic remodeling of cardiac fibroblasts, and telomere dysfunction in cardiomyocytes contribute to the age-associated increase in diastolic stiffness underlying this condition.",
-    "mechanism_links": [],
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_mtor_hyperactivation",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_insulin_resistance",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_nad_depletion",
+        "confidence": 0.828,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_mitochondrial_biogenesis",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_muscle_atrophy",
+        "confidence": 0.765,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_adipose_dysfunction",
+        "confidence": 0.765,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_deregulated_nutrient_sensing",
@@ -4173,7 +4421,28 @@
     "icd10": "TBD",
     "system": "pulmonary",
     "description": "Asthma is a chronic inflammatory airway disease characterized by variable and recurring symptoms of bronchospasm, airflow obstruction, and airway hyperresponsiveness, driven by Th2-skewed immune responses and, in severe cases, non-eosinophilic neutrophilic inflammation. Late-onset and severe asthma in older adults is associated with airway epithelial cellular senescence, altered gut microbiome composition, and telomere shortening in bronchial cells that impair tissue repair and sustain inflammatory signaling. The aging immune system's shift toward inflammaging creates a permissive environment for persistent eosinophilic and neutrophilic airway inflammation, making asthma increasingly difficult to control in the elderly.",
-    "mechanism_links": [],
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_telomere_ddr",
+        "confidence": 0.882,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_telomerase_insufficiency",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_gut_permeability",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_scfa_reduction",
+        "confidence": 0.828,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_telomere_attrition",
@@ -4227,7 +4496,38 @@
     "icd10": "TBD",
     "system": "oncological",
     "description": "Hepatocellular carcinoma (HCC) is the most common primary liver malignancy, arising from hepatocytes typically in the context of chronic liver disease, cirrhosis, or viral hepatitis, with peak incidence in the sixth and seventh decades of life. The aging liver accumulates somatic mutations, epigenetic alterations, and chromosomal instability that progressively increase oncogenic risk, with telomere shortening triggering crisis-driven genomic rearrangements that initiate hepatocarcinogenesis. Impaired hepatic autophagy, chronic hepatic inflammation sustained by senescent stellate cells, and the carcinogenic microenvironment of cirrhotic tissue represent convergent aging-related mechanisms driving HCC development.",
-    "mechanism_links": [],
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_telomere_ddr",
+        "confidence": 0.882,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_autophagy_flux_decline",
+        "confidence": 0.882,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_telomerase_insufficiency",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_autophagy_lysosomal",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_mtor_hyperactivation",
+        "confidence": 0.837,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_mitophagy_impairment",
+        "confidence": 0.837,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_telomere_attrition",
@@ -4291,7 +4591,38 @@
     "icd10": "TBD",
     "system": "musculoskeletal",
     "description": "Intervertebral disc degeneration (IDD) is a progressive structural deterioration of the nucleus pulposus and annulus fibrosus, leading to loss of disc height, decreased water and proteoglycan content, and ultimately to back pain and spinal stenosis. IDD is a prototypical aging disease, with nearly universal radiographic evidence in adults over 60, driven by senescence of nucleus pulposus cells, reduced notochordal cell survival, and impaired matrix synthesis relative to degradation. Cellular senescence with SASP-driven matrix metalloproteinase secretion, mitochondrial dysfunction in disc cells, and deregulated nutrient sensing via mTOR are established aging mechanisms linking systemic biological aging to disc pathology.",
-    "mechanism_links": [],
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_sasp",
+        "confidence": 0.882,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_telomere_ddr",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_oxidative_stress",
+        "confidence": 0.795,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_mitophagy_impairment",
+        "confidence": 0.795,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_nfkb_signaling",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_immunosenescence",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_cellular_senescence",
@@ -4340,7 +4671,38 @@
     "icd10": "TBD",
     "system": "oncological",
     "description": "Leukemia is a group of hematological malignancies characterized by clonal proliferation of abnormal hematopoietic progenitor cells in the bone marrow and peripheral blood, classified by cell lineage (myeloid vs. lymphoid) and clinical course (acute vs. chronic). Most leukemia subtypes show steeply age-dependent incidence, reflecting the progressive accumulation of somatic mutations in hematopoietic stem cells (clonal hematopoiesis of indeterminate potential, CHIP) and the age-related exhaustion and epigenetic drift of the stem cell pool. Stem cell exhaustion with dysregulated self-renewal, genomic instability from DNA repair decline, and chronic inflammatory bone marrow microenvironment changes are central aging mechanisms predisposing to leukemic transformation.",
-    "mechanism_links": [],
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_telomerase_insufficiency",
+        "confidence": 0.837,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_stem_niche_dysfunction",
+        "confidence": 0.828,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_telomere_ddr",
+        "confidence": 0.794,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_clonal_hematopoiesis",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_muscle_atrophy",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_immunosenescence",
+        "confidence": 0.765,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_stem_cell_exhaustion",
@@ -4394,7 +4756,38 @@
     "icd10": "TBD",
     "system": "systemic",
     "description": "AA amyloidosis is a systemic disorder caused by extracellular deposition of insoluble fibrils derived from serum amyloid A (SAA), an acute-phase reactant chronically elevated during persistent inflammatory or infectious conditions, with preferential involvement of kidney, liver, and spleen. The aging process substantially increases susceptibility, as decades of subclinical or overt chronic inflammation raise circulating SAA concentrations, and impaired proteostasis reduces the cellular capacity to clear misfolded amyloidogenic precursors. Deficits in autophagy and ubiquitin-proteasome clearance—established hallmarks of aging—permit amyloid fibril accumulation, linking AA amyloidosis pathogenesis directly to age-related decline in protein quality control.",
-    "mechanism_links": [],
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_proteome_imbalance",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_amyloid_aggregation",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_alpha_synuclein",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_proteostasis_er",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_er_stress",
+        "confidence": 0.837,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_tau_hyperphosphorylation",
+        "confidence": 0.81,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_loss_of_proteostasis",
@@ -4448,7 +4841,38 @@
     "icd10": "TBD",
     "system": "pulmonary",
     "description": "Cystic fibrosis (CF) is an autosomal recessive disorder caused by mutations in the CFTR gene encoding a chloride channel, leading to production of abnormally thick mucus that obstructs the airways, pancreatic ducts, and other exocrine organs, causing progressive multi-organ failure. Although CF is a monogenic disease of childhood onset, affected individuals exhibit features of accelerated biological aging including premature telomere attrition in bronchial epithelial cells, gut dysbiosis, impaired proteostasis in CFTR-expressing cells, and chronic pulmonary inflammation driven by persistent bacterial infections. With improved survival into adulthood, CF patients increasingly manifest age-related comorbidities such as diabetes, osteoporosis, and liver disease, reflecting the convergence of CFTR dysfunction with canonical aging hallmarks.",
-    "mechanism_links": [],
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_nfkb_signaling",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_neuroinflammation",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_sasp",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_cgas_sting",
+        "confidence": 0.837,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_vascular_inflammation",
+        "confidence": 0.828,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_gut_permeability",
+        "confidence": 0.81,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_chronic_inflammation",
@@ -4502,7 +4926,38 @@
     "icd10": "TBD",
     "system": "neurological",
     "description": "Traumatic brain injury (TBI) encompasses a spectrum of acquired neurological injuries resulting from external mechanical forces, ranging from mild concussion to severe contusion, causing primary neuronal death and secondary cascades of excitotoxicity, neuroinflammation, oxidative stress, and blood-brain barrier disruption. Aging significantly worsens TBI outcomes and recovery, as the aged brain has diminished neuroplasticity, impaired glial clearance mechanisms, and pre-existing neuroinflammation that amplify secondary injury cascades. TBI is also recognized as a major risk factor for accelerated neurodegeneration in later life, with evidence that the injury promotes tau hyperphosphorylation, amyloid deposition, and persistent microglial senescence that mirror and potentiate canonical brain aging processes.",
-    "mechanism_links": [],
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_sasp",
+        "confidence": 0.872,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_telomere_ddr",
+        "confidence": 0.845,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_hormonal_dysregulation",
+        "confidence": 0.81,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_nfkb_signaling",
+        "confidence": 0.805,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_ecm_stiffening",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_stem_niche_dysfunction",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_altered_intercellular_communication",
@@ -4551,7 +5006,38 @@
     "icd10": "TBD",
     "system": "musculoskeletal",
     "description": "Muscular atrophy is the pathological loss of skeletal muscle mass and strength resulting from reduced protein synthesis, increased proteolysis, denervation, disuse, or systemic disease, manifesting as weakness, exercise intolerance, and functional impairment. Sarcopenia—the age-related form—affects the majority of individuals over 80 and is mechanistically driven by decline in anabolic signaling (IGF-1/mTOR/Akt), impaired satellite cell self-renewal reflecting stem cell exhaustion, and mitophagy failure accumulating dysfunctional mitochondria in muscle fibers. Impaired proteostasis with upregulated ubiquitin-proteasome and autophagy-lysosome degradation pathways, combined with chronic low-grade inflammation generating muscle-wasting cytokines such as IL-6 and TNF-α, establishes direct links between aging hallmarks and muscular atrophy.",
-    "mechanism_links": [],
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_autophagy_flux_decline",
+        "confidence": 0.882,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_oxidative_stress",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_proteome_imbalance",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_autophagy_lysosomal",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_mitophagy_impairment",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_amyloid_aggregation",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_loss_of_proteostasis",
@@ -4620,7 +5106,38 @@
     "icd10": "TBD",
     "system": "genomic",
     "description": "Aneuploidy refers to an abnormal number of chromosomes in a cell deviating from the expected diploid complement, arising from errors in chromosome segregation during mitosis or meiosis, and is implicated in cancer, miscarriage, and congenital disorders. Age-related aneuploidy is a well-documented consequence of genomic instability, particularly in oocytes where spindle assembly checkpoint fidelity declines with reproductive aging, and in somatic cells where mitotic fidelity deteriorates due to accumulated oxidative damage, telomere dysfunction, and cohesion fatigue. Somatic mosaicism for aneuploid clones increases exponentially with age across multiple tissues and is increasingly recognized as a contributor to cancer risk and organ dysfunction in the elderly.",
-    "mechanism_links": [],
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_sasp",
+        "confidence": 0.882,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_telomere_ddr",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_oxidative_stress",
+        "confidence": 0.819,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_clonal_hematopoiesis",
+        "confidence": 0.81,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_cgas_sting",
+        "confidence": 0.81,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_nfkb_signaling",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_genomic_instability",
@@ -4674,7 +5191,38 @@
     "icd10": "TBD",
     "system": "reproductive",
     "description": "Infertility is defined as the failure to achieve a clinical pregnancy after 12 or more months of regular unprotected sexual intercourse, encompassing a broad range of underlying pathologies affecting ovarian reserve, spermatogenesis, gamete quality, implantation, or embryonic development. Reproductive aging is a major contributor, particularly in women, where oocyte telomere attrition, mitochondrial dysfunction in oocytes impairing meiotic spindle assembly, and declining follicular reserve converge to reduce fertility with advancing age. In both sexes, systemic aging processes including epigenetic drift in gametes and gonadal tissue, chronic inflammation affecting the gonadal microenvironment, and deregulated hormonal signaling link infertility directly to hallmarks of biological aging.",
-    "mechanism_links": [],
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_telomere_ddr",
+        "confidence": 0.882,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_telomerase_insufficiency",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_oxidative_stress",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_mitophagy_impairment",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_mitochondrial_biogenesis",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_nad_depletion",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_telomere_attrition",
@@ -4733,7 +5281,38 @@
     "icd10": "TBD",
     "system": "hepatic",
     "description": "Liver failure represents severe hepatic dysfunction in which the liver loses critical mass of functional hepatocytes, resulting in coagulopathy, encephalopathy, jaundice, and susceptibility to multi-organ failure; it may be acute (fulminant) or a decompensation of chronic liver disease. Aging impairs hepatic regeneration by exhausting liver progenitor cells and reducing hepatocyte proliferative capacity, while simultaneously promoting gut dysbiosis that increases portal delivery of lipopolysaccharide and bacterial metabolites, driving hepatic inflammation and stellate cell activation. Impaired mitochondrial function, age-related decline in autophagy and mitophagy necessary for hepatocyte quality control, and accumulation of dysfunctional senescent hepatic stellate cells collectively accelerate progression from compensated to decompensated liver disease.",
-    "mechanism_links": [],
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_gut_permeability",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_scfa_reduction",
+        "confidence": 0.828,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_autophagy_flux_decline",
+        "confidence": 0.755,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_mitophagy_impairment",
+        "confidence": 0.747,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_autophagy_lysosomal",
+        "confidence": 0.747,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_oxidative_stress",
+        "confidence": 0.747,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_dysbiosis",
@@ -4782,7 +5361,38 @@
     "icd10": "TBD",
     "system": "musculoskeletal",
     "description": "Rheumatoid arthritis (RA) is a chronic systemic autoimmune disease characterized by symmetric inflammatory polyarthritis, synovial hyperplasia, pannus formation, and progressive cartilage and bone destruction, with peak onset in the fourth to sixth decades. RA exemplifies immunosenescence-driven pathology: age-related contraction of T-cell receptor diversity, defective DNA damage repair in synovial fibroblasts generating a senescence-associated secretory phenotype, and chronically activated synovial macrophages sustaining joint inflammation even in the absence of overt autoantigen stimulation. Cellular senescence of fibroblast-like synoviocytes with SASP-mediated IL-6, IL-1β, and matrix metalloproteinase secretion is a central mechanism linking aging hallmarks to the invasive and destructive RA phenotype.",
-    "mechanism_links": [],
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_nfkb_signaling",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_sasp",
+        "confidence": 0.862,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_neuroinflammation",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_cgas_sting",
+        "confidence": 0.837,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_telomere_ddr",
+        "confidence": 0.836,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_vascular_inflammation",
+        "confidence": 0.828,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_chronic_inflammation",
@@ -4826,7 +5436,38 @@
     "icd10": "TBD",
     "system": "genomic",
     "description": "Inborn genetic diseases encompass a broad category of disorders caused by heritable mutations present from birth, including chromosomal abnormalities, single-gene disorders, and multifactorial conditions, affecting virtually every organ system. Many inborn genetic diseases are directly relevant to aging research because they model specific hallmarks of aging at an accelerated pace: progeroid syndromes (Werner, Hutchinson-Gilford), mitochondrial diseases, and DNA repair disorders recapitulate telomere attrition, genomic instability, and epigenetic deregulation seen in normal aging. Studying these conditions has provided fundamental insights into the molecular mechanisms of normal aging, including the roles of lamin A processing, RecQ helicase function, and nuclear architecture in maintaining genome stability and longevity.",
-    "mechanism_links": [],
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_oxidative_stress",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_mitophagy_impairment",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_mitochondrial_biogenesis",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_epigenetic_clock",
+        "confidence": 0.854,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_dna_methylation_drift",
+        "confidence": 0.854,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_clonal_hematopoiesis",
+        "confidence": 0.81,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_genomic_instability",
@@ -4890,7 +5531,38 @@
     "icd10": "TBD",
     "system": "dental",
     "description": "Periodontitis is a chronic infectious-inflammatory disease of the periodontium caused by dysbiotic oral biofilms, characterized by progressive destruction of the alveolar bone and periodontal ligament supporting the teeth, leading to tooth loss if untreated. Aging is a significant risk factor, as the aged oral microbiome undergoes dysbiotic shifts favoring periodontal pathogens, senescent gingival fibroblasts display impaired wound healing and elevated SASP cytokine secretion, and immunosenescence reduces the capacity to resolve oral infection. Periodontitis is bidirectionally linked to systemic aging-related diseases including cardiovascular disease, diabetes, and Alzheimer's disease through shared mechanisms of systemic inflammation and microbial translocation from the oral cavity.",
-    "mechanism_links": [],
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_nfkb_signaling",
+        "confidence": 0.854,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_neuroinflammation",
+        "confidence": 0.836,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_sasp",
+        "confidence": 0.836,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_cgas_sting",
+        "confidence": 0.818,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_vascular_inflammation",
+        "confidence": 0.81,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_hormonal_dysregulation",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_altered_intercellular_communication",
@@ -4929,7 +5601,38 @@
     "icd10": "TBD",
     "system": "systemic",
     "description": "Proteostasis deficiencies refer to disorders arising from impaired protein homeostasis—the cellular network of chaperones, ubiquitin-proteasome system, and autophagy that ensures proteins are correctly folded, localized, and degraded—leading to accumulation of misfolded, aggregated, or toxic protein species. Loss of proteostasis is a canonical hallmark of aging, as all three arms of the proteostasis network decline progressively with age due to reduced chaperone induction, proteasome activity, and autophagic flux, making the aged proteome vulnerable to aggregation. This category includes conditions such as systemic and tissue-specific amyloidoses, inclusion body disorders, and protein conformation diseases that are strongly age-associated because of this age-dependent deterioration of cellular protein quality control.",
-    "mechanism_links": [],
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_proteome_imbalance",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_amyloid_aggregation",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_alpha_synuclein",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_proteostasis_er",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_er_stress",
+        "confidence": 0.837,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_tau_hyperphosphorylation",
+        "confidence": 0.81,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_loss_of_proteostasis",
@@ -4968,7 +5671,38 @@
     "icd10": "TBD",
     "system": "genomic",
     "description": "Progeria (Hutchinson-Gilford Progeria Syndrome, HGPS) is an ultra-rare autosomal dominant premature aging disorder caused by a de novo LMNA point mutation producing progerin, a truncated and permanently farnesylated form of lamin A that disrupts nuclear architecture and triggers accelerated aging phenotypes in children. Affected individuals develop within the first decade features of advanced aging including alopecia, atherosclerosis, lipodystrophy, osteoporosis, and sclerodermatous skin, dying predominantly of myocardial infarction or stroke in their early teens. The disease is an invaluable model for normal aging because progerin disrupts virtually all canonical aging hallmarks—inducing genomic instability, telomere dysfunction, epigenetic deregulation, deregulated nutrient sensing via mTOR, and impaired proteostasis—in a compressed and severe form.",
-    "mechanism_links": [],
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_epigenetic_clock",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_dna_methylation_drift",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_mtor_hyperactivation",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_insulin_resistance",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_nad_depletion",
+        "confidence": 0.828,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_oxidative_stress",
+        "confidence": 0.819,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_genomic_instability",
@@ -5022,7 +5756,38 @@
     "icd10": "TBD",
     "system": "pulmonary",
     "description": "Obstructive sleep apnea (OSA) is a disorder of repetitive upper airway collapse during sleep, causing episodic hypoxia, hypercapnia, and sleep fragmentation, with consequent daytime somnolence, cognitive impairment, and increased cardiovascular risk. Prevalence increases markedly with age due to pharyngeal muscle atrophy, reduced neural compensatory reflexes, and central respiratory control changes that reflect aging-related loss of neuromuscular reserve and deregulated nutrient-sensing pathways governing adipose tissue distribution. Chronic intermittent hypoxia drives genomic instability, epigenetic reprogramming, altered mTOR-dependent metabolic signaling, and systemic inflammation, establishing OSA as both a consequence of biological aging and an accelerator of organ aging through oxidative and inflammatory damage.",
-    "mechanism_links": [],
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_mtor_hyperactivation",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_insulin_resistance",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_nad_depletion",
+        "confidence": 0.828,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_oxidative_stress",
+        "confidence": 0.819,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_clonal_hematopoiesis",
+        "confidence": 0.81,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_cgas_sting",
+        "confidence": 0.81,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_genomic_instability",
@@ -5066,7 +5831,38 @@
     "icd10": "TBD",
     "system": "neurological",
     "description": "Cognitive dysfunction encompasses a spectrum of deficits in memory, attention, processing speed, executive function, and visuospatial ability that fall short of dementia criteria, including mild cognitive impairment (MCI), which represents a significant risk state for progression to Alzheimer's disease and other dementias. Age is the single most powerful determinant of cognitive decline, with normal aging producing measurable reductions in episodic memory and processing speed, and pathological aging producing MCI in approximately 15–20% of adults over 65. Telomere attrition in hippocampal neurons, impaired autophagy reducing clearance of neurotoxic aggregates, and deregulated insulin-IGF-1 signaling that alters synaptic plasticity and neurogenesis are established aging mechanisms linking the hallmarks of aging to progressive cognitive deterioration.",
-    "mechanism_links": [],
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_telomere_ddr",
+        "confidence": 0.882,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_telomerase_insufficiency",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_autophagy_flux_decline",
+        "confidence": 0.804,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_autophagy_lysosomal",
+        "confidence": 0.795,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_mtor_hyperactivation",
+        "confidence": 0.763,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_mitophagy_impairment",
+        "confidence": 0.763,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_telomere_attrition",
@@ -5125,7 +5921,28 @@
     "icd10": "TBD",
     "system": "psychiatric",
     "description": "Anxiety disorders are a cluster of psychiatric conditions characterized by excessive, persistent fear, worry, or dread accompanied by somatic symptoms, encompassing generalized anxiety disorder, panic disorder, phobias, and social anxiety disorder. Aging influences anxiety through multiple pathways: telomere shortening in leukocytes is associated with anxiety severity, gut dysbiosis disrupts the gut-brain axis producing anxiety-like behavior via microbial metabolite and vagal signaling, and epigenetic modifications in stress-response genes alter HPA-axis reactivity. Late-life anxiety carries clinical importance as a risk factor for cognitive decline, cardiovascular disease, and accelerated biological aging reflected in shortened leukocyte telomere length and elevated inflammatory markers.",
-    "mechanism_links": [],
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_telomere_ddr",
+        "confidence": 0.882,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_telomerase_insufficiency",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_gut_permeability",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_scfa_reduction",
+        "confidence": 0.828,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_telomere_attrition",
@@ -5184,7 +6001,38 @@
     "icd10": "TBD",
     "system": "neurological",
     "description": "Heredodegenerative nervous system disorders are a heterogeneous group of genetically determined diseases characterized by progressive neuronal loss in specific anatomical systems, including conditions such as hereditary spastic paraplegia, spinocerebellar ataxias, hereditary motor neuropathies, and familial forms of amyotrophic lateral sclerosis. Many of these disorders involve mutations in genes encoding proteins critical for mitochondrial quality control, autophagy, DNA repair, or axonal transport, directly implicating canonical aging mechanisms even in diseases with early-onset manifestations. The convergence of genetic vulnerability with age-related decline in protein homeostasis, mitochondrial function, and neuroinflammatory suppression explains why many heredodegenerative disorders show symptom onset and progression rates that scale with biological age.",
-    "mechanism_links": [],
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_autophagy_flux_decline",
+        "confidence": 0.882,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_autophagy_lysosomal",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_gut_permeability",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_mtor_hyperactivation",
+        "confidence": 0.837,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_mitophagy_impairment",
+        "confidence": 0.837,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_scfa_reduction",
+        "confidence": 0.828,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_disabled_macroautophagy",
@@ -5253,7 +6101,38 @@
     "icd10": "TBD",
     "system": "neurological",
     "description": "Tauopathies are a class of neurodegenerative diseases defined by the pathological aggregation of hyperphosphorylated tau protein into neurofibrillary tangles, neuropil threads, or other fibrillar inclusions, encompassing Alzheimer's disease, frontotemporal dementia with tau pathology (Pick's disease), progressive supranuclear palsy, and corticobasal degeneration. All tauopathies are strongly age-associated, reflecting the age-dependent decline in proteostasis that permits misfolded tau to escape chaperone-mediated refolding and autophagic clearance, enabling prion-like propagation through neural circuits. Loss of proteostasis capacity and impaired autophagy are the central aging hallmarks converging on tau accumulation, with tau pathology itself generating a positive feedback loop of mitochondrial dysfunction and neuroinflammation that accelerates neuronal aging and death.",
-    "mechanism_links": [],
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_proteome_imbalance",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_amyloid_aggregation",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_alpha_synuclein",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_proteostasis_er",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_er_stress",
+        "confidence": 0.837,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_tau_hyperphosphorylation",
+        "confidence": 0.81,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_loss_of_proteostasis",
@@ -5291,8 +6170,39 @@
     "mesh_id": "MESH:D015470",
     "icd10": "TBD",
     "system": "oncological",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "description": "Acute myeloid leukemia (AML) is an aggressive hematological malignancy characterized by rapid clonal expansion of immature myeloid progenitors (blasts) in the bone marrow and peripheral blood, causing bone marrow failure with resulting infection, bleeding, and anemia. AML incidence rises sharply with age—median diagnosis age is 68 years—largely because of the age-dependent accumulation of pre-leukemic clonal hematopoiesis (CHIP) mutations in genes such as DNMT3A, TET2, and ASXL1, which represent early epigenetic and genomic alterations in aging hematopoietic stem cells. Stem cell exhaustion, epigenetic deregulation of myeloid differentiation programs, and the pro-inflammatory aged bone marrow microenvironment together create the permissive conditions for AML evolution and explain its dramatically worse prognosis in elderly patients.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_telomerase_insufficiency",
+        "confidence": 0.837,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_stem_niche_dysfunction",
+        "confidence": 0.828,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_clonal_hematopoiesis",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_muscle_atrophy",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_immunosenescence",
+        "confidence": 0.765,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_bone_remodeling",
+        "confidence": 0.765,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_stem_cell_exhaustion",
@@ -5325,8 +6235,39 @@
     "mesh_id": "MESH:D009202",
     "icd10": "TBD",
     "system": "cardiovascular",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "description": "Cardiomyopathies are a heterogeneous group of diseases of the myocardium associated with mechanical or electrical dysfunction, classified as dilated, hypertrophic, restrictive, arrhythmogenic, and unclassified forms, representing the leading indication for heart transplantation. Many cardiomyopathies exhibit age-dependent onset or worsening, as the aging myocardium accumulates cardiomyocyte telomere attrition, mitochondrial dysfunction reducing ATP supply, and autophagic insufficiency leading to toxic protein aggregate accumulation (proteotoxic cardiomyopathy). Chronic low-grade cardiac inflammation, epigenetic remodeling of cardiomyocyte gene expression programs, and telomere-dependent DNA damage responses collectively link aging hallmarks to cardiomyopathy pathogenesis across multiple etiological subtypes.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_nfkb_signaling",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_neuroinflammation",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_sasp",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_telomere_ddr",
+        "confidence": 0.853,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_telomerase_insufficiency",
+        "confidence": 0.844,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_oxidative_stress",
+        "confidence": 0.844,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_chronic_inflammation",
@@ -5388,9 +6329,40 @@
     "name": "614878",
     "mesh_id": "MESH:OMIM:614878",
     "icd10": "TBD",
-    "system": "unknown",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "system": "gastrointestinal",
+    "description": "OMIM 614878 corresponds to a form of early-onset inflammatory bowel disease (IBD25) caused by autosomal recessive loss-of-function mutations in the IL10RA gene encoding the interleukin-10 receptor alpha subunit, resulting in inability to respond to the anti-inflammatory cytokine IL-10 and severe, treatment-refractory intestinal inflammation beginning in infancy. This monogenic IBD model is relevant to aging research because IL-10 signaling is a critical immunoregulatory axis whose functional decline with immunosenescence contributes to the inflammaging phenotype of the elderly gut. The convergence of chronic intestinal inflammation, gut microbiome dysbiosis, and impaired anti-inflammatory resolution in this condition mirrors mechanisms that drive age-related intestinal dysfunction and systemic inflammation in the elderly.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_nfkb_signaling",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_neuroinflammation",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_sasp",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_gut_permeability",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_cgas_sting",
+        "confidence": 0.837,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_vascular_inflammation",
+        "confidence": 0.828,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_chronic_inflammation",
@@ -5447,9 +6419,40 @@
     "name": "Myopathies Structural Congenital",
     "mesh_id": "MESH:D020914",
     "icd10": "TBD",
-    "system": "unknown",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "system": "musculoskeletal",
+    "description": "Congenital structural myopathies are a genetically heterogeneous group of inherited muscle diseases defined by distinctive ultrastructural abnormalities on muscle biopsy—including central cores, nemaline rods, and myofibrillar disorganization—typically presenting in infancy or childhood with hypotonia, proximal weakness, and often respiratory insufficiency. Many congenital myopathies are caused by mutations in genes encoding sarcomeric proteins, ryanodine receptor, or myosin heavy chain isoforms, whose dysfunction causes impaired proteostasis in muscle with abnormal protein aggregate accumulation—a process that worsens with age as the ubiquitin-proteasome and autophagy systems lose capacity. The aging context is relevant because age-related decline in proteostatic capacity and autophagy in muscle accelerates the manifestation and progression of myofibrillar protein aggregation in these genetically predisposed individuals.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_proteome_imbalance",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_amyloid_aggregation",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_alpha_synuclein",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_proteostasis_er",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_er_stress",
+        "confidence": 0.837,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_tau_hyperphosphorylation",
+        "confidence": 0.81,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_loss_of_proteostasis",
@@ -5476,9 +6479,40 @@
     "name": "Glioblastoma",
     "mesh_id": "MESH:D005909",
     "icd10": "TBD",
-    "system": "unknown",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "system": "neurological",
+    "description": "Glioblastoma (GBM, WHO grade IV glioma) is the most aggressive primary brain tumor, arising from glial cells with hallmark features of pseudopalisading necrosis, microvascular proliferation, EGFR amplification, PTEN deletion, and IDH-wildtype status, carrying a median survival of 15 months despite maximal therapy. GBM incidence peaks in the sixth and seventh decades, reflecting the age-related accumulation of somatic mutations, epigenetic deregulation of glial progenitor identity, and mitochondrial dysfunction that collectively create a permissive cellular environment for malignant transformation. The aging brain's impaired DNA repair capacity, dysregulated autophagy that fails to clear oncogenic proteins, and immunosenescence-driven failure of immune surveillance further contribute to GBM initiation and its poor response to therapy in elderly patients.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_oxidative_stress",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_mitophagy_impairment",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_mitochondrial_biogenesis",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_nad_depletion",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_autophagy_flux_decline",
+        "confidence": 0.774,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_autophagy_lysosomal",
+        "confidence": 0.766,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_mitochondrial_dysfunction",
@@ -5521,8 +6555,39 @@
     "mesh_id": "MESH:D058186",
     "icd10": "TBD",
     "system": "renal",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "description": "Acute kidney injury (AKI) is a rapid decline in renal function occurring over hours to days, defined by increase in serum creatinine or decrease in urine output, caused by ischemia, nephrotoxins, or sepsis, and associated with high short-term mortality and long-term risk of chronic kidney disease. Advanced age is the dominant non-modifiable risk factor for AKI, as the aged kidney has diminished functional reserve due to nephron loss, is more susceptible to ischemia-reperfusion injury from reduced endothelial autophagy and mitochondrial biogenesis capacity, and recovers more poorly due to impaired tubular epithelial regeneration reflecting stem cell exhaustion. Mitochondrial dysfunction impairing tubular energetics during recovery and failure of autophagy to remove damaged mitochondria are central aging-related mechanisms that convert transient AKI into progressive chronic kidney disease in older patients.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_oxidative_stress",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_mitophagy_impairment",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_mitochondrial_biogenesis",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_autophagy_flux_decline",
+        "confidence": 0.823,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_autophagy_lysosomal",
+        "confidence": 0.815,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_nad_depletion",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_mitochondrial_dysfunction",
@@ -5570,8 +6635,39 @@
     "mesh_id": "MESH:D012559",
     "icd10": "TBD",
     "system": "psychiatric",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "description": "Schizophrenia is a chronic, severe psychiatric disorder characterized by positive symptoms (hallucinations, delusions, disorganized thought), negative symptoms (avolition, anhedonia, flat affect), and cognitive deficits, with onset typically in late adolescence or early adulthood. Growing evidence supports a model of accelerated biological aging in schizophrenia: patients exhibit shorter telomere length, increased markers of cellular senescence, and elevated neuroinflammation compared to age-matched controls, suggesting premature aging of the central nervous and immune systems. Impaired autophagy in dopaminergic and GABAergic neurons, altered intercellular communication via dysregulated cytokine signaling, and early-life epigenetic programming by environmental stressors contribute to both the pathophysiology of schizophrenia and its association with substantially shortened life expectancy.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_autophagy_flux_decline",
+        "confidence": 0.823,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_sasp",
+        "confidence": 0.823,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_autophagy_lysosomal",
+        "confidence": 0.815,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_nfkb_signaling",
+        "confidence": 0.815,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_telomere_ddr",
+        "confidence": 0.798,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_neuroinflammation",
+        "confidence": 0.798,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_disabled_macroautophagy",
@@ -5619,8 +6715,39 @@
     "mesh_id": "MESH:D000740",
     "icd10": "TBD",
     "system": "hematological",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "description": "Anemia is defined by a reduction in circulating red blood cell mass below normal thresholds, impairing oxygen delivery to tissues and manifesting as fatigue, dyspnea, reduced exercise capacity, and cognitive impairment; it affects approximately 10–20% of adults over 65 years. Age-related anemia of inflammation (anemia of chronic disease) arises from inflammaging-driven hepcidin excess that sequesters iron, combined with declining erythropoietin responsiveness, while age-related clonal cytopenias reflect hematopoietic stem cell exhaustion and somatic mutation accumulation (CHIP). Epigenetic alterations in erythroid progenitor differentiation, impaired stem cell self-renewal, and chronic inflammatory cytokine-mediated suppression of erythropoiesis represent the primary aging-hallmark mechanisms driving age-associated anemia.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_epigenetic_clock",
+        "confidence": 0.698,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_dna_methylation_drift",
+        "confidence": 0.698,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_nfkb_signaling",
+        "confidence": 0.63,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_neuroinflammation",
+        "confidence": 0.617,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_sasp",
+        "confidence": 0.617,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_clonal_hematopoiesis",
+        "confidence": 0.612,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_epigenetic_alterations",
@@ -5658,7 +6785,7 @@
     "mesh_id": "MESH:D029242",
     "icd10": "TBD",
     "system": "ophthalmic",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
+    "description": "Leber hereditary optic neuropathy (LHON) is a maternally inherited mitochondrial disorder caused by point mutations in mitochondrial DNA encoding complex I subunits (most commonly m.11778G>A, m.3460G>A, m.14484T>C), leading to selective degeneration of retinal ganglion cells and their axons with rapid, painless, bilateral central vision loss typically in young adults. LHON is directly relevant to aging because mitochondrial dysfunction—the primary pathogenic mechanism—is a central hallmark of both LHON and normal aging, and incomplete penetrance of LHON mutations is explained in part by the progressive accumulation of mitochondrial heteroplasmy and age-related mitochondrial DNA damage reducing the bioenergetic threshold for retinal ganglion cell failure. The disease demonstrates how mitochondrial DNA integrity, oxidative phosphorylation efficiency, and age-related oxidative stress converge to determine when and whether neurodegeneration occurs in genetically vulnerable individuals.",
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -5677,8 +6804,39 @@
     "mesh_id": "MESH:D005199",
     "icd10": "TBD",
     "system": "hematological",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "description": "Fanconi anemia (FA) is a rare autosomal (or X-linked) recessive disorder caused by mutations in any of at least 22 FANC genes encoding proteins in the FA/BRCA DNA repair pathway that resolves DNA interstrand crosslinks, manifesting as progressive bone marrow failure, congenital malformations, and markedly elevated risk of acute myeloid leukemia and squamous cell carcinomas. FA is a segmental progeroid syndrome—affected individuals exhibit features of premature aging including premature hematopoietic stem cell exhaustion, accelerated telomere attrition, and elevated inflammatory markers—making it a critical model for understanding how DNA repair capacity determines stem cell longevity and aging rate. The disease demonstrates that compromised genomic integrity accelerates all aging hallmarks dependent on sustained DNA damage signaling, including stem cell exhaustion, senescence, and chronic inflammation.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_nfkb_signaling",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_neuroinflammation",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_sasp",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_cgas_sting",
+        "confidence": 0.837,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_vascular_inflammation",
+        "confidence": 0.828,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_oxidative_stress",
+        "confidence": 0.819,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_genomic_instability",
@@ -5715,9 +6873,40 @@
     "name": "Overweight",
     "mesh_id": "MESH:D050177",
     "icd10": "TBD",
-    "system": "unknown",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "system": "metabolic",
+    "description": "Overweight is defined by a body mass index (BMI) of 25–29.9 kg/m², reflecting excess adipose tissue accumulation that increases risk of type 2 diabetes, cardiovascular disease, sleep apnea, osteoarthritis, and several cancers. Adipose tissue dysfunction in overweight individuals drives systemic inflammaging through elevated circulating IL-6, TNF-α, and leptin, creating a pro-aging inflammatory milieu, and visceral fat expansion is associated with accelerated telomere attrition in multiple tissues. Chronic positive energy balance deregulates mTOR and AMPK nutrient-sensing pathways, impairs autophagy in metabolically active tissues, and fosters gut dysbiosis, establishing a multi-hallmark connection between excess adiposity and accelerated biological aging.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_telomere_ddr",
+        "confidence": 0.882,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_telomerase_insufficiency",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_nfkb_signaling",
+        "confidence": 0.757,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_neuroinflammation",
+        "confidence": 0.741,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_sasp",
+        "confidence": 0.741,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_cgas_sting",
+        "confidence": 0.725,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_telomere_attrition",
@@ -5764,9 +6953,40 @@
     "name": "Lead Poisoning Nervous System",
     "mesh_id": "MESH:D020263",
     "icd10": "TBD",
-    "system": "unknown",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "system": "neurological",
+    "description": "Lead poisoning of the nervous system results from exposure to inorganic or organic lead compounds that accumulate in the brain, causing neurotoxicity through disruption of calcium signaling, mitochondrial function, glutamate receptor activity, and neurotransmitter synthesis, producing encephalopathy in acute poisoning and cognitive decline, peripheral neuropathy, and increased neurodegeneration risk with chronic low-level exposure. Lead induces DNA strand breaks and oxidative damage to DNA, driving genomic instability and mimicking or accelerating aging-associated neuronal genomic changes, and stored in bone it can be remobilized during the bone resorption that accompanies aging. Epigenetic modifications induced by early-life lead exposure—particularly altered DNA methylation at gene loci controlling brain aging—have been documented to persist across the lifespan and increase late-life risk of Alzheimer's disease and dementia, linking environmental exposures to the hallmarks of brain aging.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_oxidative_stress",
+        "confidence": 0.819,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_clonal_hematopoiesis",
+        "confidence": 0.81,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_cgas_sting",
+        "confidence": 0.81,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_telomere_ddr",
+        "confidence": 0.765,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_mtor_hyperactivation",
+        "confidence": 0.66,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_insulin_resistance",
+        "confidence": 0.646,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_genomic_instability",
@@ -5813,9 +7033,40 @@
     "name": "Malnutrition",
     "mesh_id": "MESH:D044342",
     "icd10": "TBD",
-    "system": "unknown",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "system": "metabolic",
+    "description": "Malnutrition encompasses a spectrum of conditions arising from insufficient, excess, or imbalanced intake of macronutrients and micronutrients, including protein-energy malnutrition, micronutrient deficiencies, and the clinically significant syndrome of malnutrition-inflammation-cachexia common in older adults. Aging dramatically increases malnutrition risk through anorexia of aging, reduced absorption efficiency, polypharmacy, and impaired homeostatic nutrient-sensing regulation, and malnutrition in turn accelerates biological aging by shortening telomeres, impairing DNA repair, and promoting chronic inflammation. Deregulated nutrient-sensing pathways—disruption of IGF-1, mTOR, AMPK, and sirtuins that normally transduce dietary signals into longevity-promoting transcriptional responses—represent the mechanistic nexus between malnutrition and accelerated biological aging in the elderly.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_telomere_ddr",
+        "confidence": 0.882,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_telomerase_insufficiency",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_mtor_hyperactivation",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_nfkb_signaling",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_insulin_resistance",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_neuroinflammation",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_telomere_attrition",
@@ -5867,9 +7118,40 @@
     "name": "Cyclic neutropenia",
     "mesh_id": "MESH:C536227",
     "icd10": "TBD",
-    "system": "unknown",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "system": "hematological",
+    "description": "Cyclic neutropenia is a rare hematological disorder characterized by predictable oscillations in absolute neutrophil count every 21 days, with nadirs causing severe neutropenia and susceptibility to life-threatening bacterial infections, caused by autosomal dominant mutations in the ELANE gene encoding neutrophil elastase that disrupt granulopoiesis. The disease is relevant to aging biology because it models the consequences of hematopoietic stem cell dysfunction and disrupted granulocytic differentiation kinetics—processes that deteriorate with normal aging and contribute to age-related immunosenescence and increased infection susceptibility. Telomere attrition in hematopoietic stem cells and mitochondrial dysfunction in neutrophil precursors represent aging mechanisms that exacerbate granulopoietic insufficiency and are relevant to understanding the immune vulnerability of the aged organism.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_telomere_ddr",
+        "confidence": 0.882,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_telomerase_insufficiency",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_stem_niche_dysfunction",
+        "confidence": 0.828,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_clonal_hematopoiesis",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_muscle_atrophy",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_immunosenescence",
+        "confidence": 0.765,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_telomere_attrition",
@@ -5911,9 +7193,40 @@
     "name": "Ependymoma",
     "mesh_id": "MESH:D004806",
     "icd10": "TBD",
-    "system": "unknown",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "system": "neurological",
+    "description": "Ependymomas are glial tumors arising from ependymal cells lining the ventricular system and central canal of the spinal cord, classified by molecular subtype and grade (WHO I–III), occurring across all ages but with distinct molecular subtypes predominating in pediatric versus adult patients. Adult spinal and intracranial ependymomas accumulate epigenetic alterations and chromosomal imbalances consistent with age-related genomic instability, and tumor microenvironment senescence contributes to immune evasion. The cellular senescence pathway—including p16INK4a and p21 upregulation in ependymal progenitor cells—is increasingly recognized as relevant to both ependymoma development and its growth rate, linking aging hallmarks in neural stem cell compartments to this glial malignancy.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_sasp",
+        "confidence": 0.882,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_telomere_ddr",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_nfkb_signaling",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_immunosenescence",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_vascular_inflammation",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_proteolytic_imbalance",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_cellular_senescence",
@@ -5961,8 +7274,39 @@
     "mesh_id": "MESH:D008103",
     "icd10": "TBD",
     "system": "hepatic",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "description": "Liver cirrhosis is the final common histopathological endpoint of chronic liver injury, characterized by replacement of functional parenchyma with fibrous scar tissue and regenerative nodules, leading to portal hypertension, hepatic insufficiency, and high risk of hepatocellular carcinoma. Advanced age accelerates cirrhosis progression through exhaustion of hepatic progenitor cells that normally mediate liver regeneration, gut dysbiosis that increases portal bacterial translocation driving hepatic inflammation, and cellular senescence of activated hepatic stellate cells that paradoxically sustains pro-fibrotic paracrine signaling via SASP. These aging hallmarks—stem cell exhaustion, dysbiosis, and pathological senescence—converge to render the aged liver less capable of resolving fibrosis and more likely to progress to end-stage disease.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_gut_permeability",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_telomerase_insufficiency",
+        "confidence": 0.837,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_stem_niche_dysfunction",
+        "confidence": 0.828,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_scfa_reduction",
+        "confidence": 0.828,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_clonal_hematopoiesis",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_muscle_atrophy",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_stem_cell_exhaustion",
@@ -6024,9 +7368,40 @@
     "name": "Fatty Liver",
     "mesh_id": "MESH:D005234",
     "icd10": "TBD",
-    "system": "metabolic",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "system": "hepatic",
+    "description": "Fatty liver disease (hepatic steatosis) is characterized by excessive triglyceride accumulation (>5% of hepatocytes) without other primary cause, encompassing alcoholic fatty liver disease and non-alcoholic fatty liver disease (NAFLD), which can progress through non-alcoholic steatohepatitis (NASH) to fibrosis, cirrhosis, and hepatocellular carcinoma. NAFLD prevalence and severity increase with age, driven by age-related metabolic dysfunction including insulin resistance, dyslipidemia, telomere-driven hepatocyte stress, and epigenetic reprogramming of hepatic lipid metabolism gene networks. Chronic low-grade hepatic inflammation from gut dysbiosis-derived endotoxin and deregulated mTOR-dependent lipogenesis are central aging-hallmark mechanisms linking systemic aging to hepatic fat accumulation and disease progression.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_nfkb_signaling",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_neuroinflammation",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_sasp",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_cgas_sting",
+        "confidence": 0.837,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_vascular_inflammation",
+        "confidence": 0.828,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_gut_permeability",
+        "confidence": 0.81,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_chronic_inflammation",
@@ -6084,8 +7459,39 @@
     "mesh_id": "MESH:D011658",
     "icd10": "TBD",
     "system": "pulmonary",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "description": "Pulmonary fibrosis is a progressive scarring of the lung parenchyma in which alveolar epithelial injury triggers aberrant repair with excessive collagen deposition, destroying gas-exchange surface area and causing restrictive respiratory failure; idiopathic pulmonary fibrosis (IPF) is the prototypic form. IPF is now understood as a disease of accelerated lung aging: telomere mutations (TERT, TERC, RTEL1) are the most common genetic risk factors, alveolar type II epithelial cells show premature cellular senescence with SASP-driven fibroblast activation, and genomic instability from critically short telomeres triggers aberrant DNA damage responses in the epithelium. The convergence of telomere attrition, cellular senescence of lung parenchymal cells, and impaired regenerative capacity of epithelial progenitors establishes IPF as among the most compelling examples of an aging-hallmark-driven disease.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_telomere_ddr",
+        "confidence": 0.882,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_sasp",
+        "confidence": 0.882,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_telomerase_insufficiency",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_nfkb_signaling",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_immunosenescence",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_vascular_inflammation",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_telomere_attrition",
@@ -6123,8 +7529,39 @@
     "mesh_id": "MESH:D055371",
     "icd10": "TBD",
     "system": "pulmonary",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "description": "Acute lung injury (ALI) and its severe manifestation, the acute respiratory distress syndrome (ARDS), are life-threatening conditions characterized by rapid-onset bilateral pulmonary infiltrates, severe hypoxemia, and non-cardiogenic pulmonary edema resulting from disruption of the alveolar-capillary barrier due to direct or indirect lung insults such as pneumonia, sepsis, or trauma. Advanced age dramatically increases both the incidence and mortality of ALI/ARDS because the aged lung has compromised alveolar epithelial repair capacity, reduced surfactant production, and a senescent endothelial and epithelial cell population that mounts an exaggerated and dysregulated inflammatory response. Mitochondrial dysfunction impairing alveolar macrophage phagocytic function, genomic instability reducing proliferative capacity of alveolar type II cells needed for re-epithelialization, and impaired intercellular communication via extracellular vesicles are key aging-hallmark mechanisms contributing to poor ALI outcomes in the elderly.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_oxidative_stress",
+        "confidence": 0.776,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_mitophagy_impairment",
+        "confidence": 0.776,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_mitochondrial_biogenesis",
+        "confidence": 0.76,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_clonal_hematopoiesis",
+        "confidence": 0.72,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_cgas_sting",
+        "confidence": 0.72,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_nad_depletion",
+        "confidence": 0.704,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_genomic_instability",
@@ -6151,8 +7588,8 @@
     "name": "Paraparesis Tropical Spastic",
     "mesh_id": "MESH:D015493",
     "icd10": "TBD",
-    "system": "unknown",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
+    "system": "neurological",
+    "description": "Tropical spastic paraparesis (TSP), also known as HTLV-1-associated myelopathy (HAM/TSP), is a progressive inflammatory myelopathy caused by chronic infection with human T-cell lymphotropic virus type 1 (HTLV-1), characterized by slowly progressive spastic paraparesis, bladder dysfunction, and sensory disturbances. The disease is relevant to aging research because only a minority of HTLV-1-infected individuals develop TSP, with risk increasing with age, reflecting immunosenescence-related loss of viral immune surveillance and age-related changes in altered intercellular communication via cytokine networks in the CNS. Chronic neuroinflammation driven by HTLV-1-infected CD4+ T cells producing IFN-γ and TNF-α mirrors the neuroinflammatory milieu of the aging spinal cord, making TSP a model of virus-accelerated neurological aging.",
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -6176,7 +7613,7 @@
     "mesh_id": "MESH:D003922",
     "icd10": "TBD",
     "system": "metabolic",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
+    "description": "Type 1 diabetes mellitus is an autoimmune disease characterized by T-cell-mediated destruction of pancreatic beta cells leading to absolute insulin deficiency, requiring lifelong exogenous insulin therapy and causing microvascular and macrovascular complications. Although onset typically occurs in childhood or early adulthood, long-duration type 1 diabetes is strongly associated with accelerated biological aging reflected in gut microbiome dysbiosis that may contribute to autoimmune pathogenesis, premature vascular and renal aging driven by chronic hyperglycemia and oxidative stress, and increased risk of age-associated comorbidities decades earlier than in the general population. The aging connection is particularly relevant in long-standing disease where glycation end-products, mitochondrial dysfunction in endothelial cells, and epigenetic metabolic memory perpetuate vascular damage even after glucose normalization.",
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -6194,9 +7631,40 @@
     "name": "Multiple Organ Failure",
     "mesh_id": "MESH:D009102",
     "icd10": "TBD",
-    "system": "unknown",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "system": "systemic",
+    "description": "Multiple organ failure (MOF) is a clinical syndrome of sequential or simultaneous failure of two or more organ systems in critically ill patients, most commonly occurring as a consequence of sepsis, major trauma, or severe burns, and representing the primary cause of death in intensive care units. Advanced age is the strongest predictor of MOF development and mortality, as aging diminishes the physiological reserve of each organ system through accumulated cellular senescence, mitochondrial dysfunction, and reduced stem cell regenerative capacity, leaving the elderly unable to mount adequate compensatory responses to systemic insults. The convergence of SASP-driven amplification of systemic inflammation, stem cell exhaustion limiting organ repair, and impaired intercellular communication via dysregulated cytokine signaling explains the dramatically higher incidence and lethality of MOF in older patients.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_nfkb_signaling",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_neuroinflammation",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_sasp",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_telomerase_insufficiency",
+        "confidence": 0.837,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_cgas_sting",
+        "confidence": 0.837,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_stem_niche_dysfunction",
+        "confidence": 0.828,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_stem_cell_exhaustion",
@@ -6264,8 +7732,39 @@
     "mesh_id": "MESH:D012162",
     "icd10": "TBD",
     "system": "ophthalmic",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "description": "Retinal degeneration is a broad category of disorders characterized by progressive loss of photoreceptor cells (rods and cones) and retinal pigment epithelium, leading to visual field loss and blindness, encompassing age-related macular degeneration, retinitis pigmentosa, Stargardt disease, and diabetic retinopathy. Age-related retinal degeneration is driven primarily by mitochondrial dysfunction in photoreceptors and RPE that are among the highest metabolic demand cells in the body, impaired autophagy leading to accumulation of oxidized proteins and lipofuscin in RPE lysosomes (A2E), and failure of phagocytosis of photoreceptor outer segments. The retina provides a unique window into systemic aging biology, with retinal vascular geometry and thickness serving as validated biomarkers of cardiovascular and neurological aging.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_oxidative_stress",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_mitophagy_impairment",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_autophagy_flux_decline",
+        "confidence": 0.862,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_mitochondrial_biogenesis",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_autophagy_lysosomal",
+        "confidence": 0.854,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_mtor_hyperactivation",
+        "confidence": 0.818,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_mitochondrial_dysfunction",
@@ -6312,9 +7811,20 @@
     "name": "Dyskeratosis Congenita",
     "mesh_id": "MESH:D019871",
     "icd10": "TBD",
-    "system": "unknown",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "system": "hematological",
+    "description": "Dyskeratosis congenita (DC) is a rare inherited bone marrow failure syndrome caused by mutations in genes encoding components of the telomerase complex or shelterin proteins (DKC1, TERC, TERT, TINF2, NHP2, NOP10, WRAP53, RTEL1), resulting in critically short telomeres in rapidly proliferating stem cell compartments. The clinical triad of oral leukoplakia, nail dystrophy, and abnormal skin pigmentation reflects mucosal and dermal stem cell exhaustion, while bone marrow failure, pulmonary fibrosis, and liver disease from vascular abnormalities represent the major life-threatening manifestations driven by telomere attrition in hematopoietic and organ stem cells. DC is the paradigmatic human disease of premature telomere attrition, directly modeling how short telomeres accelerate stem cell exhaustion, organ failure, and cancer—providing foundational mechanistic insights into telomere biology in normal human aging.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_telomere_ddr",
+        "confidence": 0.882,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_telomerase_insufficiency",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_telomere_attrition",
@@ -6337,8 +7847,19 @@
     "mesh_id": "MESH:D017563",
     "icd10": "TBD",
     "system": "pulmonary",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "description": "Interstitial lung diseases (ILDs) are a heterogeneous group of diffuse parenchymal lung disorders affecting the alveolar walls, lung interstitium, and often terminal airways, characterized by varying degrees of inflammation and fibrosis that restrict lung expansion and impair gas exchange. Most clinically significant ILDs—including idiopathic pulmonary fibrosis, connective tissue disease-associated ILDs, and hypersensitivity pneumonitis—have markedly age-dependent incidence, reflecting telomere-driven alveolar epithelial vulnerability, epigenetic alterations that reprogram fibroblasts toward a profibrotic phenotype, and impaired autophagy in alveolar macrophages that fails to clear inflammatory stimuli. The age-dependent risk of ILD progression and its convergence with cancer risk in the same patients suggests that shared aging hallmarks—particularly telomere attrition and cellular senescence—drive both fibrotic and neoplastic lung disease.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_telomere_ddr",
+        "confidence": 0.882,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_telomerase_insufficiency",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_telomere_attrition",
@@ -6381,8 +7902,39 @@
     "mesh_id": "MESH:D009203",
     "icd10": "TBD",
     "system": "cardiovascular",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "description": "Myocardial infarction (MI) results from prolonged ischemia of coronary territory due to plaque rupture and thrombosis, causing irreversible cardiomyocyte necrosis whose extent determines subsequent heart failure and mortality risk. Age is the dominant non-modifiable risk factor for MI, as atherosclerotic plaque vulnerability and coronary thrombosis risk increase with the age-related accumulation of senescent endothelial and smooth muscle cells in the vessel wall that amplify plaque inflammation via SASP, while cardiomyocyte renewal from resident progenitor cells is severely limited by stem cell exhaustion in the aged myocardium. Telomere shortening in coronary endothelial cells, chronic vascular inflammation driven by senescent cells, and impaired autophagy-mediated cardioprotection during ischemia-reperfusion are established aging mechanisms linking the hallmarks of aging to increased MI risk and worse recovery outcomes in the elderly.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_sasp",
+        "confidence": 0.882,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_telomere_ddr",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_nfkb_signaling",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_immunosenescence",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_vascular_inflammation",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_proteolytic_imbalance",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_cellular_senescence",
@@ -6440,8 +7992,39 @@
     "mesh_id": "MESH:D015465",
     "icd10": "TBD",
     "system": "oncological",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "description": "Accelerated phase chronic myeloid leukemia (CML-AP) represents disease progression from the chronic phase of BCR-ABL1-driven CML, defined by increasing blast percentages (10–19%), clonal cytogenetic evolution, basophilia, or thrombocytopenia, signaling imminent blast crisis and requiring urgent therapeutic intensification. Disease acceleration correlates with the acquisition of additional epigenetic and genomic alterations in BCR-ABL1-positive progenitors—including RUNX1 mutations, CDKN2A/B deletions, and TP53 mutations—that are potentiated by the age-related decline in DNA repair fidelity and hematopoietic stem cell genomic stability. Stem cell exhaustion, driven by both leukemic stress and the aging hematopoietic niche, depletes normal stem cells necessary for disease control and underlies the inferior outcomes of accelerated-phase CML in older patients.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_epigenetic_clock",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_dna_methylation_drift",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_telomerase_insufficiency",
+        "confidence": 0.837,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_stem_niche_dysfunction",
+        "confidence": 0.828,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_clonal_hematopoiesis",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_muscle_atrophy",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_epigenetic_alterations",
@@ -6478,8 +8061,8 @@
     "name": "Microsatellite Instability",
     "mesh_id": "MESH:D053842",
     "icd10": "TBD",
-    "system": "unknown",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
+    "system": "oncological",
+    "description": "Microsatellite instability (MSI) is a molecular phenotype of somatic genomic instability arising from deficient DNA mismatch repair (dMMR), characterized by widespread length alterations at repetitive DNA microsatellite sequences throughout the tumor genome, and occurring in colorectal, endometrial, gastric, and other cancers. MSI-high cancers arise predominantly in older adults as a consequence of age-related somatic epigenetic silencing (MLH1 promoter hypermethylation) of the mismatch repair gene or germline Lynch syndrome mutations combined with age-dependent second-hit acquisition. The age-associated accumulation of somatic mutations in key mismatch repair pathway genes, driven by declining DNA repair fidelity—a core aging hallmark of genomic instability—explains why MSI-high sporadic cancers are predominantly diseases of the elderly.",
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -6498,8 +8081,39 @@
     "mesh_id": "MESH:D002312",
     "icd10": "TBD",
     "system": "cardiovascular",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "description": "Hypertrophic cardiomyopathy (HCM) is an autosomal dominant sarcomeric protein disorder (most commonly MYH7 or MYBPC3 mutations) causing unexplained left ventricular hypertrophy with diastolic dysfunction, outflow tract obstruction, myocardial fibrosis, and risk of sudden cardiac death and atrial fibrillation. While HCM is present from birth at the genetic level, the severity of hypertrophy, fibrosis, and symptoms typically increases with age, as myocardial senescence amplifies fibrotic remodeling, epigenetic alterations accumulate in cardiomyocytes modifying sarcomeric gene expression, and altered intercellular communication via pro-hypertrophic paracrine signaling drives progressive phenotype expression. The age-related worsening of diastolic function in HCM is particularly driven by senescence-associated TGF-β signaling in cardiac fibroblasts, superimposed on the genetic substrate, linking aging hallmarks to HCM disease progression.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_epigenetic_clock",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_dna_methylation_drift",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_sasp",
+        "confidence": 0.828,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_hormonal_dysregulation",
+        "confidence": 0.81,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_ecm_stiffening",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_stem_niche_dysfunction",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_epigenetic_alterations",
@@ -6541,9 +8155,20 @@
     "name": "Drug Hypersensitivity",
     "mesh_id": "MESH:D004342",
     "icd10": "TBD",
-    "system": "unknown",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "system": "immunological",
+    "description": "Drug hypersensitivity reactions are adverse immunological responses to pharmacological agents, classified by mechanism as IgE-mediated (Type I), cytotoxic (Type II), immune complex-mediated (Type III), or T-cell-mediated (Type IV), and ranging in severity from mild cutaneous reactions to life-threatening anaphylaxis and Stevens-Johnson syndrome. The aging immune system is particularly susceptible to drug hypersensitivity due to immunosenescence-driven shifts in T-cell subsets, gut dysbiosis altering drug metabolism and mucosal immune responses, and altered intercellular communication via cytokine networks that may lower the threshold for hapten-triggered T-cell activation. Increased polypharmacy in older adults combined with declining drug clearance further increases cumulative exposure and the probability of sensitization, making drug hypersensitivity increasingly prevalent in the aged population.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_gut_permeability",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_scfa_reduction",
+        "confidence": 0.828,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_dysbiosis",
@@ -6580,9 +8205,40 @@
     "name": "Meningioma",
     "mesh_id": "MESH:D008579",
     "icd10": "TBD",
-    "system": "unknown",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "system": "neurological",
+    "description": "Meningiomas are the most common primary intracranial tumors, arising from arachnoid cap cells of the meninges, with the majority being benign (WHO grade I) but a significant minority displaying atypical (grade II) or anaplastic (grade III) features associated with high recurrence rates. Meningioma incidence increases steeply with age, peaking in the seventh decade, and the tumors harbor somatic mutations in NF2, TRAF7, AKT1, and SMO that accumulate in aging arachnoid cells exposed to decades of DNA damage from ionizing radiation and oxidative stress. Cellular senescence in the tumor microenvironment promotes a pro-tumorigenic, immunosuppressive milieu via SASP signaling, while altered intercellular communication and genomic instability in aging meningeal cells create the permissive context for meningioma initiation and progression.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_sasp",
+        "confidence": 0.882,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_telomere_ddr",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_nfkb_signaling",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_immunosenescence",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_vascular_inflammation",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_proteolytic_imbalance",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_cellular_senescence",
@@ -6619,9 +8275,40 @@
     "name": "Premature Birth",
     "mesh_id": "MESH:D047928",
     "icd10": "TBD",
-    "system": "unknown",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "system": "neonatal",
+    "description": "Premature birth, defined as delivery before 37 completed weeks of gestation, is the leading cause of neonatal morbidity and mortality worldwide, with major acute complications including respiratory distress syndrome, intraventricular hemorrhage, necrotizing enterocolitis, and sepsis. Prematurity is relevant to aging biology because preterm infants are born with measurably shorter telomeres than term infants, exhibit mitochondrial dysfunction and oxidative stress from hyperoxia exposure, and show dysbiosis of the neonatal gut microbiome, placing them on an accelerated biological aging trajectory. Survivors of extreme prematurity have elevated rates of cardiovascular, metabolic, cognitive, and pulmonary diseases in early adulthood that resemble the disease burden of individuals decades older, providing evidence that early-life disturbances in the hallmarks of aging have lasting health consequences.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_oxidative_stress",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_mitophagy_impairment",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_mitochondrial_biogenesis",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_telomere_ddr",
+        "confidence": 0.833,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_telomerase_insufficiency",
+        "confidence": 0.825,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_nad_depletion",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_mitochondrial_dysfunction",
@@ -6653,9 +8340,40 @@
     "name": "Hypertrophy",
     "mesh_id": "MESH:D006984",
     "icd10": "TBD",
-    "system": "unknown",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "system": "cardiovascular",
+    "description": "Hypertrophy in the context of aging-related disease most commonly refers to pathological cardiac hypertrophy—concentric left ventricular hypertrophy driven by chronic pressure overload (hypertension) or the intrinsic aging-related remodeling of the myocardium—characterized by cardiomyocyte enlargement, fetal gene program re-expression, interstitial fibrosis, and impaired diastolic filling. The aging heart undergoes progressive hypertrophic remodeling independent of pathological loading, driven by age-related deregulation of the mTOR pathway, impaired macroautophagy that fails to degrade hypertrophied cardiomyocytes' accumulated dysfunctional proteins, and chronic inflammatory signaling promoting TGF-β-mediated fibrosis. Cardiac hypertrophy is a major contributor to diastolic heart failure with preserved ejection fraction (HFpEF)—itself a disease of aging—and shares mechanistic drivers with the systemic aging process.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_mtor_hyperactivation",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_insulin_resistance",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_nad_depletion",
+        "confidence": 0.828,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_mitochondrial_biogenesis",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_muscle_atrophy",
+        "confidence": 0.765,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_adipose_dysfunction",
+        "confidence": 0.765,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_deregulated_nutrient_sensing",
@@ -6697,8 +8415,8 @@
     "name": "Constipation",
     "mesh_id": "MESH:D003248",
     "icd10": "TBD",
-    "system": "unknown",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
+    "system": "gastrointestinal",
+    "description": "Chronic constipation is characterized by infrequent, difficult, or incomplete defecation, affecting approximately 30–40% of older adults and causing significant morbidity, reduced quality of life, and healthcare utilization. Constipation is a hallmark of gastrointestinal aging, driven primarily by age-related gut dysbiosis with reduced abundance of butyrate-producing bacteria impairing colonic motility, neurodegeneration of the enteric nervous system (loss of myenteric neurons), and decreased colonic mucosal epithelial renewal from stem cell exhaustion. These aging-related changes in the gut microbiome, enteric nervous system, and mucosal biology establish constipation as a clinical manifestation of intestinal aging that overlaps with the same hallmarks driving systemic age-related disease.",
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -6717,8 +8435,39 @@
     "mesh_id": "MESH:D008223",
     "icd10": "TBD",
     "system": "oncological",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "description": "Lymphomas are a diverse group of malignancies of lymphoid cells, broadly divided into Hodgkin lymphoma and the heterogeneous non-Hodgkin lymphomas (NHL), arising from B cells, T cells, or NK cells at various stages of differentiation; most NHL subtypes have steeply age-dependent incidence peaking in the seventh decade. The age-associated increase in lymphoma risk reflects immunosenescence—including epigenetic deregulation of B-cell differentiation programs, defective DNA repair in germinal center B cells accumulating somatic hypermutation errors, and impaired immune surveillance by senescent cytotoxic T cells—that collectively permit lymphomagenesis. Deregulated mTOR nutrient-sensing signaling promoting lymphocyte proliferation, epigenetic silencing of tumor suppressor genes in aging lymphocytes, and genomic instability from accumulated reactive oxygen species are the primary aging-hallmark mechanisms driving age-dependent lymphoma incidence.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_epigenetic_clock",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_dna_methylation_drift",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_mtor_hyperactivation",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_insulin_resistance",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_nad_depletion",
+        "confidence": 0.828,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_mitochondrial_biogenesis",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_epigenetic_alterations",
@@ -6756,8 +8505,39 @@
     "mesh_id": "MESH:D017202",
     "icd10": "TBD",
     "system": "cardiovascular",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "description": "Myocardial ischemia results from an imbalance between coronary blood supply and myocardial oxygen demand, most commonly due to atherosclerotic coronary artery disease, manifesting clinically as stable angina, acute coronary syndromes, or silent ischemia, and leading to progressive ventricular dysfunction if untreated. Aging accelerates the atherosclerotic substrate for ischemia through telomere-driven endothelial dysfunction reducing nitric oxide bioavailability, cellular senescence in vascular smooth muscle cells and macrophages amplifying plaque vulnerability, and genomic instability in vascular cells permitting clonal smooth muscle cell expansion. The aged myocardium's reduced ischemic preconditioning capacity—from impaired AMPK activation, declining autophagy-mediated cytoprotection, and loss of cardioprotective paracrine signals from cardiac stem cells—further worsens outcomes of ischemic episodes in older patients.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_sasp",
+        "confidence": 0.882,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_telomere_ddr",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_oxidative_stress",
+        "confidence": 0.801,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_nfkb_signaling",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_immunosenescence",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_vascular_inflammation",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_cellular_senescence",
@@ -6799,9 +8579,40 @@
     "name": "Overnutrition",
     "mesh_id": "MESH:D044343",
     "icd10": "TBD",
-    "system": "unknown",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "system": "metabolic",
+    "description": "Overnutrition refers to chronic intake of macronutrients in excess of energy expenditure, leading to adiposity, metabolic dysfunction, and the constellation of obesity-related comorbidities including insulin resistance, dyslipidemia, and non-alcoholic fatty liver disease. Overnutrition is a major accelerant of biological aging at the cellular and molecular level: caloric excess chronically hyperactivates mTORC1 and suppresses AMPK signaling, inhibiting autophagy and impairing the proteostatic and mitophagic mechanisms that maintain cellular quality control. The resulting chronic low-grade inflammation, gut dysbiosis with enrichment of lipopolysaccharide-producing bacteria, and impaired autophagic flux that permits accumulation of dysfunctional organelles collectively establish overnutrition as a state of accelerated biological aging through deregulated nutrient sensing.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_autophagy_flux_decline",
+        "confidence": 0.784,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_autophagy_lysosomal",
+        "confidence": 0.776,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_nfkb_signaling",
+        "confidence": 0.776,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_neuroinflammation",
+        "confidence": 0.76,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_sasp",
+        "confidence": 0.76,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_gut_permeability",
+        "confidence": 0.76,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_disabled_macroautophagy",
@@ -6853,9 +8664,25 @@
     "name": "Stress Disorders Post-Traumatic",
     "mesh_id": "MESH:D013313",
     "icd10": "TBD",
-    "system": "unknown",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "system": "psychiatric",
+    "description": "Post-traumatic stress disorder (PTSD) is a psychiatric disorder developing after exposure to life-threatening trauma, characterized by intrusive re-experiencing, hyperarousal, avoidance, and negative alterations in cognition and mood that persist for more than one month and cause significant functional impairment. PTSD is associated with accelerated biological aging: individuals with PTSD exhibit shortened leukocyte telomere length, elevated epigenetic age acceleration, and elevated inflammatory biomarkers compared to trauma-exposed controls, suggesting that chronic HPA-axis dysregulation and sympathetic activation promote aging-hallmark deterioration. Epigenetic alterations in stress-response gene promoters (including NR3C1 and FKBP5) that persist decades after trauma represent enduring modifications to the aging epigenome, linking early-life adversity and PTSD to premature cellular aging and increased risk of age-related disease.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_epigenetic_clock",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_dna_methylation_drift",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_clonal_hematopoiesis",
+        "confidence": 0.765,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_epigenetic_alterations",
@@ -6882,9 +8709,40 @@
     "name": "Seizures",
     "mesh_id": "MESH:D012640",
     "icd10": "TBD",
-    "system": "unknown",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "system": "neurological",
+    "description": "Seizures are paroxysmal episodes of abnormal, excessive, or hypersynchronous neuronal activity causing transient neurological symptoms; epilepsy—defined by recurrent unprovoked seizures—has a bimodal age distribution with a second peak in adults over 60, making late-onset epilepsy among the most common neurological conditions of aging. The aging brain is inherently more epileptogenic due to loss of inhibitory GABAergic interneurons, altered ion channel expression with aging, and the accumulation of neurodegenerative lesions (amyloid plaques, vascular disease) that serve as seizure foci. Stem cell exhaustion in hippocampal neurogenic niches impairing network repair, deregulated nutrient sensing altering neuronal excitability thresholds, and impaired macroautophagy allowing accumulation of excitotoxic aggregates all contribute to the age-dependent increase in seizure susceptibility.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_telomerase_insufficiency",
+        "confidence": 0.837,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_stem_niche_dysfunction",
+        "confidence": 0.828,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_clonal_hematopoiesis",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_muscle_atrophy",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_immunosenescence",
+        "confidence": 0.765,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_bone_remodeling",
+        "confidence": 0.765,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_stem_cell_exhaustion",
@@ -6921,9 +8779,40 @@
     "name": "Hip Fractures",
     "mesh_id": "MESH:D006620",
     "icd10": "TBD",
-    "system": "unknown",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "system": "musculoskeletal",
+    "description": "Hip fractures are proximal femoral fractures occurring almost exclusively as a consequence of osteoporotic bone fragility combined with a fall, representing the most severe complication of age-related bone loss and carrying a one-year mortality of 20–30% in elderly patients with extensive post-fracture functional decline. Osteoporosis itself is a disease of aging arising from the progressive age-related imbalance between osteoclast-mediated bone resorption and osteoblast-mediated formation, driven by chronic low-grade inflammation (SASP-derived IL-6, IL-1β promoting osteoclastogenesis), epigenetic silencing of osteogenic transcription factors, and senescence of bone marrow mesenchymal stem cells with preferential adipogenic rather than osteogenic differentiation. Hip fractures thus represent the clinical manifestation of aging-hallmark-driven skeletal deterioration, with altered intercellular communication in the bone microenvironment and chronic inflammation as the dominant biological mechanisms.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_nfkb_signaling",
+        "confidence": 0.669,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_neuroinflammation",
+        "confidence": 0.655,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_sasp",
+        "confidence": 0.655,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_cgas_sting",
+        "confidence": 0.642,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_vascular_inflammation",
+        "confidence": 0.635,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_hormonal_dysregulation",
+        "confidence": 0.621,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_altered_intercellular_communication",
@@ -6950,9 +8839,40 @@
     "name": "Blindness",
     "mesh_id": "MESH:D001766",
     "icd10": "TBD",
-    "system": "unknown",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "system": "ophthalmic",
+    "description": "Blindness is defined as visual acuity worse than 3/60 or a visual field less than 10 degrees in the better eye, affecting over 43 million people globally; the leading causes—age-related macular degeneration, cataracts, glaucoma, and diabetic retinopathy—share the characteristic of dramatically increasing prevalence with advancing age. Age-related blindness emerges from the convergence of multiple aging hallmarks in ocular tissues: impaired proteostasis leading to crystallin aggregation in the lens (cataracts), mitochondrial dysfunction and autophagy failure in retinal pigment epithelium (macular degeneration), and optic nerve axon loss driven by elevated intraocular pressure and senescent astrocyte SASP in the glial lamina (glaucoma). Vision loss itself constitutes an additional aging accelerant by causing social isolation, reduced physical activity, and cognitive decline, creating a feedback loop between ocular aging and systemic biological aging.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_proteome_imbalance",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_amyloid_aggregation",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_alpha_synuclein",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_proteostasis_er",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_er_stress",
+        "confidence": 0.837,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_tau_hyperphosphorylation",
+        "confidence": 0.81,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_loss_of_proteostasis",
@@ -6999,9 +8919,40 @@
     "name": "Hearing Loss",
     "mesh_id": "MESH:D034381",
     "icd10": "TBD",
-    "system": "unknown",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "system": "otological",
+    "description": "Hearing loss is a reduction in auditory sensitivity affecting more than 1.5 billion people globally; age-related sensorineural hearing loss (presbycusis) is the third most prevalent chronic condition in older adults, affecting over 65% of adults over 70 years of age. Presbycusis results from cumulative damage to cochlear hair cells, the stria vascularis, and spiral ganglion neurons that progressively lose function due to mitochondrial dysfunction from decades of oxidative stress generated during sound transduction, impaired intercellular communication in the cochlear lateral wall, and age-related decline in neurotrophic support for auditory neurons. Hearing loss in older adults is strongly associated with cognitive decline, social isolation, depression, and increased dementia risk, establishing it as both a sentinel of cochlear aging and a driver of accelerated brain aging through reduced auditory cortical stimulation.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_oxidative_stress",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_mitophagy_impairment",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_mitochondrial_biogenesis",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_sasp",
+        "confidence": 0.828,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_hormonal_dysregulation",
+        "confidence": 0.81,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_nad_depletion",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_mitochondrial_dysfunction",
@@ -7044,8 +8995,39 @@
     "mesh_id": "MESH:D050723",
     "icd10": "TBD",
     "system": "musculoskeletal",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "description": "Fragility fractures are bone fractures occurring with minimal trauma—typically a fall from standing height—reflecting underlying osteoporosis and representing a major cause of morbidity, disability, and mortality in the elderly population. Bone fragility increases with age through a mechanistic convergence of cellular senescence in osteoblasts and osteocytes that reduces bone formation signaling, SASP-driven osteoclastogenesis accelerating bone resorption, and impaired autophagy in osteocytes that compromises their mechanosensory function and structural maintenance role. The age-related shift in bone marrow mesenchymal stem cell differentiation from osteogenesis to adipogenesis—reflecting stem cell exhaustion and epigenetic reprogramming—further depletes the osteoblast progenitor pool, creating a pro-resorptive skeletal environment directly driven by canonical hallmarks of aging.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_sasp",
+        "confidence": 0.882,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_telomere_ddr",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_nfkb_signaling",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_immunosenescence",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_vascular_inflammation",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_proteolytic_imbalance",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_cellular_senescence",
@@ -7092,9 +9074,40 @@
     "name": "Psychological Distress",
     "mesh_id": "MESH:D000079225",
     "icd10": "TBD",
-    "system": "unknown",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "system": "psychiatric",
+    "description": "Psychological distress is a non-specific state of emotional suffering encompassing symptoms of depression, anxiety, and negative affect that falls below full diagnostic criteria for a specific psychiatric disorder but is associated with significant functional impairment and increased risk of physical illness. Chronic psychological distress accelerates biological aging through multiple mechanisms: dysbiosis of the gut-brain axis impairing serotonin and GABA signaling, mitochondrial dysfunction in stressed neurons and glial cells, and elevated glucocorticoid-driven promotion of telomere attrition in immune cells and hippocampal neurons. High psychological distress scores correlate with accelerated epigenetic clock aging and reduced leukocyte telomere length across large population cohorts, establishing psychological stress as an environmental driver of multiple aging hallmarks.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_gut_permeability",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_scfa_reduction",
+        "confidence": 0.828,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_oxidative_stress",
+        "confidence": 0.65,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_mitophagy_impairment",
+        "confidence": 0.65,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_mitochondrial_biogenesis",
+        "confidence": 0.636,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_nad_depletion",
+        "confidence": 0.59,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_dysbiosis",
@@ -7131,9 +9144,40 @@
     "name": "Tooth Loss",
     "mesh_id": "MESH:D016388",
     "icd10": "TBD",
-    "system": "unknown",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "system": "dental",
+    "description": "Tooth loss (edentulism) is the permanent loss of natural teeth due to caries, periodontitis, or trauma, with complete edentulism affecting approximately 20% of adults over 65 years; it is considered a sentinel marker of cumulative oral and systemic aging. Tooth loss is bidirectionally associated with systemic aging diseases including cardiovascular disease, diabetes, dementia, and malnutrition, with shared upstream drivers including chronic oral inflammation propagated by dysbiotic biofilms, impaired mucosal immune defense, and altered intercellular communication in alveolar bone and periodontal tissue through inflammaging cytokines. Alveolar bone loss driving tooth loss involves the same cellular senescence, epigenetic, and inflammatory mechanisms that drive skeletal aging systemically, positioning tooth loss as an accessible clinical biomarker and co-consequence of aging hallmarks affecting the craniofacial skeleton.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_sasp",
+        "confidence": 0.828,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_hormonal_dysregulation",
+        "confidence": 0.81,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_ecm_stiffening",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_stem_niche_dysfunction",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_synaptic_dysfunction",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_neuroinflammation",
+        "confidence": 0.765,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_altered_intercellular_communication",
@@ -7190,9 +9234,40 @@
     "name": "Infertility Male",
     "mesh_id": "MESH:D007248",
     "icd10": "TBD",
-    "system": "unknown",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "system": "reproductive",
+    "description": "Male infertility is defined as the inability to achieve conception after 12 months of unprotected intercourse with a fertile partner, attributable to deficiencies in sperm production (oligospermia), motility (asthenospermia), morphology (teratospermia), or function, and accounts for approximately 50% of all infertility cases. Male reproductive aging is characterized by progressive testicular atrophy, declining Leydig cell function with reduced testosterone production, accumulation of mitochondrial DNA damage in sperm that impairs motility and increases embryo aneuploidization risk, and increased sperm DNA fragmentation reflecting impaired epididymal DNA repair. Advanced paternal age correlates with increasing de novo mutations in offspring and epigenetic alterations in sperm methylation patterns driven by oxidative sperm DNA damage and declining epididymal antioxidant defense—directly linking aging-hallmark mechanisms to declining male reproductive fitness.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_oxidative_stress",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_mitophagy_impairment",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_mitochondrial_biogenesis",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_nad_depletion",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_epigenetic_clock",
+        "confidence": 0.786,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_dna_methylation_drift",
+        "confidence": 0.786,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_mitochondrial_dysfunction",
@@ -7229,9 +9304,40 @@
     "name": "Pre-Eclampsia",
     "mesh_id": "MESH:D011225",
     "icd10": "TBD",
-    "system": "unknown",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "system": "reproductive",
+    "description": "Pre-eclampsia is a hypertensive disorder of pregnancy defined by new-onset hypertension after 20 weeks gestation with proteinuria or end-organ dysfunction, caused by defective placental trophoblast invasion and spiral artery remodeling that generates placental ischemia and systemic maternal endothelial dysfunction. Pre-eclampsia is associated with premature cellular senescence in placental trophoblasts, telomere shortening in both maternal and placental cells compared to uncomplicated pregnancies, and genomic instability in placental villous cytotrophoblasts impairing invasive differentiation. Critically, pre-eclampsia confers a threefold long-term risk of cardiovascular disease and accelerated vascular aging in affected women, suggesting that the placental insult reveals underlying susceptibility to vascular aging hallmarks and may itself accelerate subsequent maternal biological aging.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_sasp",
+        "confidence": 0.843,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_telomere_ddr",
+        "confidence": 0.817,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_nfkb_signaling",
+        "confidence": 0.757,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_immunosenescence",
+        "confidence": 0.757,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_vascular_inflammation",
+        "confidence": 0.757,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_proteolytic_imbalance",
+        "confidence": 0.757,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_cellular_senescence",
@@ -7264,8 +9370,39 @@
     "mesh_id": "MESH:D057180",
     "icd10": "TBD",
     "system": "neurological",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "description": "Frontotemporal dementia (FTD) is a clinically and pathologically heterogeneous group of neurodegenerative disorders defined by progressive degeneration of frontal and temporal lobes, presenting with behavioral disinhibition, apathy, semantic or nonfluent speech deficits, and underlying molecular pathology of TDP-43, FUS, or tau inclusions. FTD is predominantly a disease of the sixth and seventh decades, with proteinopathy spread following the same prion-like propagation pattern observed in other age-related neurodegenerative diseases, suggesting that declining proteostasis capacity—a hallmark of aging—is a permissive factor for pathological aggregate propagation. Loss of proteostasis enabling TDP-43 or tau misfolding, impaired autophagy preventing clearance of RNA-binding protein aggregates, and telomere-driven frontotemporal neuron vulnerability are the primary aging mechanisms converging on FTD pathogenesis.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_proteome_imbalance",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_amyloid_aggregation",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_alpha_synuclein",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_proteostasis_er",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_er_stress",
+        "confidence": 0.837,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_tau_hyperphosphorylation",
+        "confidence": 0.81,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_loss_of_proteostasis",
@@ -7302,9 +9439,40 @@
     "name": "Hyperglycemia",
     "mesh_id": "MESH:D006943",
     "icd10": "TBD",
-    "system": "unknown",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "system": "metabolic",
+    "description": "Hyperglycemia is the condition of abnormally elevated blood glucose concentrations, occurring acutely in diabetic ketoacidosis and hyperosmolar states, and chronically as the cardinal metabolic abnormality of diabetes mellitus, where it drives microvascular and macrovascular complications through glycation, oxidative stress, and protein kinase C activation. Sustained hyperglycemia accelerates biological aging through non-enzymatic glycation of long-lived proteins forming advanced glycation end-products (AGEs) that crosslink structural proteins and activate the RAGE receptor driving chronic vascular inflammation, and through glucose-driven mitochondrial reactive oxygen species overproduction causing genomic instability. The deregulated nutrient-sensing consequence of hyperglycemia—constitutive mTOR activation and impaired AMPK signaling—further impairs autophagy, mitochondrial quality control, and cellular stress responses, accelerating organ aging in diabetic tissues.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_mtor_hyperactivation",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_insulin_resistance",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_nad_depletion",
+        "confidence": 0.828,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_mitochondrial_biogenesis",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_muscle_atrophy",
+        "confidence": 0.765,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_adipose_dysfunction",
+        "confidence": 0.765,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_deregulated_nutrient_sensing",
@@ -7361,9 +9529,40 @@
     "name": "Aphasia Conduction",
     "mesh_id": "MESH:D018886",
     "icd10": "TBD",
-    "system": "unknown",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "system": "neurological",
+    "description": "Conduction aphasia is a neurological language disorder characterized by fluent but paraphasic spontaneous speech with preserved comprehension but severely impaired repetition, caused by lesions disconnecting the arcuate fasciculus between Broca's and Wernicke's areas, most commonly from ischemic stroke or trauma. Stroke and cerebrovascular disease—the primary causes of aphasia—are strongly age-related diseases, with incidence rising sharply after age 55, reflecting the cumulative burden of vascular senescence and atherosclerosis that the aging brain sustains. Cellular senescence in cerebrovascular endothelial cells impairing blood-brain barrier integrity, chronic neuroinflammation from activated microglia altering perivascular communication, and impaired axonal repair in the aged white matter after injury collectively impair post-stroke language recovery in older patients.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_sasp",
+        "confidence": 0.882,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_telomere_ddr",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_nfkb_signaling",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_immunosenescence",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_vascular_inflammation",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_proteolytic_imbalance",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_cellular_senescence",
@@ -7415,9 +9614,40 @@
     "name": "Synucleinopathies",
     "mesh_id": "MESH:D000080874",
     "icd10": "TBD",
-    "system": "unknown",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "system": "neurological",
+    "description": "Synucleinopathies are a family of neurodegenerative diseases defined by the pathological accumulation of misfolded alpha-synuclein into Lewy bodies, Lewy neurites, or glial cytoplasmic inclusions, encompassing Parkinson's disease, dementia with Lewy bodies, and multiple system atrophy. All synucleinopathies are strongly age-associated, reflecting the progressive age-dependent decline in the cellular mechanisms—chaperone-mediated autophagy, macroautophagy, and the ubiquitin-proteasome system—that normally prevent alpha-synuclein from adopting toxic oligomeric conformations and propagating prion-like through neural circuits. Loss of proteostasis enabling alpha-synuclein aggregation and impaired macroautophagy preventing aggregate clearance are the two primary aging hallmarks driving synucleinopathy pathogenesis, with mitochondrial dysfunction from aggregated alpha-synuclein disrupting Complex I creating a pathological amplification loop.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_autophagy_flux_decline",
+        "confidence": 0.882,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_proteome_imbalance",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_autophagy_lysosomal",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_amyloid_aggregation",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_alpha_synuclein",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_proteostasis_er",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_loss_of_proteostasis",
@@ -7460,8 +9690,19 @@
     "mesh_id": "MESH:D011565",
     "icd10": "TBD",
     "system": "dermatological",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "description": "Psoriasis is a chronic immune-mediated inflammatory skin disease characterized by hyperproliferating keratinocytes, aberrant epidermal differentiation, and dermal infiltration of activated T cells and dendritic cells, producing well-demarcated, erythematous, scaly plaques with systemic manifestations including psoriatic arthritis and cardiovascular comorbidities. Aging profoundly modulates psoriasis through skin microbiome dysbiosis that shifts cutaneous immune homeostasis, chronic skin inflammation that accelerates local cellular senescence in fibroblasts and keratinocytes, and the age-related shift in the adaptive immune system toward Th17-skewed responses that underlie plaque formation. Psoriasis is associated with an increased epigenetic aging clock rate in non-lesional skin, suggesting that the systemic inflammatory burden of chronic psoriasis accelerates biological aging beyond the visible skin lesions.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_gut_permeability",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_scfa_reduction",
+        "confidence": 0.828,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_dysbiosis",
@@ -7499,8 +9740,29 @@
     "mesh_id": "MESH:D012131",
     "icd10": "TBD",
     "system": "pulmonary",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "description": "Respiratory insufficiency is the failure of the respiratory system to maintain adequate gas exchange, defined by hypoxemia and/or hypercapnia at rest or with exertion, arising from diseases affecting the airways, lung parenchyma, pleura, chest wall, neuromuscular system, or respiratory drive. Age is the most significant predictor of respiratory insufficiency across all etiologies, as the aging lung loses elastic recoil, the aging chest wall stiffens, and the aging respiratory musculature atrophies through the same sarcopenic processes affecting limb muscles, collectively reducing ventilatory reserve. Telomere attrition in alveolar epithelial cells, gut dysbiosis altering pulmonary immunity via the gut-lung axis, and impaired autophagic clearance of damaged airway epithelial cells are aging mechanisms that converge on progressive loss of pulmonary functional reserve in the elderly.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_telomere_ddr",
+        "confidence": 0.882,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_telomerase_insufficiency",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_gut_permeability",
+        "confidence": 0.665,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_scfa_reduction",
+        "confidence": 0.644,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_telomere_attrition",
@@ -7552,9 +9814,30 @@
     "name": "Weight Gain",
     "mesh_id": "MESH:D015430",
     "icd10": "TBD",
-    "system": "unknown",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "system": "metabolic",
+    "description": "Age-associated weight gain refers to the progressive increase in adiposity—particularly visceral fat—that occurs with aging even in the absence of increased caloric intake, driven by the age-related decline in basal metabolic rate, loss of lean muscle mass, and shift in adipose tissue distribution from subcutaneous to visceral depots. The aging adipose tissue accumulates senescent adipocytes and stromal vascular cells with SASP-driven inflammation, gut dysbiosis with enrichment of energy-harvesting bacteria, and epigenetic modifications in adipogenic progenitors that promote lipogenesis while impairing adipocyte differentiation quality. This age-related redistribution of adiposity, driven by telomere attrition, dysbiosis, and epigenetic reprogramming of the adipose tissue stem cell niche, creates a pro-inflammatory, insulin-resistant state that accelerates multiple downstream aging-related diseases.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_telomere_ddr",
+        "confidence": 0.882,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_telomerase_insufficiency",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_gut_permeability",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_scfa_reduction",
+        "confidence": 0.828,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_telomere_attrition",
@@ -7596,9 +9879,40 @@
     "name": "Myopathy with Giant Abnormal Mitochondria",
     "mesh_id": "MESH:C564971",
     "icd10": "TBD",
-    "system": "unknown",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "system": "musculoskeletal",
+    "description": "Myopathy with giant abnormal mitochondria is a rare muscle disease characterized by marked weakness and the presence of dramatically enlarged, structurally disorganized mitochondria in muscle biopsy, representing a severe form of mitochondrial myopathy in which impaired organelle quality control allows expansion of dysfunctional mitochondria beyond physiological limits. Mitochondrial dysfunction—the defining feature of this condition—is simultaneously a central hallmark of normal aging, and the disease models in an extreme form what occurs progressively in aging skeletal muscle (sarcopenia) through declining PINK1-Parkin-dependent mitophagy and fusion/fission dynamics. Telomere attrition reducing the regenerative capacity of muscle satellite cells to replace mitochondria-laden fibers, combined with impaired macroautophagy preventing clearance of giant dysfunctional organelles, establishes this disease as a mechanistic convergence point of aging-hallmark biology and rare mitochondrial pathology.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_oxidative_stress",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_mitophagy_impairment",
+        "confidence": 0.873,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_mitochondrial_biogenesis",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_nad_depletion",
+        "confidence": 0.792,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_insulin_resistance",
+        "confidence": 0.765,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_cgas_sting",
+        "confidence": 0.765,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_mitochondrial_dysfunction",
@@ -7651,8 +9965,19 @@
     "mesh_id": "MESH:D016640",
     "icd10": "TBD",
     "system": "metabolic",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
+    "description": "Gestational diabetes mellitus (GDM) is a form of glucose intolerance first diagnosed during pregnancy, resulting from the inability of pancreatic beta cells to compensate for the physiological insulin resistance induced by placental hormones, resolving after delivery but conferring a 7–10-fold lifetime risk of type 2 diabetes. GDM is relevant to aging research because women with a history of GDM demonstrate accelerated biological aging including shorter leukocyte telomere length and epigenetic age acceleration in subsequent years, and gut microbiome dysbiosis during GDM may contribute to metabolic reprogramming that persists after pregnancy. The disease also programs intergenerational metabolic risk through epigenetic modifications in offspring exposed to intrauterine hyperglycemia, demonstrating how a gestational insult can alter the trajectory of aging-related disease in the next generation.",
+    "mechanism_links": [
+      {
+        "mechanism_id": "mech_gut_permeability",
+        "confidence": 0.855,
+        "notes": "Inferred from hallmark links"
+      },
+      {
+        "mechanism_id": "mech_scfa_reduction",
+        "confidence": 0.828,
+        "notes": "Inferred from hallmark links"
+      }
+    ],
     "hallmark_direct_links": [
       {
         "hallmark_id": "hallmark_dysbiosis",
