@@ -28,10 +28,10 @@ Confidence scores on every edge reflect bibliometric evidence (PubMed publicatio
 | Pathophysiological Mechanisms | 39 |
 | Diseases | 155 |
 | **Total graph nodes** | **206** |
-| **Total graph edges** | **1327** |
-| Average degree | 12.9 |
+| **Total graph edges** | **1776** |
+| Average degree | 17.2 |
 
-70 diseases curated manually; 85 additional diseases discovered via PubTator3 NER co-occurrence mining (200 abstracts × 2 search terms × 12 hallmarks).
+70 diseases curated manually; 85 additional diseases discovered via PubTator3 NER co-occurrence mining (200 abstracts × 2 search terms × 12 hallmarks). All 85 PubTator diseases have mechanism links inferred from their hallmark associations.
 
 **Most connected nodes:**
 1. Chronic Inflammation (Inflammaging) — 153 connections
@@ -69,12 +69,15 @@ Confidence scores on every edge reflect bibliometric evidence (PubMed publicatio
 - Edge visual encoding:
   - **Color**: green (confidence > 0.85), yellow (0.60–0.85), orange (< 0.60)
   - **Width/opacity**: proportional to confidence score
-- Click any node → side panel with description, all connections, confidence bars, PubMed link
+- Click any node → side panel with description, key genes, all connections with relation labels, PubMed link
 - Click any connected node in the detail panel → jump to that node as new focus
+- Disease nodes: collapsible "Related Diseases" section — siblings grouped by shared mechanism
 - 2-hop highlight on selection: selected=full, 1-hop=95%, 2-hop=55%, rest=8%
 - Dynamic spacing: highlighted nodes physically separate on selection
 - Filter panel: toggle node types, confidence threshold slider, body system filter
 - Search by name, zoom/pan/drag
+- About panel (? button): explains concept, data sources, confidence model, references
+- Click selected node again to deselect
 
 ---
 
@@ -119,20 +122,22 @@ GeroExplorer/
 ├── data/
 │   ├── hallmarks.json          # 12 hallmarks with metadata, key genes, biomarkers
 │   ├── mechanisms.json         # 39 mechanisms with hallmark links + confidence scores
-│   ├── diseases.json           # 70 diseases with mechanism + hallmark cross-links
+│   ├── diseases.json           # 155 diseases with mechanism + hallmark cross-links
 │   ├── graph.json              # Assembled graph (D3 format: nodes + links)
 │   └── pubmed_cache.json       # PubMed evidence cache (generated, gitignored)
 ├── scripts/
 │   ├── build_graph.py          # Assemble graph.json; copy to frontend/public/
-│   └── fetch_pubmed.py         # Fetch PubMed counts for confidence calibration
+│   ├── fetch_pubmed.py         # Fetch PubMed counts for confidence calibration
+│   └── fetch_pubtator.py       # PubTator3 NER pipeline (explore/generate/merge)
 ├── frontend/
 │   ├── src/
 │   │   ├── App.jsx             # Root layout, state management
 │   │   ├── index.css           # Dark theme global styles
 │   │   └── components/
 │   │       ├── ForceGraph.jsx  # D3 force simulation (core)
-│   │       ├── NodeDetail.jsx  # Right-panel node info
+│   │       ├── NodeDetail.jsx  # Right-panel node info + disease overlap view
 │   │       ├── FilterPanel.jsx # Sidebar controls
+│   │       ├── About.jsx       # About panel (concept, data sources, references)
 │   │       └── Legend.jsx      # Bottom-right legend
 │   ├── public/
 │   │   └── graph.json          # Served at /graph.json by Vite
@@ -167,9 +172,9 @@ Currently using bibliometric count (log-scaled publication count per search term
 Decision affects parser complexity significantly.
 
 ### Planned next steps
+- [ ] Add `key_genes` and `treatments` to all diseases and mechanisms
 - [ ] Run `fetch_pubmed.py` to calibrate all ~206 nodes with real PubMed data
 - [ ] Expand disease coverage further (currently 155)
-- [ ] Add therapeutic interventions as a fourth node type (drugs, lifestyle, senolytics)
 - [ ] Add timeline slider: highlight which hallmarks are most active at which age
 - [ ] Export: subgraph export for specific disease, downloadable PNG/SVG
 
