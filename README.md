@@ -20,21 +20,23 @@ Confidence scores on every edge reflect bibliometric evidence (PubMed publicatio
 
 ## Current State
 
-### Data (as of initial build)
+### Data (as of current build)
 
 | Layer | Count |
 |---|---|
 | Hallmarks of Aging | 12 |
 | Pathophysiological Mechanisms | 39 |
-| Diseases | 70 |
-| **Total graph nodes** | **121** |
-| **Total graph edges** | **740** |
-| Average degree | 12.2 |
+| Diseases | 155 |
+| **Total graph nodes** | **206** |
+| **Total graph edges** | **1327** |
+| Average degree | 12.9 |
+
+70 diseases curated manually; 85 additional diseases discovered via PubTator3 NER co-occurrence mining (200 abstracts × 2 search terms × 12 hallmarks).
 
 **Most connected nodes:**
-1. Chronic Inflammation / Inflammaging (92 connections)
-2. Cellular Senescence (73)
-3. Mitochondrial Dysfunction (63)
+1. Chronic Inflammation (Inflammaging) — 153 connections
+2. Cellular Senescence — 119
+3. Mitochondrial Dysfunction — 102
 
 **Hallmarks included** (Lopez-Otín 2013 + 2023 update):
 
@@ -165,8 +167,8 @@ Currently using bibliometric count (log-scaled publication count per search term
 Decision affects parser complexity significantly.
 
 ### Planned next steps
-- [ ] Run `fetch_pubmed.py` to calibrate all ~121 nodes with real PubMed data
-- [ ] Expand disease coverage (currently 70 — target 150+)
+- [ ] Run `fetch_pubmed.py` to calibrate all ~206 nodes with real PubMed data
+- [ ] Expand disease coverage further (currently 155)
 - [ ] Add therapeutic interventions as a fourth node type (drugs, lifestyle, senolytics)
 - [ ] Add timeline slider: highlight which hallmarks are most active at which age
 - [ ] Export: subgraph export for specific disease, downloadable PNG/SVG
