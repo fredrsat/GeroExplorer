@@ -9,7 +9,7 @@
       {
         "mechanism_id": "mech_amyloid_aggregation",
         "confidence": 0.95,
-        "notes": "Aβ plaques are pathognomonic; amyloid cascade hypothesis central"
+        "notes": "A\u03b2 plaques are pathognomonic; amyloid cascade hypothesis central"
       },
       {
         "mechanism_id": "mech_tau_hyperphosphorylation",
@@ -48,6 +48,24 @@
     "pubmed_search_terms": [
       "Alzheimer disease aging hallmarks",
       "amyloid tau aging neurodegeneration"
+    ],
+    "key_genes": [
+      "APP",
+      "PSEN1",
+      "PSEN2",
+      "APOE",
+      "TREM2",
+      "CLU",
+      "BIN1",
+      "MAPT"
+    ],
+    "treatments": [
+      "Rapamycin (mTOR inhibitor)",
+      "Metformin (AMPK activator)",
+      "NAD+ precursors (NMN/NR)",
+      "Dasatinib + Quercetin (senolytic)",
+      "Caloric restriction / time-restricted eating",
+      "Exercise (aerobic + resistance)"
     ]
   },
   {
@@ -60,7 +78,7 @@
       {
         "mechanism_id": "mech_alpha_synuclein",
         "confidence": 0.95,
-        "notes": "Lewy bodies are pathological hallmark; αSyn propagates prion-like"
+        "notes": "Lewy bodies are pathological hallmark; \u03b1Syn propagates prion-like"
       },
       {
         "mechanism_id": "mech_mitophagy_impairment",
@@ -99,6 +117,23 @@
     "pubmed_search_terms": [
       "Parkinson disease aging alpha-synuclein",
       "PINK1 Parkin neurodegeneration aging"
+    ],
+    "key_genes": [
+      "SNCA",
+      "PINK1",
+      "PARK2",
+      "LRRK2",
+      "GBA",
+      "DJ1",
+      "ATP13A2",
+      "VPS35"
+    ],
+    "treatments": [
+      "NAD+ precursors (NMN/NR)",
+      "Urolithin A (mitophagy activator)",
+      "Exercise (neuroprotective via BDNF/PGC-1\u03b1)",
+      "Rapamycin (mTOR inhibitor)",
+      "Trehalose (autophagy inducer)"
     ]
   },
   {
@@ -150,6 +185,23 @@
     "pubmed_search_terms": [
       "ALS TDP-43 aging neurodegeneration",
       "motor neuron disease aging mechanisms"
+    ],
+    "key_genes": [
+      "SOD1",
+      "TARDBP",
+      "FUS",
+      "C9orf72",
+      "OPTN",
+      "TBK1",
+      "VCP",
+      "UBQLN2"
+    ],
+    "treatments": [
+      "Rapamycin (mTOR / autophagy)",
+      "NAD+ precursors (NMN/NR)",
+      "Exercise (neuroprotective)",
+      "Riluzole (glutamate inhibitor)",
+      "Edaravone (ROS scavenger)"
     ]
   },
   {
@@ -201,6 +253,23 @@
     "pubmed_search_terms": [
       "vascular dementia aging mechanisms",
       "cerebrovascular disease aging inflammation"
+    ],
+    "key_genes": [
+      "NOTCH3",
+      "APOE",
+      "ACE",
+      "NOS3",
+      "CASP3",
+      "VEGFA",
+      "ICAM1",
+      "VCAM1"
+    ],
+    "treatments": [
+      "Exercise (aerobic \u2013 improves cerebrovascular function)",
+      "Metformin (AMPK activator)",
+      "Fisetin (senolytic/anti-inflammatory)",
+      "NAD+ precursors (NMN/NR)",
+      "Mediterranean diet"
     ]
   },
   {
@@ -218,7 +287,7 @@
       {
         "mechanism_id": "mech_autophagy_lysosomal",
         "confidence": 0.82,
-        "notes": "Impaired lysosomal clearance of αSyn"
+        "notes": "Impaired lysosomal clearance of \u03b1Syn"
       },
       {
         "mechanism_id": "mech_neuroinflammation",
@@ -252,6 +321,23 @@
     "pubmed_search_terms": [
       "Lewy body dementia aging alpha-synuclein",
       "DLB aging proteostasis"
+    ],
+    "key_genes": [
+      "SNCA",
+      "GBA",
+      "APOE",
+      "LAMP2A",
+      "PINK1",
+      "PARK2",
+      "MAPT",
+      "TREM2"
+    ],
+    "treatments": [
+      "Rapamycin (mTOR / autophagy)",
+      "NAD+ precursors (NMN/NR)",
+      "Urolithin A (mitophagy activator)",
+      "Exercise",
+      "Trehalose (autophagy inducer)"
     ]
   },
   {
@@ -303,6 +389,23 @@
     "pubmed_search_terms": [
       "Huntington's disease aging mechanisms",
       "huntingtin aggregation autophagy aging"
+    ],
+    "key_genes": [
+      "HTT",
+      "HAP1",
+      "TBP",
+      "PPARGC1A",
+      "SIRT1",
+      "HDAC4",
+      "BECN1",
+      "ATG7"
+    ],
+    "treatments": [
+      "NAD+ precursors (NMN/NR, via SIRT1/PARP1 axis)",
+      "Rapamycin (autophagy induction)",
+      "Exercise (PGC-1\u03b1 / mitochondria)",
+      "Caloric restriction",
+      "Pridopidine (neuroprotective)"
     ]
   },
   {
@@ -354,6 +457,23 @@
     "pubmed_search_terms": [
       "multiple sclerosis aging progression",
       "MS neurodegeneration aging mechanisms"
+    ],
+    "key_genes": [
+      "HLA-DRB1",
+      "IL2RA",
+      "IL7R",
+      "CLEC16A",
+      "FOXP3",
+      "SIRT1",
+      "PPARGC1A",
+      "NRF2"
+    ],
+    "treatments": [
+      "Exercise (anti-inflammatory, neuroprotective)",
+      "Vitamin D supplementation",
+      "Rapamycin (immunomodulatory)",
+      "Metformin (AMPK / anti-inflammatory)",
+      "NAD+ precursors (NMN/NR)"
     ]
   },
   {
@@ -401,6 +521,22 @@
     "pubmed_search_terms": [
       "late-onset epilepsy aging mechanisms",
       "seizures elderly neuroinflammation"
+    ],
+    "key_genes": [
+      "SCN1A",
+      "KCNQ2",
+      "GABRA1",
+      "MTOR",
+      "TSC1",
+      "TSC2",
+      "IL1B",
+      "NOS1"
+    ],
+    "treatments": [
+      "Rapamycin (mTOR inhibitor for focal cortical dysplasia)",
+      "Ketogenic diet (metabolic seizure suppression)",
+      "Exercise (anti-inflammatory)",
+      "Low-glycemic index diet"
     ]
   },
   {
@@ -452,6 +588,23 @@
     "pubmed_search_terms": [
       "atherosclerosis aging inflammation hallmarks",
       "vascular aging atherosclerosis mechanisms"
+    ],
+    "key_genes": [
+      "APOB",
+      "APOE",
+      "LDLR",
+      "PCSK9",
+      "NOS3",
+      "ICAM1",
+      "VCAM1",
+      "CDKN2A"
+    ],
+    "treatments": [
+      "Statins (anti-inflammatory + LDL lowering)",
+      "Exercise (endothelial NO, anti-senescent)",
+      "Metformin (AMPK activator)",
+      "Dasatinib + Quercetin (senolytic)",
+      "Caloric restriction / Mediterranean diet"
     ]
   },
   {
@@ -464,7 +617,7 @@
       {
         "mechanism_id": "mech_ecm_stiffening",
         "confidence": 0.88,
-        "notes": "Collagen crosslinking and TGF-β fibrosis reduce LV compliance"
+        "notes": "Collagen crosslinking and TGF-\u03b2 fibrosis reduce LV compliance"
       },
       {
         "mechanism_id": "mech_insulin_resistance",
@@ -503,6 +656,23 @@
     "pubmed_search_terms": [
       "HFpEF aging mechanisms inflammation",
       "diastolic heart failure aging senescence"
+    ],
+    "key_genes": [
+      "TGFB1",
+      "CTGF",
+      "MMP2",
+      "TIMP1",
+      "MTOR",
+      "IRS1",
+      "ADIPOQ",
+      "CDKN2A"
+    ],
+    "treatments": [
+      "SGLT2 inhibitors (empagliflozin \u2013 cardiac aging pathway)",
+      "Exercise (cardiac remodeling reversal)",
+      "Metformin (AMPK / metabolic)",
+      "Spironolactone (anti-fibrotic)",
+      "Caloric restriction / weight loss"
     ]
   },
   {
@@ -554,6 +724,23 @@
     "pubmed_search_terms": [
       "HFrEF aging cardiomyopathy mechanisms",
       "systolic heart failure aging mitochondria"
+    ],
+    "key_genes": [
+      "PPARGC1A",
+      "TFAM",
+      "MFN2",
+      "PINK1",
+      "BCL2",
+      "TP53",
+      "CDKN1A",
+      "TGFB1"
+    ],
+    "treatments": [
+      "Exercise (cardiac mitochondrial biogenesis)",
+      "SGLT2 inhibitors (metabolic/mitochondrial)",
+      "NAD+ precursors (NMN/NR)",
+      "Metformin (AMPK activator)",
+      "Sacubitril/valsartan (neurohumoral)"
     ]
   },
   {
@@ -605,6 +792,23 @@
     "pubmed_search_terms": [
       "atrial fibrillation aging mechanisms fibrosis",
       "AF aging inflammation senescence"
+    ],
+    "key_genes": [
+      "SCN5A",
+      "KCNQ1",
+      "TGFB1",
+      "MMP9",
+      "CDKN2A",
+      "NOS3",
+      "IL6",
+      "PITX2"
+    ],
+    "treatments": [
+      "Exercise (atrial reverse remodeling)",
+      "Metformin (anti-fibrotic / AMPK)",
+      "Dasatinib + Quercetin (senolytic \u2013 atrial fibroblast senescence)",
+      "Omega-3 fatty acids (anti-arrhythmic)",
+      "Weight loss / caloric restriction"
     ]
   },
   {
@@ -656,6 +860,23 @@
     "pubmed_search_terms": [
       "hypertension aging vascular mechanisms",
       "arterial stiffness aging blood pressure"
+    ],
+    "key_genes": [
+      "ACE",
+      "AGT",
+      "NOS3",
+      "ADRB1",
+      "ADRB2",
+      "SLC12A1",
+      "REN",
+      "CDKN2A"
+    ],
+    "treatments": [
+      "Exercise (endothelial senescence reversal)",
+      "DASH diet / caloric restriction",
+      "Metformin (AMPK / vascular aging)",
+      "NAD+ precursors (NMN/NR \u2013 endothelial NOS)",
+      "Dasatinib + Quercetin (vascular senolytic)"
     ]
   },
   {
@@ -678,7 +899,7 @@
       {
         "mechanism_id": "mech_clonal_hematopoiesis",
         "confidence": 0.72,
-        "notes": "TET2-mutant macrophages produce excess IL-1β in plaques"
+        "notes": "TET2-mutant macrophages produce excess IL-1\u03b2 in plaques"
       },
       {
         "mechanism_id": "mech_oxidative_stress",
@@ -707,6 +928,23 @@
     "pubmed_search_terms": [
       "coronary artery disease aging mechanisms",
       "CAD aging inflammation cholesterol hallmarks"
+    ],
+    "key_genes": [
+      "APOE",
+      "LDLR",
+      "PCSK9",
+      "IL6",
+      "CRP",
+      "NOS3",
+      "CDKN2A",
+      "TET2"
+    ],
+    "treatments": [
+      "Statins (anti-inflammatory + LDL lowering)",
+      "Exercise (anti-atherosclerotic)",
+      "Metformin (cardiovascular mortality reduction)",
+      "Caloric restriction / Mediterranean diet",
+      "Colchicine (anti-inflammatory \u2013 NLRP3)"
     ]
   },
   {
@@ -754,6 +992,22 @@
     "pubmed_search_terms": [
       "aortic stenosis aging calcification mechanisms",
       "valvular heart disease aging inflammation"
+    ],
+    "key_genes": [
+      "NOTCH1",
+      "RUNX2",
+      "TGFB1",
+      "LPA",
+      "APOE",
+      "IL1B",
+      "MMP9",
+      "SMAD3"
+    ],
+    "treatments": [
+      "Exercise (pre-procedure fitness)",
+      "Statins (limited disease-modifying but anti-inflammatory)",
+      "Vitamin K2 (anti-calcification)",
+      "Caloric restriction"
     ]
   },
   {
@@ -781,7 +1035,7 @@
       {
         "mechanism_id": "mech_nfkb_signaling",
         "confidence": 0.68,
-        "notes": "NF-κB drives pro-hypertrophic and pro-fibrotic gene programs"
+        "notes": "NF-\u03baB drives pro-hypertrophic and pro-fibrotic gene programs"
       }
     ],
     "hallmark_direct_links": [
@@ -805,6 +1059,23 @@
     "pubmed_search_terms": [
       "cardiac hypertrophy aging mTOR fibrosis",
       "pathological hypertrophy aging mechanisms"
+    ],
+    "key_genes": [
+      "MTOR",
+      "AKT1",
+      "TGFB1",
+      "MYH7",
+      "MYH6",
+      "NPPB",
+      "NPPA",
+      "GATA4"
+    ],
+    "treatments": [
+      "Rapamycin (mTOR inhibitor \u2013 anti-hypertrophic)",
+      "SGLT2 inhibitors",
+      "Exercise (physiological vs. pathological hypertrophy)",
+      "Metformin (AMPK activator)",
+      "Caloric restriction"
     ]
   },
   {
@@ -856,6 +1127,23 @@
     "pubmed_search_terms": [
       "type 2 diabetes aging mechanisms hallmarks",
       "T2D aging insulin resistance beta cell"
+    ],
+    "key_genes": [
+      "IRS1",
+      "IRS2",
+      "FOXO1",
+      "PPARG",
+      "ADIPOQ",
+      "INS",
+      "CDKN2A",
+      "SIRT1"
+    ],
+    "treatments": [
+      "Metformin (AMPK activator \u2013 lifespan-extending)",
+      "SGLT2 inhibitors (metabolic + organ protection)",
+      "Caloric restriction / time-restricted eating",
+      "Exercise (insulin sensitization)",
+      "Rapamycin (mTOR inhibitor)"
     ]
   },
   {
@@ -907,6 +1195,23 @@
     "pubmed_search_terms": [
       "metabolic syndrome aging mechanisms",
       "MetSyn aging inflammation adipose"
+    ],
+    "key_genes": [
+      "PPARG",
+      "ADIPOQ",
+      "LEP",
+      "RETN",
+      "IRS1",
+      "MTOR",
+      "CDKN2A",
+      "IL6"
+    ],
+    "treatments": [
+      "Metformin (AMPK activator)",
+      "Caloric restriction / Mediterranean diet",
+      "Exercise (aerobic + resistance)",
+      "NAD+ precursors (NMN/NR)",
+      "Berberine (AMPK activator, natural metformin-like)"
     ]
   },
   {
@@ -958,6 +1263,23 @@
     "pubmed_search_terms": [
       "NAFLD NASH aging mechanisms",
       "nonalcoholic fatty liver aging inflammation aging"
+    ],
+    "key_genes": [
+      "PNPLA3",
+      "TM6SF2",
+      "MBOAT7",
+      "MTOR",
+      "PPARA",
+      "SIRT1",
+      "TGFB1",
+      "IL1B"
+    ],
+    "treatments": [
+      "Caloric restriction / Mediterranean diet",
+      "Exercise",
+      "Metformin (AMPK activator)",
+      "Semaglutide (GLP-1 / weight loss)",
+      "Vitamin E (antioxidant, NASH-specific)"
     ]
   },
   {
@@ -1009,6 +1331,23 @@
     "pubmed_search_terms": [
       "obesity aging mechanisms hallmarks",
       "adipose senescence aging inflammation"
+    ],
+    "key_genes": [
+      "LEP",
+      "LEPR",
+      "ADIPOQ",
+      "FTO",
+      "MC4R",
+      "PPARG",
+      "CDKN2A",
+      "MTOR"
+    ],
+    "treatments": [
+      "Caloric restriction / intermittent fasting",
+      "Exercise",
+      "GLP-1 receptor agonists (semaglutide/tirzepatide)",
+      "Metformin (AMPK activator)",
+      "Dasatinib + Quercetin (adipose senolytic)"
     ]
   },
   {
@@ -1021,7 +1360,7 @@
       {
         "mechanism_id": "mech_nfkb_signaling",
         "confidence": 0.82,
-        "notes": "NF-κB drives IL-1β production in response to urate crystals"
+        "notes": "NF-\u03baB drives IL-1\u03b2 production in response to urate crystals"
       },
       {
         "mechanism_id": "mech_kidney_filtration",
@@ -1056,6 +1395,23 @@
     "pubmed_search_terms": [
       "gout aging NLRP3 uric acid",
       "hyperuricemia aging inflammation mechanisms"
+    ],
+    "key_genes": [
+      "SLC22A12",
+      "SLC2A9",
+      "ABCG2",
+      "NLRP3",
+      "CASP1",
+      "IL1B",
+      "XDH",
+      "HPRT1"
+    ],
+    "treatments": [
+      "Caloric restriction / low-purine diet",
+      "Exercise",
+      "Colchicine (NLRP3 inhibitor)",
+      "Metformin (urate lowering via AMPK)",
+      "Allopurinol (XO inhibitor / reduces oxidative stress)"
     ]
   },
   {
@@ -1073,7 +1429,7 @@
       {
         "mechanism_id": "mech_mitochondrial_biogenesis",
         "confidence": 0.78,
-        "notes": "Thyroid hormone drives PGC-1α and mitochondrial biogenesis"
+        "notes": "Thyroid hormone drives PGC-1\u03b1 and mitochondrial biogenesis"
       },
       {
         "mechanism_id": "mech_immunosenescence",
@@ -1103,6 +1459,22 @@
     "pubmed_search_terms": [
       "hypothyroidism aging mechanisms",
       "thyroid aging immune dysfunction"
+    ],
+    "key_genes": [
+      "TSHR",
+      "TPO",
+      "TG",
+      "DUOX2",
+      "FOXE1",
+      "PPARGC1A",
+      "NRF2",
+      "SIRT1"
+    ],
+    "treatments": [
+      "Levothyroxine (hormone replacement)",
+      "Selenium supplementation (TPO-Ab reduction)",
+      "Exercise (mitochondrial biogenesis)",
+      "Vitamin D (immune modulation)"
     ]
   },
   {
@@ -1154,6 +1526,23 @@
     "pubmed_search_terms": [
       "multiple myeloma aging mechanisms hallmarks",
       "myeloma aging bone marrow microenvironment"
+    ],
+    "key_genes": [
+      "KRAS",
+      "NRAS",
+      "TP53",
+      "RB1",
+      "CDKN2C",
+      "DNMT3A",
+      "TET2",
+      "MYC"
+    ],
+    "treatments": [
+      "Exercise (immune surveillance restoration)",
+      "Metformin (mTOR / anti-proliferative)",
+      "Rapamycin (mTOR inhibitor)",
+      "NAD+ precursors (NMN/NR \u2013 bone marrow niche)",
+      "Dasatinib + Quercetin (bone marrow senolytic)"
     ]
   },
   {
@@ -1181,7 +1570,7 @@
       {
         "mechanism_id": "mech_nfkb_signaling",
         "confidence": 0.75,
-        "notes": "NF-κB drives survival, proliferation, and inflammation in tumors"
+        "notes": "NF-\u03baB drives survival, proliferation, and inflammation in tumors"
       }
     ],
     "hallmark_direct_links": [
@@ -1205,6 +1594,23 @@
     "pubmed_search_terms": [
       "colorectal cancer aging mechanisms hallmarks",
       "colon cancer aging DNA damage dysbiosis"
+    ],
+    "key_genes": [
+      "APC",
+      "KRAS",
+      "TP53",
+      "MLH1",
+      "MSH2",
+      "BRAF",
+      "CDKN2A",
+      "SMAD4"
+    ],
+    "treatments": [
+      "Exercise (reduces CRC risk ~24%)",
+      "Aspirin (anti-inflammatory, COX-2 inhibitor)",
+      "Metformin (AMPK / mTOR suppression)",
+      "Caloric restriction / Mediterranean diet",
+      "Fecal microbiota transplantation (dysbiosis correction)"
     ]
   },
   {
@@ -1256,6 +1662,23 @@
     "pubmed_search_terms": [
       "lung cancer aging mechanisms hallmarks",
       "NSCLC aging genomic instability immunosenescence"
+    ],
+    "key_genes": [
+      "EGFR",
+      "KRAS",
+      "TP53",
+      "STK11",
+      "CDKN2A",
+      "ALK",
+      "RB1",
+      "NRF2"
+    ],
+    "treatments": [
+      "Exercise (immunosurveillance, anti-inflammatory)",
+      "Metformin (AMPK / mTOR suppression)",
+      "NAC / N-acetylcysteine (antioxidant \u2013 caution: context-dependent)",
+      "Dasatinib + Quercetin (senolytic \u2013 tumor microenvironment)",
+      "Rapamycin (mTOR inhibitor)"
     ]
   },
   {
@@ -1307,6 +1730,23 @@
     "pubmed_search_terms": [
       "breast cancer aging mechanisms hallmarks",
       "postmenopausal breast cancer aging senescence"
+    ],
+    "key_genes": [
+      "BRCA1",
+      "BRCA2",
+      "ESR1",
+      "HER2",
+      "TP53",
+      "PTEN",
+      "CDKN2A",
+      "FOXO3"
+    ],
+    "treatments": [
+      "Exercise (reduces recurrence ~30\u201340%)",
+      "Metformin (AMPK / mTOR, reduces breast cancer risk)",
+      "Caloric restriction / intermittent fasting",
+      "Dasatinib + Quercetin (senolytic \u2013 stromal senescence)",
+      "Raloxifene (ER modulator, cancer prevention)"
     ]
   },
   {
@@ -1358,6 +1798,23 @@
     "pubmed_search_terms": [
       "prostate cancer aging mechanisms",
       "prostate cancer aging epigenetics senescence"
+    ],
+    "key_genes": [
+      "AR",
+      "PTEN",
+      "TP53",
+      "BRCA2",
+      "ERG",
+      "ETS2",
+      "CDKN2A",
+      "MYC"
+    ],
+    "treatments": [
+      "Exercise (reduces mortality ~25%)",
+      "Metformin (anti-proliferative / AMPK)",
+      "Caloric restriction / Mediterranean diet",
+      "Lycopene / pomegranate (antioxidant, polyphenol)",
+      "Dasatinib + Quercetin (senolytic)"
     ]
   },
   {
@@ -1380,7 +1837,7 @@
       {
         "mechanism_id": "mech_nfkb_signaling",
         "confidence": 0.78,
-        "notes": "NF-κB constitutively active in majority of PDACs"
+        "notes": "NF-\u03baB constitutively active in majority of PDACs"
       },
       {
         "mechanism_id": "mech_gut_permeability",
@@ -1409,6 +1866,23 @@
     "pubmed_search_terms": [
       "pancreatic cancer aging mechanisms KRAS",
       "PDAC aging inflammation hallmarks"
+    ],
+    "key_genes": [
+      "KRAS",
+      "TP53",
+      "SMAD4",
+      "CDKN2A",
+      "BRCA2",
+      "ATM",
+      "NFKB1",
+      "MYC"
+    ],
+    "treatments": [
+      "Metformin (KRAS/mTOR pathway)",
+      "Exercise",
+      "Caloric restriction",
+      "Dasatinib + Quercetin (tumor stroma senolytic)",
+      "Rapamycin (mTOR inhibitor)"
     ]
   },
   {
@@ -1460,6 +1934,23 @@
     "pubmed_search_terms": [
       "AML aging CHIP mechanisms",
       "acute myeloid leukemia aging clonal hematopoiesis"
+    ],
+    "key_genes": [
+      "DNMT3A",
+      "TET2",
+      "ASXL1",
+      "FLT3",
+      "NPM1",
+      "IDH1",
+      "IDH2",
+      "TP53"
+    ],
+    "treatments": [
+      "Metformin (AMPK / anti-leukemic)",
+      "Dasatinib + Quercetin (CHIP/senolytic \u2013 marrow niche)",
+      "NAD+ precursors (NMN/NR \u2013 stem cell function)",
+      "Vitamin C (TET2 cofactor, high-dose)",
+      "Exercise (bone marrow niche restoration)"
     ]
   },
   {
@@ -1511,6 +2002,23 @@
     "pubmed_search_terms": [
       "melanoma aging UV DNA damage mechanisms",
       "melanoma aging immunosenescence hallmarks"
+    ],
+    "key_genes": [
+      "BRAF",
+      "NRAS",
+      "TP53",
+      "CDKN2A",
+      "PTEN",
+      "MC1R",
+      "NF1",
+      "KIT"
+    ],
+    "treatments": [
+      "Exercise (immune surveillance restoration)",
+      "Rapamycin (mTOR inhibitor)",
+      "Metformin (AMPK / anti-proliferative)",
+      "Quercetin (anti-melanoma polyphenol)",
+      "NAD+ precursors (NMN/NR \u2013 DNA repair)"
     ]
   },
   {
@@ -1528,7 +2036,7 @@
       {
         "mechanism_id": "mech_nfkb_signaling",
         "confidence": 0.75,
-        "notes": "Chronic inflammation activates NF-κB in urothelial cells"
+        "notes": "Chronic inflammation activates NF-\u03baB in urothelial cells"
       },
       {
         "mechanism_id": "mech_oxidative_stress",
@@ -1562,6 +2070,23 @@
     "pubmed_search_terms": [
       "bladder cancer aging mechanisms DNA damage",
       "urothelial carcinoma aging inflammation"
+    ],
+    "key_genes": [
+      "TP53",
+      "RB1",
+      "FGFR3",
+      "CDKN2A",
+      "TERT",
+      "EGFR",
+      "DNMT3A",
+      "TET2"
+    ],
+    "treatments": [
+      "Exercise",
+      "Metformin (anti-proliferative / AMPK)",
+      "Caloric restriction",
+      "NAD+ precursors (NMN/NR \u2013 DNA repair)",
+      "Green tea polyphenols (EGCG)"
     ]
   },
   {
@@ -1613,6 +2138,23 @@
     "pubmed_search_terms": [
       "sarcopenia aging mechanisms hallmarks",
       "muscle wasting aging satellite cell mitochondria"
+    ],
+    "key_genes": [
+      "IGF1",
+      "MSTN",
+      "FOXO3",
+      "MTOR",
+      "PPARGC1A",
+      "PAX7",
+      "MYOD1",
+      "MURF1"
+    ],
+    "treatments": [
+      "Resistance exercise (primary intervention)",
+      "Protein / leucine supplementation",
+      "NAD+ precursors (NMN/NR \u2013 mitochondrial function)",
+      "Urolithin A (mitophagy activator)",
+      "Rapamycin (low-dose intermittent mTOR)"
     ]
   },
   {
@@ -1664,6 +2206,23 @@
     "pubmed_search_terms": [
       "osteoporosis aging mechanisms hallmarks",
       "bone loss aging osteoblast osteoclast aging"
+    ],
+    "key_genes": [
+      "LRP5",
+      "SOST",
+      "RANK",
+      "RANKL",
+      "OPG",
+      "WNT5A",
+      "RUNX2",
+      "ESR1"
+    ],
+    "treatments": [
+      "Exercise (weight-bearing + resistance)",
+      "Calcitonin (anti-resorptive)",
+      "Dasatinib + Quercetin (senolytic \u2013 osteocyte SASP)",
+      "Calcium + Vitamin D",
+      "NAD+ precursors (NMN/NR \u2013 osteoblast energy)"
     ]
   },
   {
@@ -1715,6 +2274,23 @@
     "pubmed_search_terms": [
       "osteoarthritis aging senescence mechanisms",
       "cartilage aging MMP senescence hallmarks"
+    ],
+    "key_genes": [
+      "CDKN2A",
+      "MMP13",
+      "ADAMTS5",
+      "COL2A1",
+      "TGFB1",
+      "IL1B",
+      "IL6",
+      "SOX9"
+    ],
+    "treatments": [
+      "Exercise (cartilage nutrition / anti-inflammatory)",
+      "Dasatinib + Quercetin (chondrocyte senolytic \u2013 key evidence)",
+      "Metformin (AMPK / anti-catabolic)",
+      "Caloric restriction / weight loss",
+      "Spermidine (autophagy activator)"
     ]
   },
   {
@@ -1732,7 +2308,7 @@
       {
         "mechanism_id": "mech_nfkb_signaling",
         "confidence": 0.85,
-        "notes": "NF-κB drives synoviocyte invasiveness and cytokine production"
+        "notes": "NF-\u03baB drives synoviocyte invasiveness and cytokine production"
       },
       {
         "mechanism_id": "mech_sasp",
@@ -1766,6 +2342,23 @@
     "pubmed_search_terms": [
       "rheumatoid arthritis aging mechanisms immunosenescence",
       "RA aging senescence synovium hallmarks"
+    ],
+    "key_genes": [
+      "HLA-DRB1",
+      "PTPN22",
+      "IL6",
+      "TNF",
+      "IL1B",
+      "STAT3",
+      "CDKN2A",
+      "MMP3"
+    ],
+    "treatments": [
+      "Exercise (anti-inflammatory, joint protection)",
+      "Methotrexate (anti-inflammatory)",
+      "Rapamycin (immunomodulatory mTOR)",
+      "Dasatinib + Quercetin (synoviocyte senolytic)",
+      "Metformin (AMPK / anti-inflammatory)"
     ]
   },
   {
@@ -1852,6 +2445,23 @@
     "pubmed_search_terms": [
       "frailty aging mechanisms hallmarks",
       "frailty syndrome aging SASP inflammation sarcopenia"
+    ],
+    "key_genes": [
+      "IGF1",
+      "IL6",
+      "TNF",
+      "CDKN2A",
+      "FOXO3",
+      "PPARGC1A",
+      "SIRT1",
+      "TERT"
+    ],
+    "treatments": [
+      "Exercise (resistance + aerobic \u2013 primary intervention)",
+      "Dasatinib + Quercetin (senolytic \u2013 phase II evidence)",
+      "NAD+ precursors (NMN/NR)",
+      "Metformin (TAME trial target)",
+      "Caloric restriction with adequate protein"
     ]
   },
   {
@@ -1869,7 +2479,7 @@
       {
         "mechanism_id": "mech_ecm_stiffening",
         "confidence": 0.82,
-        "notes": "TGF-β driven renal interstitial fibrosis replaces functional nephrons"
+        "notes": "TGF-\u03b2 driven renal interstitial fibrosis replaces functional nephrons"
       },
       {
         "mechanism_id": "mech_oxidative_stress",
@@ -1903,6 +2513,23 @@
     "pubmed_search_terms": [
       "chronic kidney disease aging mechanisms hallmarks",
       "CKD aging senescence fibrosis"
+    ],
+    "key_genes": [
+      "TGFB1",
+      "SMAD3",
+      "CDKN2A",
+      "KL",
+      "FGF23",
+      "TP53",
+      "NRF2",
+      "HIF1A"
+    ],
+    "treatments": [
+      "SGLT2 inhibitors (renal aging pathway)",
+      "Metformin (AMPK \u2013 with caution in advanced CKD)",
+      "Exercise",
+      "Dasatinib + Quercetin (renal senolytic)",
+      "NAD+ precursors (NMN/NR \u2013 tubular energy)"
     ]
   },
   {
@@ -1925,7 +2552,7 @@
       {
         "mechanism_id": "mech_ecm_stiffening",
         "confidence": 0.82,
-        "notes": "AGE crosslinking and TGF-β fibrosis define diabetic glomerulopathy"
+        "notes": "AGE crosslinking and TGF-\u03b2 fibrosis define diabetic glomerulopathy"
       },
       {
         "mechanism_id": "mech_insulin_resistance",
@@ -1954,6 +2581,23 @@
     "pubmed_search_terms": [
       "diabetic nephropathy aging oxidative stress mechanisms",
       "kidney diabetes aging fibrosis hallmarks"
+    ],
+    "key_genes": [
+      "TGFB1",
+      "RAGE",
+      "AGER",
+      "NOS3",
+      "VEGFA",
+      "WT1",
+      "NPHS1",
+      "CDKN2A"
+    ],
+    "treatments": [
+      "SGLT2 inhibitors (first-line kidney protection)",
+      "Metformin (AMPK / anti-fibrotic \u2013 with caution)",
+      "Exercise",
+      "NAD+ precursors (NMN/NR)",
+      "Caloric restriction / low-AGE diet"
     ]
   },
   {
@@ -1966,12 +2610,12 @@
       {
         "mechanism_id": "mech_ecm_stiffening",
         "confidence": 0.92,
-        "notes": "TGF-β1 drives pericyte-to-myofibroblast transition and fibrosis"
+        "notes": "TGF-\u03b21 drives pericyte-to-myofibroblast transition and fibrosis"
       },
       {
         "mechanism_id": "mech_sasp",
         "confidence": 0.8,
-        "notes": "Senescent tubular cells secrete TGF-β and other pro-fibrotic SASP factors"
+        "notes": "Senescent tubular cells secrete TGF-\u03b2 and other pro-fibrotic SASP factors"
       },
       {
         "mechanism_id": "mech_kidney_filtration",
@@ -2005,6 +2649,23 @@
     "pubmed_search_terms": [
       "renal fibrosis aging mechanisms TGF-beta",
       "kidney fibrosis aging senescence hallmarks"
+    ],
+    "key_genes": [
+      "TGFB1",
+      "SMAD3",
+      "COL1A1",
+      "VIM",
+      "ACTA2",
+      "CDKN2A",
+      "PINK1",
+      "NRF2"
+    ],
+    "treatments": [
+      "Metformin (anti-fibrotic AMPK)",
+      "Rapamycin (mTOR / fibrosis suppression)",
+      "Dasatinib + Quercetin (tubular senolytic)",
+      "SGLT2 inhibitors",
+      "Caloric restriction"
     ]
   },
   {
@@ -2056,6 +2717,23 @@
     "pubmed_search_terms": [
       "COPD aging senescence mechanisms hallmarks",
       "emphysema lung aging cellular senescence"
+    ],
+    "key_genes": [
+      "SERPINA1",
+      "TERT",
+      "CDKN2A",
+      "TGFB1",
+      "IL6",
+      "MMP12",
+      "ELANE",
+      "NRF2"
+    ],
+    "treatments": [
+      "Exercise (pulmonary rehabilitation)",
+      "NAD+ precursors (NMN/NR)",
+      "Rapamycin (senescence suppression)",
+      "Fisetin / Quercetin (senolytic)",
+      "Smoking cessation (removes primary driver)"
     ]
   },
   {
@@ -2068,7 +2746,7 @@
       {
         "mechanism_id": "mech_ecm_stiffening",
         "confidence": 0.9,
-        "notes": "TGF-β-driven fibroblast activation and collagen deposition"
+        "notes": "TGF-\u03b2-driven fibroblast activation and collagen deposition"
       },
       {
         "mechanism_id": "mech_sasp",
@@ -2107,6 +2785,23 @@
     "pubmed_search_terms": [
       "IPF aging senescence telomere mechanisms",
       "pulmonary fibrosis aging hallmarks cellular senescence"
+    ],
+    "key_genes": [
+      "TERT",
+      "TERC",
+      "SFTPC",
+      "MUC5B",
+      "TOLLIP",
+      "CDKN2A",
+      "TGFB1",
+      "SMAD3"
+    ],
+    "treatments": [
+      "Dasatinib + Quercetin (AEC2 senolytic \u2013 phase I trial)",
+      "NAC / N-acetylcysteine (antioxidant)",
+      "Rapamycin (mTOR / senescence)",
+      "Exercise (pulmonary rehabilitation)",
+      "Nintedanib (anti-fibrotic \u2013 approved)"
     ]
   },
   {
@@ -2158,6 +2853,23 @@
     "pubmed_search_terms": [
       "pulmonary hypertension aging mechanisms",
       "PAH aging endothelial dysfunction senescence"
+    ],
+    "key_genes": [
+      "BMPR2",
+      "KCNK3",
+      "ACVRL1",
+      "ENG",
+      "NOS3",
+      "PDGFB",
+      "CDKN2A",
+      "HIF1A"
+    ],
+    "treatments": [
+      "Exercise (improves functional capacity)",
+      "Metformin (AMPK / vascular senescence)",
+      "NAD+ precursors (NMN/NR)",
+      "Sildenafil (PDE5 inhibitor / NO enhancement)",
+      "Dasatinib + Quercetin (vascular senolytic)"
     ]
   },
   {
@@ -2175,7 +2887,7 @@
       {
         "mechanism_id": "mech_nfkb_signaling",
         "confidence": 0.8,
-        "notes": "Hypoxia activates NF-κB promoting systemic inflammatory cytokines"
+        "notes": "Hypoxia activates NF-\u03baB promoting systemic inflammatory cytokines"
       },
       {
         "mechanism_id": "mech_adipose_dysfunction",
@@ -2209,6 +2921,23 @@
     "pubmed_search_terms": [
       "sleep apnea aging oxidative stress inflammation",
       "OSA aging mechanisms hallmarks intermittent hypoxia"
+    ],
+    "key_genes": [
+      "HIF1A",
+      "NOS3",
+      "NRF2",
+      "IL6",
+      "TNF",
+      "ADIPOQ",
+      "CLOCK",
+      "BMAL1"
+    ],
+    "treatments": [
+      "CPAP therapy (primary intervention)",
+      "Exercise + weight loss",
+      "Metformin (metabolic improvement)",
+      "NAD+ precursors (NMN/NR \u2013 mitochondrial function)",
+      "Caloric restriction"
     ]
   },
   {
@@ -2260,6 +2989,23 @@
     "pubmed_search_terms": [
       "age-related macular degeneration aging mechanisms hallmarks",
       "AMD aging RPE senescence autophagy"
+    ],
+    "key_genes": [
+      "CFH",
+      "ARMS2",
+      "HTRA1",
+      "C3",
+      "C2",
+      "VEGFA",
+      "ABCA4",
+      "NRF2"
+    ],
+    "treatments": [
+      "Lutein + zeaxanthin (AREDS2 supplements)",
+      "NAD+ precursors (NMN/NR \u2013 RPE mitochondria)",
+      "Rapamycin (autophagy / mTOR)",
+      "Exercise (anti-inflammatory)",
+      "Anti-VEGF therapy (wet AMD \u2013 approved)"
     ]
   },
   {
@@ -2311,6 +3057,23 @@
     "pubmed_search_terms": [
       "glaucoma aging mitochondria senescence mechanisms",
       "glaucoma aging RGC oxidative stress"
+    ],
+    "key_genes": [
+      "MYOC",
+      "OPTN",
+      "NTF4",
+      "WDR36",
+      "TBK1",
+      "NRF2",
+      "PINK1",
+      "SIRT1"
+    ],
+    "treatments": [
+      "NAD+ precursors (NMN/NR \u2013 RGC neuroprotection)",
+      "Exercise (IOP reduction, neuroprotective)",
+      "Rapamycin (mitophagy enhancement)",
+      "Metformin (AMPK / neuroprotective)",
+      "Prostaglandin analogs (IOP-lowering \u2013 standard care)"
     ]
   },
   {
@@ -2362,6 +3125,23 @@
     "pubmed_search_terms": [
       "cataract aging crystallin aggregation mechanisms",
       "lens aging proteostasis oxidative stress"
+    ],
+    "key_genes": [
+      "CRYAA",
+      "CRYAB",
+      "CRYBB2",
+      "HSPA1A",
+      "SOD1",
+      "CAT",
+      "GPX1",
+      "SQSTM1"
+    ],
+    "treatments": [
+      "N-acetylcarnosine eye drops (crystallin protection)",
+      "Antioxidants (Vitamin C/E, lutein, zeaxanthin)",
+      "NAD+ precursors (NMN/NR \u2013 lens epithelial cells)",
+      "UV protection (sunglasses)",
+      "Caloric restriction (delays onset)"
     ]
   },
   {
@@ -2413,6 +3193,23 @@
     "pubmed_search_terms": [
       "diabetic retinopathy aging mechanisms oxidative stress",
       "retinal aging diabetes vascular inflammation"
+    ],
+    "key_genes": [
+      "VEGFA",
+      "RAGE",
+      "AGER",
+      "NOS3",
+      "SOD2",
+      "NRF2",
+      "PINK1",
+      "CDKN2A"
+    ],
+    "treatments": [
+      "SGLT2 inhibitors (metabolic protection)",
+      "Metformin (AMPK / anti-angiogenic)",
+      "NAD+ precursors (NMN/NR \u2013 mitochondria in retina)",
+      "Exercise",
+      "Anti-VEGF therapy (approved for advanced DR)"
     ]
   },
   {
@@ -2464,6 +3261,23 @@
     "pubmed_search_terms": [
       "skin aging photoaging mechanisms hallmarks",
       "dermal senescence aging UV collagen"
+    ],
+    "key_genes": [
+      "COL1A1",
+      "MMP1",
+      "MMP3",
+      "CDKN2A",
+      "TP53",
+      "LMNA",
+      "SIRT1",
+      "NRF2"
+    ],
+    "treatments": [
+      "Dasatinib + Quercetin (dermal senolytic)",
+      "Retinoids (epigenetic rejuvenation, collagen synthesis)",
+      "Caloric restriction",
+      "Exercise",
+      "Rapamycin (topical mTOR inhibitor)"
     ]
   },
   {
@@ -2476,7 +3290,7 @@
       {
         "mechanism_id": "mech_nfkb_signaling",
         "confidence": 0.85,
-        "notes": "NF-κB drives keratinocyte hyperproliferation and cytokine production"
+        "notes": "NF-\u03baB drives keratinocyte hyperproliferation and cytokine production"
       },
       {
         "mechanism_id": "mech_immunosenescence",
@@ -2515,6 +3329,23 @@
     "pubmed_search_terms": [
       "psoriasis aging late-onset mechanisms",
       "psoriasis inflammaging immunosenescence"
+    ],
+    "key_genes": [
+      "IL17A",
+      "IL23A",
+      "TNF",
+      "IL6",
+      "NFKB1",
+      "HLA-C",
+      "CDKN2A",
+      "FOXP3"
+    ],
+    "treatments": [
+      "Exercise (anti-inflammatory)",
+      "Metformin (AMPK / anti-proliferative)",
+      "Caloric restriction / Mediterranean diet",
+      "Probiotics (gut-skin axis)",
+      "Fisetin (anti-inflammatory polyphenol)"
     ]
   },
   {
@@ -2566,6 +3397,23 @@
     "pubmed_search_terms": [
       "wound healing aging mechanisms hallmarks",
       "chronic wound aging senescence stem cell"
+    ],
+    "key_genes": [
+      "VEGFA",
+      "PDGFB",
+      "TGFB1",
+      "KRT14",
+      "TP63",
+      "CDKN2A",
+      "MMP9",
+      "CXCL12"
+    ],
+    "treatments": [
+      "Dasatinib + Quercetin (senolytic \u2013 fibroblast clearance)",
+      "Exercise",
+      "NAD+ precursors (NMN/NR \u2013 energy for repair)",
+      "Growth factors (topical PDGF/EGF)",
+      "Hyperbaric oxygen therapy"
     ]
   },
   {
@@ -2617,6 +3465,23 @@
     "pubmed_search_terms": [
       "immunosenescence aging mechanisms hallmarks",
       "thymic involution aging T cell aging"
+    ],
+    "key_genes": [
+      "TERT",
+      "CDKN2A",
+      "IL7",
+      "IL7R",
+      "FOXN1",
+      "KLRG1",
+      "PD1",
+      "TIM3"
+    ],
+    "treatments": [
+      "Exercise (aerobic \u2013 thymic rejuvenation)",
+      "Rapamycin (mTOR / immune rejuvenation \u2013 strong evidence)",
+      "Metformin (immune aging)",
+      "NAD+ precursors (NMN/NR)",
+      "Dasatinib + Quercetin (senescent immune cell clearance)"
     ]
   },
   {
@@ -2634,7 +3499,7 @@
       {
         "mechanism_id": "mech_nfkb_signaling",
         "confidence": 0.75,
-        "notes": "NF-κB drives local thyroid inflammation and cytokine production"
+        "notes": "NF-\u03baB drives local thyroid inflammation and cytokine production"
       },
       {
         "mechanism_id": "mech_dna_methylation_drift",
@@ -2668,6 +3533,23 @@
     "pubmed_search_terms": [
       "Hashimoto thyroiditis aging autoimmunity mechanisms",
       "autoimmune thyroid disease aging immunosenescence"
+    ],
+    "key_genes": [
+      "HLA-DRB1",
+      "PTPN22",
+      "CTLA4",
+      "FOXP3",
+      "IL2RA",
+      "TPO",
+      "TSHR",
+      "TG"
+    ],
+    "treatments": [
+      "Selenium supplementation (TPO-Ab reduction)",
+      "Vitamin D",
+      "Exercise (immune modulation)",
+      "Probiotics (gut-immune axis)",
+      "Metformin (anti-inflammatory AMPK)"
     ]
   },
   {
@@ -2695,7 +3577,7 @@
       {
         "mechanism_id": "mech_nfkb_signaling",
         "confidence": 0.65,
-        "notes": "Islet inflammation via NF-κB in infiltrating T cells and macrophages"
+        "notes": "Islet inflammation via NF-\u03baB in infiltrating T cells and macrophages"
       }
     ],
     "hallmark_direct_links": [
@@ -2719,6 +3601,23 @@
     "pubmed_search_terms": [
       "LADA late autoimmune diabetes aging mechanisms",
       "adult-onset T1D aging immunosenescence"
+    ],
+    "key_genes": [
+      "HLA-DRB1",
+      "PTPN22",
+      "CTLA4",
+      "INS",
+      "FOXP3",
+      "IL2RA",
+      "SIRT1",
+      "MTOR"
+    ],
+    "treatments": [
+      "Metformin (AMPK / beta-cell protection)",
+      "Vitamin D supplementation",
+      "Exercise",
+      "NAD+ precursors (NMN/NR \u2013 beta-cell energy)",
+      "Low-carbohydrate diet"
     ]
   },
   {
@@ -2770,6 +3669,23 @@
     "pubmed_search_terms": [
       "late-onset depression aging neuroinflammation mechanisms",
       "geriatric depression aging vascular inflammation"
+    ],
+    "key_genes": [
+      "BDNF",
+      "SIRT1",
+      "IL6",
+      "TNF",
+      "CRP",
+      "HTR2A",
+      "SLC6A4",
+      "FOXO3"
+    ],
+    "treatments": [
+      "Exercise (BDNF induction \u2013 primary intervention)",
+      "NAD+ precursors (NMN/NR \u2013 SIRT1/BDNF axis)",
+      "Omega-3 fatty acids (anti-neuroinflammatory)",
+      "Metformin (AMPK / neuroinflammation)",
+      "Probiotics (gut-brain axis)"
     ]
   },
   {
@@ -2782,7 +3698,7 @@
       {
         "mechanism_id": "mech_neuroinflammation",
         "confidence": 0.78,
-        "notes": "IL-1β and TNF-α alter limbic circuit function and anxiety behavior"
+        "notes": "IL-1\u03b2 and TNF-\u03b1 alter limbic circuit function and anxiety behavior"
       },
       {
         "mechanism_id": "mech_synaptic_dysfunction",
@@ -2821,6 +3737,23 @@
     "pubmed_search_terms": [
       "late-onset anxiety aging mechanisms neuroinflammation",
       "anxiety aging HPA axis neuroinflammation"
+    ],
+    "key_genes": [
+      "BDNF",
+      "GABRA2",
+      "SERT",
+      "CRH",
+      "IL6",
+      "TNF",
+      "FOXO3",
+      "NRF2"
+    ],
+    "treatments": [
+      "Exercise (HPA axis normalization)",
+      "Mindfulness / MBSR (epigenetic stress modulation)",
+      "NAD+ precursors (NMN/NR)",
+      "Omega-3 fatty acids",
+      "Probiotics (gut-brain axis)"
     ]
   },
   {
@@ -2872,6 +3805,23 @@
     "pubmed_search_terms": [
       "dementia psychosis aging mechanisms",
       "Lewy body psychosis aging neuroinflammation"
+    ],
+    "key_genes": [
+      "SNCA",
+      "DRD2",
+      "DRD3",
+      "MAPT",
+      "APOE",
+      "CHRM1",
+      "TREM2",
+      "IL6"
+    ],
+    "treatments": [
+      "Exercise (neuroprotective, anti-inflammatory)",
+      "NAD+ precursors (NMN/NR)",
+      "Rapamycin (mTOR / proteostasis)",
+      "Omega-3 fatty acids",
+      "Low-dose naltrexone (neuroinflammation)"
     ]
   },
   {
@@ -2894,7 +3844,7 @@
       {
         "mechanism_id": "mech_nfkb_signaling",
         "confidence": 0.85,
-        "notes": "NF-κB constitutively active in inflamed intestinal epithelium"
+        "notes": "NF-\u03baB constitutively active in inflamed intestinal epithelium"
       },
       {
         "mechanism_id": "mech_immunosenescence",
@@ -2923,6 +3873,23 @@
     "pubmed_search_terms": [
       "inflammatory bowel disease aging mechanisms dysbiosis",
       "IBD aging immunosenescence gut barrier"
+    ],
+    "key_genes": [
+      "NOD2",
+      "IL23R",
+      "ATG16L1",
+      "IRGM",
+      "IL10",
+      "CARD9",
+      "MUC5B",
+      "FOXP3"
+    ],
+    "treatments": [
+      "Probiotics / FMT (dysbiosis correction)",
+      "Caloric restriction / exclusion diet",
+      "Exercise (anti-inflammatory)",
+      "Butyrate / short-chain fatty acids",
+      "Metformin (anti-inflammatory AMPK)"
     ]
   },
   {
@@ -2974,6 +3941,23 @@
     "pubmed_search_terms": [
       "colorectal polyp aging mechanisms epigenetics",
       "adenoma aging DNA methylation senescence"
+    ],
+    "key_genes": [
+      "APC",
+      "KRAS",
+      "BRAF",
+      "MLH1",
+      "MSH2",
+      "CDKN2A",
+      "TP53",
+      "CTNNB1"
+    ],
+    "treatments": [
+      "Exercise (polyp risk reduction)",
+      "Aspirin (anti-inflammatory, COX-2 inhibitor)",
+      "Metformin (AMPK / anti-proliferative)",
+      "Mediterranean diet",
+      "Caloric restriction"
     ]
   },
   {
@@ -2981,17 +3965,17 @@
     "name": "Hepatic Fibrosis",
     "icd10": "K74.0",
     "system": "gastrointestinal",
-    "description": "Excessive accumulation of extracellular matrix proteins in the liver resulting from chronic injury or NASH, leading to cirrhosis and liver failure. Hepatic stellate cell activation by TGF-β, oxidative stress, and SASP factors drives progressive fibrosis.",
+    "description": "Excessive accumulation of extracellular matrix proteins in the liver resulting from chronic injury or NASH, leading to cirrhosis and liver failure. Hepatic stellate cell activation by TGF-\u03b2, oxidative stress, and SASP factors drives progressive fibrosis.",
     "mechanism_links": [
       {
         "mechanism_id": "mech_ecm_stiffening",
         "confidence": 0.92,
-        "notes": "TGF-β-mediated hepatic stellate cell activation and collagen deposition"
+        "notes": "TGF-\u03b2-mediated hepatic stellate cell activation and collagen deposition"
       },
       {
         "mechanism_id": "mech_sasp",
         "confidence": 0.82,
-        "notes": "Senescent hepatocytes secrete TGF-β and inflammatory SASP factors"
+        "notes": "Senescent hepatocytes secrete TGF-\u03b2 and inflammatory SASP factors"
       },
       {
         "mechanism_id": "mech_gut_permeability",
@@ -3001,7 +3985,7 @@
       {
         "mechanism_id": "mech_oxidative_stress",
         "confidence": 0.78,
-        "notes": "Mitochondrial ROS in hepatocytes activate JNK and TGF-β pathways"
+        "notes": "Mitochondrial ROS in hepatocytes activate JNK and TGF-\u03b2 pathways"
       }
     ],
     "hallmark_direct_links": [
@@ -3025,6 +4009,23 @@
     "pubmed_search_terms": [
       "hepatic fibrosis aging senescence TGF-beta",
       "liver fibrosis aging mechanisms hallmarks"
+    ],
+    "key_genes": [
+      "TGFB1",
+      "SMAD3",
+      "ACTA2",
+      "COL1A1",
+      "CDKN2A",
+      "PDGFB",
+      "MMP2",
+      "TIMP1"
+    ],
+    "treatments": [
+      "Metformin (anti-fibrotic, AMPK)",
+      "Rapamycin (mTOR / hepatic stellate cells)",
+      "Dasatinib + Quercetin (hepatic senolytic)",
+      "Caloric restriction / Mediterranean diet",
+      "Exercise (anti-fibrotic)"
     ]
   },
   {
@@ -3052,7 +4053,7 @@
       {
         "mechanism_id": "mech_nfkb_signaling",
         "confidence": 0.72,
-        "notes": "Acid reflux activates NF-κB promoting intestinal metaplasia genes"
+        "notes": "Acid reflux activates NF-\u03baB promoting intestinal metaplasia genes"
       }
     ],
     "hallmark_direct_links": [
@@ -3076,6 +4077,23 @@
     "pubmed_search_terms": [
       "Barrett's esophagus aging mechanisms epigenetics",
       "esophageal metaplasia aging senescence oxidative stress"
+    ],
+    "key_genes": [
+      "TP53",
+      "CDKN2A",
+      "ERBB2",
+      "EGFR",
+      "MLH1",
+      "MYC",
+      "SMAD4",
+      "CDH1"
+    ],
+    "treatments": [
+      "Aspirin (anti-inflammatory / anti-cancer)",
+      "Metformin (AMPK / anti-proliferative)",
+      "Caloric restriction",
+      "Mediterranean diet",
+      "Proton pump inhibitors (acid suppression)"
     ]
   },
   {
@@ -3127,6 +4145,23 @@
     "pubmed_search_terms": [
       "menopause aging estrogen mechanisms hallmarks",
       "postmenopause aging hormonal aging biology"
+    ],
+    "key_genes": [
+      "ESR1",
+      "ESR2",
+      "FSHR",
+      "LHR",
+      "RUNX2",
+      "RANK",
+      "CYP19A1",
+      "FOXO3"
+    ],
+    "treatments": [
+      "Hormone replacement therapy (estrogen/progesterone)",
+      "Exercise (bone and cardiovascular protection)",
+      "Phytoestrogens / soy isoflavones",
+      "Caloric restriction",
+      "NAD+ precursors (NMN/NR \u2013 ovarian aging)"
     ]
   },
   {
@@ -3149,7 +4184,7 @@
       {
         "mechanism_id": "mech_nfkb_signaling",
         "confidence": 0.72,
-        "notes": "Chronic prostatic inflammation via NF-κB promotes stromal growth"
+        "notes": "Chronic prostatic inflammation via NF-\u03baB promotes stromal growth"
       },
       {
         "mechanism_id": "mech_insulin_resistance",
@@ -3178,6 +4213,23 @@
     "pubmed_search_terms": [
       "BPH aging mechanisms hormonal senescence",
       "benign prostatic hyperplasia aging inflammation hallmarks"
+    ],
+    "key_genes": [
+      "AR",
+      "SRD5A2",
+      "CYP19A1",
+      "ESR2",
+      "CDKN2A",
+      "MKI67",
+      "IGF1",
+      "TGFB1"
+    ],
+    "treatments": [
+      "Exercise (reduces BPH progression)",
+      "Caloric restriction / Mediterranean diet",
+      "Saw palmetto (5\u03b1-reductase inhibitor)",
+      "Metformin (anti-proliferative)",
+      "Fisetin / Quercetin (anti-inflammatory)"
     ]
   },
   {
@@ -3229,6 +4281,23 @@
     "pubmed_search_terms": [
       "erectile dysfunction aging mechanisms endothelial",
       "ED aging vascular senescence NO"
+    ],
+    "key_genes": [
+      "NOS3",
+      "PDE5A",
+      "SRD5A2",
+      "AR",
+      "VEGFA",
+      "CDKN2A",
+      "SOD1",
+      "SOD2"
+    ],
+    "treatments": [
+      "Exercise (endothelial NO restoration)",
+      "NAD+ precursors (NMN/NR \u2013 eNOS activity)",
+      "Testosterone replacement (hypogonadism component)",
+      "L-arginine / L-citrulline (NO precursors)",
+      "PDE5 inhibitors (sildenafil \u2013 downstream NO)"
     ]
   },
   {
@@ -3256,7 +4325,7 @@
       {
         "mechanism_id": "mech_nfkb_signaling",
         "confidence": 0.8,
-        "notes": "TET2-mutant macrophages show NF-κB hyperactivation and excess IL-1β"
+        "notes": "TET2-mutant macrophages show NF-\u03baB hyperactivation and excess IL-1\u03b2"
       }
     ],
     "hallmark_direct_links": [
@@ -3280,6 +4349,23 @@
     "pubmed_search_terms": [
       "CHIP aging clonal hematopoiesis mechanisms hallmarks",
       "somatic mutation aging hematopoiesis cardiovascular"
+    ],
+    "key_genes": [
+      "DNMT3A",
+      "TET2",
+      "ASXL1",
+      "JAK2",
+      "TP53",
+      "SF3B1",
+      "SRSF2",
+      "IDH1"
+    ],
+    "treatments": [
+      "Exercise (reduces CHIP cardiovascular risk)",
+      "Metformin (anti-inflammatory CHIP)",
+      "Vitamin C (TET2 cofactor, high-dose)",
+      "Colchicine (IL-1\u03b2 / NLRP3 inhibition for CHIP CVD risk)",
+      "NAD+ precursors (NMN/NR \u2013 HSC function)"
     ]
   },
   {
@@ -3331,6 +4417,23 @@
     "pubmed_search_terms": [
       "anemia of aging mechanisms hematopoiesis inflammation",
       "age-related anemia stem cell exhaustion aging"
+    ],
+    "key_genes": [
+      "EPO",
+      "EPOR",
+      "HAMP",
+      "BMP6",
+      "IL6",
+      "CDKN2A",
+      "LGR5",
+      "GATA1"
+    ],
+    "treatments": [
+      "Exercise (EPO-independent erythropoiesis)",
+      "NAD+ precursors (NMN/NR \u2013 mitochondria in erythroids)",
+      "Iron supplementation (if deficient)",
+      "Anti-IL-6 (if inflammation-driven)",
+      "Caloric restriction with adequate protein"
     ]
   },
   {
@@ -3378,6 +4481,23 @@
     "pubmed_search_terms": [
       "thrombocytopenia aging megakaryocyte stem cell",
       "platelet decline aging bone marrow mechanisms"
+    ],
+    "key_genes": [
+      "MPL",
+      "THPO",
+      "GATA1",
+      "RUNX1",
+      "DNMT3A",
+      "TET2",
+      "CDKN2A",
+      "FLI1"
+    ],
+    "treatments": [
+      "NAD+ precursors (NMN/NR)",
+      "Exercise (bone marrow niche support)",
+      "Eltrombopag (TPO receptor agonist)",
+      "Caloric restriction",
+      "Dasatinib + Quercetin (marrow senolytic)"
     ]
   },
   {
@@ -3429,6 +4549,22 @@
     "pubmed_search_terms": [
       "adrenal insufficiency aging mechanisms",
       "adrenal aging steroidogenesis mitochondria autoimmune"
+    ],
+    "key_genes": [
+      "CYP21A2",
+      "NR0B1",
+      "MC2R",
+      "STAR",
+      "PPARGC1A",
+      "NRF2",
+      "FOXO3",
+      "HSD3B2"
+    ],
+    "treatments": [
+      "Hydrocortisone (glucocorticoid replacement)",
+      "DHEA supplementation (adrenal androgen)",
+      "Exercise (adrenal resilience)",
+      "NAD+ precursors (NMN/NR \u2013 steroidogenic mitochondria)"
     ]
   },
   {
@@ -3451,7 +4587,7 @@
       {
         "mechanism_id": "mech_mitochondrial_biogenesis",
         "confidence": 0.7,
-        "notes": "GH/IGF-1 promotes mitochondrial biogenesis via PGC-1α"
+        "notes": "GH/IGF-1 promotes mitochondrial biogenesis via PGC-1\u03b1"
       },
       {
         "mechanism_id": "mech_immunosenescence",
@@ -3480,6 +4616,23 @@
     "pubmed_search_terms": [
       "somatopause aging GH IGF-1 decline mechanisms",
       "growth hormone deficiency aging sarcopenia frailty"
+    ],
+    "key_genes": [
+      "GH1",
+      "GHR",
+      "IGF1",
+      "IGF1R",
+      "GHRH",
+      "PPARGC1A",
+      "FOXO3",
+      "MTOR"
+    ],
+    "treatments": [
+      "Exercise (GH secretagogue, anabolic)",
+      "Metformin (AMPK / beneficial low IGF-1 mimicry)",
+      "Caloric restriction (longevity via low IGF-1)",
+      "NAD+ precursors (NMN/NR)",
+      "GH replacement (selected patients \u2013 short-term only)"
     ]
   },
   {
@@ -3561,6 +4714,23 @@
     "pubmed_search_terms": [
       "ischemic stroke aging mechanisms hallmarks",
       "stroke aging inflammation vascular senescence"
+    ],
+    "key_genes": [
+      "F5",
+      "APOE",
+      "NOS3",
+      "ACE",
+      "MTHFR",
+      "IL6",
+      "TNF",
+      "NOTCH3"
+    ],
+    "treatments": [
+      "Exercise (vascular aging prevention)",
+      "Metformin (AMPK activator / vascular protection)",
+      "Statins (pleiotropic anti-inflammatory)",
+      "Mediterranean diet",
+      "NAD+ precursors (NMN/NR)"
     ]
   },
   {
@@ -3612,6 +4782,23 @@
     "pubmed_search_terms": [
       "diabetic neuropathy aging mechanisms oxidative stress",
       "peripheral neuropathy diabetes aging mitochondria"
+    ],
+    "key_genes": [
+      "TRPV1",
+      "SCN9A",
+      "NGF",
+      "TFAM",
+      "SOD2",
+      "RAGE",
+      "AGER",
+      "PINK1"
+    ],
+    "treatments": [
+      "Metformin (AMPK activator)",
+      "Alpha-lipoic acid (mitochondrial antioxidant)",
+      "Exercise (improves peripheral nerve blood flow)",
+      "NAD+ precursors (NMN/NR)",
+      "Benfotiamine (AGE pathway inhibitor)"
     ]
   },
   {
@@ -3717,6 +4904,23 @@
     ],
     "pubmed_search_terms": [
       "Diabetes Mellitus aging"
+    ],
+    "key_genes": [
+      "INS",
+      "IRS1",
+      "FOXO1",
+      "MTOR",
+      "SIRT1",
+      "PPARG",
+      "ADIPOQ",
+      "TERT"
+    ],
+    "treatments": [
+      "Metformin (first-line, AMPK/lifespan-extending)",
+      "SGLT2 inhibitors (cardio-renal protection)",
+      "Exercise",
+      "Caloric restriction / Mediterranean diet",
+      "NAD+ precursors (NMN/NR)"
     ]
   },
   {
@@ -3822,6 +5026,23 @@
     ],
     "pubmed_search_terms": [
       "Macular Degeneration aging"
+    ],
+    "key_genes": [
+      "CFH",
+      "ARMS2",
+      "HTRA1",
+      "VEGFA",
+      "C3",
+      "ABCA4",
+      "NRF2",
+      "TFEB"
+    ],
+    "treatments": [
+      "AREDS2 supplements (lutein, zeaxanthin, vitamins C/E, zinc)",
+      "NAD+ precursors (NMN/NR \u2013 RPE mitochondria)",
+      "Rapamycin (autophagy induction)",
+      "Anti-VEGF therapy (wet AMD)",
+      "Exercise (anti-inflammatory)"
     ]
   },
   {
@@ -3927,6 +5148,23 @@
     ],
     "pubmed_search_terms": [
       "Diabetes Mellitus Type 2 aging"
+    ],
+    "key_genes": [
+      "IRS1",
+      "FOXO1",
+      "MTOR",
+      "SIRT1",
+      "PPARG",
+      "GCK",
+      "TCF7L2",
+      "ADIPOQ"
+    ],
+    "treatments": [
+      "Metformin (AMPK activator)",
+      "SGLT2 inhibitors",
+      "GLP-1 receptor agonists (semaglutide)",
+      "Caloric restriction / intermittent fasting",
+      "Exercise"
     ]
   },
   {
@@ -3935,7 +5173,7 @@
     "mesh_id": "MESH:D029424",
     "icd10": "TBD",
     "system": "pulmonary",
-    "description": "Chronic obstructive pulmonary disease (COPD) is characterized by persistent, largely irreversible airflow limitation resulting from chronic bronchitis, emphysema, or both, typically caused by long-term exposure to noxious particles or gases. COPD exhibits striking hallmarks of accelerated lung aging, including telomere shortening in airway epithelial cells, premature cellular senescence with senescence-associated secretory phenotype (SASP) driving ongoing inflammation, and impaired autophagy that fails to clear damaged cellular components. The disease exemplifies the concept of accelerated organ aging, with COPD lungs displaying transcriptomic and epigenetic profiles resembling tissues 20–30 years older than chronological age.",
+    "description": "Chronic obstructive pulmonary disease (COPD) is characterized by persistent, largely irreversible airflow limitation resulting from chronic bronchitis, emphysema, or both, typically caused by long-term exposure to noxious particles or gases. COPD exhibits striking hallmarks of accelerated lung aging, including telomere shortening in airway epithelial cells, premature cellular senescence with senescence-associated secretory phenotype (SASP) driving ongoing inflammation, and impaired autophagy that fails to clear damaged cellular components. The disease exemplifies the concept of accelerated organ aging, with COPD lungs displaying transcriptomic and epigenetic profiles resembling tissues 20\u201330 years older than chronological age.",
     "mechanism_links": [
       {
         "mechanism_id": "mech_telomere_ddr",
@@ -4027,6 +5265,23 @@
     ],
     "pubmed_search_terms": [
       "Pulmonary Disease Chronic Obstructive aging"
+    ],
+    "key_genes": [
+      "SERPINA1",
+      "TERT",
+      "CDKN2A",
+      "NRF2",
+      "IL6",
+      "MMP12",
+      "HDAC2",
+      "SIRT1"
+    ],
+    "treatments": [
+      "Exercise (pulmonary rehabilitation)",
+      "NAD+ precursors (NMN/NR)",
+      "Rapamycin (senescence suppression)",
+      "Dasatinib + Quercetin (airway senolytic)",
+      "Smoking cessation"
     ]
   },
   {
@@ -4122,6 +5377,23 @@
     ],
     "pubmed_search_terms": [
       "Renal Insufficiency Chronic aging"
+    ],
+    "key_genes": [
+      "KL",
+      "FGF23",
+      "TGFB1",
+      "CDKN2A",
+      "NRF2",
+      "HIF1A",
+      "SIRT1",
+      "MTOR"
+    ],
+    "treatments": [
+      "SGLT2 inhibitors",
+      "Exercise (slow GFR decline)",
+      "Metformin (AMPK \u2013 caution in advanced CKD)",
+      "NAD+ precursors (NMN/NR)",
+      "Mediterranean diet / protein restriction"
     ]
   },
   {
@@ -4130,7 +5402,7 @@
     "mesh_id": "MESH:D003704",
     "icd10": "TBD",
     "system": "neurological",
-    "description": "Dementia is an umbrella clinical syndrome of progressive cognitive decline—affecting memory, language, executive function, and behavior—severe enough to impair daily activities, arising from diverse underlying neurodegenerative and vascular pathologies. Age is the dominant risk factor, with dementia prevalence doubling approximately every five years after age 65, reflecting decades of cumulative neuronal loss, protein aggregation, synaptic failure, and neuroinflammation. Common upstream aging mechanisms include deregulated nutrient sensing via IGF-1/insulin signaling, impaired proteostasis enabling accumulation of amyloid-beta, tau, and TDP-43 aggregates, and chronic neuroinflammation sustained by senescent microglia.",
+    "description": "Dementia is an umbrella clinical syndrome of progressive cognitive decline\u2014affecting memory, language, executive function, and behavior\u2014severe enough to impair daily activities, arising from diverse underlying neurodegenerative and vascular pathologies. Age is the dominant risk factor, with dementia prevalence doubling approximately every five years after age 65, reflecting decades of cumulative neuronal loss, protein aggregation, synaptic failure, and neuroinflammation. Common upstream aging mechanisms include deregulated nutrient sensing via IGF-1/insulin signaling, impaired proteostasis enabling accumulation of amyloid-beta, tau, and TDP-43 aggregates, and chronic neuroinflammation sustained by senescent microglia.",
     "mechanism_links": [
       {
         "mechanism_id": "mech_proteome_imbalance",
@@ -4227,6 +5499,23 @@
     ],
     "pubmed_search_terms": [
       "Dementia aging"
+    ],
+    "key_genes": [
+      "APP",
+      "MAPT",
+      "APOE",
+      "PSEN1",
+      "PSEN2",
+      "TREM2",
+      "CLU",
+      "FOXO3"
+    ],
+    "treatments": [
+      "Exercise (aerobic + resistance)",
+      "Metformin (AMPK / insulin sensitizer)",
+      "Rapamycin (mTOR inhibitor)",
+      "NAD+ precursors (NMN/NR)",
+      "Mediterranean-MIND diet"
     ]
   },
   {
@@ -4327,6 +5616,23 @@
     ],
     "pubmed_search_terms": [
       "Heart Failure aging"
+    ],
+    "key_genes": [
+      "MTOR",
+      "PPARGC1A",
+      "TGFB1",
+      "BCL2",
+      "TNNT2",
+      "MYH7",
+      "NPPA",
+      "NPPB"
+    ],
+    "treatments": [
+      "SGLT2 inhibitors (empagliflozin/dapagliflozin)",
+      "Exercise (cardiac rehabilitation)",
+      "Metformin (AMPK activator)",
+      "NAD+ precursors (NMN/NR)",
+      "Sacubitril/valsartan"
     ]
   },
   {
@@ -4335,7 +5641,7 @@
     "mesh_id": "MESH:D002313",
     "icd10": "TBD",
     "system": "cardiovascular",
-    "description": "Restrictive cardiomyopathy is characterized by abnormal diastolic filling of one or both ventricles due to increased myocardial stiffness, typically with preserved or near-normal systolic function and normal or reduced ventricular volumes. Many forms arise from infiltrative pathologies (amyloidosis, hemochromatosis, sarcoidosis) whose prevalence or severity increases with age, and idiopathic forms share mechanisms of age-related myocardial fibrosis including TGF-β–mediated collagen deposition and impaired proteostasis. Deregulated nutrient-sensing pathways, epigenetic remodeling of cardiac fibroblasts, and telomere dysfunction in cardiomyocytes contribute to the age-associated increase in diastolic stiffness underlying this condition.",
+    "description": "Restrictive cardiomyopathy is characterized by abnormal diastolic filling of one or both ventricles due to increased myocardial stiffness, typically with preserved or near-normal systolic function and normal or reduced ventricular volumes. Many forms arise from infiltrative pathologies (amyloidosis, hemochromatosis, sarcoidosis) whose prevalence or severity increases with age, and idiopathic forms share mechanisms of age-related myocardial fibrosis including TGF-\u03b2\u2013mediated collagen deposition and impaired proteostasis. Deregulated nutrient-sensing pathways, epigenetic remodeling of cardiac fibroblasts, and telomere dysfunction in cardiomyocytes contribute to the age-associated increase in diastolic stiffness underlying this condition.",
     "mechanism_links": [
       {
         "mechanism_id": "mech_mtor_hyperactivation",
@@ -4412,6 +5718,22 @@
     ],
     "pubmed_search_terms": [
       "Cardiomyopathy Restrictive aging"
+    ],
+    "key_genes": [
+      "MTOR",
+      "TGFB1",
+      "MYH7",
+      "TNNI3",
+      "TTR",
+      "LAMP2",
+      "GLA",
+      "PRKAG2"
+    ],
+    "treatments": [
+      "Rapamycin (mTOR inhibitor)",
+      "SGLT2 inhibitors",
+      "NAD+ precursors (NMN/NR)",
+      "Tafamidis (for TTR amyloidosis subtype)"
     ]
   },
   {
@@ -4487,6 +5809,23 @@
     ],
     "pubmed_search_terms": [
       "Asthma aging"
+    ],
+    "key_genes": [
+      "IL4",
+      "IL5",
+      "IL13",
+      "GATA3",
+      "ORMDL3",
+      "CDKN2A",
+      "TERT",
+      "FOXP3"
+    ],
+    "treatments": [
+      "Exercise (anti-inflammatory, improves lung function)",
+      "Vitamin D supplementation",
+      "NAD+ precursors (NMN/NR)",
+      "Mediterranean diet",
+      "Fecal microbiota transplantation (gut-lung axis)"
     ]
   },
   {
@@ -4582,6 +5921,23 @@
     ],
     "pubmed_search_terms": [
       "Carcinoma Hepatocellular aging"
+    ],
+    "key_genes": [
+      "TP53",
+      "CTNNB1",
+      "TERT",
+      "CDKN2A",
+      "ARID1A",
+      "MTOR",
+      "MYC",
+      "RB1"
+    ],
+    "treatments": [
+      "Metformin (AMPK / mTOR / HCC prevention)",
+      "Rapamycin (mTOR inhibitor)",
+      "Caloric restriction",
+      "Exercise",
+      "Dasatinib + Quercetin (hepatic senolytic)"
     ]
   },
   {
@@ -4662,6 +6018,23 @@
     ],
     "pubmed_search_terms": [
       "Intervertebral Disc Degeneration aging"
+    ],
+    "key_genes": [
+      "CDKN2A",
+      "MMP3",
+      "ADAMTS4",
+      "COL2A1",
+      "ACAN",
+      "TGFB1",
+      "IL1B",
+      "MTOR"
+    ],
+    "treatments": [
+      "Exercise (spinal loading / disc nutrition)",
+      "Rapamycin (mTOR / senescence suppression)",
+      "Dasatinib + Quercetin (nucleus pulposus senolytic)",
+      "NAD+ precursors (NMN/NR)",
+      "Caloric restriction"
     ]
   },
   {
@@ -4747,6 +6120,23 @@
     ],
     "pubmed_search_terms": [
       "Leukemia aging"
+    ],
+    "key_genes": [
+      "BCR",
+      "ABL1",
+      "DNMT3A",
+      "TET2",
+      "FLT3",
+      "TP53",
+      "CDKN2A",
+      "MYC"
+    ],
+    "treatments": [
+      "Metformin (anti-leukemic AMPK)",
+      "NAD+ precursors (NMN/NR)",
+      "Dasatinib (BCR-ABL + senolytic dual action)",
+      "Exercise (bone marrow niche)",
+      "Rapamycin (mTOR inhibitor)"
     ]
   },
   {
@@ -4755,7 +6145,7 @@
     "mesh_id": "MESH:C000718787",
     "icd10": "TBD",
     "system": "systemic",
-    "description": "AA amyloidosis is a systemic disorder caused by extracellular deposition of insoluble fibrils derived from serum amyloid A (SAA), an acute-phase reactant chronically elevated during persistent inflammatory or infectious conditions, with preferential involvement of kidney, liver, and spleen. The aging process substantially increases susceptibility, as decades of subclinical or overt chronic inflammation raise circulating SAA concentrations, and impaired proteostasis reduces the cellular capacity to clear misfolded amyloidogenic precursors. Deficits in autophagy and ubiquitin-proteasome clearance—established hallmarks of aging—permit amyloid fibril accumulation, linking AA amyloidosis pathogenesis directly to age-related decline in protein quality control.",
+    "description": "AA amyloidosis is a systemic disorder caused by extracellular deposition of insoluble fibrils derived from serum amyloid A (SAA), an acute-phase reactant chronically elevated during persistent inflammatory or infectious conditions, with preferential involvement of kidney, liver, and spleen. The aging process substantially increases susceptibility, as decades of subclinical or overt chronic inflammation raise circulating SAA concentrations, and impaired proteostasis reduces the cellular capacity to clear misfolded amyloidogenic precursors. Deficits in autophagy and ubiquitin-proteasome clearance\u2014established hallmarks of aging\u2014permit amyloid fibril accumulation, linking AA amyloidosis pathogenesis directly to age-related decline in protein quality control.",
     "mechanism_links": [
       {
         "mechanism_id": "mech_proteome_imbalance",
@@ -4832,6 +6222,23 @@
     ],
     "pubmed_search_terms": [
       "AA amyloidosis aging"
+    ],
+    "key_genes": [
+      "SAA1",
+      "SAA2",
+      "IL6",
+      "TNF",
+      "IL1B",
+      "HSPA1A",
+      "BECN1",
+      "SQSTM1"
+    ],
+    "treatments": [
+      "Anti-IL-6 therapy (tocilizumab \u2013 reduces SAA production)",
+      "Colchicine (anti-inflammatory for FMF-associated AA)",
+      "Metformin (AMPK / anti-inflammatory)",
+      "Rapamycin (autophagy induction)",
+      "Caloric restriction"
     ]
   },
   {
@@ -4917,6 +6324,23 @@
     ],
     "pubmed_search_terms": [
       "Cystic Fibrosis aging"
+    ],
+    "key_genes": [
+      "CFTR",
+      "NRF2",
+      "IL6",
+      "IL8",
+      "TNF",
+      "CDKN2A",
+      "TERT",
+      "MUC5B"
+    ],
+    "treatments": [
+      "CFTR modulators (elexacaftor/tezacaftor/ivacaftor)",
+      "NAC / N-acetylcysteine (antioxidant)",
+      "Exercise (mucociliary clearance)",
+      "NAD+ precursors (NMN/NR)",
+      "Probiotics (gut dysbiosis correction)"
     ]
   },
   {
@@ -4997,6 +6421,23 @@
     ],
     "pubmed_search_terms": [
       "Brain Injuries Traumatic aging"
+    ],
+    "key_genes": [
+      "TP53",
+      "CDKN2A",
+      "IL6",
+      "TNF",
+      "HMGB1",
+      "NRF2",
+      "PINK1",
+      "BCL2"
+    ],
+    "treatments": [
+      "NAD+ precursors (NMN/NR \u2013 neuroprotective)",
+      "Progesterone (neuroprotective)",
+      "Exercise (rehabilitation / neuroplasticity)",
+      "Omega-3 fatty acids",
+      "Quercetin (anti-neuroinflammatory)"
     ]
   },
   {
@@ -5005,7 +6446,7 @@
     "mesh_id": "MESH:D009133",
     "icd10": "TBD",
     "system": "musculoskeletal",
-    "description": "Muscular atrophy is the pathological loss of skeletal muscle mass and strength resulting from reduced protein synthesis, increased proteolysis, denervation, disuse, or systemic disease, manifesting as weakness, exercise intolerance, and functional impairment. Sarcopenia—the age-related form—affects the majority of individuals over 80 and is mechanistically driven by decline in anabolic signaling (IGF-1/mTOR/Akt), impaired satellite cell self-renewal reflecting stem cell exhaustion, and mitophagy failure accumulating dysfunctional mitochondria in muscle fibers. Impaired proteostasis with upregulated ubiquitin-proteasome and autophagy-lysosome degradation pathways, combined with chronic low-grade inflammation generating muscle-wasting cytokines such as IL-6 and TNF-α, establishes direct links between aging hallmarks and muscular atrophy.",
+    "description": "Muscular atrophy is the pathological loss of skeletal muscle mass and strength resulting from reduced protein synthesis, increased proteolysis, denervation, disuse, or systemic disease, manifesting as weakness, exercise intolerance, and functional impairment. Sarcopenia\u2014the age-related form\u2014affects the majority of individuals over 80 and is mechanistically driven by decline in anabolic signaling (IGF-1/mTOR/Akt), impaired satellite cell self-renewal reflecting stem cell exhaustion, and mitophagy failure accumulating dysfunctional mitochondria in muscle fibers. Impaired proteostasis with upregulated ubiquitin-proteasome and autophagy-lysosome degradation pathways, combined with chronic low-grade inflammation generating muscle-wasting cytokines such as IL-6 and TNF-\u03b1, establishes direct links between aging hallmarks and muscular atrophy.",
     "mechanism_links": [
       {
         "mechanism_id": "mech_autophagy_flux_decline",
@@ -5097,6 +6538,23 @@
     ],
     "pubmed_search_terms": [
       "Muscular Atrophy aging"
+    ],
+    "key_genes": [
+      "FOXO3",
+      "MURF1",
+      "MAFBX",
+      "IGF1",
+      "MTOR",
+      "PPARGC1A",
+      "PAX7",
+      "MSTN"
+    ],
+    "treatments": [
+      "Resistance exercise (primary intervention)",
+      "NAD+ precursors (NMN/NR \u2013 mitochondrial function)",
+      "Urolithin A (mitophagy)",
+      "Leucine / protein supplementation",
+      "Rapamycin (low-dose intermittent \u2013 muscle quality)"
     ]
   },
   {
@@ -5182,6 +6640,22 @@
     ],
     "pubmed_search_terms": [
       "Aneuploidy aging"
+    ],
+    "key_genes": [
+      "BUB1",
+      "MAD2L1",
+      "BUBR1",
+      "AURKB",
+      "TP53",
+      "BRCA1",
+      "ATM",
+      "CDKN2A"
+    ],
+    "treatments": [
+      "NAD+ precursors (NMN/NR \u2013 DNA repair / chromosome stability)",
+      "Caloric restriction (reduces mitotic errors)",
+      "Exercise",
+      "Rapamycin (mTOR / genomic maintenance)"
     ]
   },
   {
@@ -5272,6 +6746,23 @@
     ],
     "pubmed_search_terms": [
       "Infertility aging"
+    ],
+    "key_genes": [
+      "TERT",
+      "BRCA2",
+      "FOXO3",
+      "AMH",
+      "FSHR",
+      "PINK1",
+      "SIRT1",
+      "COQ2"
+    ],
+    "treatments": [
+      "NAD+ precursors (NMN/NR \u2013 oocyte mitochondrial quality)",
+      "Caloric restriction (ovarian reserve protection)",
+      "CoQ10 (mitochondrial energy in oocytes)",
+      "Exercise (moderate \u2013 reproductive health)",
+      "Metformin (PCOS / insulin sensitization)"
     ]
   },
   {
@@ -5352,6 +6843,23 @@
     ],
     "pubmed_search_terms": [
       "Liver Failure aging"
+    ],
+    "key_genes": [
+      "TP53",
+      "TGFB1",
+      "CDKN2A",
+      "MMP2",
+      "TFEB",
+      "PINK1",
+      "NRF2",
+      "FXR"
+    ],
+    "treatments": [
+      "FMT / probiotics (gut dysbiosis correction)",
+      "NAC / N-acetylcysteine (antioxidant \u2013 acute liver failure)",
+      "Metformin (metabolic protection \u2013 early disease)",
+      "Rifaximin (endotoxin reduction)",
+      "Rapamycin (autophagy / mTOR)"
     ]
   },
   {
@@ -5360,7 +6868,7 @@
     "mesh_id": "MESH:D001172",
     "icd10": "TBD",
     "system": "musculoskeletal",
-    "description": "Rheumatoid arthritis (RA) is a chronic systemic autoimmune disease characterized by symmetric inflammatory polyarthritis, synovial hyperplasia, pannus formation, and progressive cartilage and bone destruction, with peak onset in the fourth to sixth decades. RA exemplifies immunosenescence-driven pathology: age-related contraction of T-cell receptor diversity, defective DNA damage repair in synovial fibroblasts generating a senescence-associated secretory phenotype, and chronically activated synovial macrophages sustaining joint inflammation even in the absence of overt autoantigen stimulation. Cellular senescence of fibroblast-like synoviocytes with SASP-mediated IL-6, IL-1β, and matrix metalloproteinase secretion is a central mechanism linking aging hallmarks to the invasive and destructive RA phenotype.",
+    "description": "Rheumatoid arthritis (RA) is a chronic systemic autoimmune disease characterized by symmetric inflammatory polyarthritis, synovial hyperplasia, pannus formation, and progressive cartilage and bone destruction, with peak onset in the fourth to sixth decades. RA exemplifies immunosenescence-driven pathology: age-related contraction of T-cell receptor diversity, defective DNA damage repair in synovial fibroblasts generating a senescence-associated secretory phenotype, and chronically activated synovial macrophages sustaining joint inflammation even in the absence of overt autoantigen stimulation. Cellular senescence of fibroblast-like synoviocytes with SASP-mediated IL-6, IL-1\u03b2, and matrix metalloproteinase secretion is a central mechanism linking aging hallmarks to the invasive and destructive RA phenotype.",
     "mechanism_links": [
       {
         "mechanism_id": "mech_nfkb_signaling",
@@ -5427,6 +6935,23 @@
     ],
     "pubmed_search_terms": [
       "Arthritis Rheumatoid aging"
+    ],
+    "key_genes": [
+      "HLA-DRB1",
+      "PTPN22",
+      "TNF",
+      "IL6",
+      "IL1B",
+      "MMP3",
+      "CDKN2A",
+      "STAT3"
+    ],
+    "treatments": [
+      "Exercise (anti-inflammatory, synovial health)",
+      "Methotrexate (first-line DMARD)",
+      "Dasatinib + Quercetin (FLS senolytic)",
+      "Rapamycin (Treg restoration)",
+      "Metformin (anti-inflammatory AMPK)"
     ]
   },
   {
@@ -5522,6 +7047,23 @@
     ],
     "pubmed_search_terms": [
       "Genetic Diseases Inborn aging"
+    ],
+    "key_genes": [
+      "LMNA",
+      "WRN",
+      "RECQL4",
+      "BLM",
+      "ERCC2",
+      "POLG",
+      "NRF2",
+      "TP53"
+    ],
+    "treatments": [
+      "Rapamycin (progeria \u2013 lonafarnib + rapamycin trial)",
+      "NAD+ precursors (NMN/NR \u2013 DNA repair syndromes)",
+      "Exercise",
+      "Caloric restriction",
+      "Lonafarnib (progerin farnesylation inhibitor)"
     ]
   },
   {
@@ -5592,6 +7134,23 @@
     ],
     "pubmed_search_terms": [
       "Periodontitis aging"
+    ],
+    "key_genes": [
+      "IL6",
+      "IL1B",
+      "TNF",
+      "MMP8",
+      "MMP9",
+      "RANKL",
+      "OPG",
+      "FOXP3"
+    ],
+    "treatments": [
+      "Metformin (anti-inflammatory AMPK)",
+      "Exercise (systemic anti-inflammatory)",
+      "Probiotics (oral microbiome rebalancing)",
+      "Caloric restriction / Mediterranean diet",
+      "Fisetin / Quercetin (anti-inflammatory)"
     ]
   },
   {
@@ -5600,7 +7159,7 @@
     "mesh_id": "MESH:D057165",
     "icd10": "TBD",
     "system": "systemic",
-    "description": "Proteostasis deficiencies refer to disorders arising from impaired protein homeostasis—the cellular network of chaperones, ubiquitin-proteasome system, and autophagy that ensures proteins are correctly folded, localized, and degraded—leading to accumulation of misfolded, aggregated, or toxic protein species. Loss of proteostasis is a canonical hallmark of aging, as all three arms of the proteostasis network decline progressively with age due to reduced chaperone induction, proteasome activity, and autophagic flux, making the aged proteome vulnerable to aggregation. This category includes conditions such as systemic and tissue-specific amyloidoses, inclusion body disorders, and protein conformation diseases that are strongly age-associated because of this age-dependent deterioration of cellular protein quality control.",
+    "description": "Proteostasis deficiencies refer to disorders arising from impaired protein homeostasis\u2014the cellular network of chaperones, ubiquitin-proteasome system, and autophagy that ensures proteins are correctly folded, localized, and degraded\u2014leading to accumulation of misfolded, aggregated, or toxic protein species. Loss of proteostasis is a canonical hallmark of aging, as all three arms of the proteostasis network decline progressively with age due to reduced chaperone induction, proteasome activity, and autophagic flux, making the aged proteome vulnerable to aggregation. This category includes conditions such as systemic and tissue-specific amyloidoses, inclusion body disorders, and protein conformation diseases that are strongly age-associated because of this age-dependent deterioration of cellular protein quality control.",
     "mechanism_links": [
       {
         "mechanism_id": "mech_proteome_imbalance",
@@ -5662,6 +7221,23 @@
     ],
     "pubmed_search_terms": [
       "Proteostasis Deficiencies aging"
+    ],
+    "key_genes": [
+      "HSPA1A",
+      "HSPB1",
+      "SQSTM1",
+      "BECN1",
+      "UBQLN2",
+      "VCP",
+      "ATG7",
+      "LAMP2A"
+    ],
+    "treatments": [
+      "Rapamycin (autophagy induction \u2013 primary intervention)",
+      "NAD+ precursors (NMN/NR \u2013 chaperone energy)",
+      "Caloric restriction (proteostasis enhancement)",
+      "Trehalose (chemical chaperone)",
+      "Exercise (HSP induction)"
     ]
   },
   {
@@ -5670,7 +7246,7 @@
     "mesh_id": "MESH:D011371",
     "icd10": "TBD",
     "system": "genomic",
-    "description": "Progeria (Hutchinson-Gilford Progeria Syndrome, HGPS) is an ultra-rare autosomal dominant premature aging disorder caused by a de novo LMNA point mutation producing progerin, a truncated and permanently farnesylated form of lamin A that disrupts nuclear architecture and triggers accelerated aging phenotypes in children. Affected individuals develop within the first decade features of advanced aging including alopecia, atherosclerosis, lipodystrophy, osteoporosis, and sclerodermatous skin, dying predominantly of myocardial infarction or stroke in their early teens. The disease is an invaluable model for normal aging because progerin disrupts virtually all canonical aging hallmarks—inducing genomic instability, telomere dysfunction, epigenetic deregulation, deregulated nutrient sensing via mTOR, and impaired proteostasis—in a compressed and severe form.",
+    "description": "Progeria (Hutchinson-Gilford Progeria Syndrome, HGPS) is an ultra-rare autosomal dominant premature aging disorder caused by a de novo LMNA point mutation producing progerin, a truncated and permanently farnesylated form of lamin A that disrupts nuclear architecture and triggers accelerated aging phenotypes in children. Affected individuals develop within the first decade features of advanced aging including alopecia, atherosclerosis, lipodystrophy, osteoporosis, and sclerodermatous skin, dying predominantly of myocardial infarction or stroke in their early teens. The disease is an invaluable model for normal aging because progerin disrupts virtually all canonical aging hallmarks\u2014inducing genomic instability, telomere dysfunction, epigenetic deregulation, deregulated nutrient sensing via mTOR, and impaired proteostasis\u2014in a compressed and severe form.",
     "mechanism_links": [
       {
         "mechanism_id": "mech_epigenetic_clock",
@@ -5747,6 +7323,23 @@
     ],
     "pubmed_search_terms": [
       "Progeria aging"
+    ],
+    "key_genes": [
+      "LMNA",
+      "ZMPSTE24",
+      "ICMT",
+      "HDAC2",
+      "DNMT1",
+      "MTOR",
+      "TP53",
+      "TERT"
+    ],
+    "treatments": [
+      "Lonafarnib (progerin farnesylation inhibitor \u2013 approved)",
+      "Rapamycin (autophagy / mTOR)",
+      "Pravastatin + zoledronate (progerin processing)",
+      "NAD+ precursors (NMN/NR \u2013 genome stability)",
+      "Caloric restriction"
     ]
   },
   {
@@ -5822,6 +7415,23 @@
     ],
     "pubmed_search_terms": [
       "Sleep Apnea Obstructive aging"
+    ],
+    "key_genes": [
+      "HIF1A",
+      "NOS3",
+      "NRF2",
+      "IL6",
+      "TNF",
+      "ADIPOQ",
+      "MTOR",
+      "CLOCK"
+    ],
+    "treatments": [
+      "CPAP therapy",
+      "Exercise + weight loss",
+      "Metformin (AMPK / mTOR)",
+      "NAD+ precursors (NMN/NR)",
+      "Caloric restriction"
     ]
   },
   {
@@ -5830,7 +7440,7 @@
     "mesh_id": "MESH:D060825",
     "icd10": "TBD",
     "system": "neurological",
-    "description": "Cognitive dysfunction encompasses a spectrum of deficits in memory, attention, processing speed, executive function, and visuospatial ability that fall short of dementia criteria, including mild cognitive impairment (MCI), which represents a significant risk state for progression to Alzheimer's disease and other dementias. Age is the single most powerful determinant of cognitive decline, with normal aging producing measurable reductions in episodic memory and processing speed, and pathological aging producing MCI in approximately 15–20% of adults over 65. Telomere attrition in hippocampal neurons, impaired autophagy reducing clearance of neurotoxic aggregates, and deregulated insulin-IGF-1 signaling that alters synaptic plasticity and neurogenesis are established aging mechanisms linking the hallmarks of aging to progressive cognitive deterioration.",
+    "description": "Cognitive dysfunction encompasses a spectrum of deficits in memory, attention, processing speed, executive function, and visuospatial ability that fall short of dementia criteria, including mild cognitive impairment (MCI), which represents a significant risk state for progression to Alzheimer's disease and other dementias. Age is the single most powerful determinant of cognitive decline, with normal aging producing measurable reductions in episodic memory and processing speed, and pathological aging producing MCI in approximately 15\u201320% of adults over 65. Telomere attrition in hippocampal neurons, impaired autophagy reducing clearance of neurotoxic aggregates, and deregulated insulin-IGF-1 signaling that alters synaptic plasticity and neurogenesis are established aging mechanisms linking the hallmarks of aging to progressive cognitive deterioration.",
     "mechanism_links": [
       {
         "mechanism_id": "mech_telomere_ddr",
@@ -5912,6 +7522,23 @@
     ],
     "pubmed_search_terms": [
       "Cognitive Dysfunction aging"
+    ],
+    "key_genes": [
+      "BDNF",
+      "FOXO3",
+      "SIRT1",
+      "IGF1",
+      "MTOR",
+      "APOE",
+      "TERT",
+      "CLOCK"
+    ],
+    "treatments": [
+      "Exercise (aerobic \u2013 BDNF/neurogenesis)",
+      "Metformin (AMPK activator)",
+      "NAD+ precursors (NMN/NR)",
+      "Caloric restriction / intermittent fasting",
+      "Omega-3 fatty acids (DHA/EPA)"
     ]
   },
   {
@@ -5992,6 +7619,23 @@
     ],
     "pubmed_search_terms": [
       "Anxiety aging"
+    ],
+    "key_genes": [
+      "BDNF",
+      "SLC6A4",
+      "GABRA2",
+      "FKBP5",
+      "CRHR1",
+      "IL6",
+      "TERT",
+      "FOXP3"
+    ],
+    "treatments": [
+      "Exercise (HPA axis / BDNF)",
+      "Probiotics (gut-brain axis)",
+      "NAD+ precursors (NMN/NR)",
+      "Omega-3 fatty acids",
+      "Mindfulness (epigenetic / HPA modulation)"
     ]
   },
   {
@@ -6092,6 +7736,22 @@
     ],
     "pubmed_search_terms": [
       "Heredodegenerative Disorders Nervous System aging"
+    ],
+    "key_genes": [
+      "PINK1",
+      "PARK2",
+      "ATG7",
+      "SOD1",
+      "TARDBP",
+      "FUS",
+      "SPG11",
+      "ATN1"
+    ],
+    "treatments": [
+      "Rapamycin (autophagy / mTOR)",
+      "NAD+ precursors (NMN/NR)",
+      "Exercise (neuroprotective)",
+      "Trehalose (autophagy inducer)"
     ]
   },
   {
@@ -6162,6 +7822,23 @@
     ],
     "pubmed_search_terms": [
       "Tauopathies aging"
+    ],
+    "key_genes": [
+      "MAPT",
+      "GSK3B",
+      "CDK5",
+      "DYRK1A",
+      "CHIP",
+      "HSPA1A",
+      "SQSTM1",
+      "BECN1"
+    ],
+    "treatments": [
+      "Rapamycin (mTOR / autophagy induction)",
+      "Lithium (GSK-3\u03b2 inhibitor)",
+      "Exercise",
+      "Metformin (AMPK / GSK-3\u03b2 modulation)",
+      "NAD+ precursors (NMN/NR)"
     ]
   },
   {
@@ -6170,7 +7847,7 @@
     "mesh_id": "MESH:D015470",
     "icd10": "TBD",
     "system": "oncological",
-    "description": "Acute myeloid leukemia (AML) is an aggressive hematological malignancy characterized by rapid clonal expansion of immature myeloid progenitors (blasts) in the bone marrow and peripheral blood, causing bone marrow failure with resulting infection, bleeding, and anemia. AML incidence rises sharply with age—median diagnosis age is 68 years—largely because of the age-dependent accumulation of pre-leukemic clonal hematopoiesis (CHIP) mutations in genes such as DNMT3A, TET2, and ASXL1, which represent early epigenetic and genomic alterations in aging hematopoietic stem cells. Stem cell exhaustion, epigenetic deregulation of myeloid differentiation programs, and the pro-inflammatory aged bone marrow microenvironment together create the permissive conditions for AML evolution and explain its dramatically worse prognosis in elderly patients.",
+    "description": "Acute myeloid leukemia (AML) is an aggressive hematological malignancy characterized by rapid clonal expansion of immature myeloid progenitors (blasts) in the bone marrow and peripheral blood, causing bone marrow failure with resulting infection, bleeding, and anemia. AML incidence rises sharply with age\u2014median diagnosis age is 68 years\u2014largely because of the age-dependent accumulation of pre-leukemic clonal hematopoiesis (CHIP) mutations in genes such as DNMT3A, TET2, and ASXL1, which represent early epigenetic and genomic alterations in aging hematopoietic stem cells. Stem cell exhaustion, epigenetic deregulation of myeloid differentiation programs, and the pro-inflammatory aged bone marrow microenvironment together create the permissive conditions for AML evolution and explain its dramatically worse prognosis in elderly patients.",
     "mechanism_links": [
       {
         "mechanism_id": "mech_telomerase_insufficiency",
@@ -6227,6 +7904,23 @@
     ],
     "pubmed_search_terms": [
       "Leukemia Myeloid Acute aging"
+    ],
+    "key_genes": [
+      "DNMT3A",
+      "TET2",
+      "NPM1",
+      "FLT3",
+      "IDH1",
+      "IDH2",
+      "ASXL1",
+      "TP53"
+    ],
+    "treatments": [
+      "Vitamin C (TET2 cofactor, high-dose IV)",
+      "Metformin (AMPK anti-leukemic)",
+      "Dasatinib + Quercetin (senolytic marrow niche)",
+      "NAD+ precursors (NMN/NR)",
+      "Exercise (supportive)"
     ]
   },
   {
@@ -6322,6 +8016,23 @@
     ],
     "pubmed_search_terms": [
       "Cardiomyopathies aging"
+    ],
+    "key_genes": [
+      "MYH7",
+      "MYH6",
+      "TNNT2",
+      "MTOR",
+      "PPARGC1A",
+      "TERT",
+      "CDKN2A",
+      "BCL2"
+    ],
+    "treatments": [
+      "SGLT2 inhibitors",
+      "Exercise (cardiac rehabilitation)",
+      "Rapamycin (mTOR / autophagy)",
+      "NAD+ precursors (NMN/NR)",
+      "Metformin (AMPK activator)"
     ]
   },
   {
@@ -6412,7 +8123,9 @@
     ],
     "pubmed_search_terms": [
       "614878 aging"
-    ]
+    ],
+    "key_genes": [],
+    "treatments": []
   },
   {
     "id": "disease_myopathies_structural_congenital",
@@ -6420,7 +8133,7 @@
     "mesh_id": "MESH:D020914",
     "icd10": "TBD",
     "system": "musculoskeletal",
-    "description": "Congenital structural myopathies are a genetically heterogeneous group of inherited muscle diseases defined by distinctive ultrastructural abnormalities on muscle biopsy—including central cores, nemaline rods, and myofibrillar disorganization—typically presenting in infancy or childhood with hypotonia, proximal weakness, and often respiratory insufficiency. Many congenital myopathies are caused by mutations in genes encoding sarcomeric proteins, ryanodine receptor, or myosin heavy chain isoforms, whose dysfunction causes impaired proteostasis in muscle with abnormal protein aggregate accumulation—a process that worsens with age as the ubiquitin-proteasome and autophagy systems lose capacity. The aging context is relevant because age-related decline in proteostatic capacity and autophagy in muscle accelerates the manifestation and progression of myofibrillar protein aggregation in these genetically predisposed individuals.",
+    "description": "Congenital structural myopathies are a genetically heterogeneous group of inherited muscle diseases defined by distinctive ultrastructural abnormalities on muscle biopsy\u2014including central cores, nemaline rods, and myofibrillar disorganization\u2014typically presenting in infancy or childhood with hypotonia, proximal weakness, and often respiratory insufficiency. Many congenital myopathies are caused by mutations in genes encoding sarcomeric proteins, ryanodine receptor, or myosin heavy chain isoforms, whose dysfunction causes impaired proteostasis in muscle with abnormal protein aggregate accumulation\u2014a process that worsens with age as the ubiquitin-proteasome and autophagy systems lose capacity. The aging context is relevant because age-related decline in proteostatic capacity and autophagy in muscle accelerates the manifestation and progression of myofibrillar protein aggregation in these genetically predisposed individuals.",
     "mechanism_links": [
       {
         "mechanism_id": "mech_proteome_imbalance",
@@ -6472,6 +8185,14 @@
     ],
     "pubmed_search_terms": [
       "Myopathies Structural Congenital aging"
+    ],
+    "key_genes": ["RYR1", "NEB", "ACTA1", "MYH7", "TPM2", "SELENON", "DNM2", "BIN1"],
+    "treatments": [
+      "Rapamycin (mTOR inhibitor to enhance autophagy)",
+      "NAD+ precursors (NMN/NR to support mitochondrial function)",
+      "Exercise / physical therapy (preserve residual muscle function)",
+      "Respiratory support (non-invasive ventilation)",
+      "Proteasome activators (investigational, to clear protein aggregates)"
     ]
   },
   {
@@ -6547,6 +8268,15 @@
     ],
     "pubmed_search_terms": [
       "Glioblastoma aging"
+    ],
+    "key_genes": ["EGFR", "PTEN", "TP53", "IDH1", "CDKN2A", "TERT", "MGMT", "RB1"],
+    "treatments": [
+      "Temozolomide (DNA alkylating agent)",
+      "EGFR inhibitors (targeted therapy)",
+      "Bevacizumab (anti-VEGF)",
+      "Tumor treating fields",
+      "mTOR inhibitors (investigational)",
+      "Senolytics (Dasatinib + Quercetin, investigational)"
     ]
   },
   {
@@ -6627,6 +8357,14 @@
     ],
     "pubmed_search_terms": [
       "Acute Kidney Injury aging"
+    ],
+    "key_genes": ["HAVCR1", "NGAL", "PINK1", "PARKIN", "SIRT1", "TFAM", "HIF1A", "BNIP3"],
+    "treatments": [
+      "NAD+ precursors (NMN/NR to restore mitochondrial biogenesis)",
+      "Rapamycin (mTOR inhibitor to enhance autophagy)",
+      "Mitochondria-targeted antioxidants (MitoQ, investigational)",
+      "Senolytic therapy (Dasatinib + Quercetin, investigational)",
+      "SGLT2 inhibitors (renoprotective via AMPK activation)"
     ]
   },
   {
@@ -6707,6 +8445,14 @@
     ],
     "pubmed_search_terms": [
       "Schizophrenia aging"
+    ],
+    "key_genes": ["DISC1", "COMT", "DTNBP1", "NRG1", "DRD2", "BDNF", "TERT", "ATG7"],
+    "treatments": [
+      "Antipsychotics (dopamine D2 receptor antagonists)",
+      "NAD+ precursors (NMN/NR to support neuronal metabolism)",
+      "Anti-inflammatory interventions (minocycline, investigational)",
+      "Senolytic therapy (investigational for accelerated brain aging)",
+      "Metformin (AMPK activator, investigational for metabolic comorbidities)"
     ]
   },
   {
@@ -6715,7 +8461,7 @@
     "mesh_id": "MESH:D000740",
     "icd10": "TBD",
     "system": "hematological",
-    "description": "Anemia is defined by a reduction in circulating red blood cell mass below normal thresholds, impairing oxygen delivery to tissues and manifesting as fatigue, dyspnea, reduced exercise capacity, and cognitive impairment; it affects approximately 10–20% of adults over 65 years. Age-related anemia of inflammation (anemia of chronic disease) arises from inflammaging-driven hepcidin excess that sequesters iron, combined with declining erythropoietin responsiveness, while age-related clonal cytopenias reflect hematopoietic stem cell exhaustion and somatic mutation accumulation (CHIP). Epigenetic alterations in erythroid progenitor differentiation, impaired stem cell self-renewal, and chronic inflammatory cytokine-mediated suppression of erythropoiesis represent the primary aging-hallmark mechanisms driving age-associated anemia.",
+    "description": "Anemia is defined by a reduction in circulating red blood cell mass below normal thresholds, impairing oxygen delivery to tissues and manifesting as fatigue, dyspnea, reduced exercise capacity, and cognitive impairment; it affects approximately 10\u201320% of adults over 65 years. Age-related anemia of inflammation (anemia of chronic disease) arises from inflammaging-driven hepcidin excess that sequesters iron, combined with declining erythropoietin responsiveness, while age-related clonal cytopenias reflect hematopoietic stem cell exhaustion and somatic mutation accumulation (CHIP). Epigenetic alterations in erythroid progenitor differentiation, impaired stem cell self-renewal, and chronic inflammatory cytokine-mediated suppression of erythropoiesis represent the primary aging-hallmark mechanisms driving age-associated anemia.",
     "mechanism_links": [
       {
         "mechanism_id": "mech_epigenetic_clock",
@@ -6777,6 +8523,14 @@
     ],
     "pubmed_search_terms": [
       "Anemia aging"
+    ],
+    "key_genes": ["EPO", "EPOR", "HAMP", "HFE", "TET2", "DNMT3A", "JAK2", "SIRT1"],
+    "treatments": [
+      "Erythropoiesis-stimulating agents (EPO receptor agonists)",
+      "Iron supplementation (for iron-restricted anemia of inflammation)",
+      "Hepcidin antagonists (investigational)",
+      "Senolytic therapy (to reduce SASP-driven hepcidin excess)",
+      "NAD+ precursors (NMN/NR to support hematopoietic stem cell function)"
     ]
   },
   {
@@ -6785,7 +8539,7 @@
     "mesh_id": "MESH:D029242",
     "icd10": "TBD",
     "system": "ophthalmic",
-    "description": "Leber hereditary optic neuropathy (LHON) is a maternally inherited mitochondrial disorder caused by point mutations in mitochondrial DNA encoding complex I subunits (most commonly m.11778G>A, m.3460G>A, m.14484T>C), leading to selective degeneration of retinal ganglion cells and their axons with rapid, painless, bilateral central vision loss typically in young adults. LHON is directly relevant to aging because mitochondrial dysfunction—the primary pathogenic mechanism—is a central hallmark of both LHON and normal aging, and incomplete penetrance of LHON mutations is explained in part by the progressive accumulation of mitochondrial heteroplasmy and age-related mitochondrial DNA damage reducing the bioenergetic threshold for retinal ganglion cell failure. The disease demonstrates how mitochondrial DNA integrity, oxidative phosphorylation efficiency, and age-related oxidative stress converge to determine when and whether neurodegeneration occurs in genetically vulnerable individuals.",
+    "description": "Leber hereditary optic neuropathy (LHON) is a maternally inherited mitochondrial disorder caused by point mutations in mitochondrial DNA encoding complex I subunits (most commonly m.11778G>A, m.3460G>A, m.14484T>C), leading to selective degeneration of retinal ganglion cells and their axons with rapid, painless, bilateral central vision loss typically in young adults. LHON is directly relevant to aging because mitochondrial dysfunction\u2014the primary pathogenic mechanism\u2014is a central hallmark of both LHON and normal aging, and incomplete penetrance of LHON mutations is explained in part by the progressive accumulation of mitochondrial heteroplasmy and age-related mitochondrial DNA damage reducing the bioenergetic threshold for retinal ganglion cell failure. The disease demonstrates how mitochondrial DNA integrity, oxidative phosphorylation efficiency, and age-related oxidative stress converge to determine when and whether neurodegeneration occurs in genetically vulnerable individuals.",
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -6796,6 +8550,14 @@
     ],
     "pubmed_search_terms": [
       "Optic Atrophy Hereditary Leber aging"
+    ],
+    "key_genes": ["MT-ND4", "MT-ND1", "MT-ND6", "OPA1", "MFN2", "PINK1", "SIRT3", "TFAM"],
+    "treatments": [
+      "Idebenone (mitochondrial electron carrier bypass)",
+      "Gene therapy (AAL2 vector delivering MT-ND4, approved)",
+      "NAD+ precursors (NMN/NR to boost mitochondrial electron transport)",
+      "Mitochondria-targeted antioxidants (MitoQ, investigational)",
+      "Rapamycin (mitophagy enhancement, investigational)"
     ]
   },
   {
@@ -6804,7 +8566,7 @@
     "mesh_id": "MESH:D005199",
     "icd10": "TBD",
     "system": "hematological",
-    "description": "Fanconi anemia (FA) is a rare autosomal (or X-linked) recessive disorder caused by mutations in any of at least 22 FANC genes encoding proteins in the FA/BRCA DNA repair pathway that resolves DNA interstrand crosslinks, manifesting as progressive bone marrow failure, congenital malformations, and markedly elevated risk of acute myeloid leukemia and squamous cell carcinomas. FA is a segmental progeroid syndrome—affected individuals exhibit features of premature aging including premature hematopoietic stem cell exhaustion, accelerated telomere attrition, and elevated inflammatory markers—making it a critical model for understanding how DNA repair capacity determines stem cell longevity and aging rate. The disease demonstrates that compromised genomic integrity accelerates all aging hallmarks dependent on sustained DNA damage signaling, including stem cell exhaustion, senescence, and chronic inflammation.",
+    "description": "Fanconi anemia (FA) is a rare autosomal (or X-linked) recessive disorder caused by mutations in any of at least 22 FANC genes encoding proteins in the FA/BRCA DNA repair pathway that resolves DNA interstrand crosslinks, manifesting as progressive bone marrow failure, congenital malformations, and markedly elevated risk of acute myeloid leukemia and squamous cell carcinomas. FA is a segmental progeroid syndrome\u2014affected individuals exhibit features of premature aging including premature hematopoietic stem cell exhaustion, accelerated telomere attrition, and elevated inflammatory markers\u2014making it a critical model for understanding how DNA repair capacity determines stem cell longevity and aging rate. The disease demonstrates that compromised genomic integrity accelerates all aging hallmarks dependent on sustained DNA damage signaling, including stem cell exhaustion, senescence, and chronic inflammation.",
     "mechanism_links": [
       {
         "mechanism_id": "mech_nfkb_signaling",
@@ -6866,6 +8628,14 @@
     ],
     "pubmed_search_terms": [
       "Fanconi Anemia aging"
+    ],
+    "key_genes": ["FANCA", "FANCC", "FANCD2", "BRCA2", "PALB2", "RAD51", "BRCA1", "FANCG"],
+    "treatments": [
+      "Hematopoietic stem cell transplantation (curative for bone marrow failure)",
+      "Androgens (danazol, oxymetholone to stimulate hematopoiesis)",
+      "NAD+ precursors (NMN/NR to support DNA repair and stem cell maintenance)",
+      "Antioxidants (N-acetylcysteine to reduce oxidative DNA damage)",
+      "Senolytic therapy (investigational to reduce senescence burden)"
     ]
   },
   {
@@ -6874,7 +8644,7 @@
     "mesh_id": "MESH:D050177",
     "icd10": "TBD",
     "system": "metabolic",
-    "description": "Overweight is defined by a body mass index (BMI) of 25–29.9 kg/m², reflecting excess adipose tissue accumulation that increases risk of type 2 diabetes, cardiovascular disease, sleep apnea, osteoarthritis, and several cancers. Adipose tissue dysfunction in overweight individuals drives systemic inflammaging through elevated circulating IL-6, TNF-α, and leptin, creating a pro-aging inflammatory milieu, and visceral fat expansion is associated with accelerated telomere attrition in multiple tissues. Chronic positive energy balance deregulates mTOR and AMPK nutrient-sensing pathways, impairs autophagy in metabolically active tissues, and fosters gut dysbiosis, establishing a multi-hallmark connection between excess adiposity and accelerated biological aging.",
+    "description": "Overweight is defined by a body mass index (BMI) of 25\u201329.9 kg/m\u00b2, reflecting excess adipose tissue accumulation that increases risk of type 2 diabetes, cardiovascular disease, sleep apnea, osteoarthritis, and several cancers. Adipose tissue dysfunction in overweight individuals drives systemic inflammaging through elevated circulating IL-6, TNF-\u03b1, and leptin, creating a pro-aging inflammatory milieu, and visceral fat expansion is associated with accelerated telomere attrition in multiple tissues. Chronic positive energy balance deregulates mTOR and AMPK nutrient-sensing pathways, impairs autophagy in metabolically active tissues, and fosters gut dysbiosis, establishing a multi-hallmark connection between excess adiposity and accelerated biological aging.",
     "mechanism_links": [
       {
         "mechanism_id": "mech_telomere_ddr",
@@ -6946,6 +8716,14 @@
     ],
     "pubmed_search_terms": [
       "Overweight aging"
+    ],
+    "key_genes": ["FTO", "MC4R", "LEP", "LEPR", "ADIPOQ", "PPARG", "MTOR", "AMPK"],
+    "treatments": [
+      "Caloric restriction / time-restricted eating (AMPK activation)",
+      "Metformin (AMPK activator, reduces mTOR hyperactivation)",
+      "GLP-1 receptor agonists (semaglutide, reduce visceral adiposity)",
+      "Rapamycin (mTOR inhibitor, investigational for adipose senescence)",
+      "Probiotic / dietary fiber interventions (gut dysbiosis correction)"
     ]
   },
   {
@@ -6954,7 +8732,7 @@
     "mesh_id": "MESH:D020263",
     "icd10": "TBD",
     "system": "neurological",
-    "description": "Lead poisoning of the nervous system results from exposure to inorganic or organic lead compounds that accumulate in the brain, causing neurotoxicity through disruption of calcium signaling, mitochondrial function, glutamate receptor activity, and neurotransmitter synthesis, producing encephalopathy in acute poisoning and cognitive decline, peripheral neuropathy, and increased neurodegeneration risk with chronic low-level exposure. Lead induces DNA strand breaks and oxidative damage to DNA, driving genomic instability and mimicking or accelerating aging-associated neuronal genomic changes, and stored in bone it can be remobilized during the bone resorption that accompanies aging. Epigenetic modifications induced by early-life lead exposure—particularly altered DNA methylation at gene loci controlling brain aging—have been documented to persist across the lifespan and increase late-life risk of Alzheimer's disease and dementia, linking environmental exposures to the hallmarks of brain aging.",
+    "description": "Lead poisoning of the nervous system results from exposure to inorganic or organic lead compounds that accumulate in the brain, causing neurotoxicity through disruption of calcium signaling, mitochondrial function, glutamate receptor activity, and neurotransmitter synthesis, producing encephalopathy in acute poisoning and cognitive decline, peripheral neuropathy, and increased neurodegeneration risk with chronic low-level exposure. Lead induces DNA strand breaks and oxidative damage to DNA, driving genomic instability and mimicking or accelerating aging-associated neuronal genomic changes, and stored in bone it can be remobilized during the bone resorption that accompanies aging. Epigenetic modifications induced by early-life lead exposure\u2014particularly altered DNA methylation at gene loci controlling brain aging\u2014have been documented to persist across the lifespan and increase late-life risk of Alzheimer's disease and dementia, linking environmental exposures to the hallmarks of brain aging.",
     "mechanism_links": [
       {
         "mechanism_id": "mech_oxidative_stress",
@@ -7026,6 +8804,14 @@
     ],
     "pubmed_search_terms": [
       "Lead Poisoning Nervous System aging"
+    ],
+    "key_genes": ["ALAD", "HFE", "DNMT3A", "TET2", "APOE", "TP53", "SIRT1", "HDAC2"],
+    "treatments": [
+      "Chelation therapy (DMSA, EDTA for acute exposure)",
+      "Antioxidants (N-acetylcysteine to reduce oxidative DNA damage)",
+      "Epigenetic modulators (HDAC inhibitors, investigational)",
+      "Caloric restriction / exercise (to reduce bone-stored lead remobilization)",
+      "NAD+ precursors (NMN/NR to support DNA repair mechanisms)"
     ]
   },
   {
@@ -7034,7 +8820,7 @@
     "mesh_id": "MESH:D044342",
     "icd10": "TBD",
     "system": "metabolic",
-    "description": "Malnutrition encompasses a spectrum of conditions arising from insufficient, excess, or imbalanced intake of macronutrients and micronutrients, including protein-energy malnutrition, micronutrient deficiencies, and the clinically significant syndrome of malnutrition-inflammation-cachexia common in older adults. Aging dramatically increases malnutrition risk through anorexia of aging, reduced absorption efficiency, polypharmacy, and impaired homeostatic nutrient-sensing regulation, and malnutrition in turn accelerates biological aging by shortening telomeres, impairing DNA repair, and promoting chronic inflammation. Deregulated nutrient-sensing pathways—disruption of IGF-1, mTOR, AMPK, and sirtuins that normally transduce dietary signals into longevity-promoting transcriptional responses—represent the mechanistic nexus between malnutrition and accelerated biological aging in the elderly.",
+    "description": "Malnutrition encompasses a spectrum of conditions arising from insufficient, excess, or imbalanced intake of macronutrients and micronutrients, including protein-energy malnutrition, micronutrient deficiencies, and the clinically significant syndrome of malnutrition-inflammation-cachexia common in older adults. Aging dramatically increases malnutrition risk through anorexia of aging, reduced absorption efficiency, polypharmacy, and impaired homeostatic nutrient-sensing regulation, and malnutrition in turn accelerates biological aging by shortening telomeres, impairing DNA repair, and promoting chronic inflammation. Deregulated nutrient-sensing pathways\u2014disruption of IGF-1, mTOR, AMPK, and sirtuins that normally transduce dietary signals into longevity-promoting transcriptional responses\u2014represent the mechanistic nexus between malnutrition and accelerated biological aging in the elderly.",
     "mechanism_links": [
       {
         "mechanism_id": "mech_telomere_ddr",
@@ -7111,6 +8897,14 @@
     ],
     "pubmed_search_terms": [
       "Malnutrition aging"
+    ],
+    "key_genes": ["IGF1", "MTOR", "SIRT1", "AMPK", "FOXO3", "GHR", "INSR", "PRKAA1"],
+    "treatments": [
+      "Nutritional supplementation (protein, micronutrients, omega-3 fatty acids)",
+      "Caloric / protein repletion (restore IGF-1 and mTOR anabolic signaling)",
+      "NAD+ precursors (NMN/NR to restore sirtuin activity)",
+      "Resistance exercise (to activate mTOR-dependent muscle anabolism)",
+      "Probiotic supplementation (to correct dysbiosis-related absorption impairment)"
     ]
   },
   {
@@ -7119,7 +8913,7 @@
     "mesh_id": "MESH:C536227",
     "icd10": "TBD",
     "system": "hematological",
-    "description": "Cyclic neutropenia is a rare hematological disorder characterized by predictable oscillations in absolute neutrophil count every 21 days, with nadirs causing severe neutropenia and susceptibility to life-threatening bacterial infections, caused by autosomal dominant mutations in the ELANE gene encoding neutrophil elastase that disrupt granulopoiesis. The disease is relevant to aging biology because it models the consequences of hematopoietic stem cell dysfunction and disrupted granulocytic differentiation kinetics—processes that deteriorate with normal aging and contribute to age-related immunosenescence and increased infection susceptibility. Telomere attrition in hematopoietic stem cells and mitochondrial dysfunction in neutrophil precursors represent aging mechanisms that exacerbate granulopoietic insufficiency and are relevant to understanding the immune vulnerability of the aged organism.",
+    "description": "Cyclic neutropenia is a rare hematological disorder characterized by predictable oscillations in absolute neutrophil count every 21 days, with nadirs causing severe neutropenia and susceptibility to life-threatening bacterial infections, caused by autosomal dominant mutations in the ELANE gene encoding neutrophil elastase that disrupt granulopoiesis. The disease is relevant to aging biology because it models the consequences of hematopoietic stem cell dysfunction and disrupted granulocytic differentiation kinetics\u2014processes that deteriorate with normal aging and contribute to age-related immunosenescence and increased infection susceptibility. Telomere attrition in hematopoietic stem cells and mitochondrial dysfunction in neutrophil precursors represent aging mechanisms that exacerbate granulopoietic insufficiency and are relevant to understanding the immune vulnerability of the aged organism.",
     "mechanism_links": [
       {
         "mechanism_id": "mech_telomere_ddr",
@@ -7186,6 +8980,14 @@
     ],
     "pubmed_search_terms": [
       "Cyclic neutropenia aging"
+    ],
+    "key_genes": ["ELANE", "HAX1", "GFI1", "CSF3R", "TERT", "TERC", "SBDS", "WAS"],
+    "treatments": [
+      "G-CSF / filgrastim (granulocyte colony-stimulating factor)",
+      "Hematopoietic stem cell transplantation (severe cases)",
+      "NAD+ precursors (NMN/NR to support hematopoietic stem cell telomere maintenance)",
+      "Antibiotic prophylaxis (infection prevention during neutropenic nadirs)",
+      "Telomerase activators (investigational for stem cell exhaustion)"
     ]
   },
   {
@@ -7194,7 +8996,7 @@
     "mesh_id": "MESH:D004806",
     "icd10": "TBD",
     "system": "neurological",
-    "description": "Ependymomas are glial tumors arising from ependymal cells lining the ventricular system and central canal of the spinal cord, classified by molecular subtype and grade (WHO I–III), occurring across all ages but with distinct molecular subtypes predominating in pediatric versus adult patients. Adult spinal and intracranial ependymomas accumulate epigenetic alterations and chromosomal imbalances consistent with age-related genomic instability, and tumor microenvironment senescence contributes to immune evasion. The cellular senescence pathway—including p16INK4a and p21 upregulation in ependymal progenitor cells—is increasingly recognized as relevant to both ependymoma development and its growth rate, linking aging hallmarks in neural stem cell compartments to this glial malignancy.",
+    "description": "Ependymomas are glial tumors arising from ependymal cells lining the ventricular system and central canal of the spinal cord, classified by molecular subtype and grade (WHO I\u2013III), occurring across all ages but with distinct molecular subtypes predominating in pediatric versus adult patients. Adult spinal and intracranial ependymomas accumulate epigenetic alterations and chromosomal imbalances consistent with age-related genomic instability, and tumor microenvironment senescence contributes to immune evasion. The cellular senescence pathway\u2014including p16INK4a and p21 upregulation in ependymal progenitor cells\u2014is increasingly recognized as relevant to both ependymoma development and its growth rate, linking aging hallmarks in neural stem cell compartments to this glial malignancy.",
     "mechanism_links": [
       {
         "mechanism_id": "mech_sasp",
@@ -7266,6 +9068,14 @@
     ],
     "pubmed_search_terms": [
       "Ependymoma aging"
+    ],
+    "key_genes": ["NF2", "RELA", "YAP1", "CDKN2A", "TP53", "H3K27M", "TERT", "ATRX"],
+    "treatments": [
+      "Surgical resection (primary treatment)",
+      "Radiotherapy (adjuvant for high-grade disease)",
+      "mTOR inhibitors (investigational for recurrent disease)",
+      "Senolytic therapy (Dasatinib + Quercetin, investigational for TME senescence)",
+      "Bevacizumab (anti-VEGF for recurrent ependymoma)"
     ]
   },
   {
@@ -7274,7 +9084,7 @@
     "mesh_id": "MESH:D008103",
     "icd10": "TBD",
     "system": "hepatic",
-    "description": "Liver cirrhosis is the final common histopathological endpoint of chronic liver injury, characterized by replacement of functional parenchyma with fibrous scar tissue and regenerative nodules, leading to portal hypertension, hepatic insufficiency, and high risk of hepatocellular carcinoma. Advanced age accelerates cirrhosis progression through exhaustion of hepatic progenitor cells that normally mediate liver regeneration, gut dysbiosis that increases portal bacterial translocation driving hepatic inflammation, and cellular senescence of activated hepatic stellate cells that paradoxically sustains pro-fibrotic paracrine signaling via SASP. These aging hallmarks—stem cell exhaustion, dysbiosis, and pathological senescence—converge to render the aged liver less capable of resolving fibrosis and more likely to progress to end-stage disease.",
+    "description": "Liver cirrhosis is the final common histopathological endpoint of chronic liver injury, characterized by replacement of functional parenchyma with fibrous scar tissue and regenerative nodules, leading to portal hypertension, hepatic insufficiency, and high risk of hepatocellular carcinoma. Advanced age accelerates cirrhosis progression through exhaustion of hepatic progenitor cells that normally mediate liver regeneration, gut dysbiosis that increases portal bacterial translocation driving hepatic inflammation, and cellular senescence of activated hepatic stellate cells that paradoxically sustains pro-fibrotic paracrine signaling via SASP. These aging hallmarks\u2014stem cell exhaustion, dysbiosis, and pathological senescence\u2014converge to render the aged liver less capable of resolving fibrosis and more likely to progress to end-stage disease.",
     "mechanism_links": [
       {
         "mechanism_id": "mech_gut_permeability",
@@ -7361,6 +9171,15 @@
     ],
     "pubmed_search_terms": [
       "Liver Cirrhosis aging"
+    ],
+    "key_genes": ["TERT", "TP53", "CTNNB1", "PDGFB", "TGFB1", "ACTA2", "MMP2", "TIMP1"],
+    "treatments": [
+      "Senolytic therapy (Dasatinib + Quercetin to clear activated stellate cell senescence)",
+      "NAD+ precursors (NMN/NR to support hepatic progenitor regeneration)",
+      "Rapamycin (mTOR inhibitor to enhance autophagy and reduce fibrosis)",
+      "Probiotic / gut microbiome interventions (reduce portal bacterial translocation)",
+      "Anti-fibrotic agents (pirfenidone, investigational)",
+      "Caloric restriction / exercise (reduce hepatic fat and inflammation)"
     ]
   },
   {
@@ -7451,6 +9270,15 @@
     ],
     "pubmed_search_terms": [
       "Fatty Liver aging"
+    ],
+    "key_genes": ["PNPLA3", "TM6SF2", "MBOAT7", "GCKR", "SIRT1", "MTOR", "TGFB1", "TNFA"],
+    "treatments": [
+      "Metformin (AMPK activator, reduces hepatic lipogenesis)",
+      "GLP-1 receptor agonists (semaglutide, reduce hepatic steatosis)",
+      "Senolytic therapy (to clear senescent hepatocytes and stellate cells)",
+      "Caloric restriction / time-restricted eating (reduce mTOR-driven lipogenesis)",
+      "Probiotic / prebiotic interventions (correct gut dysbiosis-driven hepatic inflammation)",
+      "NAD+ precursors (NMN/NR to restore SIRT1-mediated lipid metabolism)"
     ]
   },
   {
@@ -7521,6 +9349,14 @@
     ],
     "pubmed_search_terms": [
       "Pulmonary Fibrosis aging"
+    ],
+    "key_genes": ["TERT", "TERC", "RTEL1", "SFTPC", "SFTPA2", "MUC5B", "ELMOD2", "TP53"],
+    "treatments": [
+      "Pirfenidone (anti-fibrotic, TGF-β inhibition)",
+      "Nintedanib (tyrosine kinase inhibitor, anti-fibrotic)",
+      "Senolytic therapy (Dasatinib + Quercetin to clear senescent AEC2 cells)",
+      "NAD+ precursors (NMN/NR to restore telomere-compromised epithelial cells)",
+      "Rapamycin (mTOR inhibitor to enhance autophagy in alveolar epithelium)"
     ]
   },
   {
@@ -7581,6 +9417,14 @@
     ],
     "pubmed_search_terms": [
       "Acute Lung Injury aging"
+    ],
+    "key_genes": ["PINK1", "PARKIN", "TFAM", "NFE2L2", "SIRT1", "HMGB1", "NLRP3", "TLR4"],
+    "treatments": [
+      "NAD+ precursors (NMN/NR to restore mitochondrial biogenesis)",
+      "Mitochondria-targeted antioxidants (MitoQ, investigational)",
+      "Rapamycin (mTOR inhibitor to enhance mitophagy)",
+      "Mesenchymal stem cell therapy (investigational for epithelial regeneration)",
+      "Anti-NLRP3 inflammasome agents (investigational)"
     ]
   },
   {
@@ -7589,7 +9433,7 @@
     "mesh_id": "MESH:D015493",
     "icd10": "TBD",
     "system": "neurological",
-    "description": "Tropical spastic paraparesis (TSP), also known as HTLV-1-associated myelopathy (HAM/TSP), is a progressive inflammatory myelopathy caused by chronic infection with human T-cell lymphotropic virus type 1 (HTLV-1), characterized by slowly progressive spastic paraparesis, bladder dysfunction, and sensory disturbances. The disease is relevant to aging research because only a minority of HTLV-1-infected individuals develop TSP, with risk increasing with age, reflecting immunosenescence-related loss of viral immune surveillance and age-related changes in altered intercellular communication via cytokine networks in the CNS. Chronic neuroinflammation driven by HTLV-1-infected CD4+ T cells producing IFN-γ and TNF-α mirrors the neuroinflammatory milieu of the aging spinal cord, making TSP a model of virus-accelerated neurological aging.",
+    "description": "Tropical spastic paraparesis (TSP), also known as HTLV-1-associated myelopathy (HAM/TSP), is a progressive inflammatory myelopathy caused by chronic infection with human T-cell lymphotropic virus type 1 (HTLV-1), characterized by slowly progressive spastic paraparesis, bladder dysfunction, and sensory disturbances. The disease is relevant to aging research because only a minority of HTLV-1-infected individuals develop TSP, with risk increasing with age, reflecting immunosenescence-related loss of viral immune surveillance and age-related changes in altered intercellular communication via cytokine networks in the CNS. Chronic neuroinflammation driven by HTLV-1-infected CD4+ T cells producing IFN-\u03b3 and TNF-\u03b1 mirrors the neuroinflammatory milieu of the aging spinal cord, making TSP a model of virus-accelerated neurological aging.",
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -7605,6 +9449,14 @@
     ],
     "pubmed_search_terms": [
       "Paraparesis Tropical Spastic aging"
+    ],
+    "key_genes": ["TAX1BP1", "NF-kB", "IFNG", "TNF", "IL6", "CCR4", "CD4", "FOXP3"],
+    "treatments": [
+      "Corticosteroids (reduce spinal cord neuroinflammation)",
+      "Anti-retroviral therapy (reduce HTLV-1 viral load)",
+      "NAD+ precursors (NMN/NR to support immunosenescence mitigation)",
+      "Anti-TNF / anti-IL-6 agents (investigational for neuroinflammation suppression)",
+      "Physical rehabilitation (maintain motor function)"
     ]
   },
   {
@@ -7624,6 +9476,14 @@
     ],
     "pubmed_search_terms": [
       "Diabetes Mellitus Type 1 aging"
+    ],
+    "key_genes": ["INS", "HLA-DRB1", "HLA-DQB1", "PTPN22", "CTLA4", "IL2RA", "IFIH1", "GLIS3"],
+    "treatments": [
+      "Insulin therapy (exogenous replacement)",
+      "Closed-loop insulin delivery systems (glycemic control reducing AGE formation)",
+      "NAD+ precursors (NMN/NR to restore beta cell and vascular mitochondrial function)",
+      "Probiotic / gut microbiome interventions (correct dysbiosis-related autoimmunity)",
+      "Anti-CD3 therapy (teplizumab, preserve residual beta cell function)"
     ]
   },
   {
@@ -7724,6 +9584,14 @@
     ],
     "pubmed_search_terms": [
       "Multiple Organ Failure aging"
+    ],
+    "key_genes": ["TP53", "NLRP3", "IL6", "TNF", "CASP1", "HMGB1", "SIRT1", "NFE2L2"],
+    "treatments": [
+      "Senolytic therapy (Dasatinib + Quercetin to reduce SASP-driven systemic inflammation)",
+      "NAD+ precursors (NMN/NR to support organ repair and mitochondrial function)",
+      "Anti-IL-6 therapy (tocilizumab to dampen cytokine storm)",
+      "Mesenchymal stem cell therapy (investigational for organ regeneration)",
+      "Extracorporeal cytokine removal (CytoSorb, to reduce inflammatory mediators)"
     ]
   },
   {
@@ -7804,6 +9672,14 @@
     ],
     "pubmed_search_terms": [
       "Retinal Degeneration aging"
+    ],
+    "key_genes": ["ABCA4", "PRPH2", "RPGR", "USH2A", "PINK1", "PARKIN", "TFAM", "SIRT3"],
+    "treatments": [
+      "NAD+ precursors (NMN/NR to restore photoreceptor and RPE mitochondrial function)",
+      "Rapamycin (mTOR inhibitor to enhance RPE autophagy)",
+      "Mitochondria-targeted antioxidants (MitoQ, investigational)",
+      "Gene therapy (AAV-based for inherited retinal dystrophies)",
+      "Anti-VEGF agents (ranibizumab, aflibercept for neovascular forms)"
     ]
   },
   {
@@ -7812,7 +9688,7 @@
     "mesh_id": "MESH:D019871",
     "icd10": "TBD",
     "system": "hematological",
-    "description": "Dyskeratosis congenita (DC) is a rare inherited bone marrow failure syndrome caused by mutations in genes encoding components of the telomerase complex or shelterin proteins (DKC1, TERC, TERT, TINF2, NHP2, NOP10, WRAP53, RTEL1), resulting in critically short telomeres in rapidly proliferating stem cell compartments. The clinical triad of oral leukoplakia, nail dystrophy, and abnormal skin pigmentation reflects mucosal and dermal stem cell exhaustion, while bone marrow failure, pulmonary fibrosis, and liver disease from vascular abnormalities represent the major life-threatening manifestations driven by telomere attrition in hematopoietic and organ stem cells. DC is the paradigmatic human disease of premature telomere attrition, directly modeling how short telomeres accelerate stem cell exhaustion, organ failure, and cancer—providing foundational mechanistic insights into telomere biology in normal human aging.",
+    "description": "Dyskeratosis congenita (DC) is a rare inherited bone marrow failure syndrome caused by mutations in genes encoding components of the telomerase complex or shelterin proteins (DKC1, TERC, TERT, TINF2, NHP2, NOP10, WRAP53, RTEL1), resulting in critically short telomeres in rapidly proliferating stem cell compartments. The clinical triad of oral leukoplakia, nail dystrophy, and abnormal skin pigmentation reflects mucosal and dermal stem cell exhaustion, while bone marrow failure, pulmonary fibrosis, and liver disease from vascular abnormalities represent the major life-threatening manifestations driven by telomere attrition in hematopoietic and organ stem cells. DC is the paradigmatic human disease of premature telomere attrition, directly modeling how short telomeres accelerate stem cell exhaustion, organ failure, and cancer\u2014providing foundational mechanistic insights into telomere biology in normal human aging.",
     "mechanism_links": [
       {
         "mechanism_id": "mech_telomere_ddr",
@@ -7839,6 +9715,14 @@
     ],
     "pubmed_search_terms": [
       "Dyskeratosis Congenita aging"
+    ],
+    "key_genes": ["DKC1", "TERC", "TERT", "TINF2", "NHP2", "NOP10", "WRAP53", "RTEL1"],
+    "treatments": [
+      "Hematopoietic stem cell transplantation (curative for bone marrow failure)",
+      "Androgens (danazol to upregulate telomerase in hematopoietic progenitors)",
+      "NAD+ precursors (NMN/NR to support stem cell telomere biology)",
+      "Rapamycin (mTOR inhibitor to reduce stem cell exhaustion)",
+      "Gene therapy (telomerase vector delivery, investigational)"
     ]
   },
   {
@@ -7847,7 +9731,7 @@
     "mesh_id": "MESH:D017563",
     "icd10": "TBD",
     "system": "pulmonary",
-    "description": "Interstitial lung diseases (ILDs) are a heterogeneous group of diffuse parenchymal lung disorders affecting the alveolar walls, lung interstitium, and often terminal airways, characterized by varying degrees of inflammation and fibrosis that restrict lung expansion and impair gas exchange. Most clinically significant ILDs—including idiopathic pulmonary fibrosis, connective tissue disease-associated ILDs, and hypersensitivity pneumonitis—have markedly age-dependent incidence, reflecting telomere-driven alveolar epithelial vulnerability, epigenetic alterations that reprogram fibroblasts toward a profibrotic phenotype, and impaired autophagy in alveolar macrophages that fails to clear inflammatory stimuli. The age-dependent risk of ILD progression and its convergence with cancer risk in the same patients suggests that shared aging hallmarks—particularly telomere attrition and cellular senescence—drive both fibrotic and neoplastic lung disease.",
+    "description": "Interstitial lung diseases (ILDs) are a heterogeneous group of diffuse parenchymal lung disorders affecting the alveolar walls, lung interstitium, and often terminal airways, characterized by varying degrees of inflammation and fibrosis that restrict lung expansion and impair gas exchange. Most clinically significant ILDs\u2014including idiopathic pulmonary fibrosis, connective tissue disease-associated ILDs, and hypersensitivity pneumonitis\u2014have markedly age-dependent incidence, reflecting telomere-driven alveolar epithelial vulnerability, epigenetic alterations that reprogram fibroblasts toward a profibrotic phenotype, and impaired autophagy in alveolar macrophages that fails to clear inflammatory stimuli. The age-dependent risk of ILD progression and its convergence with cancer risk in the same patients suggests that shared aging hallmarks\u2014particularly telomere attrition and cellular senescence\u2014drive both fibrotic and neoplastic lung disease.",
     "mechanism_links": [
       {
         "mechanism_id": "mech_telomere_ddr",
@@ -7894,6 +9778,14 @@
     ],
     "pubmed_search_terms": [
       "Lung Diseases Interstitial aging"
+    ],
+    "key_genes": ["TERT", "TERC", "RTEL1", "SFTPC", "MUC5B", "TOLLIP", "ELMOD2", "CDKN1A"],
+    "treatments": [
+      "Pirfenidone (anti-fibrotic, TGF-β inhibition)",
+      "Nintedanib (tyrosine kinase inhibitor, anti-fibrotic)",
+      "Senolytic therapy (Dasatinib + Quercetin to clear senescent alveolar cells)",
+      "NAD+ precursors (NMN/NR to support telomere-compromised epithelium)",
+      "Rapamycin (mTOR inhibitor to enhance autophagy in macrophages)"
     ]
   },
   {
@@ -7984,6 +9876,14 @@
     ],
     "pubmed_search_terms": [
       "Myocardial Infarction aging"
+    ],
+    "key_genes": ["TERT", "TP53", "CDKN1A", "TNF", "IL6", "HMOX1", "SIRT1", "PINK1"],
+    "treatments": [
+      "Senolytic therapy (Dasatinib + Quercetin to clear senescent vascular and cardiac cells)",
+      "Rapamycin (mTOR inhibitor to enhance cardioprotective autophagy)",
+      "NAD+ precursors (NMN/NR to restore cardiomyocyte mitochondrial function)",
+      "Statin therapy (reduce vascular inflammation and senescent plaque burden)",
+      "Caloric restriction / exercise rehabilitation (AMPK activation, improve cardiac reserve)"
     ]
   },
   {
@@ -7992,7 +9892,7 @@
     "mesh_id": "MESH:D015465",
     "icd10": "TBD",
     "system": "oncological",
-    "description": "Accelerated phase chronic myeloid leukemia (CML-AP) represents disease progression from the chronic phase of BCR-ABL1-driven CML, defined by increasing blast percentages (10–19%), clonal cytogenetic evolution, basophilia, or thrombocytopenia, signaling imminent blast crisis and requiring urgent therapeutic intensification. Disease acceleration correlates with the acquisition of additional epigenetic and genomic alterations in BCR-ABL1-positive progenitors—including RUNX1 mutations, CDKN2A/B deletions, and TP53 mutations—that are potentiated by the age-related decline in DNA repair fidelity and hematopoietic stem cell genomic stability. Stem cell exhaustion, driven by both leukemic stress and the aging hematopoietic niche, depletes normal stem cells necessary for disease control and underlies the inferior outcomes of accelerated-phase CML in older patients.",
+    "description": "Accelerated phase chronic myeloid leukemia (CML-AP) represents disease progression from the chronic phase of BCR-ABL1-driven CML, defined by increasing blast percentages (10\u201319%), clonal cytogenetic evolution, basophilia, or thrombocytopenia, signaling imminent blast crisis and requiring urgent therapeutic intensification. Disease acceleration correlates with the acquisition of additional epigenetic and genomic alterations in BCR-ABL1-positive progenitors\u2014including RUNX1 mutations, CDKN2A/B deletions, and TP53 mutations\u2014that are potentiated by the age-related decline in DNA repair fidelity and hematopoietic stem cell genomic stability. Stem cell exhaustion, driven by both leukemic stress and the aging hematopoietic niche, depletes normal stem cells necessary for disease control and underlies the inferior outcomes of accelerated-phase CML in older patients.",
     "mechanism_links": [
       {
         "mechanism_id": "mech_epigenetic_clock",
@@ -8054,6 +9954,14 @@
     ],
     "pubmed_search_terms": [
       "Leukemia Myeloid Accelerated Phase aging"
+    ],
+    "key_genes": ["BCR", "ABL1", "RUNX1", "CDKN2A", "TP53", "TET2", "DNMT3A", "ASXL1"],
+    "treatments": [
+      "BCR-ABL1 tyrosine kinase inhibitors (ponatinib, asciminib for accelerated phase)",
+      "Hypomethylating agents (azacitidine to reverse epigenetic silencing)",
+      "Hematopoietic stem cell transplantation (consolidation in eligible patients)",
+      "NAD+ precursors (NMN/NR to support normal hematopoietic stem cell function)",
+      "Venetoclax (BCL-2 inhibitor to target senescent leukemic progenitors)"
     ]
   },
   {
@@ -8062,7 +9970,7 @@
     "mesh_id": "MESH:D053842",
     "icd10": "TBD",
     "system": "oncological",
-    "description": "Microsatellite instability (MSI) is a molecular phenotype of somatic genomic instability arising from deficient DNA mismatch repair (dMMR), characterized by widespread length alterations at repetitive DNA microsatellite sequences throughout the tumor genome, and occurring in colorectal, endometrial, gastric, and other cancers. MSI-high cancers arise predominantly in older adults as a consequence of age-related somatic epigenetic silencing (MLH1 promoter hypermethylation) of the mismatch repair gene or germline Lynch syndrome mutations combined with age-dependent second-hit acquisition. The age-associated accumulation of somatic mutations in key mismatch repair pathway genes, driven by declining DNA repair fidelity—a core aging hallmark of genomic instability—explains why MSI-high sporadic cancers are predominantly diseases of the elderly.",
+    "description": "Microsatellite instability (MSI) is a molecular phenotype of somatic genomic instability arising from deficient DNA mismatch repair (dMMR), characterized by widespread length alterations at repetitive DNA microsatellite sequences throughout the tumor genome, and occurring in colorectal, endometrial, gastric, and other cancers. MSI-high cancers arise predominantly in older adults as a consequence of age-related somatic epigenetic silencing (MLH1 promoter hypermethylation) of the mismatch repair gene or germline Lynch syndrome mutations combined with age-dependent second-hit acquisition. The age-associated accumulation of somatic mutations in key mismatch repair pathway genes, driven by declining DNA repair fidelity\u2014a core aging hallmark of genomic instability\u2014explains why MSI-high sporadic cancers are predominantly diseases of the elderly.",
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -8073,6 +9981,14 @@
     ],
     "pubmed_search_terms": [
       "Microsatellite Instability aging"
+    ],
+    "key_genes": ["MLH1", "MSH2", "MSH6", "PMS2", "EPCAM", "BRAF", "TP53", "PTEN"],
+    "treatments": [
+      "Immune checkpoint inhibitors (pembrolizumab, highly effective in MSI-H tumors)",
+      "Hypomethylating agents (restore MLH1 epigenetic silencing, investigational)",
+      "NAD+ precursors (NMN/NR to support DNA mismatch repair activity)",
+      "Anti-cancer vaccination (neoantigen-based, investigational for MSI-H cancers)",
+      "Metformin (AMPK activator, reduce mTOR-driven genomic instability)"
     ]
   },
   {
@@ -8081,7 +9997,7 @@
     "mesh_id": "MESH:D002312",
     "icd10": "TBD",
     "system": "cardiovascular",
-    "description": "Hypertrophic cardiomyopathy (HCM) is an autosomal dominant sarcomeric protein disorder (most commonly MYH7 or MYBPC3 mutations) causing unexplained left ventricular hypertrophy with diastolic dysfunction, outflow tract obstruction, myocardial fibrosis, and risk of sudden cardiac death and atrial fibrillation. While HCM is present from birth at the genetic level, the severity of hypertrophy, fibrosis, and symptoms typically increases with age, as myocardial senescence amplifies fibrotic remodeling, epigenetic alterations accumulate in cardiomyocytes modifying sarcomeric gene expression, and altered intercellular communication via pro-hypertrophic paracrine signaling drives progressive phenotype expression. The age-related worsening of diastolic function in HCM is particularly driven by senescence-associated TGF-β signaling in cardiac fibroblasts, superimposed on the genetic substrate, linking aging hallmarks to HCM disease progression.",
+    "description": "Hypertrophic cardiomyopathy (HCM) is an autosomal dominant sarcomeric protein disorder (most commonly MYH7 or MYBPC3 mutations) causing unexplained left ventricular hypertrophy with diastolic dysfunction, outflow tract obstruction, myocardial fibrosis, and risk of sudden cardiac death and atrial fibrillation. While HCM is present from birth at the genetic level, the severity of hypertrophy, fibrosis, and symptoms typically increases with age, as myocardial senescence amplifies fibrotic remodeling, epigenetic alterations accumulate in cardiomyocytes modifying sarcomeric gene expression, and altered intercellular communication via pro-hypertrophic paracrine signaling drives progressive phenotype expression. The age-related worsening of diastolic function in HCM is particularly driven by senescence-associated TGF-\u03b2 signaling in cardiac fibroblasts, superimposed on the genetic substrate, linking aging hallmarks to HCM disease progression.",
     "mechanism_links": [
       {
         "mechanism_id": "mech_epigenetic_clock",
@@ -8148,6 +10064,15 @@
     ],
     "pubmed_search_terms": [
       "Cardiomyopathy Hypertrophic aging"
+    ],
+    "key_genes": ["MYH7", "MYBPC3", "TNNT2", "TNNI3", "TPM1", "MYL2", "ACTC1", "MYL3"],
+    "treatments": [
+      "Mavacamten (cardiac myosin inhibitor, reduces hypercontractility)",
+      "Beta-blockers (reduce outflow tract obstruction and symptoms)",
+      "Rapamycin (mTOR inhibitor to reduce hypertrophic remodeling)",
+      "Senolytic therapy (to clear SASP-driven fibrotic TGF-β signaling)",
+      "NAD+ precursors (NMN/NR to support cardiomyocyte proteostasis)",
+      "Caloric restriction / exercise (AMPK activation to oppose mTOR-driven hypertrophy)"
     ]
   },
   {
@@ -8198,6 +10123,14 @@
     ],
     "pubmed_search_terms": [
       "Drug Hypersensitivity aging"
+    ],
+    "key_genes": ["HLA-B", "HLA-A", "CYP2C9", "CYP2D6", "NAT2", "ABCB1", "IL4", "IL13"],
+    "treatments": [
+      "Drug desensitization protocols (where medically necessary)",
+      "Probiotic supplementation (correct dysbiosis-related mucosal immune dysregulation)",
+      "Anti-histamines / corticosteroids (acute hypersensitivity management)",
+      "NAD+ precursors (NMN/NR to support immune homeostasis)",
+      "HLA-based pharmacogenomic screening (prevent immunological drug reactions)"
     ]
   },
   {
@@ -8268,6 +10201,14 @@
     ],
     "pubmed_search_terms": [
       "Meningioma aging"
+    ],
+    "key_genes": ["NF2", "TRAF7", "AKT1", "SMO", "KLF4", "CDKN2A", "TERT", "TP53"],
+    "treatments": [
+      "Surgical resection (primary treatment for symptomatic meningioma)",
+      "Radiotherapy / radiosurgery (adjuvant for atypical and anaplastic grades)",
+      "mTOR inhibitors (everolimus, investigational for recurrent meningioma)",
+      "Senolytic therapy (to clear TME senescence-driven SASP, investigational)",
+      "Hedgehog / SMO inhibitors (investigational for SMO-mutant meningioma)"
     ]
   },
   {
@@ -8333,6 +10274,14 @@
     ],
     "pubmed_search_terms": [
       "Premature Birth aging"
+    ],
+    "key_genes": ["TERT", "TERC", "PINK1", "PARKIN", "NFE2L2", "SIRT1", "TFAM", "CDKN1A"],
+    "treatments": [
+      "Antenatal corticosteroids (lung maturation to prevent mitochondrial stress from hyperoxia)",
+      "NAD+ precursors (NMN/NR to restore mitochondrial biogenesis in premature organs)",
+      "Probiotic supplementation (correct neonatal gut dysbiosis)",
+      "Antioxidant supplementation (vitamin E, investigational for oxidative burden)",
+      "Caffeine (adenosine receptor antagonist, reduce apnea and long-term neurodevelopmental risk)"
     ]
   },
   {
@@ -8341,7 +10290,7 @@
     "mesh_id": "MESH:D006984",
     "icd10": "TBD",
     "system": "cardiovascular",
-    "description": "Hypertrophy in the context of aging-related disease most commonly refers to pathological cardiac hypertrophy—concentric left ventricular hypertrophy driven by chronic pressure overload (hypertension) or the intrinsic aging-related remodeling of the myocardium—characterized by cardiomyocyte enlargement, fetal gene program re-expression, interstitial fibrosis, and impaired diastolic filling. The aging heart undergoes progressive hypertrophic remodeling independent of pathological loading, driven by age-related deregulation of the mTOR pathway, impaired macroautophagy that fails to degrade hypertrophied cardiomyocytes' accumulated dysfunctional proteins, and chronic inflammatory signaling promoting TGF-β-mediated fibrosis. Cardiac hypertrophy is a major contributor to diastolic heart failure with preserved ejection fraction (HFpEF)—itself a disease of aging—and shares mechanistic drivers with the systemic aging process.",
+    "description": "Hypertrophy in the context of aging-related disease most commonly refers to pathological cardiac hypertrophy\u2014concentric left ventricular hypertrophy driven by chronic pressure overload (hypertension) or the intrinsic aging-related remodeling of the myocardium\u2014characterized by cardiomyocyte enlargement, fetal gene program re-expression, interstitial fibrosis, and impaired diastolic filling. The aging heart undergoes progressive hypertrophic remodeling independent of pathological loading, driven by age-related deregulation of the mTOR pathway, impaired macroautophagy that fails to degrade hypertrophied cardiomyocytes' accumulated dysfunctional proteins, and chronic inflammatory signaling promoting TGF-\u03b2-mediated fibrosis. Cardiac hypertrophy is a major contributor to diastolic heart failure with preserved ejection fraction (HFpEF)\u2014itself a disease of aging\u2014and shares mechanistic drivers with the systemic aging process.",
     "mechanism_links": [
       {
         "mechanism_id": "mech_mtor_hyperactivation",
@@ -8408,6 +10357,14 @@
     ],
     "pubmed_search_terms": [
       "Hypertrophy aging"
+    ],
+    "key_genes": ["MTOR", "AKT1", "IGF1", "TGFB1", "NPPA", "MYH7", "SIRT1", "FOXO3"],
+    "treatments": [
+      "Rapamycin (mTOR inhibitor to reduce pathological hypertrophic signaling)",
+      "Caloric restriction / exercise (AMPK activation opposing mTOR-driven hypertrophy)",
+      "NAD+ precursors (NMN/NR to restore autophagy and proteostasis in cardiomyocytes)",
+      "Senolytic therapy (to clear SASP-driven TGF-β fibrotic signaling)",
+      "SGLT2 inhibitors (reduce cardiac hypertrophy via AMPK activation)"
     ]
   },
   {
@@ -8416,7 +10373,7 @@
     "mesh_id": "MESH:D003248",
     "icd10": "TBD",
     "system": "gastrointestinal",
-    "description": "Chronic constipation is characterized by infrequent, difficult, or incomplete defecation, affecting approximately 30–40% of older adults and causing significant morbidity, reduced quality of life, and healthcare utilization. Constipation is a hallmark of gastrointestinal aging, driven primarily by age-related gut dysbiosis with reduced abundance of butyrate-producing bacteria impairing colonic motility, neurodegeneration of the enteric nervous system (loss of myenteric neurons), and decreased colonic mucosal epithelial renewal from stem cell exhaustion. These aging-related changes in the gut microbiome, enteric nervous system, and mucosal biology establish constipation as a clinical manifestation of intestinal aging that overlaps with the same hallmarks driving systemic age-related disease.",
+    "description": "Chronic constipation is characterized by infrequent, difficult, or incomplete defecation, affecting approximately 30\u201340% of older adults and causing significant morbidity, reduced quality of life, and healthcare utilization. Constipation is a hallmark of gastrointestinal aging, driven primarily by age-related gut dysbiosis with reduced abundance of butyrate-producing bacteria impairing colonic motility, neurodegeneration of the enteric nervous system (loss of myenteric neurons), and decreased colonic mucosal epithelial renewal from stem cell exhaustion. These aging-related changes in the gut microbiome, enteric nervous system, and mucosal biology establish constipation as a clinical manifestation of intestinal aging that overlaps with the same hallmarks driving systemic age-related disease.",
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -8427,6 +10384,14 @@
     ],
     "pubmed_search_terms": [
       "Constipation aging"
+    ],
+    "key_genes": ["HTR4", "GUCY2C", "KCNK9", "RET", "GDNF", "FUS", "TDP43", "SNCA"],
+    "treatments": [
+      "Probiotic / prebiotic supplementation (restore butyrate-producing colonic bacteria)",
+      "Dietary fiber supplementation (support short-chain fatty acid production)",
+      "Serotonin 5-HT4 receptor agonists (prucalopride, restore enteric neuromuscular function)",
+      "Fecal microbiota transplantation (correct severe dysbiosis-driven constipation)",
+      "Exercise (increase colonic motility and gut microbiome diversity)"
     ]
   },
   {
@@ -8435,7 +10400,7 @@
     "mesh_id": "MESH:D008223",
     "icd10": "TBD",
     "system": "oncological",
-    "description": "Lymphomas are a diverse group of malignancies of lymphoid cells, broadly divided into Hodgkin lymphoma and the heterogeneous non-Hodgkin lymphomas (NHL), arising from B cells, T cells, or NK cells at various stages of differentiation; most NHL subtypes have steeply age-dependent incidence peaking in the seventh decade. The age-associated increase in lymphoma risk reflects immunosenescence—including epigenetic deregulation of B-cell differentiation programs, defective DNA repair in germinal center B cells accumulating somatic hypermutation errors, and impaired immune surveillance by senescent cytotoxic T cells—that collectively permit lymphomagenesis. Deregulated mTOR nutrient-sensing signaling promoting lymphocyte proliferation, epigenetic silencing of tumor suppressor genes in aging lymphocytes, and genomic instability from accumulated reactive oxygen species are the primary aging-hallmark mechanisms driving age-dependent lymphoma incidence.",
+    "description": "Lymphomas are a diverse group of malignancies of lymphoid cells, broadly divided into Hodgkin lymphoma and the heterogeneous non-Hodgkin lymphomas (NHL), arising from B cells, T cells, or NK cells at various stages of differentiation; most NHL subtypes have steeply age-dependent incidence peaking in the seventh decade. The age-associated increase in lymphoma risk reflects immunosenescence\u2014including epigenetic deregulation of B-cell differentiation programs, defective DNA repair in germinal center B cells accumulating somatic hypermutation errors, and impaired immune surveillance by senescent cytotoxic T cells\u2014that collectively permit lymphomagenesis. Deregulated mTOR nutrient-sensing signaling promoting lymphocyte proliferation, epigenetic silencing of tumor suppressor genes in aging lymphocytes, and genomic instability from accumulated reactive oxygen species are the primary aging-hallmark mechanisms driving age-dependent lymphoma incidence.",
     "mechanism_links": [
       {
         "mechanism_id": "mech_epigenetic_clock",
@@ -8497,6 +10462,14 @@
     ],
     "pubmed_search_terms": [
       "Lymphoma aging"
+    ],
+    "key_genes": ["BCL2", "MYC", "TP53", "CDKN2A", "EZH2", "KMT2D", "CREBBP", "DNMT3A"],
+    "treatments": [
+      "Rituximab-based chemoimmunotherapy (anti-CD20 targeting B-cell lymphoma)",
+      "Hypomethylating agents (azacitidine to reverse age-related epigenetic silencing)",
+      "mTOR inhibitors (everolimus to reduce mTOR-driven lymphocyte proliferation)",
+      "CAR-T cell therapy (for relapsed/refractory disease)",
+      "NAD+ precursors (NMN/NR to support normal immune cell function)"
     ]
   },
   {
@@ -8505,7 +10478,7 @@
     "mesh_id": "MESH:D017202",
     "icd10": "TBD",
     "system": "cardiovascular",
-    "description": "Myocardial ischemia results from an imbalance between coronary blood supply and myocardial oxygen demand, most commonly due to atherosclerotic coronary artery disease, manifesting clinically as stable angina, acute coronary syndromes, or silent ischemia, and leading to progressive ventricular dysfunction if untreated. Aging accelerates the atherosclerotic substrate for ischemia through telomere-driven endothelial dysfunction reducing nitric oxide bioavailability, cellular senescence in vascular smooth muscle cells and macrophages amplifying plaque vulnerability, and genomic instability in vascular cells permitting clonal smooth muscle cell expansion. The aged myocardium's reduced ischemic preconditioning capacity—from impaired AMPK activation, declining autophagy-mediated cytoprotection, and loss of cardioprotective paracrine signals from cardiac stem cells—further worsens outcomes of ischemic episodes in older patients.",
+    "description": "Myocardial ischemia results from an imbalance between coronary blood supply and myocardial oxygen demand, most commonly due to atherosclerotic coronary artery disease, manifesting clinically as stable angina, acute coronary syndromes, or silent ischemia, and leading to progressive ventricular dysfunction if untreated. Aging accelerates the atherosclerotic substrate for ischemia through telomere-driven endothelial dysfunction reducing nitric oxide bioavailability, cellular senescence in vascular smooth muscle cells and macrophages amplifying plaque vulnerability, and genomic instability in vascular cells permitting clonal smooth muscle cell expansion. The aged myocardium's reduced ischemic preconditioning capacity\u2014from impaired AMPK activation, declining autophagy-mediated cytoprotection, and loss of cardioprotective paracrine signals from cardiac stem cells\u2014further worsens outcomes of ischemic episodes in older patients.",
     "mechanism_links": [
       {
         "mechanism_id": "mech_sasp",
@@ -8572,6 +10545,14 @@
     ],
     "pubmed_search_terms": [
       "Myocardial Ischemia aging"
+    ],
+    "key_genes": ["TERT", "TP53", "CDKN1A", "SIRT1", "PINK1", "HMOX1", "NOS3", "VEGFA"],
+    "treatments": [
+      "Senolytic therapy (Dasatinib + Quercetin to clear senescent coronary endothelial cells)",
+      "Rapamycin (mTOR inhibitor to restore ischemic preconditioning autophagy)",
+      "NAD+ precursors (NMN/NR to restore AMPK-mediated cardioprotection)",
+      "Statin therapy (reduce vascular senescent plaque inflammation)",
+      "Exercise rehabilitation (enhance coronary collateral and AMPK activation)"
     ]
   },
   {
@@ -8657,6 +10638,15 @@
     ],
     "pubmed_search_terms": [
       "Overnutrition aging"
+    ],
+    "key_genes": ["MTOR", "AMPK", "SIRT1", "PPARG", "ADIPOQ", "LEP", "INSR", "IRS1"],
+    "treatments": [
+      "Caloric restriction / intermittent fasting (suppress mTOR, activate AMPK)",
+      "Rapamycin (mTOR inhibitor to restore autophagy and proteostasis)",
+      "Metformin (AMPK activator, reduce mTOR-driven lipogenesis)",
+      "GLP-1 receptor agonists (semaglutide, reduce caloric excess-driven adiposity)",
+      "Probiotic / dietary fiber (correct overnutrition-induced dysbiosis)",
+      "NAD+ precursors (NMN/NR to restore SIRT1 nutrient-sensing activity)"
     ]
   },
   {
@@ -8702,6 +10692,14 @@
     ],
     "pubmed_search_terms": [
       "Stress Disorders Post-Traumatic aging"
+    ],
+    "key_genes": ["NR3C1", "FKBP5", "BDNF", "SLC6A4", "CRHR1", "DNMT3A", "TET2", "TERT"],
+    "treatments": [
+      "Trauma-focused psychotherapy (EMDR, CPT to reduce HPA-axis dysregulation)",
+      "SSRI / SNRI antidepressants (sertraline, paroxetine for PTSD symptoms)",
+      "Epigenetic modulators (HDAC inhibitors investigational for FKBP5/NR3C1 reprogramming)",
+      "NAD+ precursors (NMN/NR to restore telomere biology and epigenetic age)",
+      "Exercise (aerobic exercise to reverse epigenetic age acceleration)"
     ]
   },
   {
@@ -8710,7 +10708,7 @@
     "mesh_id": "MESH:D012640",
     "icd10": "TBD",
     "system": "neurological",
-    "description": "Seizures are paroxysmal episodes of abnormal, excessive, or hypersynchronous neuronal activity causing transient neurological symptoms; epilepsy—defined by recurrent unprovoked seizures—has a bimodal age distribution with a second peak in adults over 60, making late-onset epilepsy among the most common neurological conditions of aging. The aging brain is inherently more epileptogenic due to loss of inhibitory GABAergic interneurons, altered ion channel expression with aging, and the accumulation of neurodegenerative lesions (amyloid plaques, vascular disease) that serve as seizure foci. Stem cell exhaustion in hippocampal neurogenic niches impairing network repair, deregulated nutrient sensing altering neuronal excitability thresholds, and impaired macroautophagy allowing accumulation of excitotoxic aggregates all contribute to the age-dependent increase in seizure susceptibility.",
+    "description": "Seizures are paroxysmal episodes of abnormal, excessive, or hypersynchronous neuronal activity causing transient neurological symptoms; epilepsy\u2014defined by recurrent unprovoked seizures\u2014has a bimodal age distribution with a second peak in adults over 60, making late-onset epilepsy among the most common neurological conditions of aging. The aging brain is inherently more epileptogenic due to loss of inhibitory GABAergic interneurons, altered ion channel expression with aging, and the accumulation of neurodegenerative lesions (amyloid plaques, vascular disease) that serve as seizure foci. Stem cell exhaustion in hippocampal neurogenic niches impairing network repair, deregulated nutrient sensing altering neuronal excitability thresholds, and impaired macroautophagy allowing accumulation of excitotoxic aggregates all contribute to the age-dependent increase in seizure susceptibility.",
     "mechanism_links": [
       {
         "mechanism_id": "mech_telomerase_insufficiency",
@@ -8772,6 +10770,14 @@
     ],
     "pubmed_search_terms": [
       "Seizures aging"
+    ],
+    "key_genes": ["SCN1A", "KCNQ2", "GABA", "BDNF", "MTOR", "TSC1", "TSC2", "CDKN1A"],
+    "treatments": [
+      "Anti-seizure medications (levetiracetam, lamotrigine targeting neuronal excitability)",
+      "Rapamycin / mTOR inhibitors (everolimus for mTOR-pathway epilepsies)",
+      "Ketogenic diet (reduce neuronal glucose dependence and mTOR hyperactivation)",
+      "NAD+ precursors (NMN/NR to restore hippocampal stem cell niche and neurogenesis)",
+      "Senolytic therapy (investigational to reduce senescent astrocyte excitotoxic SASP)"
     ]
   },
   {
@@ -8780,7 +10786,7 @@
     "mesh_id": "MESH:D006620",
     "icd10": "TBD",
     "system": "musculoskeletal",
-    "description": "Hip fractures are proximal femoral fractures occurring almost exclusively as a consequence of osteoporotic bone fragility combined with a fall, representing the most severe complication of age-related bone loss and carrying a one-year mortality of 20–30% in elderly patients with extensive post-fracture functional decline. Osteoporosis itself is a disease of aging arising from the progressive age-related imbalance between osteoclast-mediated bone resorption and osteoblast-mediated formation, driven by chronic low-grade inflammation (SASP-derived IL-6, IL-1β promoting osteoclastogenesis), epigenetic silencing of osteogenic transcription factors, and senescence of bone marrow mesenchymal stem cells with preferential adipogenic rather than osteogenic differentiation. Hip fractures thus represent the clinical manifestation of aging-hallmark-driven skeletal deterioration, with altered intercellular communication in the bone microenvironment and chronic inflammation as the dominant biological mechanisms.",
+    "description": "Hip fractures are proximal femoral fractures occurring almost exclusively as a consequence of osteoporotic bone fragility combined with a fall, representing the most severe complication of age-related bone loss and carrying a one-year mortality of 20\u201330% in elderly patients with extensive post-fracture functional decline. Osteoporosis itself is a disease of aging arising from the progressive age-related imbalance between osteoclast-mediated bone resorption and osteoblast-mediated formation, driven by chronic low-grade inflammation (SASP-derived IL-6, IL-1\u03b2 promoting osteoclastogenesis), epigenetic silencing of osteogenic transcription factors, and senescence of bone marrow mesenchymal stem cells with preferential adipogenic rather than osteogenic differentiation. Hip fractures thus represent the clinical manifestation of aging-hallmark-driven skeletal deterioration, with altered intercellular communication in the bone microenvironment and chronic inflammation as the dominant biological mechanisms.",
     "mechanism_links": [
       {
         "mechanism_id": "mech_nfkb_signaling",
@@ -8832,6 +10838,15 @@
     ],
     "pubmed_search_terms": [
       "Hip Fractures aging"
+    ],
+    "key_genes": ["RANKL", "OPG", "RUNX2", "SP7", "VDR", "ESR1", "LRP5", "SOST"],
+    "treatments": [
+      "Senolytic therapy (Dasatinib + Quercetin to clear senescent osteoblasts and reduce SASP-driven bone loss)",
+      "Bisphosphonates (reduce osteoclast activity)",
+      "Denosumab (anti-RANKL to reduce osteoclastogenesis)",
+      "Parathyroid hormone analogs (teriparatide, stimulate osteoblastic bone formation)",
+      "Exercise / fall prevention programs (maintain bone loading and reduce fall risk)",
+      "Vitamin D + calcium supplementation (support bone mineralization)"
     ]
   },
   {
@@ -8840,7 +10855,7 @@
     "mesh_id": "MESH:D001766",
     "icd10": "TBD",
     "system": "ophthalmic",
-    "description": "Blindness is defined as visual acuity worse than 3/60 or a visual field less than 10 degrees in the better eye, affecting over 43 million people globally; the leading causes—age-related macular degeneration, cataracts, glaucoma, and diabetic retinopathy—share the characteristic of dramatically increasing prevalence with advancing age. Age-related blindness emerges from the convergence of multiple aging hallmarks in ocular tissues: impaired proteostasis leading to crystallin aggregation in the lens (cataracts), mitochondrial dysfunction and autophagy failure in retinal pigment epithelium (macular degeneration), and optic nerve axon loss driven by elevated intraocular pressure and senescent astrocyte SASP in the glial lamina (glaucoma). Vision loss itself constitutes an additional aging accelerant by causing social isolation, reduced physical activity, and cognitive decline, creating a feedback loop between ocular aging and systemic biological aging.",
+    "description": "Blindness is defined as visual acuity worse than 3/60 or a visual field less than 10 degrees in the better eye, affecting over 43 million people globally; the leading causes\u2014age-related macular degeneration, cataracts, glaucoma, and diabetic retinopathy\u2014share the characteristic of dramatically increasing prevalence with advancing age. Age-related blindness emerges from the convergence of multiple aging hallmarks in ocular tissues: impaired proteostasis leading to crystallin aggregation in the lens (cataracts), mitochondrial dysfunction and autophagy failure in retinal pigment epithelium (macular degeneration), and optic nerve axon loss driven by elevated intraocular pressure and senescent astrocyte SASP in the glial lamina (glaucoma). Vision loss itself constitutes an additional aging accelerant by causing social isolation, reduced physical activity, and cognitive decline, creating a feedback loop between ocular aging and systemic biological aging.",
     "mechanism_links": [
       {
         "mechanism_id": "mech_proteome_imbalance",
@@ -8912,6 +10927,15 @@
     ],
     "pubmed_search_terms": [
       "Blindness aging"
+    ],
+    "key_genes": ["CRYAA", "CRYAB", "CFH", "VEGFA", "PINK1", "PARKIN", "SIRT3", "LAMP2"],
+    "treatments": [
+      "Anti-VEGF therapy (ranibizumab, aflibercept for neovascular AMD)",
+      "NAD+ precursors (NMN/NR to restore RPE mitochondrial function)",
+      "Rapamycin (mTOR inhibitor to enhance RPE autophagy and reduce lipofuscin)",
+      "Senolytic therapy (investigational for SASP-driven retinal/glaucomatous degeneration)",
+      "Neuroprotective gene therapy (AAV-based for retinal degeneration)",
+      "Exercise (reduce systemic vascular risk factors for ocular aging)"
     ]
   },
   {
@@ -8987,6 +11011,14 @@
     ],
     "pubmed_search_terms": [
       "Hearing Loss aging"
+    ],
+    "key_genes": ["GJB2", "GJB6", "KCNQ4", "SLC26A4", "CDH23", "PCDH15", "PINK1", "NFE2L2"],
+    "treatments": [
+      "NAD+ precursors (NMN/NR to restore cochlear hair cell mitochondrial function)",
+      "Mitochondria-targeted antioxidants (MitoQ, investigational for cochlear oxidative damage)",
+      "Hearing aids / cochlear implants (functional compensation)",
+      "Rapamycin (mTOR inhibitor to enhance cochlear autophagy, investigational)",
+      "Senolytic therapy (investigational to reduce spiral ligament senescence and SASP)"
     ]
   },
   {
@@ -8995,7 +11027,7 @@
     "mesh_id": "MESH:D050723",
     "icd10": "TBD",
     "system": "musculoskeletal",
-    "description": "Fragility fractures are bone fractures occurring with minimal trauma—typically a fall from standing height—reflecting underlying osteoporosis and representing a major cause of morbidity, disability, and mortality in the elderly population. Bone fragility increases with age through a mechanistic convergence of cellular senescence in osteoblasts and osteocytes that reduces bone formation signaling, SASP-driven osteoclastogenesis accelerating bone resorption, and impaired autophagy in osteocytes that compromises their mechanosensory function and structural maintenance role. The age-related shift in bone marrow mesenchymal stem cell differentiation from osteogenesis to adipogenesis—reflecting stem cell exhaustion and epigenetic reprogramming—further depletes the osteoblast progenitor pool, creating a pro-resorptive skeletal environment directly driven by canonical hallmarks of aging.",
+    "description": "Fragility fractures are bone fractures occurring with minimal trauma\u2014typically a fall from standing height\u2014reflecting underlying osteoporosis and representing a major cause of morbidity, disability, and mortality in the elderly population. Bone fragility increases with age through a mechanistic convergence of cellular senescence in osteoblasts and osteocytes that reduces bone formation signaling, SASP-driven osteoclastogenesis accelerating bone resorption, and impaired autophagy in osteocytes that compromises their mechanosensory function and structural maintenance role. The age-related shift in bone marrow mesenchymal stem cell differentiation from osteogenesis to adipogenesis\u2014reflecting stem cell exhaustion and epigenetic reprogramming\u2014further depletes the osteoblast progenitor pool, creating a pro-resorptive skeletal environment directly driven by canonical hallmarks of aging.",
     "mechanism_links": [
       {
         "mechanism_id": "mech_sasp",
@@ -9067,6 +11099,14 @@
     ],
     "pubmed_search_terms": [
       "Fractures Bone aging"
+    ],
+    "key_genes": ["RANKL", "OPG", "RUNX2", "SP7", "VDR", "LRP5", "SOST", "CDKN2A"],
+    "treatments": [
+      "Senolytic therapy (Dasatinib + Quercetin to clear senescent osteoblasts and reduce osteoclastogenic SASP)",
+      "Bisphosphonates / denosumab (reduce osteoclast-mediated bone resorption)",
+      "Parathyroid hormone analogs (teriparatide, stimulate osteoblast bone formation)",
+      "Exercise / resistance training (maintain bone mineral density through loading)",
+      "NAD+ precursors (NMN/NR to support bone marrow mesenchymal stem cell osteogenesis)"
     ]
   },
   {
@@ -9137,6 +11177,14 @@
     ],
     "pubmed_search_terms": [
       "Psychological Distress aging"
+    ],
+    "key_genes": ["NR3C1", "FKBP5", "BDNF", "SLC6A4", "CRH", "SIRT1", "TERT", "PINK1"],
+    "treatments": [
+      "Psychotherapy / mindfulness-based stress reduction (reduce HPA-axis dysregulation and epigenetic age acceleration)",
+      "Exercise (aerobic exercise to reduce telomere attrition and improve mitochondrial function)",
+      "NAD+ precursors (NMN/NR to restore mitochondrial function in stressed neurons)",
+      "Probiotic supplementation (correct gut-brain axis dysbiosis)",
+      "Caloric restriction / time-restricted eating (AMPK activation, reduce SASP-driven neuroinflammation)"
     ]
   },
   {
@@ -9227,6 +11275,14 @@
     ],
     "pubmed_search_terms": [
       "Tooth Loss aging"
+    ],
+    "key_genes": ["IL6", "IL1B", "TNF", "RANKL", "OPG", "VDR", "CTNNB1", "RUNX2"],
+    "treatments": [
+      "Periodontal therapy (reduce dysbiotic oral biofilm-driven alveolar bone loss)",
+      "Senolytic therapy (investigational to clear senescent periodontal fibroblasts)",
+      "Anti-RANKL therapy (denosumab to reduce alveolar osteoclastogenesis)",
+      "Probiotic oral supplementation (restore oral microbiome balance)",
+      "NAD+ precursors (NMN/NR to support periodontal stem cell regeneration)"
     ]
   },
   {
@@ -9235,7 +11291,7 @@
     "mesh_id": "MESH:D007248",
     "icd10": "TBD",
     "system": "reproductive",
-    "description": "Male infertility is defined as the inability to achieve conception after 12 months of unprotected intercourse with a fertile partner, attributable to deficiencies in sperm production (oligospermia), motility (asthenospermia), morphology (teratospermia), or function, and accounts for approximately 50% of all infertility cases. Male reproductive aging is characterized by progressive testicular atrophy, declining Leydig cell function with reduced testosterone production, accumulation of mitochondrial DNA damage in sperm that impairs motility and increases embryo aneuploidization risk, and increased sperm DNA fragmentation reflecting impaired epididymal DNA repair. Advanced paternal age correlates with increasing de novo mutations in offspring and epigenetic alterations in sperm methylation patterns driven by oxidative sperm DNA damage and declining epididymal antioxidant defense—directly linking aging-hallmark mechanisms to declining male reproductive fitness.",
+    "description": "Male infertility is defined as the inability to achieve conception after 12 months of unprotected intercourse with a fertile partner, attributable to deficiencies in sperm production (oligospermia), motility (asthenospermia), morphology (teratospermia), or function, and accounts for approximately 50% of all infertility cases. Male reproductive aging is characterized by progressive testicular atrophy, declining Leydig cell function with reduced testosterone production, accumulation of mitochondrial DNA damage in sperm that impairs motility and increases embryo aneuploidization risk, and increased sperm DNA fragmentation reflecting impaired epididymal DNA repair. Advanced paternal age correlates with increasing de novo mutations in offspring and epigenetic alterations in sperm methylation patterns driven by oxidative sperm DNA damage and declining epididymal antioxidant defense\u2014directly linking aging-hallmark mechanisms to declining male reproductive fitness.",
     "mechanism_links": [
       {
         "mechanism_id": "mech_oxidative_stress",
@@ -9297,6 +11353,14 @@
     ],
     "pubmed_search_terms": [
       "Infertility Male aging"
+    ],
+    "key_genes": ["TFAM", "PINK1", "SIRT3", "SOD2", "NFE2L2", "DNMT3A", "DNMT3L", "MTHFR"],
+    "treatments": [
+      "Antioxidant therapy (CoQ10, vitamin E, N-acetylcysteine to reduce sperm oxidative damage)",
+      "NAD+ precursors (NMN/NR to restore sperm mitochondrial function and motility)",
+      "Mitochondria-targeted antioxidants (MitoQ, investigational)",
+      "Lifestyle interventions (exercise, dietary modification to reduce oxidative burden)",
+      "Epigenetic interventions (folate, methionine cycle support for sperm DNA methylation)"
     ]
   },
   {
@@ -9362,6 +11426,14 @@
     ],
     "pubmed_search_terms": [
       "Pre-Eclampsia aging"
+    ],
+    "key_genes": ["FLT1", "ENG", "TERT", "TP53", "CDKN1A", "HIF1A", "VEGFA", "PLGF"],
+    "treatments": [
+      "Low-dose aspirin (antiplatelet to improve placental perfusion)",
+      "Antihypertensive therapy (labetalol, nifedipine for maternal blood pressure control)",
+      "NAD+ precursors (NMN/NR to support trophoblast mitochondrial function)",
+      "Senolytic therapy (investigational to clear senescent trophoblasts)",
+      "Anti-VEGF signaling modulators (investigational for sFlt-1 excess)"
     ]
   },
   {
@@ -9370,7 +11442,7 @@
     "mesh_id": "MESH:D057180",
     "icd10": "TBD",
     "system": "neurological",
-    "description": "Frontotemporal dementia (FTD) is a clinically and pathologically heterogeneous group of neurodegenerative disorders defined by progressive degeneration of frontal and temporal lobes, presenting with behavioral disinhibition, apathy, semantic or nonfluent speech deficits, and underlying molecular pathology of TDP-43, FUS, or tau inclusions. FTD is predominantly a disease of the sixth and seventh decades, with proteinopathy spread following the same prion-like propagation pattern observed in other age-related neurodegenerative diseases, suggesting that declining proteostasis capacity—a hallmark of aging—is a permissive factor for pathological aggregate propagation. Loss of proteostasis enabling TDP-43 or tau misfolding, impaired autophagy preventing clearance of RNA-binding protein aggregates, and telomere-driven frontotemporal neuron vulnerability are the primary aging mechanisms converging on FTD pathogenesis.",
+    "description": "Frontotemporal dementia (FTD) is a clinically and pathologically heterogeneous group of neurodegenerative disorders defined by progressive degeneration of frontal and temporal lobes, presenting with behavioral disinhibition, apathy, semantic or nonfluent speech deficits, and underlying molecular pathology of TDP-43, FUS, or tau inclusions. FTD is predominantly a disease of the sixth and seventh decades, with proteinopathy spread following the same prion-like propagation pattern observed in other age-related neurodegenerative diseases, suggesting that declining proteostasis capacity\u2014a hallmark of aging\u2014is a permissive factor for pathological aggregate propagation. Loss of proteostasis enabling TDP-43 or tau misfolding, impaired autophagy preventing clearance of RNA-binding protein aggregates, and telomere-driven frontotemporal neuron vulnerability are the primary aging mechanisms converging on FTD pathogenesis.",
     "mechanism_links": [
       {
         "mechanism_id": "mech_proteome_imbalance",
@@ -9432,6 +11504,14 @@
     ],
     "pubmed_search_terms": [
       "Frontotemporal Dementia aging"
+    ],
+    "key_genes": ["MAPT", "GRN", "C9orf72", "TARDBP", "FUS", "SQSTM1", "VCP", "UBQLN2"],
+    "treatments": [
+      "Rapamycin (mTOR inhibitor to enhance autophagy and clear TDP-43 / tau aggregates)",
+      "NAD+ precursors (NMN/NR to restore proteostasis and autophagy flux)",
+      "Antisense oligonucleotides (targeting C9orf72 repeat expansion, investigational)",
+      "Progranulin enhancement therapy (latozinemab, investigational for GRN haploinsufficiency)",
+      "Senolytic therapy (to reduce SASP-driven neuroinflammation)"
     ]
   },
   {
@@ -9440,7 +11520,7 @@
     "mesh_id": "MESH:D006943",
     "icd10": "TBD",
     "system": "metabolic",
-    "description": "Hyperglycemia is the condition of abnormally elevated blood glucose concentrations, occurring acutely in diabetic ketoacidosis and hyperosmolar states, and chronically as the cardinal metabolic abnormality of diabetes mellitus, where it drives microvascular and macrovascular complications through glycation, oxidative stress, and protein kinase C activation. Sustained hyperglycemia accelerates biological aging through non-enzymatic glycation of long-lived proteins forming advanced glycation end-products (AGEs) that crosslink structural proteins and activate the RAGE receptor driving chronic vascular inflammation, and through glucose-driven mitochondrial reactive oxygen species overproduction causing genomic instability. The deregulated nutrient-sensing consequence of hyperglycemia—constitutive mTOR activation and impaired AMPK signaling—further impairs autophagy, mitochondrial quality control, and cellular stress responses, accelerating organ aging in diabetic tissues.",
+    "description": "Hyperglycemia is the condition of abnormally elevated blood glucose concentrations, occurring acutely in diabetic ketoacidosis and hyperosmolar states, and chronically as the cardinal metabolic abnormality of diabetes mellitus, where it drives microvascular and macrovascular complications through glycation, oxidative stress, and protein kinase C activation. Sustained hyperglycemia accelerates biological aging through non-enzymatic glycation of long-lived proteins forming advanced glycation end-products (AGEs) that crosslink structural proteins and activate the RAGE receptor driving chronic vascular inflammation, and through glucose-driven mitochondrial reactive oxygen species overproduction causing genomic instability. The deregulated nutrient-sensing consequence of hyperglycemia\u2014constitutive mTOR activation and impaired AMPK signaling\u2014further impairs autophagy, mitochondrial quality control, and cellular stress responses, accelerating organ aging in diabetic tissues.",
     "mechanism_links": [
       {
         "mechanism_id": "mech_mtor_hyperactivation",
@@ -9522,6 +11602,15 @@
     ],
     "pubmed_search_terms": [
       "Hyperglycemia aging"
+    ],
+    "key_genes": ["INS", "INSR", "IRS1", "MTOR", "AGER", "TXNIP", "SIRT1", "FOXO1"],
+    "treatments": [
+      "Metformin (AMPK activator, reduce mTOR-driven glycation and AGE formation)",
+      "SGLT2 inhibitors (reduce glucose load and mTOR hyperactivation)",
+      "GLP-1 receptor agonists (improve insulin sensitivity and reduce oxidative stress)",
+      "Caloric restriction / time-restricted eating (AMPK activation, reduce AGE-RAGE signaling)",
+      "NAD+ precursors (NMN/NR to restore SIRT1-mediated glucose metabolism)",
+      "Anti-RAGE agents (investigational to block AGE-driven vascular inflammation)"
     ]
   },
   {
@@ -9530,7 +11619,7 @@
     "mesh_id": "MESH:D018886",
     "icd10": "TBD",
     "system": "neurological",
-    "description": "Conduction aphasia is a neurological language disorder characterized by fluent but paraphasic spontaneous speech with preserved comprehension but severely impaired repetition, caused by lesions disconnecting the arcuate fasciculus between Broca's and Wernicke's areas, most commonly from ischemic stroke or trauma. Stroke and cerebrovascular disease—the primary causes of aphasia—are strongly age-related diseases, with incidence rising sharply after age 55, reflecting the cumulative burden of vascular senescence and atherosclerosis that the aging brain sustains. Cellular senescence in cerebrovascular endothelial cells impairing blood-brain barrier integrity, chronic neuroinflammation from activated microglia altering perivascular communication, and impaired axonal repair in the aged white matter after injury collectively impair post-stroke language recovery in older patients.",
+    "description": "Conduction aphasia is a neurological language disorder characterized by fluent but paraphasic spontaneous speech with preserved comprehension but severely impaired repetition, caused by lesions disconnecting the arcuate fasciculus between Broca's and Wernicke's areas, most commonly from ischemic stroke or trauma. Stroke and cerebrovascular disease\u2014the primary causes of aphasia\u2014are strongly age-related diseases, with incidence rising sharply after age 55, reflecting the cumulative burden of vascular senescence and atherosclerosis that the aging brain sustains. Cellular senescence in cerebrovascular endothelial cells impairing blood-brain barrier integrity, chronic neuroinflammation from activated microglia altering perivascular communication, and impaired axonal repair in the aged white matter after injury collectively impair post-stroke language recovery in older patients.",
     "mechanism_links": [
       {
         "mechanism_id": "mech_sasp",
@@ -9607,6 +11696,14 @@
     ],
     "pubmed_search_terms": [
       "Aphasia Conduction aging"
+    ],
+    "key_genes": ["TERT", "TP53", "CDKN1A", "NOS3", "ACE", "IL6", "TNF", "BDNF"],
+    "treatments": [
+      "Senolytic therapy (Dasatinib + Quercetin to clear senescent cerebrovascular cells)",
+      "Speech-language therapy (rehabilitate language function through neuroplasticity)",
+      "Statin therapy (reduce vascular senescence and atherosclerotic stroke risk)",
+      "NAD+ precursors (NMN/NR to support axonal repair and white matter integrity)",
+      "Exercise / cognitive rehabilitation (promote cortical neuroplasticity and recovery)"
     ]
   },
   {
@@ -9615,7 +11712,7 @@
     "mesh_id": "MESH:D000080874",
     "icd10": "TBD",
     "system": "neurological",
-    "description": "Synucleinopathies are a family of neurodegenerative diseases defined by the pathological accumulation of misfolded alpha-synuclein into Lewy bodies, Lewy neurites, or glial cytoplasmic inclusions, encompassing Parkinson's disease, dementia with Lewy bodies, and multiple system atrophy. All synucleinopathies are strongly age-associated, reflecting the progressive age-dependent decline in the cellular mechanisms—chaperone-mediated autophagy, macroautophagy, and the ubiquitin-proteasome system—that normally prevent alpha-synuclein from adopting toxic oligomeric conformations and propagating prion-like through neural circuits. Loss of proteostasis enabling alpha-synuclein aggregation and impaired macroautophagy preventing aggregate clearance are the two primary aging hallmarks driving synucleinopathy pathogenesis, with mitochondrial dysfunction from aggregated alpha-synuclein disrupting Complex I creating a pathological amplification loop.",
+    "description": "Synucleinopathies are a family of neurodegenerative diseases defined by the pathological accumulation of misfolded alpha-synuclein into Lewy bodies, Lewy neurites, or glial cytoplasmic inclusions, encompassing Parkinson's disease, dementia with Lewy bodies, and multiple system atrophy. All synucleinopathies are strongly age-associated, reflecting the progressive age-dependent decline in the cellular mechanisms\u2014chaperone-mediated autophagy, macroautophagy, and the ubiquitin-proteasome system\u2014that normally prevent alpha-synuclein from adopting toxic oligomeric conformations and propagating prion-like through neural circuits. Loss of proteostasis enabling alpha-synuclein aggregation and impaired macroautophagy preventing aggregate clearance are the two primary aging hallmarks driving synucleinopathy pathogenesis, with mitochondrial dysfunction from aggregated alpha-synuclein disrupting Complex I creating a pathological amplification loop.",
     "mechanism_links": [
       {
         "mechanism_id": "mech_autophagy_flux_decline",
@@ -9682,6 +11779,14 @@
     ],
     "pubmed_search_terms": [
       "Synucleinopathies aging"
+    ],
+    "key_genes": ["SNCA", "LRRK2", "GBA", "PINK1", "PARKIN", "LAMP2A", "ATG7", "BECN1"],
+    "treatments": [
+      "Rapamycin (mTOR inhibitor to restore macroautophagy and CMA for alpha-syn clearance)",
+      "NAD+ precursors (NMN/NR to support mitochondrial Complex I function)",
+      "LRRK2 inhibitors (investigational for LRRK2-driven alpha-syn pathology)",
+      "GBA activators / chaperones (ambroxol for GBA-variant synucleinopathies)",
+      "Alpha-synuclein immunotherapy (anti-alpha-syn antibodies, investigational)"
     ]
   },
   {
@@ -9732,6 +11837,14 @@
     ],
     "pubmed_search_terms": [
       "Psoriasis aging"
+    ],
+    "key_genes": ["IL17A", "IL23A", "IL12B", "TNFA", "HLA-C", "CDKN2A", "GJB2", "SIRT1"],
+    "treatments": [
+      "IL-17 / IL-23 inhibitors (secukinumab, guselkumab targeting Th17 aging-skewed responses)",
+      "Probiotic / dietary fiber interventions (correct skin microbiome dysbiosis)",
+      "Methotrexate (anti-inflammatory, reduce epigenetic age acceleration)",
+      "Caloric restriction / exercise (reduce systemic inflammaging burden)",
+      "NAD+ precursors (NMN/NR to slow epigenetic clock acceleration in skin)"
     ]
   },
   {
@@ -9807,6 +11920,14 @@
     ],
     "pubmed_search_terms": [
       "Respiratory Insufficiency aging"
+    ],
+    "key_genes": ["TERT", "TERC", "SFTPC", "NFE2L2", "PINK1", "CDKN1A", "FOXO3", "SIRT1"],
+    "treatments": [
+      "NAD+ precursors (NMN/NR to restore alveolar epithelial mitochondrial and telomere biology)",
+      "Probiotic supplementation (correct gut-lung axis dysbiosis)",
+      "Rapamycin (mTOR inhibitor to enhance autophagy in airway epithelium)",
+      "Senolytic therapy (to clear senescent alveolar and airway cells with SASP)",
+      "Exercise / pulmonary rehabilitation (maintain ventilatory reserve and sarcopenia reversal)"
     ]
   },
   {
@@ -9815,7 +11936,7 @@
     "mesh_id": "MESH:D015430",
     "icd10": "TBD",
     "system": "metabolic",
-    "description": "Age-associated weight gain refers to the progressive increase in adiposity—particularly visceral fat—that occurs with aging even in the absence of increased caloric intake, driven by the age-related decline in basal metabolic rate, loss of lean muscle mass, and shift in adipose tissue distribution from subcutaneous to visceral depots. The aging adipose tissue accumulates senescent adipocytes and stromal vascular cells with SASP-driven inflammation, gut dysbiosis with enrichment of energy-harvesting bacteria, and epigenetic modifications in adipogenic progenitors that promote lipogenesis while impairing adipocyte differentiation quality. This age-related redistribution of adiposity, driven by telomere attrition, dysbiosis, and epigenetic reprogramming of the adipose tissue stem cell niche, creates a pro-inflammatory, insulin-resistant state that accelerates multiple downstream aging-related diseases.",
+    "description": "Age-associated weight gain refers to the progressive increase in adiposity\u2014particularly visceral fat\u2014that occurs with aging even in the absence of increased caloric intake, driven by the age-related decline in basal metabolic rate, loss of lean muscle mass, and shift in adipose tissue distribution from subcutaneous to visceral depots. The aging adipose tissue accumulates senescent adipocytes and stromal vascular cells with SASP-driven inflammation, gut dysbiosis with enrichment of energy-harvesting bacteria, and epigenetic modifications in adipogenic progenitors that promote lipogenesis while impairing adipocyte differentiation quality. This age-related redistribution of adiposity, driven by telomere attrition, dysbiosis, and epigenetic reprogramming of the adipose tissue stem cell niche, creates a pro-inflammatory, insulin-resistant state that accelerates multiple downstream aging-related diseases.",
     "mechanism_links": [
       {
         "mechanism_id": "mech_telomere_ddr",
@@ -9872,6 +11993,14 @@
     ],
     "pubmed_search_terms": [
       "Weight Gain aging"
+    ],
+    "key_genes": ["ADIPOQ", "LEP", "PPARG", "DNMT3A", "TERT", "FTO", "SIRT1", "AMPK"],
+    "treatments": [
+      "Caloric restriction / time-restricted eating (activate AMPK, oppose telomere attrition)",
+      "GLP-1 receptor agonists (semaglutide, reduce age-related visceral adiposity)",
+      "Probiotic / prebiotic interventions (correct dysbiosis-related energy harvesting excess)",
+      "NAD+ precursors (NMN/NR to restore adipose tissue sirtuin and telomere biology)",
+      "Exercise / resistance training (reduce visceral fat and restore adipogenic stem cell niche)"
     ]
   },
   {
@@ -9880,7 +12009,7 @@
     "mesh_id": "MESH:C564971",
     "icd10": "TBD",
     "system": "musculoskeletal",
-    "description": "Myopathy with giant abnormal mitochondria is a rare muscle disease characterized by marked weakness and the presence of dramatically enlarged, structurally disorganized mitochondria in muscle biopsy, representing a severe form of mitochondrial myopathy in which impaired organelle quality control allows expansion of dysfunctional mitochondria beyond physiological limits. Mitochondrial dysfunction—the defining feature of this condition—is simultaneously a central hallmark of normal aging, and the disease models in an extreme form what occurs progressively in aging skeletal muscle (sarcopenia) through declining PINK1-Parkin-dependent mitophagy and fusion/fission dynamics. Telomere attrition reducing the regenerative capacity of muscle satellite cells to replace mitochondria-laden fibers, combined with impaired macroautophagy preventing clearance of giant dysfunctional organelles, establishes this disease as a mechanistic convergence point of aging-hallmark biology and rare mitochondrial pathology.",
+    "description": "Myopathy with giant abnormal mitochondria is a rare muscle disease characterized by marked weakness and the presence of dramatically enlarged, structurally disorganized mitochondria in muscle biopsy, representing a severe form of mitochondrial myopathy in which impaired organelle quality control allows expansion of dysfunctional mitochondria beyond physiological limits. Mitochondrial dysfunction\u2014the defining feature of this condition\u2014is simultaneously a central hallmark of normal aging, and the disease models in an extreme form what occurs progressively in aging skeletal muscle (sarcopenia) through declining PINK1-Parkin-dependent mitophagy and fusion/fission dynamics. Telomere attrition reducing the regenerative capacity of muscle satellite cells to replace mitochondria-laden fibers, combined with impaired macroautophagy preventing clearance of giant dysfunctional organelles, establishes this disease as a mechanistic convergence point of aging-hallmark biology and rare mitochondrial pathology.",
     "mechanism_links": [
       {
         "mechanism_id": "mech_oxidative_stress",
@@ -9957,6 +12086,14 @@
     ],
     "pubmed_search_terms": [
       "Myopathy with Giant Abnormal Mitochondria aging"
+    ],
+    "key_genes": ["PINK1", "PARKIN", "MFN2", "OPA1", "TFAM", "SIRT3", "NAD", "DNM1L"],
+    "treatments": [
+      "NAD+ precursors (NMN/NR to restore PINK1-Parkin mitophagy and mitochondrial quality control)",
+      "Rapamycin (mTOR inhibitor to enhance macroautophagy of giant dysfunctional mitochondria)",
+      "Mitochondria-targeted antioxidants (MitoQ to reduce ROS from dysfunctional organelles)",
+      "Exercise (controlled resistance exercise to promote mitochondrial fission and biogenesis)",
+      "CoQ10 supplementation (support mitochondrial electron transport)"
     ]
   },
   {
@@ -9965,7 +12102,7 @@
     "mesh_id": "MESH:D016640",
     "icd10": "TBD",
     "system": "metabolic",
-    "description": "Gestational diabetes mellitus (GDM) is a form of glucose intolerance first diagnosed during pregnancy, resulting from the inability of pancreatic beta cells to compensate for the physiological insulin resistance induced by placental hormones, resolving after delivery but conferring a 7–10-fold lifetime risk of type 2 diabetes. GDM is relevant to aging research because women with a history of GDM demonstrate accelerated biological aging including shorter leukocyte telomere length and epigenetic age acceleration in subsequent years, and gut microbiome dysbiosis during GDM may contribute to metabolic reprogramming that persists after pregnancy. The disease also programs intergenerational metabolic risk through epigenetic modifications in offspring exposed to intrauterine hyperglycemia, demonstrating how a gestational insult can alter the trajectory of aging-related disease in the next generation.",
+    "description": "Gestational diabetes mellitus (GDM) is a form of glucose intolerance first diagnosed during pregnancy, resulting from the inability of pancreatic beta cells to compensate for the physiological insulin resistance induced by placental hormones, resolving after delivery but conferring a 7\u201310-fold lifetime risk of type 2 diabetes. GDM is relevant to aging research because women with a history of GDM demonstrate accelerated biological aging including shorter leukocyte telomere length and epigenetic age acceleration in subsequent years, and gut microbiome dysbiosis during GDM may contribute to metabolic reprogramming that persists after pregnancy. The disease also programs intergenerational metabolic risk through epigenetic modifications in offspring exposed to intrauterine hyperglycemia, demonstrating how a gestational insult can alter the trajectory of aging-related disease in the next generation.",
     "mechanism_links": [
       {
         "mechanism_id": "mech_gut_permeability",
@@ -9997,6 +12134,14 @@
     ],
     "pubmed_search_terms": [
       "Diabetes Gestational aging"
+    ],
+    "key_genes": ["INS", "INSR", "GCK", "HNF1A", "HNF4A", "MTOR", "TERT", "DNMT3A"],
+    "treatments": [
+      "Dietary and lifestyle intervention (reduce mTOR-driven gestational glucose excess)",
+      "Insulin therapy (maintain normoglycemia to prevent AGE-mediated aging sequelae)",
+      "Metformin (AMPK activator, investigational gestational use)",
+      "Probiotic supplementation (correct dysbiosis contributing to insulin resistance)",
+      "NAD+ precursors (NMN/NR to restore beta cell and vascular mitochondrial function, investigational)"
     ]
   }
 ]

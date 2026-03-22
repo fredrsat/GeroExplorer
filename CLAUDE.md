@@ -148,6 +148,13 @@ Death, Drug-Related Side Effects, Insulin Resistance (mechanism), Chromosomal In
 - Grouped by shared mechanism (e.g. "via Endothelial Dysfunction: Atherosclerosis, Hypertension...")
 - Scientifically: reveals mechanistic basis for known clinical comorbidities
 
+### Treatments and key genes per node (implemented 2026-03-22, task #12)
+All 154 diseases have `key_genes` (4–8 gene symbols) and `treatments` (3–6 aging-targeted
+interventions). All 39 mechanisms have `key_genes`. Hallmarks already had `key_genes`.
+`disease_614878` is a spurious OMIM entry with empty arrays — candidate for removal.
+`key_genes` are rendered as gene badge chips in NodeDetail. `treatments` are not yet
+displayed in the UI — planned as a separate section in NodeDetail.
+
 ### Relation labels in NodeDetail (implemented 2026-03-22, task #13)
 Each connection card shows a short italic label describing the nature of the edge
 from the current node's perspective, derived from the edge `type` field:

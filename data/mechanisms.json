@@ -2,498 +2,1821 @@
   {
     "id": "mech_oxidative_stress",
     "name": "Oxidative Stress",
-    "description": "Imbalance between reactive oxygen species (ROS) production and antioxidant defenses. ROS generated primarily by mitochondrial electron transport chain leak oxidize lipids (lipid peroxidation), proteins (carbonylation), and DNA (8-OHdG formation). Chronic oxidative stress accelerates genomic instability, protein misfolding, mitochondrial dysfunction, and activates inflammatory signaling through NF-κB. Age-related decline in Nrf2 signaling reduces antioxidant capacity, further exacerbating oxidative burden.",
+    "description": "Imbalance between reactive oxygen species (ROS) production and antioxidant defenses. ROS generated primarily by mitochondrial electron transport chain leak oxidize lipids (lipid peroxidation), proteins (carbonylation), and DNA (8-OHdG formation). Chronic oxidative stress accelerates genomic instability, protein misfolding, mitochondrial dysfunction, and activates inflammatory signaling through NF-\u03baB. Age-related decline in Nrf2 signaling reduces antioxidant capacity, further exacerbating oxidative burden.",
     "hallmark_links": [
-      {"hallmark_id": "hallmark_mitochondrial_dysfunction", "confidence": 0.97, "evidence_type": "strong_experimental"},
-      {"hallmark_id": "hallmark_genomic_instability", "confidence": 0.91, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_loss_of_proteostasis", "confidence": 0.85, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_cellular_senescence", "confidence": 0.82, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_chronic_inflammation", "confidence": 0.78, "evidence_type": "established"}
+      {
+        "hallmark_id": "hallmark_mitochondrial_dysfunction",
+        "confidence": 0.97,
+        "evidence_type": "strong_experimental"
+      },
+      {
+        "hallmark_id": "hallmark_genomic_instability",
+        "confidence": 0.91,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_loss_of_proteostasis",
+        "confidence": 0.85,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_cellular_senescence",
+        "confidence": 0.82,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_chronic_inflammation",
+        "confidence": 0.78,
+        "evidence_type": "established"
+      }
     ],
-    "pubmed_search_terms": ["oxidative stress aging", "ROS aging disease", "Nrf2 aging", "mitochondrial ROS aging"]
+    "pubmed_search_terms": [
+      "oxidative stress aging",
+      "ROS aging disease",
+      "Nrf2 aging",
+      "mitochondrial ROS aging"
+    ],
+    "key_genes": [
+      "NFE2L2",
+      "SOD1",
+      "SOD2",
+      "CAT",
+      "GPX1",
+      "GPX4",
+      "KEAP1",
+      "TXN"
+    ]
   },
   {
     "id": "mech_neuroinflammation",
     "name": "Neuroinflammation",
-    "description": "Chronic activation of microglia (brain-resident macrophages) and astrocytes resulting in sustained release of pro-inflammatory mediators (TNF-α, IL-1β, IL-6, NO, prostaglandins) in the central nervous system. Aging microglia adopt a dystrophic or sensitized phenotype with exaggerated inflammatory responses. Neuroinflammation impairs synaptic plasticity, promotes neuronal death, and synergizes with protein aggregation pathologies. The blood-brain barrier (BBB) becomes increasingly permeable with age, allowing peripheral inflammatory signals to amplify CNS inflammation.",
+    "description": "Chronic activation of microglia (brain-resident macrophages) and astrocytes resulting in sustained release of pro-inflammatory mediators (TNF-\u03b1, IL-1\u03b2, IL-6, NO, prostaglandins) in the central nervous system. Aging microglia adopt a dystrophic or sensitized phenotype with exaggerated inflammatory responses. Neuroinflammation impairs synaptic plasticity, promotes neuronal death, and synergizes with protein aggregation pathologies. The blood-brain barrier (BBB) becomes increasingly permeable with age, allowing peripheral inflammatory signals to amplify CNS inflammation.",
     "hallmark_links": [
-      {"hallmark_id": "hallmark_chronic_inflammation", "confidence": 0.95, "evidence_type": "strong_experimental"},
-      {"hallmark_id": "hallmark_cellular_senescence", "confidence": 0.82, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_altered_intercellular_communication", "confidence": 0.85, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_mitochondrial_dysfunction", "confidence": 0.72, "evidence_type": "moderate"},
-      {"hallmark_id": "hallmark_dysbiosis", "confidence": 0.65, "evidence_type": "emerging"}
+      {
+        "hallmark_id": "hallmark_chronic_inflammation",
+        "confidence": 0.95,
+        "evidence_type": "strong_experimental"
+      },
+      {
+        "hallmark_id": "hallmark_cellular_senescence",
+        "confidence": 0.82,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_altered_intercellular_communication",
+        "confidence": 0.85,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_mitochondrial_dysfunction",
+        "confidence": 0.72,
+        "evidence_type": "moderate"
+      },
+      {
+        "hallmark_id": "hallmark_dysbiosis",
+        "confidence": 0.65,
+        "evidence_type": "emerging"
+      }
     ],
-    "pubmed_search_terms": ["neuroinflammation aging", "microglia aging", "brain aging inflammation", "neuroinflammation neurodegenerative disease"]
+    "pubmed_search_terms": [
+      "neuroinflammation aging",
+      "microglia aging",
+      "brain aging inflammation",
+      "neuroinflammation neurodegenerative disease"
+    ],
+    "key_genes": [
+      "TREM2",
+      "CX3CR1",
+      "IL1B",
+      "TNF",
+      "IL6",
+      "NOS2",
+      "PTGS2",
+      "HMGB1"
+    ]
   },
   {
     "id": "mech_insulin_resistance",
     "name": "Insulin Resistance / Metabolic Syndrome",
     "description": "Reduced cellular responsiveness to insulin signaling, impairing glucose uptake in skeletal muscle, liver, and adipose tissue. Insulin resistance develops through multiple mechanisms: lipotoxicity from ectopic fat deposition, inflammatory cytokine interference with insulin receptor substrate phosphorylation, mitochondrial dysfunction impairing fatty acid oxidation, and impaired GLUT4 translocation. Systemic insulin resistance leads to hyperglycemia, dyslipidemia, hypertension, and compensatory hyperinsulinemia, collectively termed metabolic syndrome.",
     "hallmark_links": [
-      {"hallmark_id": "hallmark_deregulated_nutrient_sensing", "confidence": 0.95, "evidence_type": "strong_experimental"},
-      {"hallmark_id": "hallmark_mitochondrial_dysfunction", "confidence": 0.85, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_chronic_inflammation", "confidence": 0.88, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_cellular_senescence", "confidence": 0.75, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_dysbiosis", "confidence": 0.70, "evidence_type": "established"}
+      {
+        "hallmark_id": "hallmark_deregulated_nutrient_sensing",
+        "confidence": 0.95,
+        "evidence_type": "strong_experimental"
+      },
+      {
+        "hallmark_id": "hallmark_mitochondrial_dysfunction",
+        "confidence": 0.85,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_chronic_inflammation",
+        "confidence": 0.88,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_cellular_senescence",
+        "confidence": 0.75,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_dysbiosis",
+        "confidence": 0.7,
+        "evidence_type": "established"
+      }
     ],
-    "pubmed_search_terms": ["insulin resistance aging", "metabolic syndrome aging", "type 2 diabetes aging mechanisms"]
+    "pubmed_search_terms": [
+      "insulin resistance aging",
+      "metabolic syndrome aging",
+      "type 2 diabetes aging mechanisms"
+    ],
+    "key_genes": [
+      "IRS1",
+      "IRS2",
+      "PIK3CA",
+      "AKT1",
+      "FOXO1",
+      "SOCS3",
+      "PTP1B",
+      "GLUT4"
+    ]
   },
   {
     "id": "mech_mtor_hyperactivation",
     "name": "mTOR Hyperactivation",
     "description": "Chronic hyperactivation of mechanistic target of rapamycin complex 1 (mTORC1) drives accelerated aging by suppressing autophagy, promoting anabolic processes that cause cellular hypertrophy and senescence, and impairing stress response pathways. mTORC1 hyperactivation blunts the adaptive response to nutrient scarcity, interferes with protein quality control through autophagy suppression, and promotes mitochondrial dysfunction. Rapamycin-mediated mTOR inhibition extends lifespan in multiple organisms and shows promise in age-related disease contexts.",
     "hallmark_links": [
-      {"hallmark_id": "hallmark_deregulated_nutrient_sensing", "confidence": 0.97, "evidence_type": "strong_experimental"},
-      {"hallmark_id": "hallmark_disabled_macroautophagy", "confidence": 0.93, "evidence_type": "strong_experimental"},
-      {"hallmark_id": "hallmark_cellular_senescence", "confidence": 0.78, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_loss_of_proteostasis", "confidence": 0.82, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_mitochondrial_dysfunction", "confidence": 0.65, "evidence_type": "moderate"}
+      {
+        "hallmark_id": "hallmark_deregulated_nutrient_sensing",
+        "confidence": 0.97,
+        "evidence_type": "strong_experimental"
+      },
+      {
+        "hallmark_id": "hallmark_disabled_macroautophagy",
+        "confidence": 0.93,
+        "evidence_type": "strong_experimental"
+      },
+      {
+        "hallmark_id": "hallmark_cellular_senescence",
+        "confidence": 0.78,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_loss_of_proteostasis",
+        "confidence": 0.82,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_mitochondrial_dysfunction",
+        "confidence": 0.65,
+        "evidence_type": "moderate"
+      }
     ],
-    "pubmed_search_terms": ["mTOR aging longevity", "rapamycin aging", "mTORC1 aging autophagy", "mTOR age-related disease"]
+    "pubmed_search_terms": [
+      "mTOR aging longevity",
+      "rapamycin aging",
+      "mTORC1 aging autophagy",
+      "mTOR age-related disease"
+    ],
+    "key_genes": [
+      "MTOR",
+      "RPTOR",
+      "TSC1",
+      "TSC2",
+      "RICTOR",
+      "RPS6KB1",
+      "EIF4EBP1",
+      "PRKAA1"
+    ]
   },
   {
     "id": "mech_nfkb_signaling",
-    "name": "NF-κB Signaling Dysregulation",
-    "description": "Nuclear factor kappa-light-chain-enhancer of activated B cells (NF-κB) is a master transcription factor controlling inflammatory gene expression. With aging, NF-κB becomes chronically activated due to accumulation of DAMPs (damaged cellular components), ROS, SASP factors, gut-derived endotoxins, and cGAS-STING pathway activation by cytosolic DNA. This drives persistent expression of pro-inflammatory genes (IL-1β, IL-6, TNF-α, COX-2, iNOS) and promotes cellular senescence, creating a feed-forward inflammatory cycle that accelerates tissue deterioration.",
+    "name": "NF-\u03baB Signaling Dysregulation",
+    "description": "Nuclear factor kappa-light-chain-enhancer of activated B cells (NF-\u03baB) is a master transcription factor controlling inflammatory gene expression. With aging, NF-\u03baB becomes chronically activated due to accumulation of DAMPs (damaged cellular components), ROS, SASP factors, gut-derived endotoxins, and cGAS-STING pathway activation by cytosolic DNA. This drives persistent expression of pro-inflammatory genes (IL-1\u03b2, IL-6, TNF-\u03b1, COX-2, iNOS) and promotes cellular senescence, creating a feed-forward inflammatory cycle that accelerates tissue deterioration.",
     "hallmark_links": [
-      {"hallmark_id": "hallmark_chronic_inflammation", "confidence": 0.97, "evidence_type": "strong_experimental"},
-      {"hallmark_id": "hallmark_cellular_senescence", "confidence": 0.88, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_genomic_instability", "confidence": 0.72, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_altered_intercellular_communication", "confidence": 0.85, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_dysbiosis", "confidence": 0.68, "evidence_type": "moderate"}
+      {
+        "hallmark_id": "hallmark_chronic_inflammation",
+        "confidence": 0.97,
+        "evidence_type": "strong_experimental"
+      },
+      {
+        "hallmark_id": "hallmark_cellular_senescence",
+        "confidence": 0.88,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_genomic_instability",
+        "confidence": 0.72,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_altered_intercellular_communication",
+        "confidence": 0.85,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_dysbiosis",
+        "confidence": 0.68,
+        "evidence_type": "moderate"
+      }
     ],
-    "pubmed_search_terms": ["NF-kB aging", "NF-kappaB aging inflammation", "NF-kB senescence SASP", "IKK aging"]
+    "pubmed_search_terms": [
+      "NF-kB aging",
+      "NF-kappaB aging inflammation",
+      "NF-kB senescence SASP",
+      "IKK aging"
+    ],
+    "key_genes": [
+      "NFKB1",
+      "RELA",
+      "IKBKB",
+      "CHUK",
+      "NFKBIA",
+      "IL6",
+      "IL1B",
+      "TNF"
+    ]
   },
   {
     "id": "mech_amyloid_aggregation",
     "name": "Amyloid Aggregation",
-    "description": "Aberrant aggregation of misfolded proteins into amyloid fibrils and oligomers. Amyloid-beta (Aβ) peptides derived from amyloid precursor protein (APP) by secretase cleavage misfold into oligomers and fibrils that deposit as senile plaques in Alzheimer's disease. Soluble Aβ oligomers are highly neurotoxic, impairing synaptic transmission, activating neuroinflammation, and inducing tau pathology. Islet amyloid polypeptide (IAPP) aggregation occurs in type 2 diabetes. General proteostasis collapse with age provides a permissive environment for amyloid formation across multiple disease contexts.",
+    "description": "Aberrant aggregation of misfolded proteins into amyloid fibrils and oligomers. Amyloid-beta (A\u03b2) peptides derived from amyloid precursor protein (APP) by secretase cleavage misfold into oligomers and fibrils that deposit as senile plaques in Alzheimer's disease. Soluble A\u03b2 oligomers are highly neurotoxic, impairing synaptic transmission, activating neuroinflammation, and inducing tau pathology. Islet amyloid polypeptide (IAPP) aggregation occurs in type 2 diabetes. General proteostasis collapse with age provides a permissive environment for amyloid formation across multiple disease contexts.",
     "hallmark_links": [
-      {"hallmark_id": "hallmark_loss_of_proteostasis", "confidence": 0.95, "evidence_type": "strong_experimental"},
-      {"hallmark_id": "hallmark_disabled_macroautophagy", "confidence": 0.85, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_mitochondrial_dysfunction", "confidence": 0.72, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_chronic_inflammation", "confidence": 0.78, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_epigenetic_alterations", "confidence": 0.55, "evidence_type": "emerging"}
+      {
+        "hallmark_id": "hallmark_loss_of_proteostasis",
+        "confidence": 0.95,
+        "evidence_type": "strong_experimental"
+      },
+      {
+        "hallmark_id": "hallmark_disabled_macroautophagy",
+        "confidence": 0.85,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_mitochondrial_dysfunction",
+        "confidence": 0.72,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_chronic_inflammation",
+        "confidence": 0.78,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_epigenetic_alterations",
+        "confidence": 0.55,
+        "evidence_type": "emerging"
+      }
     ],
-    "pubmed_search_terms": ["amyloid aggregation aging", "amyloid beta aging Alzheimer", "proteostasis amyloid aging", "IAPP aggregation aging"]
+    "pubmed_search_terms": [
+      "amyloid aggregation aging",
+      "amyloid beta aging Alzheimer",
+      "proteostasis amyloid aging",
+      "IAPP aggregation aging"
+    ],
+    "key_genes": [
+      "APP",
+      "PSEN1",
+      "PSEN2",
+      "BACE1",
+      "ADAM10",
+      "CLU",
+      "APOE",
+      "IAPP"
+    ]
   },
   {
     "id": "mech_tau_hyperphosphorylation",
     "name": "Tau Hyperphosphorylation",
-    "description": "Tau is a microtubule-associated protein that stabilizes axonal microtubule networks. Hyperphosphorylation by kinases (GSK-3β, CDK5, DYRK1A) causes tau to detach from microtubules, misfold, and aggregate into neurofibrillary tangles (NFTs). NFTs disrupt axonal transport, impair synaptic function, and spread trans-synaptically through the brain in a prion-like manner following Braak staging. Tau pathology occurs in Alzheimer's disease, frontotemporal dementias, progressive supranuclear palsy, CTE, and other tauopathies. GSK-3β hyperactivation links insulin resistance to tau pathology.",
+    "description": "Tau is a microtubule-associated protein that stabilizes axonal microtubule networks. Hyperphosphorylation by kinases (GSK-3\u03b2, CDK5, DYRK1A) causes tau to detach from microtubules, misfold, and aggregate into neurofibrillary tangles (NFTs). NFTs disrupt axonal transport, impair synaptic function, and spread trans-synaptically through the brain in a prion-like manner following Braak staging. Tau pathology occurs in Alzheimer's disease, frontotemporal dementias, progressive supranuclear palsy, CTE, and other tauopathies. GSK-3\u03b2 hyperactivation links insulin resistance to tau pathology.",
     "hallmark_links": [
-      {"hallmark_id": "hallmark_loss_of_proteostasis", "confidence": 0.90, "evidence_type": "strong_experimental"},
-      {"hallmark_id": "hallmark_deregulated_nutrient_sensing", "confidence": 0.72, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_mitochondrial_dysfunction", "confidence": 0.68, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_genomic_instability", "confidence": 0.52, "evidence_type": "moderate"},
-      {"hallmark_id": "hallmark_chronic_inflammation", "confidence": 0.75, "evidence_type": "established"}
+      {
+        "hallmark_id": "hallmark_loss_of_proteostasis",
+        "confidence": 0.9,
+        "evidence_type": "strong_experimental"
+      },
+      {
+        "hallmark_id": "hallmark_deregulated_nutrient_sensing",
+        "confidence": 0.72,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_mitochondrial_dysfunction",
+        "confidence": 0.68,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_genomic_instability",
+        "confidence": 0.52,
+        "evidence_type": "moderate"
+      },
+      {
+        "hallmark_id": "hallmark_chronic_inflammation",
+        "confidence": 0.75,
+        "evidence_type": "established"
+      }
     ],
-    "pubmed_search_terms": ["tau hyperphosphorylation aging", "tau aggregation neurodegeneration", "GSK3 tau aging", "tauopathy aging"]
+    "pubmed_search_terms": [
+      "tau hyperphosphorylation aging",
+      "tau aggregation neurodegeneration",
+      "GSK3 tau aging",
+      "tauopathy aging"
+    ],
+    "key_genes": [
+      "MAPT",
+      "GSK3B",
+      "CDK5",
+      "DYRK1A",
+      "TTBK1",
+      "TTBK2",
+      "PP2A",
+      "FKBP51"
+    ]
   },
   {
     "id": "mech_mitophagy_impairment",
     "name": "Mitophagy Impairment",
     "description": "Mitophagy is the selective autophagic elimination of damaged mitochondria, primarily regulated by the PINK1-Parkin pathway and BNIP3/FUNDC1 receptors. Damaged mitochondria that fail to be cleared accumulate, generating excess ROS, releasing cytochrome c (triggering apoptosis), and releasing mtDNA that activates the cGAS-STING innate immune pathway. Age-related decline in PINK1 expression and Parkin activity, combined with lysosomal dysfunction, impairs mitophagy efficiency. Mitophagy impairment is particularly important in post-mitotic neurons, muscle cells, and cardiomyocytes that cannot dilute dysfunctional mitochondria by cell division.",
     "hallmark_links": [
-      {"hallmark_id": "hallmark_mitochondrial_dysfunction", "confidence": 0.97, "evidence_type": "strong_experimental"},
-      {"hallmark_id": "hallmark_disabled_macroautophagy", "confidence": 0.93, "evidence_type": "strong_experimental"},
-      {"hallmark_id": "hallmark_loss_of_proteostasis", "confidence": 0.72, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_chronic_inflammation", "confidence": 0.78, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_cellular_senescence", "confidence": 0.68, "evidence_type": "established"}
+      {
+        "hallmark_id": "hallmark_mitochondrial_dysfunction",
+        "confidence": 0.97,
+        "evidence_type": "strong_experimental"
+      },
+      {
+        "hallmark_id": "hallmark_disabled_macroautophagy",
+        "confidence": 0.93,
+        "evidence_type": "strong_experimental"
+      },
+      {
+        "hallmark_id": "hallmark_loss_of_proteostasis",
+        "confidence": 0.72,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_chronic_inflammation",
+        "confidence": 0.78,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_cellular_senescence",
+        "confidence": 0.68,
+        "evidence_type": "established"
+      }
     ],
-    "pubmed_search_terms": ["mitophagy aging", "PINK1 Parkin aging", "mitophagy impairment age-related disease", "mitochondrial quality control aging"]
+    "pubmed_search_terms": [
+      "mitophagy aging",
+      "PINK1 Parkin aging",
+      "mitophagy impairment age-related disease",
+      "mitochondrial quality control aging"
+    ],
+    "key_genes": [
+      "PINK1",
+      "PARK2",
+      "BNIP3",
+      "FUNDC1",
+      "BNIP3L",
+      "AMBRA1",
+      "OPTN",
+      "CALCOCO2"
+    ]
   },
   {
     "id": "mech_telomere_ddr",
     "name": "Telomere-Induced DNA Damage Response",
     "description": "Critically short or dysfunctional telomeres are recognized as double-strand DNA breaks by the DNA damage response machinery, triggering persistent activation of ATM/ATR kinases, formation of gamma-H2AX foci, and recruitment of 53BP1 and other DDR factors. This telomeric DDR cannot be resolved by conventional repair mechanisms and induces irreversible cell cycle arrest (senescence) or apoptosis. Telomere-induced DDR is a major driver of replicative senescence in proliferating tissues and contributes to stem cell exhaustion. In post-mitotic cells, oxidative telomere damage can also activate a transient DDR that impairs cell function without inducing full senescence.",
     "hallmark_links": [
-      {"hallmark_id": "hallmark_telomere_attrition", "confidence": 0.98, "evidence_type": "strong_experimental"},
-      {"hallmark_id": "hallmark_cellular_senescence", "confidence": 0.95, "evidence_type": "strong_experimental"},
-      {"hallmark_id": "hallmark_stem_cell_exhaustion", "confidence": 0.82, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_genomic_instability", "confidence": 0.85, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_chronic_inflammation", "confidence": 0.70, "evidence_type": "established"}
+      {
+        "hallmark_id": "hallmark_telomere_attrition",
+        "confidence": 0.98,
+        "evidence_type": "strong_experimental"
+      },
+      {
+        "hallmark_id": "hallmark_cellular_senescence",
+        "confidence": 0.95,
+        "evidence_type": "strong_experimental"
+      },
+      {
+        "hallmark_id": "hallmark_stem_cell_exhaustion",
+        "confidence": 0.82,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_genomic_instability",
+        "confidence": 0.85,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_chronic_inflammation",
+        "confidence": 0.7,
+        "evidence_type": "established"
+      }
     ],
-    "pubmed_search_terms": ["telomere DDR aging senescence", "telomere dysfunction senescence", "replicative senescence telomere"]
+    "pubmed_search_terms": [
+      "telomere DDR aging senescence",
+      "telomere dysfunction senescence",
+      "replicative senescence telomere"
+    ],
+    "key_genes": [
+      "ATM",
+      "ATR",
+      "H2AFX",
+      "TP53BP1",
+      "CDKN1A",
+      "CDKN2A",
+      "CHEK1",
+      "CHEK2"
+    ]
   },
   {
     "id": "mech_sasp",
     "name": "Senescence-Associated Secretory Phenotype (SASP)",
-    "description": "The SASP is a complex secretome produced by senescent cells including pro-inflammatory cytokines (IL-1α, IL-1β, IL-6, IL-8), chemokines (CXCL1, CXCL2, CCL2), matrix metalloproteinases (MMP-1, MMP-3, MMP-9), growth factors (amphiregulin, HGF), and bioactive lipids. SASP is regulated by NF-κB, C/EBPβ, and mTORC1 and is amplified by cytoplasmic chromatin fragments activating cGAS-STING. SASP drives paracrine senescence in neighboring cells, promotes cancer progression through immunosuppression and EMT induction, disrupts tissue architecture via MMP-mediated ECM remodeling, and drives systemic aging through endocrine-like effects. Senolytics (clearing senescent cells) and senomorphics (inhibiting SASP) are active therapeutic strategies.",
+    "description": "The SASP is a complex secretome produced by senescent cells including pro-inflammatory cytokines (IL-1\u03b1, IL-1\u03b2, IL-6, IL-8), chemokines (CXCL1, CXCL2, CCL2), matrix metalloproteinases (MMP-1, MMP-3, MMP-9), growth factors (amphiregulin, HGF), and bioactive lipids. SASP is regulated by NF-\u03baB, C/EBP\u03b2, and mTORC1 and is amplified by cytoplasmic chromatin fragments activating cGAS-STING. SASP drives paracrine senescence in neighboring cells, promotes cancer progression through immunosuppression and EMT induction, disrupts tissue architecture via MMP-mediated ECM remodeling, and drives systemic aging through endocrine-like effects. Senolytics (clearing senescent cells) and senomorphics (inhibiting SASP) are active therapeutic strategies.",
     "hallmark_links": [
-      {"hallmark_id": "hallmark_cellular_senescence", "confidence": 0.98, "evidence_type": "strong_experimental"},
-      {"hallmark_id": "hallmark_chronic_inflammation", "confidence": 0.95, "evidence_type": "strong_experimental"},
-      {"hallmark_id": "hallmark_altered_intercellular_communication", "confidence": 0.92, "evidence_type": "strong_experimental"},
-      {"hallmark_id": "hallmark_stem_cell_exhaustion", "confidence": 0.78, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_genomic_instability", "confidence": 0.65, "evidence_type": "established"}
+      {
+        "hallmark_id": "hallmark_cellular_senescence",
+        "confidence": 0.98,
+        "evidence_type": "strong_experimental"
+      },
+      {
+        "hallmark_id": "hallmark_chronic_inflammation",
+        "confidence": 0.95,
+        "evidence_type": "strong_experimental"
+      },
+      {
+        "hallmark_id": "hallmark_altered_intercellular_communication",
+        "confidence": 0.92,
+        "evidence_type": "strong_experimental"
+      },
+      {
+        "hallmark_id": "hallmark_stem_cell_exhaustion",
+        "confidence": 0.78,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_genomic_instability",
+        "confidence": 0.65,
+        "evidence_type": "established"
+      }
     ],
-    "pubmed_search_terms": ["SASP aging", "senescence secretory phenotype", "senolytic aging", "IL-6 senescence aging"]
+    "pubmed_search_terms": [
+      "SASP aging",
+      "senescence secretory phenotype",
+      "senolytic aging",
+      "IL-6 senescence aging"
+    ],
+    "key_genes": [
+      "NFKB1",
+      "CEBPB",
+      "MTOR",
+      "IL6",
+      "IL8",
+      "MMP3",
+      "MMP9",
+      "HMGB1"
+    ]
   },
   {
     "id": "mech_gut_permeability",
     "name": "Gut Permeability / Leaky Gut",
     "description": "Age-related degradation of intestinal barrier integrity, characterized by reduced tight junction protein expression (occludin, claudin-1, ZO-1), increased intestinal permeability, and translocation of bacteria, bacterial products (LPS, peptidoglycan), and metabolites into the systemic circulation. This chronic low-level endotoxemia activates TLR4 signaling in macrophages and other immune cells, driving systemic inflammation and contributing to inflammaging. Gut permeability is worsened by dysbiosis, reduced SCFA-producing bacteria (butyrate promotes epithelial integrity), decreased mucus production, and oxidative stress in enterocytes.",
     "hallmark_links": [
-      {"hallmark_id": "hallmark_dysbiosis", "confidence": 0.95, "evidence_type": "strong_experimental"},
-      {"hallmark_id": "hallmark_chronic_inflammation", "confidence": 0.90, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_altered_intercellular_communication", "confidence": 0.75, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_epigenetic_alterations", "confidence": 0.52, "evidence_type": "emerging"},
-      {"hallmark_id": "hallmark_stem_cell_exhaustion", "confidence": 0.62, "evidence_type": "moderate"}
+      {
+        "hallmark_id": "hallmark_dysbiosis",
+        "confidence": 0.95,
+        "evidence_type": "strong_experimental"
+      },
+      {
+        "hallmark_id": "hallmark_chronic_inflammation",
+        "confidence": 0.9,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_altered_intercellular_communication",
+        "confidence": 0.75,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_epigenetic_alterations",
+        "confidence": 0.52,
+        "evidence_type": "emerging"
+      },
+      {
+        "hallmark_id": "hallmark_stem_cell_exhaustion",
+        "confidence": 0.62,
+        "evidence_type": "moderate"
+      }
     ],
-    "pubmed_search_terms": ["gut permeability aging", "leaky gut aging inflammation", "intestinal barrier aging", "endotoxemia aging"]
+    "pubmed_search_terms": [
+      "gut permeability aging",
+      "leaky gut aging inflammation",
+      "intestinal barrier aging",
+      "endotoxemia aging"
+    ],
+    "key_genes": [
+      "OCLN",
+      "CLDN1",
+      "TJP1",
+      "MUC2",
+      "TLR4",
+      "MYD88",
+      "DEFB1",
+      "REG3G"
+    ]
   },
   {
     "id": "mech_scfa_reduction",
     "name": "Short-Chain Fatty Acid Reduction",
     "description": "Short-chain fatty acids (SCFAs: butyrate, propionate, acetate) are produced by gut microbial fermentation of dietary fiber and serve as colonocyte energy sources, HDAC inhibitors (epigenetic regulation), and ligands for GPR43/GPR41/GPR109A receptors on immune cells. With aging and dysbiosis, SCFA-producing bacteria (Faecalibacterium prausnitzii, Roseburia, Eubacterium rectale) decline, reducing SCFA production. Reduced butyrate impairs colonocyte energy metabolism, increases gut permeability, diminishes regulatory T cell induction, and promotes pro-inflammatory immune polarization. Butyrate supplementation shows rejuvenating effects in aging animal models.",
     "hallmark_links": [
-      {"hallmark_id": "hallmark_dysbiosis", "confidence": 0.92, "evidence_type": "strong_experimental"},
-      {"hallmark_id": "hallmark_chronic_inflammation", "confidence": 0.82, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_epigenetic_alterations", "confidence": 0.70, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_deregulated_nutrient_sensing", "confidence": 0.65, "evidence_type": "moderate"}
+      {
+        "hallmark_id": "hallmark_dysbiosis",
+        "confidence": 0.92,
+        "evidence_type": "strong_experimental"
+      },
+      {
+        "hallmark_id": "hallmark_chronic_inflammation",
+        "confidence": 0.82,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_epigenetic_alterations",
+        "confidence": 0.7,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_deregulated_nutrient_sensing",
+        "confidence": 0.65,
+        "evidence_type": "moderate"
+      }
     ],
-    "pubmed_search_terms": ["short chain fatty acids aging", "butyrate aging", "SCFA gut microbiome aging", "butyrate inflammation aging"]
+    "pubmed_search_terms": [
+      "short chain fatty acids aging",
+      "butyrate aging",
+      "SCFA gut microbiome aging",
+      "butyrate inflammation aging"
+    ],
+    "key_genes": [
+      "GPR41",
+      "GPR43",
+      "GPR109A",
+      "HDAC1",
+      "HDAC2",
+      "FFAR2",
+      "FFAR3",
+      "SLC5A8"
+    ]
   },
   {
     "id": "mech_proteome_imbalance",
     "name": "Proteome Imbalance / Protein Aggregation",
     "description": "Age-related proteome imbalance results from the convergence of increased protein misfolding rates, reduced chaperone-mediated refolding capacity, impaired ubiquitin-proteasome system activity, and decreased autophagic clearance. Aggregation-prone proteins accumulate in cytoplasmic inclusions: alpha-synuclein in Lewy bodies (Parkinson's), huntingtin in striatal inclusions (Huntington's), TDP-43 and FUS in ALS, and SOD1 in familial ALS. These aggregates sequester functional proteins, disrupt vesicular trafficking, impair axonal transport, and trigger the unfolded protein response (UPR) of the ER.",
     "hallmark_links": [
-      {"hallmark_id": "hallmark_loss_of_proteostasis", "confidence": 0.97, "evidence_type": "strong_experimental"},
-      {"hallmark_id": "hallmark_disabled_macroautophagy", "confidence": 0.90, "evidence_type": "strong_experimental"},
-      {"hallmark_id": "hallmark_mitochondrial_dysfunction", "confidence": 0.72, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_epigenetic_alterations", "confidence": 0.55, "evidence_type": "moderate"},
-      {"hallmark_id": "hallmark_cellular_senescence", "confidence": 0.60, "evidence_type": "moderate"}
+      {
+        "hallmark_id": "hallmark_loss_of_proteostasis",
+        "confidence": 0.97,
+        "evidence_type": "strong_experimental"
+      },
+      {
+        "hallmark_id": "hallmark_disabled_macroautophagy",
+        "confidence": 0.9,
+        "evidence_type": "strong_experimental"
+      },
+      {
+        "hallmark_id": "hallmark_mitochondrial_dysfunction",
+        "confidence": 0.72,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_epigenetic_alterations",
+        "confidence": 0.55,
+        "evidence_type": "moderate"
+      },
+      {
+        "hallmark_id": "hallmark_cellular_senescence",
+        "confidence": 0.6,
+        "evidence_type": "moderate"
+      }
     ],
-    "pubmed_search_terms": ["protein aggregation aging neurodegeneration", "proteome imbalance aging", "ubiquitin proteasome aging", "UPS aging"]
+    "pubmed_search_terms": [
+      "protein aggregation aging neurodegeneration",
+      "proteome imbalance aging",
+      "ubiquitin proteasome aging",
+      "UPS aging"
+    ],
+    "key_genes": [
+      "HSPA1A",
+      "HSP90AA1",
+      "UBQLN2",
+      "VCP",
+      "SQSTM1",
+      "TARDBP",
+      "FUS",
+      "HTT"
+    ]
   },
   {
     "id": "mech_epigenetic_clock",
     "name": "Epigenetic Clock Acceleration",
     "description": "Biological age as measured by epigenetic clocks (Horvath, Hannum, PhenoAge, GrimAge) can accelerate beyond chronological age under conditions of chronic stress, obesity, smoking, sedentary lifestyle, and disease. Accelerated epigenetic aging reflects broader dysregulation of gene expression programs, loss of developmental epigenetic boundaries, and increased transcriptional noise. Clock acceleration correlates with all-cause mortality, cardiovascular disease, cancer, and neurodegeneration risk. Partial reprogramming with Yamanaka factors can reverse epigenetic age marks, suggesting epigenetic state is causally linked to organismal aging.",
     "hallmark_links": [
-      {"hallmark_id": "hallmark_epigenetic_alterations", "confidence": 0.97, "evidence_type": "strong_experimental"},
-      {"hallmark_id": "hallmark_genomic_instability", "confidence": 0.75, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_cellular_senescence", "confidence": 0.78, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_chronic_inflammation", "confidence": 0.72, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_stem_cell_exhaustion", "confidence": 0.70, "evidence_type": "established"}
+      {
+        "hallmark_id": "hallmark_epigenetic_alterations",
+        "confidence": 0.97,
+        "evidence_type": "strong_experimental"
+      },
+      {
+        "hallmark_id": "hallmark_genomic_instability",
+        "confidence": 0.75,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_cellular_senescence",
+        "confidence": 0.78,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_chronic_inflammation",
+        "confidence": 0.72,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_stem_cell_exhaustion",
+        "confidence": 0.7,
+        "evidence_type": "established"
+      }
     ],
-    "pubmed_search_terms": ["epigenetic clock acceleration aging disease", "biological age epigenetics", "GrimAge mortality", "epigenetic reprogramming aging"]
+    "pubmed_search_terms": [
+      "epigenetic clock acceleration aging disease",
+      "biological age epigenetics",
+      "GrimAge mortality",
+      "epigenetic reprogramming aging"
+    ],
+    "key_genes": [
+      "DNMT1",
+      "DNMT3A",
+      "TET1",
+      "TET2",
+      "SIRT1",
+      "SIRT6",
+      "EZH2",
+      "KDM5C"
+    ]
   },
   {
     "id": "mech_clonal_hematopoiesis",
     "name": "Clonal Hematopoiesis of Indeterminate Potential (CHIP)",
-    "description": "Age-related somatic mutations in hematopoietic stem cells (particularly in DNMT3A, TET2, ASXL1, JAK2) confer clonal fitness advantages, leading to expansion of mutant clones (clonal hematopoiesis). CHIP, present in >10% of adults over 70, is associated with increased risk of hematologic malignancies, but more broadly with cardiovascular disease, stroke, and all-cause mortality. TET2-mutant macrophages show exaggerated IL-1β and IL-6 production, directly linking CHIP to inflammaging. CHIP represents a convergence of genomic instability, epigenetic alterations, and altered intercellular communication.",
+    "description": "Age-related somatic mutations in hematopoietic stem cells (particularly in DNMT3A, TET2, ASXL1, JAK2) confer clonal fitness advantages, leading to expansion of mutant clones (clonal hematopoiesis). CHIP, present in >10% of adults over 70, is associated with increased risk of hematologic malignancies, but more broadly with cardiovascular disease, stroke, and all-cause mortality. TET2-mutant macrophages show exaggerated IL-1\u03b2 and IL-6 production, directly linking CHIP to inflammaging. CHIP represents a convergence of genomic instability, epigenetic alterations, and altered intercellular communication.",
     "hallmark_links": [
-      {"hallmark_id": "hallmark_genomic_instability", "confidence": 0.90, "evidence_type": "strong_experimental"},
-      {"hallmark_id": "hallmark_epigenetic_alterations", "confidence": 0.85, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_stem_cell_exhaustion", "confidence": 0.88, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_chronic_inflammation", "confidence": 0.82, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_altered_intercellular_communication", "confidence": 0.75, "evidence_type": "established"}
+      {
+        "hallmark_id": "hallmark_genomic_instability",
+        "confidence": 0.9,
+        "evidence_type": "strong_experimental"
+      },
+      {
+        "hallmark_id": "hallmark_epigenetic_alterations",
+        "confidence": 0.85,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_stem_cell_exhaustion",
+        "confidence": 0.88,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_chronic_inflammation",
+        "confidence": 0.82,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_altered_intercellular_communication",
+        "confidence": 0.75,
+        "evidence_type": "established"
+      }
     ],
-    "pubmed_search_terms": ["clonal hematopoiesis aging CHIP", "DNMT3A TET2 mutation aging", "CHIP cardiovascular disease", "somatic mutation hematopoiesis aging"]
+    "pubmed_search_terms": [
+      "clonal hematopoiesis aging CHIP",
+      "DNMT3A TET2 mutation aging",
+      "CHIP cardiovascular disease",
+      "somatic mutation hematopoiesis aging"
+    ],
+    "key_genes": [
+      "DNMT3A",
+      "TET2",
+      "ASXL1",
+      "JAK2",
+      "SF3B1",
+      "SRSF2",
+      "IDH1",
+      "TP53"
+    ]
   },
   {
     "id": "mech_ecm_stiffening",
     "name": "Extracellular Matrix Stiffening / Fibrosis",
-    "description": "Age-related changes in extracellular matrix (ECM) composition and crosslinking alter tissue biomechanical properties. Increased collagen crosslinking by lysyl oxidase and advanced glycation end-products (AGEs) stiffens arteries, myocardium, and interstitial ECM. Progressive fibrosis driven by TGF-β signaling replaces functional parenchyma with collagen-rich scar tissue in liver (cirrhosis), lung (IPF), kidney (CKD), and heart (cardiac fibrosis). ECM stiffness signals through mechanosensory pathways (YAP/TAZ) to alter cell behavior, promote fibroblast-to-myofibroblast transition, and impair stem cell function.",
+    "description": "Age-related changes in extracellular matrix (ECM) composition and crosslinking alter tissue biomechanical properties. Increased collagen crosslinking by lysyl oxidase and advanced glycation end-products (AGEs) stiffens arteries, myocardium, and interstitial ECM. Progressive fibrosis driven by TGF-\u03b2 signaling replaces functional parenchyma with collagen-rich scar tissue in liver (cirrhosis), lung (IPF), kidney (CKD), and heart (cardiac fibrosis). ECM stiffness signals through mechanosensory pathways (YAP/TAZ) to alter cell behavior, promote fibroblast-to-myofibroblast transition, and impair stem cell function.",
     "hallmark_links": [
-      {"hallmark_id": "hallmark_altered_intercellular_communication", "confidence": 0.88, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_cellular_senescence", "confidence": 0.80, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_chronic_inflammation", "confidence": 0.82, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_stem_cell_exhaustion", "confidence": 0.70, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_deregulated_nutrient_sensing", "confidence": 0.58, "evidence_type": "moderate"}
+      {
+        "hallmark_id": "hallmark_altered_intercellular_communication",
+        "confidence": 0.88,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_cellular_senescence",
+        "confidence": 0.8,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_chronic_inflammation",
+        "confidence": 0.82,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_stem_cell_exhaustion",
+        "confidence": 0.7,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_deregulated_nutrient_sensing",
+        "confidence": 0.58,
+        "evidence_type": "moderate"
+      }
     ],
-    "pubmed_search_terms": ["extracellular matrix aging fibrosis", "TGF-beta aging fibrosis", "AGE crosslinking aging", "tissue stiffness aging"]
+    "pubmed_search_terms": [
+      "extracellular matrix aging fibrosis",
+      "TGF-beta aging fibrosis",
+      "AGE crosslinking aging",
+      "tissue stiffness aging"
+    ],
+    "key_genes": [
+      "TGFB1",
+      "SMAD3",
+      "COL1A1",
+      "LOX",
+      "LOXL2",
+      "YAP1",
+      "WWTR1",
+      "ACTA2"
+    ]
   },
   {
     "id": "mech_immunosenescence",
     "name": "Immunosenescence",
     "description": "Age-related decline in immune function affecting both innate and adaptive immunity. Thymic involution reduces naive T cell output, leading to contraction of the T cell receptor repertoire and accumulation of terminally differentiated, exhausted T cells (particularly CMV-specific CD8+ T cells, 'immunosenescent' T cells). B cell function declines, impairing vaccine responses and increasing autoantibody production. Innate immune cells show altered TLR signaling and defective pathogen killing despite enhanced baseline inflammation. Immunosenescence impairs cancer surveillance, increases susceptibility to infection, and reduces vaccine efficacy in older adults.",
     "hallmark_links": [
-      {"hallmark_id": "hallmark_cellular_senescence", "confidence": 0.88, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_stem_cell_exhaustion", "confidence": 0.85, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_chronic_inflammation", "confidence": 0.90, "evidence_type": "strong_experimental"},
-      {"hallmark_id": "hallmark_telomere_attrition", "confidence": 0.78, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_epigenetic_alterations", "confidence": 0.72, "evidence_type": "established"}
+      {
+        "hallmark_id": "hallmark_cellular_senescence",
+        "confidence": 0.88,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_stem_cell_exhaustion",
+        "confidence": 0.85,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_chronic_inflammation",
+        "confidence": 0.9,
+        "evidence_type": "strong_experimental"
+      },
+      {
+        "hallmark_id": "hallmark_telomere_attrition",
+        "confidence": 0.78,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_epigenetic_alterations",
+        "confidence": 0.72,
+        "evidence_type": "established"
+      }
     ],
-    "pubmed_search_terms": ["immunosenescence aging", "T cell aging thymus", "innate immune aging", "inflammaging immunosenescence"]
+    "pubmed_search_terms": [
+      "immunosenescence aging",
+      "T cell aging thymus",
+      "innate immune aging",
+      "inflammaging immunosenescence"
+    ],
+    "key_genes": [
+      "FOXN1",
+      "IL7",
+      "IL7R",
+      "KLRG1",
+      "CD57",
+      "P2RX7",
+      "FOXP3",
+      "TERT"
+    ]
   },
   {
     "id": "mech_nad_depletion",
     "name": "NAD+ Depletion",
     "description": "Nicotinamide adenine dinucleotide (NAD+) is an essential coenzyme for cellular energy metabolism (redox reactions in glycolysis, TCA cycle, oxidative phosphorylation) and a critical substrate for sirtuins (SIRT1-7) and PARP enzymes. NAD+ levels decline ~50% between youth and middle age due to increased consumption by PARP1 (activated by DNA damage), CD38 (an NADase upregulated by inflammation), and reduced biosynthesis from the salvage pathway. NAD+ depletion impairs sirtuin activity (reducing deacetylase functions in mitochondrial biogenesis, DNA repair, stress responses), reduces OXPHOS efficiency, and promotes inflammatory gene expression. NMN and NR supplementation can restore NAD+ levels.",
     "hallmark_links": [
-      {"hallmark_id": "hallmark_deregulated_nutrient_sensing", "confidence": 0.92, "evidence_type": "strong_experimental"},
-      {"hallmark_id": "hallmark_mitochondrial_dysfunction", "confidence": 0.88, "evidence_type": "strong_experimental"},
-      {"hallmark_id": "hallmark_genomic_instability", "confidence": 0.75, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_epigenetic_alterations", "confidence": 0.80, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_chronic_inflammation", "confidence": 0.70, "evidence_type": "established"}
+      {
+        "hallmark_id": "hallmark_deregulated_nutrient_sensing",
+        "confidence": 0.92,
+        "evidence_type": "strong_experimental"
+      },
+      {
+        "hallmark_id": "hallmark_mitochondrial_dysfunction",
+        "confidence": 0.88,
+        "evidence_type": "strong_experimental"
+      },
+      {
+        "hallmark_id": "hallmark_genomic_instability",
+        "confidence": 0.75,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_epigenetic_alterations",
+        "confidence": 0.8,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_chronic_inflammation",
+        "confidence": 0.7,
+        "evidence_type": "established"
+      }
     ],
-    "pubmed_search_terms": ["NAD+ aging", "NAD depletion aging disease", "sirtuins NAD aging", "NMN NR aging"]
+    "pubmed_search_terms": [
+      "NAD+ aging",
+      "NAD depletion aging disease",
+      "sirtuins NAD aging",
+      "NMN NR aging"
+    ],
+    "key_genes": [
+      "NAMPT",
+      "NMNAT1",
+      "PARP1",
+      "CD38",
+      "SIRT1",
+      "SIRT3",
+      "SIRT6",
+      "NNMT"
+    ]
   },
   {
     "id": "mech_alpha_synuclein",
     "name": "Alpha-Synuclein Aggregation",
-    "description": "Alpha-synuclein (αSyn) is a presynaptic protein that regulates dopamine release. Misfolding and aggregation of αSyn into oligomers and Lewy bodies is central to Parkinson's disease, Lewy body dementia, and multiple system atrophy (synucleinopathies). αSyn aggregation is promoted by oxidative stress, mitochondrial dysfunction, impaired proteasomal/autophagic clearance, and post-translational modifications. Pathological αSyn spreads between neurons in a prion-like manner, explaining the progressive Braak staging of Parkinson's pathology. The gut-brain axis has emerged as an important route of αSyn propagation, originating in enteric neurons.",
+    "description": "Alpha-synuclein (\u03b1Syn) is a presynaptic protein that regulates dopamine release. Misfolding and aggregation of \u03b1Syn into oligomers and Lewy bodies is central to Parkinson's disease, Lewy body dementia, and multiple system atrophy (synucleinopathies). \u03b1Syn aggregation is promoted by oxidative stress, mitochondrial dysfunction, impaired proteasomal/autophagic clearance, and post-translational modifications. Pathological \u03b1Syn spreads between neurons in a prion-like manner, explaining the progressive Braak staging of Parkinson's pathology. The gut-brain axis has emerged as an important route of \u03b1Syn propagation, originating in enteric neurons.",
     "hallmark_links": [
-      {"hallmark_id": "hallmark_loss_of_proteostasis", "confidence": 0.95, "evidence_type": "strong_experimental"},
-      {"hallmark_id": "hallmark_disabled_macroautophagy", "confidence": 0.88, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_mitochondrial_dysfunction", "confidence": 0.82, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_dysbiosis", "confidence": 0.65, "evidence_type": "emerging"},
-      {"hallmark_id": "hallmark_chronic_inflammation", "confidence": 0.72, "evidence_type": "established"}
+      {
+        "hallmark_id": "hallmark_loss_of_proteostasis",
+        "confidence": 0.95,
+        "evidence_type": "strong_experimental"
+      },
+      {
+        "hallmark_id": "hallmark_disabled_macroautophagy",
+        "confidence": 0.88,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_mitochondrial_dysfunction",
+        "confidence": 0.82,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_dysbiosis",
+        "confidence": 0.65,
+        "evidence_type": "emerging"
+      },
+      {
+        "hallmark_id": "hallmark_chronic_inflammation",
+        "confidence": 0.72,
+        "evidence_type": "established"
+      }
     ],
-    "pubmed_search_terms": ["alpha-synuclein aggregation aging", "Lewy body Parkinson aging", "synuclein clearance autophagy", "gut brain synuclein aging"]
+    "pubmed_search_terms": [
+      "alpha-synuclein aggregation aging",
+      "Lewy body Parkinson aging",
+      "synuclein clearance autophagy",
+      "gut brain synuclein aging"
+    ],
+    "key_genes": [
+      "SNCA",
+      "LRRK2",
+      "GBA",
+      "SNCAIP",
+      "LAMP2A",
+      "HSC70",
+      "PARK2",
+      "PINK1"
+    ]
   },
   {
     "id": "mech_vascular_inflammation",
     "name": "Vascular Inflammation and Endothelial Dysfunction",
     "description": "Age-related changes in the vasculature include endothelial dysfunction (reduced NO bioavailability), arterial stiffening (elastin degradation, collagen crosslinking), increased adhesion molecule expression (ICAM-1, VCAM-1), and intimal thickening. Endothelial cells become senescent and adopt a pro-inflammatory, pro-thrombotic phenotype. Vascular inflammation facilitates monocyte/macrophage infiltration and foam cell formation (atherosclerosis), impairs microvascular perfusion, increases cerebrovascular permeability (blood-brain barrier breakdown), and promotes cardiac hypertrophy through altered load conditions.",
     "hallmark_links": [
-      {"hallmark_id": "hallmark_cellular_senescence", "confidence": 0.88, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_chronic_inflammation", "confidence": 0.92, "evidence_type": "strong_experimental"},
-      {"hallmark_id": "hallmark_altered_intercellular_communication", "confidence": 0.80, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_telomere_attrition", "confidence": 0.72, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_mitochondrial_dysfunction", "confidence": 0.75, "evidence_type": "established"}
+      {
+        "hallmark_id": "hallmark_cellular_senescence",
+        "confidence": 0.88,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_chronic_inflammation",
+        "confidence": 0.92,
+        "evidence_type": "strong_experimental"
+      },
+      {
+        "hallmark_id": "hallmark_altered_intercellular_communication",
+        "confidence": 0.8,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_telomere_attrition",
+        "confidence": 0.72,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_mitochondrial_dysfunction",
+        "confidence": 0.75,
+        "evidence_type": "established"
+      }
     ],
-    "pubmed_search_terms": ["vascular aging inflammation", "endothelial dysfunction aging", "arterial stiffness aging", "vascular senescence aging"]
+    "pubmed_search_terms": [
+      "vascular aging inflammation",
+      "endothelial dysfunction aging",
+      "arterial stiffness aging",
+      "vascular senescence aging"
+    ],
+    "key_genes": [
+      "NOS3",
+      "ICAM1",
+      "VCAM1",
+      "SELE",
+      "PECAM1",
+      "CCL2",
+      "CDKN2A",
+      "TERT"
+    ]
   },
   {
     "id": "mech_autophagy_lysosomal",
     "name": "Lysosomal Dysfunction",
     "description": "Lysosomes are the primary degradative compartments receiving cargo from autophagy, endocytosis, and phagocytosis. Age-related lysosomal dysfunction is characterized by reduced cathepsin activity, increased lysosomal membrane permeabilization (LMP), elevated lysosomal pH (reduced acidification by V-ATPase), and accumulation of undegradable lipofuscin material. Dysfunctional lysosomes cannot complete autophagy, impairing clearance of damaged organelles and protein aggregates. TFEB, the master transcriptional regulator of lysosomal biogenesis, shows reduced nuclear translocation with age. Lysosomal storage disorders provide Mendelian models of how lysosomal failure drives aging-like pathology.",
     "hallmark_links": [
-      {"hallmark_id": "hallmark_disabled_macroautophagy", "confidence": 0.97, "evidence_type": "strong_experimental"},
-      {"hallmark_id": "hallmark_loss_of_proteostasis", "confidence": 0.88, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_mitochondrial_dysfunction", "confidence": 0.80, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_cellular_senescence", "confidence": 0.70, "evidence_type": "established"}
+      {
+        "hallmark_id": "hallmark_disabled_macroautophagy",
+        "confidence": 0.97,
+        "evidence_type": "strong_experimental"
+      },
+      {
+        "hallmark_id": "hallmark_loss_of_proteostasis",
+        "confidence": 0.88,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_mitochondrial_dysfunction",
+        "confidence": 0.8,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_cellular_senescence",
+        "confidence": 0.7,
+        "evidence_type": "established"
+      }
     ],
-    "pubmed_search_terms": ["lysosomal dysfunction aging", "TFEB aging", "lysosome aging disease", "lipofuscin aging lysosome"]
+    "pubmed_search_terms": [
+      "lysosomal dysfunction aging",
+      "TFEB aging",
+      "lysosome aging disease",
+      "lipofuscin aging lysosome"
+    ],
+    "key_genes": [
+      "TFEB",
+      "LAMP1",
+      "LAMP2",
+      "CTSD",
+      "CTSL",
+      "ATP6V1B2",
+      "MCOLN1",
+      "GBA"
+    ]
   },
   {
     "id": "mech_er_stress",
     "name": "ER Stress / Unfolded Protein Response",
-    "description": "Accumulation of misfolded proteins in the endoplasmic reticulum (ER) triggers the unfolded protein response (UPR) through three sensor branches: IRE1α, PERK, and ATF6. The UPR aims to restore ER proteostasis through translational attenuation, chaperone upregulation, and ERAD (ER-associated degradation). With aging, chronic ER stress leads to persistent, maladaptive UPR activation that promotes apoptosis, inflammation (CHOP, NF-κB), and insulin resistance. ER stress is particularly important in secretory cells (β-cells, hepatocytes, plasma cells) that have high protein folding demands.",
+    "description": "Accumulation of misfolded proteins in the endoplasmic reticulum (ER) triggers the unfolded protein response (UPR) through three sensor branches: IRE1\u03b1, PERK, and ATF6. The UPR aims to restore ER proteostasis through translational attenuation, chaperone upregulation, and ERAD (ER-associated degradation). With aging, chronic ER stress leads to persistent, maladaptive UPR activation that promotes apoptosis, inflammation (CHOP, NF-\u03baB), and insulin resistance. ER stress is particularly important in secretory cells (\u03b2-cells, hepatocytes, plasma cells) that have high protein folding demands.",
     "hallmark_links": [
-      {"hallmark_id": "hallmark_loss_of_proteostasis", "confidence": 0.93, "evidence_type": "strong_experimental"},
-      {"hallmark_id": "hallmark_disabled_macroautophagy", "confidence": 0.78, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_mitochondrial_dysfunction", "confidence": 0.72, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_chronic_inflammation", "confidence": 0.75, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_deregulated_nutrient_sensing", "confidence": 0.70, "evidence_type": "established"}
+      {
+        "hallmark_id": "hallmark_loss_of_proteostasis",
+        "confidence": 0.93,
+        "evidence_type": "strong_experimental"
+      },
+      {
+        "hallmark_id": "hallmark_disabled_macroautophagy",
+        "confidence": 0.78,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_mitochondrial_dysfunction",
+        "confidence": 0.72,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_chronic_inflammation",
+        "confidence": 0.75,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_deregulated_nutrient_sensing",
+        "confidence": 0.7,
+        "evidence_type": "established"
+      }
     ],
-    "pubmed_search_terms": ["ER stress aging", "unfolded protein response aging", "PERK IRE1 ATF6 aging", "UPR aging disease"]
+    "pubmed_search_terms": [
+      "ER stress aging",
+      "unfolded protein response aging",
+      "PERK IRE1 ATF6 aging",
+      "UPR aging disease"
+    ],
+    "key_genes": [
+      "ERN1",
+      "EIF2AK3",
+      "ATF6",
+      "HSPA5",
+      "DDIT3",
+      "XBP1",
+      "ATF4",
+      "DERL1"
+    ]
   },
   {
     "id": "mech_lipid_peroxidation",
     "name": "Lipid Peroxidation and Ferroptosis",
     "description": "Oxidative damage to polyunsaturated fatty acids (PUFAs) in cellular membranes generates reactive lipid aldehydes (4-HNE, malondialdehyde) and lipid peroxides that alter membrane fluidity, impair receptor function, and damage proteins and DNA. Ferroptosis, an iron-dependent regulated cell death program driven by GPX4 inactivation and uncontrolled lipid peroxidation, has emerged as a relevant cell death pathway in neurodegeneration, ischemia-reperfusion injury, and renal tubular cell death. Age-related accumulation of iron and decreased GPX4 activity increases ferroptotic vulnerability. Lipid peroxidation products serve as disease biomarkers.",
     "hallmark_links": [
-      {"hallmark_id": "hallmark_mitochondrial_dysfunction", "confidence": 0.82, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_genomic_instability", "confidence": 0.72, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_loss_of_proteostasis", "confidence": 0.65, "evidence_type": "moderate"},
-      {"hallmark_id": "hallmark_cellular_senescence", "confidence": 0.68, "evidence_type": "moderate"}
+      {
+        "hallmark_id": "hallmark_mitochondrial_dysfunction",
+        "confidence": 0.82,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_genomic_instability",
+        "confidence": 0.72,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_loss_of_proteostasis",
+        "confidence": 0.65,
+        "evidence_type": "moderate"
+      },
+      {
+        "hallmark_id": "hallmark_cellular_senescence",
+        "confidence": 0.68,
+        "evidence_type": "moderate"
+      }
     ],
-    "pubmed_search_terms": ["lipid peroxidation aging", "ferroptosis aging", "4-HNE aging", "GPX4 aging"]
+    "pubmed_search_terms": [
+      "lipid peroxidation aging",
+      "ferroptosis aging",
+      "4-HNE aging",
+      "GPX4 aging"
+    ],
+    "key_genes": [
+      "GPX4",
+      "SLC7A11",
+      "ACSL4",
+      "LPCAT3",
+      "TFRC",
+      "NCOA4",
+      "FTH1",
+      "ALOX15"
+    ]
   },
   {
     "id": "mech_stem_niche_dysfunction",
     "name": "Stem Cell Niche Dysfunction",
     "description": "Stem cell function depends critically on signals from their surrounding niche microenvironment. With aging, niche cells undergo senescence, altered secretory profiles, and ECM remodeling that compromise niche support function. In muscle, niche fibro-adipogenic progenitors (FAPs) shift from pro-regenerative to pro-fibrotic with age, impairing satellite cell activation. Bone marrow niches show increased adipogenesis and altered cytokine milieu that drive HSC myeloid skewing. Intestinal stem cell niches show decreased Wnt ligand secretion from Paneth cells, reducing LGR5+ ISC self-renewal capacity. Systemic pro-aging signals in the old circulation further impair niche function.",
     "hallmark_links": [
-      {"hallmark_id": "hallmark_stem_cell_exhaustion", "confidence": 0.92, "evidence_type": "strong_experimental"},
-      {"hallmark_id": "hallmark_cellular_senescence", "confidence": 0.85, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_altered_intercellular_communication", "confidence": 0.88, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_chronic_inflammation", "confidence": 0.78, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_epigenetic_alterations", "confidence": 0.68, "evidence_type": "moderate"}
+      {
+        "hallmark_id": "hallmark_stem_cell_exhaustion",
+        "confidence": 0.92,
+        "evidence_type": "strong_experimental"
+      },
+      {
+        "hallmark_id": "hallmark_cellular_senescence",
+        "confidence": 0.85,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_altered_intercellular_communication",
+        "confidence": 0.88,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_chronic_inflammation",
+        "confidence": 0.78,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_epigenetic_alterations",
+        "confidence": 0.68,
+        "evidence_type": "moderate"
+      }
     ],
-    "pubmed_search_terms": ["stem cell niche aging", "muscle niche aging satellite cell", "HSC niche aging", "ISC niche aging Wnt"]
+    "pubmed_search_terms": [
+      "stem cell niche aging",
+      "muscle niche aging satellite cell",
+      "HSC niche aging",
+      "ISC niche aging Wnt"
+    ],
+    "key_genes": [
+      "CXCL12",
+      "CXCR4",
+      "KITLG",
+      "WNT3A",
+      "TGFB1",
+      "CDKN2A",
+      "FOXO3",
+      "VEGFA"
+    ]
   },
   {
     "id": "mech_cholesterol_dysregulation",
     "name": "Cholesterol and Lipid Dysregulation",
     "description": "Age-related changes in lipid homeostasis include increased LDL and VLDL levels, decreased HDL function, increased small dense LDL susceptibility to oxidation, and impaired reverse cholesterol transport. Oxidized LDL (oxLDL) triggers endothelial inflammation, macrophage foam cell formation, and atherosclerotic plaque development. Intracellular cholesterol dysregulation contributes to neurodegeneration through impaired myelin maintenance and membrane raft signaling. APOE4 genotype impairs cholesterol clearance and is the strongest genetic risk factor for late-onset Alzheimer's disease.",
     "hallmark_links": [
-      {"hallmark_id": "hallmark_deregulated_nutrient_sensing", "confidence": 0.82, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_chronic_inflammation", "confidence": 0.80, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_mitochondrial_dysfunction", "confidence": 0.65, "evidence_type": "moderate"},
-      {"hallmark_id": "hallmark_dysbiosis", "confidence": 0.60, "evidence_type": "moderate"},
-      {"hallmark_id": "hallmark_epigenetic_alterations", "confidence": 0.55, "evidence_type": "emerging"}
+      {
+        "hallmark_id": "hallmark_deregulated_nutrient_sensing",
+        "confidence": 0.82,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_chronic_inflammation",
+        "confidence": 0.8,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_mitochondrial_dysfunction",
+        "confidence": 0.65,
+        "evidence_type": "moderate"
+      },
+      {
+        "hallmark_id": "hallmark_dysbiosis",
+        "confidence": 0.6,
+        "evidence_type": "moderate"
+      },
+      {
+        "hallmark_id": "hallmark_epigenetic_alterations",
+        "confidence": 0.55,
+        "evidence_type": "emerging"
+      }
     ],
-    "pubmed_search_terms": ["cholesterol aging cardiovascular", "oxLDL aging atherosclerosis", "APOE4 aging Alzheimer cholesterol", "lipid dysregulation aging"]
+    "pubmed_search_terms": [
+      "cholesterol aging cardiovascular",
+      "oxLDL aging atherosclerosis",
+      "APOE4 aging Alzheimer cholesterol",
+      "lipid dysregulation aging"
+    ],
+    "key_genes": [
+      "APOE",
+      "LDLR",
+      "PCSK9",
+      "ABCA1",
+      "ABCG1",
+      "NPC1",
+      "HMGCR",
+      "CYP7A1"
+    ]
   },
   {
     "id": "mech_mitochondrial_biogenesis",
     "name": "Impaired Mitochondrial Biogenesis",
-    "description": "Mitochondrial biogenesis — the production of new mitochondria — declines with aging due to reduced PGC-1α/NRF1/TFAM axis activity, decreased NAD+ levels impairing SIRT1 activation of PGC-1α, and blunted AMPK signaling. This reduces mitochondrial mass and respiratory capacity in metabolically active tissues (skeletal muscle, heart, brain). Exercise is the most potent physiological inducer of mitochondrial biogenesis, explaining much of its anti-aging benefit. Impaired biogenesis combined with impaired mitophagy creates a net deficit in healthy mitochondrial mass.",
+    "description": "Mitochondrial biogenesis \u2014 the production of new mitochondria \u2014 declines with aging due to reduced PGC-1\u03b1/NRF1/TFAM axis activity, decreased NAD+ levels impairing SIRT1 activation of PGC-1\u03b1, and blunted AMPK signaling. This reduces mitochondrial mass and respiratory capacity in metabolically active tissues (skeletal muscle, heart, brain). Exercise is the most potent physiological inducer of mitochondrial biogenesis, explaining much of its anti-aging benefit. Impaired biogenesis combined with impaired mitophagy creates a net deficit in healthy mitochondrial mass.",
     "hallmark_links": [
-      {"hallmark_id": "hallmark_mitochondrial_dysfunction", "confidence": 0.95, "evidence_type": "strong_experimental"},
-      {"hallmark_id": "hallmark_deregulated_nutrient_sensing", "confidence": 0.88, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_stem_cell_exhaustion", "confidence": 0.72, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_cellular_senescence", "confidence": 0.68, "evidence_type": "moderate"}
+      {
+        "hallmark_id": "hallmark_mitochondrial_dysfunction",
+        "confidence": 0.95,
+        "evidence_type": "strong_experimental"
+      },
+      {
+        "hallmark_id": "hallmark_deregulated_nutrient_sensing",
+        "confidence": 0.88,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_stem_cell_exhaustion",
+        "confidence": 0.72,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_cellular_senescence",
+        "confidence": 0.68,
+        "evidence_type": "moderate"
+      }
     ],
-    "pubmed_search_terms": ["mitochondrial biogenesis aging", "PGC-1alpha aging", "AMPK mitochondria aging", "exercise mitochondria aging"]
+    "pubmed_search_terms": [
+      "mitochondrial biogenesis aging",
+      "PGC-1alpha aging",
+      "AMPK mitochondria aging",
+      "exercise mitochondria aging"
+    ],
+    "key_genes": [
+      "PPARGC1A",
+      "NRF1",
+      "TFAM",
+      "PRKAA1",
+      "PRKAA2",
+      "SIRT1",
+      "ESRRA",
+      "YY1"
+    ]
   },
   {
     "id": "mech_cgas_sting",
     "name": "cGAS-STING Pathway Activation",
-    "description": "The cyclic GMP-AMP synthase (cGAS) - stimulator of interferon genes (STING) pathway is an innate immune sensor for cytosolic double-stranded DNA. In aging cells, cytosolic DNA derived from damaged nuclear DNA, dysfunctional mitochondria (mtDNA), reactivated retrotransposable elements (particularly LINE-1 elements), and micronuclei activates cGAS-STING, producing cGAMP that activates STING and downstream IRF3 and NF-κB signaling. This drives type I interferon and pro-inflammatory cytokine production, contributing to inflammaging and SASP. The cGAS-STING pathway links multiple primary hallmarks (genomic instability, mitochondrial dysfunction, epigenetic alterations) to inflammatory hallmarks.",
+    "description": "The cyclic GMP-AMP synthase (cGAS) - stimulator of interferon genes (STING) pathway is an innate immune sensor for cytosolic double-stranded DNA. In aging cells, cytosolic DNA derived from damaged nuclear DNA, dysfunctional mitochondria (mtDNA), reactivated retrotransposable elements (particularly LINE-1 elements), and micronuclei activates cGAS-STING, producing cGAMP that activates STING and downstream IRF3 and NF-\u03baB signaling. This drives type I interferon and pro-inflammatory cytokine production, contributing to inflammaging and SASP. The cGAS-STING pathway links multiple primary hallmarks (genomic instability, mitochondrial dysfunction, epigenetic alterations) to inflammatory hallmarks.",
     "hallmark_links": [
-      {"hallmark_id": "hallmark_genomic_instability", "confidence": 0.90, "evidence_type": "strong_experimental"},
-      {"hallmark_id": "hallmark_mitochondrial_dysfunction", "confidence": 0.85, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_epigenetic_alterations", "confidence": 0.78, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_chronic_inflammation", "confidence": 0.93, "evidence_type": "strong_experimental"},
-      {"hallmark_id": "hallmark_cellular_senescence", "confidence": 0.85, "evidence_type": "established"}
+      {
+        "hallmark_id": "hallmark_genomic_instability",
+        "confidence": 0.9,
+        "evidence_type": "strong_experimental"
+      },
+      {
+        "hallmark_id": "hallmark_mitochondrial_dysfunction",
+        "confidence": 0.85,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_epigenetic_alterations",
+        "confidence": 0.78,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_chronic_inflammation",
+        "confidence": 0.93,
+        "evidence_type": "strong_experimental"
+      },
+      {
+        "hallmark_id": "hallmark_cellular_senescence",
+        "confidence": 0.85,
+        "evidence_type": "established"
+      }
     ],
-    "pubmed_search_terms": ["cGAS STING aging inflammation", "cGAS STING senescence SASP", "cytosolic DNA aging", "LINE-1 STING aging"]
+    "pubmed_search_terms": [
+      "cGAS STING aging inflammation",
+      "cGAS STING senescence SASP",
+      "cytosolic DNA aging",
+      "LINE-1 STING aging"
+    ],
+    "key_genes": [
+      "CGAS",
+      "STING1",
+      "IRF3",
+      "TBK1",
+      "NFKB1",
+      "TREX1",
+      "DNASE2",
+      "LINE1"
+    ]
   },
   {
     "id": "mech_proteostasis_er",
     "name": "Chaperone Network Decline",
     "description": "The cytosolic and ER chaperone networks (HSP70, HSP90, HSP40, GRP78/BiP, GRP94) facilitate protein folding, prevent aggregation, and target irreparably misfolded proteins for degradation. With aging, heat shock transcription factor 1 (HSF1)-mediated chaperone induction becomes blunted, reducing stress response capacity. Chaperone-mediated autophagy (CMA) declines due to decreased LAMP2A receptor levels on lysosomes. Post-translational modifications (oxidation, glycation) compromise chaperone function. The combined decline in folding, refolding, and degradation capacity creates a proteostasis bottleneck that progressively worsens with age.",
     "hallmark_links": [
-      {"hallmark_id": "hallmark_loss_of_proteostasis", "confidence": 0.95, "evidence_type": "strong_experimental"},
-      {"hallmark_id": "hallmark_disabled_macroautophagy", "confidence": 0.82, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_epigenetic_alterations", "confidence": 0.68, "evidence_type": "moderate"},
-      {"hallmark_id": "hallmark_mitochondrial_dysfunction", "confidence": 0.60, "evidence_type": "moderate"}
+      {
+        "hallmark_id": "hallmark_loss_of_proteostasis",
+        "confidence": 0.95,
+        "evidence_type": "strong_experimental"
+      },
+      {
+        "hallmark_id": "hallmark_disabled_macroautophagy",
+        "confidence": 0.82,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_epigenetic_alterations",
+        "confidence": 0.68,
+        "evidence_type": "moderate"
+      },
+      {
+        "hallmark_id": "hallmark_mitochondrial_dysfunction",
+        "confidence": 0.6,
+        "evidence_type": "moderate"
+      }
     ],
-    "pubmed_search_terms": ["HSP70 aging chaperone", "HSF1 aging heat shock response", "chaperone mediated autophagy aging", "LAMP2A aging CMA"]
+    "pubmed_search_terms": [
+      "HSP70 aging chaperone",
+      "HSF1 aging heat shock response",
+      "chaperone mediated autophagy aging",
+      "LAMP2A aging CMA"
+    ],
+    "key_genes": [
+      "HSPA1A",
+      "HSPA5",
+      "HSP90AA1",
+      "DNAJB1",
+      "STUB1",
+      "BAG3",
+      "HSF1",
+      "LAMP2A"
+    ]
   },
   {
     "id": "mech_dna_methylation_drift",
     "name": "DNA Methylation Drift",
     "description": "Stochastic and systematic changes in DNA methylation patterns over time alter gene expression in aging tissues. Global hypomethylation, particularly at repetitive elements (LINE-1, Alu) and intergenic regions, can reactivate transposable elements and cause chromosomal instability. Locus-specific hypermethylation at tumor suppressor gene promoters drives cancer while hypermethylation at developmental gene promoters impairs tissue homeostasis. Methylation at CpG sites associated with immune gene regulation drives immunosenescence. The high fidelity required to maintain methylation across millions of CpG sites inevitably degrades through replication and repair, making methylation drift an unavoidable consequence of cell divisions.",
     "hallmark_links": [
-      {"hallmark_id": "hallmark_epigenetic_alterations", "confidence": 0.97, "evidence_type": "strong_experimental"},
-      {"hallmark_id": "hallmark_genomic_instability", "confidence": 0.75, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_stem_cell_exhaustion", "confidence": 0.70, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_cellular_senescence", "confidence": 0.72, "evidence_type": "established"}
+      {
+        "hallmark_id": "hallmark_epigenetic_alterations",
+        "confidence": 0.97,
+        "evidence_type": "strong_experimental"
+      },
+      {
+        "hallmark_id": "hallmark_genomic_instability",
+        "confidence": 0.75,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_stem_cell_exhaustion",
+        "confidence": 0.7,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_cellular_senescence",
+        "confidence": 0.72,
+        "evidence_type": "established"
+      }
     ],
-    "pubmed_search_terms": ["DNA methylation drift aging", "epigenetic drift aging stochastic", "LINE-1 methylation aging", "methylation aging cancer"]
+    "pubmed_search_terms": [
+      "DNA methylation drift aging",
+      "epigenetic drift aging stochastic",
+      "LINE-1 methylation aging",
+      "methylation aging cancer"
+    ],
+    "key_genes": [
+      "DNMT1",
+      "DNMT3A",
+      "DNMT3B",
+      "TET1",
+      "TET2",
+      "TET3",
+      "UHRF1",
+      "SIRT1"
+    ]
   },
   {
     "id": "mech_autophagy_flux_decline",
     "name": "Autophagic Flux Decline",
-    "description": "Beyond specific autophagic pathways, the overall capacity for autophagic flux (cargo recognition → autophagosome formation → lysosome fusion → degradation → recycling) declines with age. Key rate-limiting steps include decreased ULK1/2 kinase activity (reduced AMPK signaling), impaired Beclin-1-dependent autophagosome nucleation, reduced ATG5-ATG12 conjugation efficiency, decreased LC3 lipidation, impaired RAB7-mediated autophagosome-lysosome fusion, and reduced lysosomal hydrolase activity. The net result is cargo backlog, reduced cellular recycling capacity, and accumulation of cellular debris that contributes to toxicity.",
+    "description": "Beyond specific autophagic pathways, the overall capacity for autophagic flux (cargo recognition \u2192 autophagosome formation \u2192 lysosome fusion \u2192 degradation \u2192 recycling) declines with age. Key rate-limiting steps include decreased ULK1/2 kinase activity (reduced AMPK signaling), impaired Beclin-1-dependent autophagosome nucleation, reduced ATG5-ATG12 conjugation efficiency, decreased LC3 lipidation, impaired RAB7-mediated autophagosome-lysosome fusion, and reduced lysosomal hydrolase activity. The net result is cargo backlog, reduced cellular recycling capacity, and accumulation of cellular debris that contributes to toxicity.",
     "hallmark_links": [
-      {"hallmark_id": "hallmark_disabled_macroautophagy", "confidence": 0.98, "evidence_type": "strong_experimental"},
-      {"hallmark_id": "hallmark_loss_of_proteostasis", "confidence": 0.88, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_deregulated_nutrient_sensing", "confidence": 0.82, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_mitochondrial_dysfunction", "confidence": 0.78, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_cellular_senescence", "confidence": 0.65, "evidence_type": "moderate"}
+      {
+        "hallmark_id": "hallmark_disabled_macroautophagy",
+        "confidence": 0.98,
+        "evidence_type": "strong_experimental"
+      },
+      {
+        "hallmark_id": "hallmark_loss_of_proteostasis",
+        "confidence": 0.88,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_deregulated_nutrient_sensing",
+        "confidence": 0.82,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_mitochondrial_dysfunction",
+        "confidence": 0.78,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_cellular_senescence",
+        "confidence": 0.65,
+        "evidence_type": "moderate"
+      }
     ],
-    "pubmed_search_terms": ["autophagic flux aging", "autophagy decline aging", "Beclin-1 aging autophagy", "ATG5 ATG7 aging"]
+    "pubmed_search_terms": [
+      "autophagic flux aging",
+      "autophagy decline aging",
+      "Beclin-1 aging autophagy",
+      "ATG5 ATG7 aging"
+    ],
+    "key_genes": [
+      "ULK1",
+      "ULK2",
+      "BECN1",
+      "ATG5",
+      "ATG7",
+      "ATG12",
+      "RAB7A",
+      "SQSTM1"
+    ]
   },
   {
     "id": "mech_muscle_atrophy",
     "name": "Skeletal Muscle Atrophy / Sarcopenia Pathways",
-    "description": "Age-related loss of skeletal muscle mass and strength (sarcopenia) involves impaired protein synthesis (reduced mTORC1 anabolic signaling, blunted leucine/insulin responses), increased protein degradation (ubiquitin-proteasome system via MuRF1/MAFbx, autophagy), neuromuscular junction denervation, satellite cell dysfunction (reduced self-renewal and differentiation), increased intramuscular fat deposition, and mitochondrial dysfunction impairing energy supply for muscle contraction. Inflammatory cytokines (IL-6, TNF-α) directly inhibit muscle protein synthesis and promote atrophy through FOXO-driven atrogene expression. Sarcopenia accelerates frailty, fall risk, and metabolic dysfunction.",
+    "description": "Age-related loss of skeletal muscle mass and strength (sarcopenia) involves impaired protein synthesis (reduced mTORC1 anabolic signaling, blunted leucine/insulin responses), increased protein degradation (ubiquitin-proteasome system via MuRF1/MAFbx, autophagy), neuromuscular junction denervation, satellite cell dysfunction (reduced self-renewal and differentiation), increased intramuscular fat deposition, and mitochondrial dysfunction impairing energy supply for muscle contraction. Inflammatory cytokines (IL-6, TNF-\u03b1) directly inhibit muscle protein synthesis and promote atrophy through FOXO-driven atrogene expression. Sarcopenia accelerates frailty, fall risk, and metabolic dysfunction.",
     "hallmark_links": [
-      {"hallmark_id": "hallmark_stem_cell_exhaustion", "confidence": 0.88, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_deregulated_nutrient_sensing", "confidence": 0.85, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_mitochondrial_dysfunction", "confidence": 0.82, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_chronic_inflammation", "confidence": 0.80, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_loss_of_proteostasis", "confidence": 0.72, "evidence_type": "established"}
+      {
+        "hallmark_id": "hallmark_stem_cell_exhaustion",
+        "confidence": 0.88,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_deregulated_nutrient_sensing",
+        "confidence": 0.85,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_mitochondrial_dysfunction",
+        "confidence": 0.82,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_chronic_inflammation",
+        "confidence": 0.8,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_loss_of_proteostasis",
+        "confidence": 0.72,
+        "evidence_type": "established"
+      }
     ],
-    "pubmed_search_terms": ["sarcopenia molecular mechanisms aging", "muscle atrophy aging protein synthesis", "satellite cell aging muscle", "muscle aging mitochondria"]
+    "pubmed_search_terms": [
+      "sarcopenia molecular mechanisms aging",
+      "muscle atrophy aging protein synthesis",
+      "satellite cell aging muscle",
+      "muscle aging mitochondria"
+    ],
+    "key_genes": [
+      "FOXO3",
+      "FBXO32",
+      "TRIM63",
+      "MTOR",
+      "IGF1",
+      "MSTN",
+      "PPARGC1A",
+      "MURF1"
+    ]
   },
   {
     "id": "mech_bone_remodeling",
     "name": "Dysregulated Bone Remodeling",
-    "description": "Bone homeostasis requires balanced osteoblast (bone formation) and osteoclast (bone resorption) activity. With aging, this balance shifts toward net resorption: osteoblast function declines due to impaired Wnt signaling, increased adipogenic differentiation of mesenchymal stem cell progenitors, reduced growth hormone/IGF-1, and decreased sex hormones. Osteoclast activity is enhanced by inflammatory cytokines (RANKL/OPG imbalance, TNF-α, IL-6). Oxidative stress impairs osteoblast survival. Senescent osteocytes accumulate and disrupt local bone homeostasis through SASP. The net result is progressive bone loss (osteopenia→osteoporosis) with increased fracture risk.",
+    "description": "Bone homeostasis requires balanced osteoblast (bone formation) and osteoclast (bone resorption) activity. With aging, this balance shifts toward net resorption: osteoblast function declines due to impaired Wnt signaling, increased adipogenic differentiation of mesenchymal stem cell progenitors, reduced growth hormone/IGF-1, and decreased sex hormones. Osteoclast activity is enhanced by inflammatory cytokines (RANKL/OPG imbalance, TNF-\u03b1, IL-6). Oxidative stress impairs osteoblast survival. Senescent osteocytes accumulate and disrupt local bone homeostasis through SASP. The net result is progressive bone loss (osteopenia\u2192osteoporosis) with increased fracture risk.",
     "hallmark_links": [
-      {"hallmark_id": "hallmark_stem_cell_exhaustion", "confidence": 0.85, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_chronic_inflammation", "confidence": 0.82, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_cellular_senescence", "confidence": 0.78, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_deregulated_nutrient_sensing", "confidence": 0.72, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_mitochondrial_dysfunction", "confidence": 0.62, "evidence_type": "moderate"}
+      {
+        "hallmark_id": "hallmark_stem_cell_exhaustion",
+        "confidence": 0.85,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_chronic_inflammation",
+        "confidence": 0.82,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_cellular_senescence",
+        "confidence": 0.78,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_deregulated_nutrient_sensing",
+        "confidence": 0.72,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_mitochondrial_dysfunction",
+        "confidence": 0.62,
+        "evidence_type": "moderate"
+      }
     ],
-    "pubmed_search_terms": ["bone remodeling aging osteoporosis", "osteoblast osteoclast aging", "RANKL OPG aging", "osteoporosis aging mechanisms"]
+    "pubmed_search_terms": [
+      "bone remodeling aging osteoporosis",
+      "osteoblast osteoclast aging",
+      "RANKL OPG aging",
+      "osteoporosis aging mechanisms"
+    ],
+    "key_genes": [
+      "TNFSF11",
+      "TNFRSF11B",
+      "RUNX2",
+      "SP7",
+      "LRP5",
+      "SOST",
+      "DKK1",
+      "CTSK"
+    ]
   },
   {
     "id": "mech_synaptic_dysfunction",
     "name": "Synaptic Dysfunction and Neuronal Loss",
     "description": "Age-related synaptic dysfunction manifests as reduced synaptic density, impaired long-term potentiation (LTP), decreased glutamate receptor (AMPA, NMDA) expression and function, altered calcium homeostasis, reduced synaptic vesicle availability, and impaired neurotransmitter release and recycling. Dendritic spine loss and retraction precede overt neuronal death. Synaptic dysfunction underlies cognitive decline and precedes neurodegeneration by decades. BDNF signaling, critical for synaptic plasticity, declines with age. Mitochondrial dysfunction in synaptic terminals impairs ATP supply for synaptic vesicle cycling and calcium extrusion.",
     "hallmark_links": [
-      {"hallmark_id": "hallmark_altered_intercellular_communication", "confidence": 0.88, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_mitochondrial_dysfunction", "confidence": 0.82, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_loss_of_proteostasis", "confidence": 0.78, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_chronic_inflammation", "confidence": 0.72, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_epigenetic_alterations", "confidence": 0.68, "evidence_type": "moderate"}
+      {
+        "hallmark_id": "hallmark_altered_intercellular_communication",
+        "confidence": 0.88,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_mitochondrial_dysfunction",
+        "confidence": 0.82,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_loss_of_proteostasis",
+        "confidence": 0.78,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_chronic_inflammation",
+        "confidence": 0.72,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_epigenetic_alterations",
+        "confidence": 0.68,
+        "evidence_type": "moderate"
+      }
     ],
-    "pubmed_search_terms": ["synaptic dysfunction aging", "LTP aging", "BDNF aging cognitive decline", "synapse loss neurodegeneration"]
+    "pubmed_search_terms": [
+      "synaptic dysfunction aging",
+      "LTP aging",
+      "BDNF aging cognitive decline",
+      "synapse loss neurodegeneration"
+    ],
+    "key_genes": [
+      "BDNF",
+      "NTRK2",
+      "GRIN2A",
+      "GRIN2B",
+      "SHANK3",
+      "DLG4",
+      "CAMK2A",
+      "SNAP25"
+    ]
   },
   {
     "id": "mech_proteolytic_imbalance",
     "name": "Matrix Metalloproteinase / Proteolytic Imbalance",
     "description": "Matrix metalloproteinases (MMPs) and other extracellular proteases regulate ECM turnover, growth factor bioavailability, and cellular signaling. With aging and inflammation (particularly SASP-driven MMP secretion), MMP activity exceeds tissue inhibitor of metalloproteinase (TIMP) activity, driving pathological ECM remodeling. This manifests as cartilage degradation (osteoarthritis), plaque destabilization (atherosclerosis), emphysema (COPD), and tumor invasion. Concurrently, cross-linking and glycation of ECM proteins resists normal MMP-mediated remodeling, creating a paradox of concurrent stiffening and degradation depending on tissue context.",
     "hallmark_links": [
-      {"hallmark_id": "hallmark_cellular_senescence", "confidence": 0.88, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_chronic_inflammation", "confidence": 0.85, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_altered_intercellular_communication", "confidence": 0.78, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_stem_cell_exhaustion", "confidence": 0.65, "evidence_type": "moderate"}
+      {
+        "hallmark_id": "hallmark_cellular_senescence",
+        "confidence": 0.88,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_chronic_inflammation",
+        "confidence": 0.85,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_altered_intercellular_communication",
+        "confidence": 0.78,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_stem_cell_exhaustion",
+        "confidence": 0.65,
+        "evidence_type": "moderate"
+      }
     ],
-    "pubmed_search_terms": ["MMP aging ECM remodeling", "matrix metalloproteinase aging disease", "SASP MMP aging", "cartilage degradation aging MMP"]
+    "pubmed_search_terms": [
+      "MMP aging ECM remodeling",
+      "matrix metalloproteinase aging disease",
+      "SASP MMP aging",
+      "cartilage degradation aging MMP"
+    ],
+    "key_genes": [
+      "MMP3",
+      "MMP9",
+      "MMP13",
+      "TIMP1",
+      "TIMP3",
+      "ADAMTS4",
+      "ADAMTS5",
+      "CDKN2A"
+    ]
   },
   {
     "id": "mech_hormonal_dysregulation",
     "name": "Hormonal Axis Dysregulation",
-    "description": "Multiple endocrine axes decline with aging: growth hormone (GH) and IGF-1 (somatopause), sex hormones estrogen and testosterone (menopause/andropause), dehydroepiandrosterone (DHEA), melatonin, and thyroid hormones. These hormones regulate anabolic processes, immune function, metabolism, and tissue maintenance. Their decline contributes to sarcopenia, osteoporosis, cognitive decline, cardiovascular risk, and impaired immune function. However, the relationship is complex — GH/IGF-1 reduction may be partly protective (reduced mTOR signaling). Sex hormone loss particularly drives rapid bone loss and cardiovascular risk increases in menopause.",
+    "description": "Multiple endocrine axes decline with aging: growth hormone (GH) and IGF-1 (somatopause), sex hormones estrogen and testosterone (menopause/andropause), dehydroepiandrosterone (DHEA), melatonin, and thyroid hormones. These hormones regulate anabolic processes, immune function, metabolism, and tissue maintenance. Their decline contributes to sarcopenia, osteoporosis, cognitive decline, cardiovascular risk, and impaired immune function. However, the relationship is complex \u2014 GH/IGF-1 reduction may be partly protective (reduced mTOR signaling). Sex hormone loss particularly drives rapid bone loss and cardiovascular risk increases in menopause.",
     "hallmark_links": [
-      {"hallmark_id": "hallmark_altered_intercellular_communication", "confidence": 0.90, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_deregulated_nutrient_sensing", "confidence": 0.75, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_stem_cell_exhaustion", "confidence": 0.70, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_chronic_inflammation", "confidence": 0.68, "evidence_type": "moderate"},
-      {"hallmark_id": "hallmark_epigenetic_alterations", "confidence": 0.60, "evidence_type": "moderate"}
+      {
+        "hallmark_id": "hallmark_altered_intercellular_communication",
+        "confidence": 0.9,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_deregulated_nutrient_sensing",
+        "confidence": 0.75,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_stem_cell_exhaustion",
+        "confidence": 0.7,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_chronic_inflammation",
+        "confidence": 0.68,
+        "evidence_type": "moderate"
+      },
+      {
+        "hallmark_id": "hallmark_epigenetic_alterations",
+        "confidence": 0.6,
+        "evidence_type": "moderate"
+      }
     ],
-    "pubmed_search_terms": ["hormonal aging somatopause andropause", "estrogen menopause aging", "GH IGF-1 aging", "DHEA aging"]
+    "pubmed_search_terms": [
+      "hormonal aging somatopause andropause",
+      "estrogen menopause aging",
+      "GH IGF-1 aging",
+      "DHEA aging"
+    ],
+    "key_genes": [
+      "GH1",
+      "IGF1",
+      "IGF1R",
+      "ESR1",
+      "AR",
+      "DHEA",
+      "CYP19A1",
+      "FOXO3"
+    ]
   },
   {
     "id": "mech_adipose_dysfunction",
     "name": "Adipose Tissue Dysfunction",
     "description": "Aging adipose tissue undergoes profound remodeling: subcutaneous fat depots decrease while visceral fat expands; adipogenesis capacity of adipose progenitors declines; adipose tissue inflammation increases with macrophage infiltration and crown-like structure formation; adipokine secretion shifts from anti-inflammatory (adiponectin) to pro-inflammatory (leptin, resistin, visfatin). Ectopic fat deposition in liver, muscle, and other organs impairs insulin signaling and organ function. Senescent preadipocytes and adipocytes contribute to adipose SASP. These changes create a lipotoxic, pro-inflammatory systemic environment that drives metabolic and cardiovascular aging.",
     "hallmark_links": [
-      {"hallmark_id": "hallmark_cellular_senescence", "confidence": 0.82, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_chronic_inflammation", "confidence": 0.88, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_deregulated_nutrient_sensing", "confidence": 0.85, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_altered_intercellular_communication", "confidence": 0.80, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_mitochondrial_dysfunction", "confidence": 0.72, "evidence_type": "established"}
+      {
+        "hallmark_id": "hallmark_cellular_senescence",
+        "confidence": 0.82,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_chronic_inflammation",
+        "confidence": 0.88,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_deregulated_nutrient_sensing",
+        "confidence": 0.85,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_altered_intercellular_communication",
+        "confidence": 0.8,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_mitochondrial_dysfunction",
+        "confidence": 0.72,
+        "evidence_type": "established"
+      }
     ],
-    "pubmed_search_terms": ["adipose tissue aging dysfunction", "visceral fat aging inflammation", "adiponectin aging", "senescent adipocyte aging"]
+    "pubmed_search_terms": [
+      "adipose tissue aging dysfunction",
+      "visceral fat aging inflammation",
+      "adiponectin aging",
+      "senescent adipocyte aging"
+    ],
+    "key_genes": [
+      "ADIPOQ",
+      "LEP",
+      "PPARG",
+      "CDKN2A",
+      "TNF",
+      "IL6",
+      "IRS1",
+      "FASN"
+    ]
   },
   {
     "id": "mech_kidney_filtration",
     "name": "Glomerular Filtration Decline",
     "description": "Glomerular filtration rate (GFR) declines linearly after age 30-40, driven by glomerular hypertension (loss of autoregulation), glomerulosclerosis (progressive scarring of glomeruli), tubular atrophy, interstitial fibrosis, and reduced renal perfusion due to vascular aging. Oxidative stress, advanced glycation end-products, and inflammatory cytokines accelerate this decline. The resulting uremic milieu impairs clearance of small molecules, affects mineral metabolism (phosphate, FGF23, PTH axis), and creates a chronic inflammatory state. CKD itself accelerates cardiovascular aging through uremic toxin accumulation, endothelial dysfunction, and mineral-bone disorder.",
     "hallmark_links": [
-      {"hallmark_id": "hallmark_cellular_senescence", "confidence": 0.80, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_chronic_inflammation", "confidence": 0.85, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_mitochondrial_dysfunction", "confidence": 0.72, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_altered_intercellular_communication", "confidence": 0.75, "evidence_type": "established"}
+      {
+        "hallmark_id": "hallmark_cellular_senescence",
+        "confidence": 0.8,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_chronic_inflammation",
+        "confidence": 0.85,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_mitochondrial_dysfunction",
+        "confidence": 0.72,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_altered_intercellular_communication",
+        "confidence": 0.75,
+        "evidence_type": "established"
+      }
     ],
-    "pubmed_search_terms": ["glomerular filtration decline aging", "renal aging mechanisms", "kidney aging fibrosis", "CKD aging senescence"]
+    "pubmed_search_terms": [
+      "glomerular filtration decline aging",
+      "renal aging mechanisms",
+      "kidney aging fibrosis",
+      "CKD aging senescence"
+    ],
+    "key_genes": [
+      "TGFB1",
+      "SMAD3",
+      "NPHS1",
+      "NPHS2",
+      "WT1",
+      "KL",
+      "FGF23",
+      "CDKN2A"
+    ]
   },
   {
     "id": "mech_telomerase_insufficiency",
     "name": "Telomerase Insufficiency in Stem Cells",
     "description": "While most somatic cells lack significant telomerase activity, stem cells express telomerase to partially counteract telomere attrition. With aging, even stem cell telomerase activity declines, leading to gradual telomere shortening across stem cell compartments. When telomeres reach critically short lengths in stem cells, they undergo apoptosis or senescence rather than self-renewal. This progressive depletion of functional stem cells underlies organ regenerative failure. Rare human diseases with accelerated telomere shortening (dyskeratosis congenita, pulmonary fibrosis, aplastic anemia) demonstrate that telomerase insufficiency causes premature multi-organ failure resembling accelerated aging.",
     "hallmark_links": [
-      {"hallmark_id": "hallmark_telomere_attrition", "confidence": 0.97, "evidence_type": "strong_experimental"},
-      {"hallmark_id": "hallmark_stem_cell_exhaustion", "confidence": 0.93, "evidence_type": "strong_experimental"},
-      {"hallmark_id": "hallmark_cellular_senescence", "confidence": 0.85, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_genomic_instability", "confidence": 0.72, "evidence_type": "established"}
+      {
+        "hallmark_id": "hallmark_telomere_attrition",
+        "confidence": 0.97,
+        "evidence_type": "strong_experimental"
+      },
+      {
+        "hallmark_id": "hallmark_stem_cell_exhaustion",
+        "confidence": 0.93,
+        "evidence_type": "strong_experimental"
+      },
+      {
+        "hallmark_id": "hallmark_cellular_senescence",
+        "confidence": 0.85,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_genomic_instability",
+        "confidence": 0.72,
+        "evidence_type": "established"
+      }
     ],
-    "pubmed_search_terms": ["telomerase stem cell aging", "telomere stem cell exhaustion", "telomerase insufficiency disease aging", "dyskeratosis congenita aging"]
+    "pubmed_search_terms": [
+      "telomerase stem cell aging",
+      "telomere stem cell exhaustion",
+      "telomerase insufficiency disease aging",
+      "dyskeratosis congenita aging"
+    ],
+    "key_genes": [
+      "TERT",
+      "TERC",
+      "DKC1",
+      "NHP2",
+      "NOP10",
+      "RTEL1",
+      "TINF2",
+      "WRAP53"
+    ]
   },
   {
     "id": "mech_axonal_transport",
     "name": "Axonal Transport Dysfunction",
     "description": "Neurons depend on axonal transport via kinesin (anterograde) and dynein-dynactin (retrograde) motors to shuttle organelles, vesicles, proteins, and RNA between cell bodies and synapses over distances of up to a meter. Aging impairs axonal transport through disrupted microtubule integrity (tau pathology, oxidative damage), reduced motor protein expression and processivity, mitochondrial dysfunction (reducing ATP availability for motor ATPases), and cargo-motor linkage defects. Impaired axonal transport leads to synaptic protein insufficiency, failure of damaged organelle return to soma for degradation, and retrograde axonopathy. Many neurodegenerative protein aggregates (TDP-43, FUS, SOD1) directly impair transport.",
     "hallmark_links": [
-      {"hallmark_id": "hallmark_loss_of_proteostasis", "confidence": 0.82, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_mitochondrial_dysfunction", "confidence": 0.78, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_altered_intercellular_communication", "confidence": 0.70, "evidence_type": "established"},
-      {"hallmark_id": "hallmark_genomic_instability", "confidence": 0.55, "evidence_type": "moderate"}
+      {
+        "hallmark_id": "hallmark_loss_of_proteostasis",
+        "confidence": 0.82,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_mitochondrial_dysfunction",
+        "confidence": 0.78,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_altered_intercellular_communication",
+        "confidence": 0.7,
+        "evidence_type": "established"
+      },
+      {
+        "hallmark_id": "hallmark_genomic_instability",
+        "confidence": 0.55,
+        "evidence_type": "moderate"
+      }
     ],
-    "pubmed_search_terms": ["axonal transport aging neurodegeneration", "kinesin dynein aging", "tau axonal transport", "TDP-43 axonal transport aging"]
+    "pubmed_search_terms": [
+      "axonal transport aging neurodegeneration",
+      "kinesin dynein aging",
+      "tau axonal transport",
+      "TDP-43 axonal transport aging"
+    ],
+    "key_genes": [
+      "KIF5B",
+      "KIF1A",
+      "DYNC1H1",
+      "DCTN1",
+      "MAPT",
+      "NEFL",
+      "NEFM",
+      "APP"
+    ]
   }
 ]
