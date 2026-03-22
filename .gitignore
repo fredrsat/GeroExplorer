@@ -1,0 +1,6 @@
+node_modules/
+frontend/dist/
+data/pubmed_cache.json
+scripts/__pycache__/
+*.pyc
+.DS_Store
