@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react'
+import React, { useMemo, useState, useCallback, useEffect } from 'react'
 
 const TYPE_COLORS = {
   hallmark:  '#F59E0B',
@@ -162,6 +162,9 @@ function DescriptionBlock({ text }) {
 
 // ─── main component ───────────────────────────────────────────────────────────
 export default function NodeDetail({ node, allNodes, allEdges, onClose, onNodeSelect }) {
+  const [showSiblings, setShowSiblings] = useState(false)
+  useEffect(() => { setShowSiblings(false) }, [node?.id])
+
   const nodeMap = useMemo(() => {
     const m = new Map()
     allNodes.forEach(n => m.set(n.id, n))
@@ -189,6 +192,52 @@ export default function NodeDetail({ node, allNodes, allEdges, onClose, onNodeSe
     // Sort each group by confidence desc
     Object.values(groups).forEach(arr => arr.sort((a, b) => (b.confidence ?? 0) - (a.confidence ?? 0)))
     return groups
+  }, [node, allEdges, nodeMap])
+
+  // Sibling diseases: other diseases that share a mechanism with this disease node
+  // Grouped by mechanism, sorted by number of siblings desc. Only for disease nodes.
+  const siblingsByMech = useMemo(() => {
+    if (node?.type !== 'disease') return []
+
+    // Find mechanisms this disease connects to
+    const myMechIds = new Set()
+    allEdges.forEach(e => {
+      if (e.type !== 'mechanism_to_disease') return
+      const srcId = typeof e.source === 'object' ? e.source.id : e.source
+      const tgtId = typeof e.target === 'object' ? e.target.id : e.target
+      if (srcId === node.id || tgtId === node.id) {
+        const mechId = nodeMap.get(srcId)?.type === 'mechanism' ? srcId : tgtId
+        if (nodeMap.get(mechId)?.type === 'mechanism') myMechIds.add(mechId)
+      }
+    })
+
+    // For each mechanism, collect sibling diseases
+    const mechMap = {}  // mechId → {mechNode, siblings: {diseaseId → confidence}}
+    allEdges.forEach(e => {
+      if (e.type !== 'mechanism_to_disease') return
+      const srcId = typeof e.source === 'object' ? e.source.id : e.source
+      const tgtId = typeof e.target === 'object' ? e.target.id : e.target
+      const mechId = nodeMap.get(srcId)?.type === 'mechanism' ? srcId : tgtId
+      const disId  = nodeMap.get(srcId)?.type === 'mechanism' ? tgtId : srcId
+      if (!myMechIds.has(mechId)) return
+      if (disId === node.id) return  // skip self
+      const disNode = nodeMap.get(disId)
+      if (!disNode) return
+      if (!mechMap[mechId]) mechMap[mechId] = { mechNode: nodeMap.get(mechId), siblings: {} }
+      // keep highest confidence if disease appears via multiple edges
+      if ((e.confidence ?? 0) > (mechMap[mechId].siblings[disId]?.confidence ?? 0)) {
+        mechMap[mechId].siblings[disId] = { node: disNode, confidence: e.confidence ?? 0 }
+      }
+    })
+
+    return Object.values(mechMap)
+      .map(({ mechNode, siblings }) => ({
+        mechNode,
+        diseases: Object.values(siblings).sort((a, b) => b.confidence - a.confidence).slice(0, 5)
+      }))
+      .filter(g => g.diseases.length > 0)
+      .sort((a, b) => b.diseases.length - a.diseases.length)
+      .slice(0, 5)
   }, [node, allEdges, nodeMap])
 
   const pubmedUrl = useMemo(() => {
@@ -285,6 +334,53 @@ export default function NodeDetail({ node, allNodes, allEdges, onClose, onNodeSe
                 </span>
               )}
             </div>
+          </section>
+        )}
+
+        {siblingsByMech.length > 0 && (
+          <section style={{ marginBottom: 16 }}>
+            <button
+              onClick={() => setShowSiblings(v => !v)}
+              style={{
+                width: '100%', background: 'none', border: 'none', padding: 0,
+                cursor: 'pointer', textAlign: 'left', marginBottom: showSiblings ? 10 : 0
+              }}
+            >
+              <SectionHeading count={siblingsByMech.reduce((s, g) => s + g.diseases.length, 0)}>
+                <span style={{ color: '#64748b' }}>Related Diseases</span>
+                <span style={{ fontSize: 10, color: '#475569', fontWeight: 400, marginLeft: 4 }}>
+                  {showSiblings ? '▲' : '▼'}
+                </span>
+              </SectionHeading>
+            </button>
+            {showSiblings && siblingsByMech.map(({ mechNode, diseases }) => (
+              <div key={mechNode.id} style={{ marginBottom: 10 }}>
+                <div style={{ fontSize: 10, color: '#3B82F6', fontStyle: 'italic', marginBottom: 5, paddingLeft: 2 }}>
+                  via {mechNode.label}
+                </div>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
+                  {diseases.map(({ node: sib, confidence }) => (
+                    <div
+                      key={sib.id}
+                      onClick={() => onNodeSelect?.(sib)}
+                      style={{
+                        background: '#0f172a', borderRadius: 6, padding: '6px 10px',
+                        border: '1px solid #1e3a5f', cursor: 'pointer',
+                        display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+                        transition: 'border-color 0.15s'
+                      }}
+                      onMouseEnter={e => e.currentTarget.style.borderColor = '#EF4444'}
+                      onMouseLeave={e => e.currentTarget.style.borderColor = '#1e3a5f'}
+                    >
+                      <span style={{ fontSize: 11, color: '#cbd5e1', fontWeight: 500 }}>{sib.label}</span>
+                      <span style={{ fontSize: 10, color: '#475569', flexShrink: 0, marginLeft: 6 }}>
+                        {Math.round((confidence ?? 0) * 100)}%
+                      </span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ))}
           </section>
         )}
 
