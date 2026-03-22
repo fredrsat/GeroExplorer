@@ -103,6 +103,15 @@ count / total >= min_relative  # default: 0.001 — normalizes for rare vs. comm
 Rationale: a fixed absolute threshold is biased against rare diseases with small literature.
 Hutchinson-Gilford Progeria with 15/400 papers is a stronger signal than Type 2 Diabetes with 15/200,000.
 
+**Empirical basis (full pipeline run 2026-03-22):**
+- 743 unique entities found across all 12 hallmarks (4800 PMIDs total)
+- Distribution: median count = 2, p75 = 4–7 across all hallmarks
+- Count ≥ 20: yields 3–14 per hallmark (~100–150 total) — chosen as first-pass threshold
+- Count ≥ 10: yields 13–28 per hallmark (~200–300 total) — available for broader sweep later
+
+**Additional exclusion terms (beyond infectious/ICD-10 rules):**
+Death, Drug-Related Side Effects, Insulin Resistance (mechanism), Chromosomal Instability (process)
+
 ### Exclusion rules
 - **Infectious diseases**: excluded by default (keyword filter on disease name)
   - Keywords: infection, virus, bacterial, fungal, parasit, HIV, COVID, influenza, tuberculosis, malaria, hepatitis, pneumonia, sepsis

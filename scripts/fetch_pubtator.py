@@ -116,12 +116,16 @@ BROAD_CATEGORY_PATTERNS = re.compile(
     re.IGNORECASE,
 )
 
-# Biological processes that are not diseases (often appear as MESH disease annotations)
+# Biological processes and non-disease entities (often appear as MESH disease annotations)
 PROCESS_TERMS = {
     "inflammation", "carcinogenesis", "fibrosis", "aging", "senescence",
     "apoptosis", "autophagy", "dysbiosis", "cachexia", "atrophy",
     "degeneration", "necrosis", "oxidative stress", "hypoxia",
-    "aging premature",  # this is a MESH term for progeroid syndromes — keep separately
+    "aging premature",  # progeroid syndromes — keep separately
+    # Non-disease outcomes and processes identified in full pipeline run (2026-03-22)
+    "death", "insulin resistance", "chromosomal instability",
+    "drug-related side effects and adverse reactions",
+    "nerve degeneration",  # process, not a specific disease
 }
 
 # Simple heuristic: names that look like pure symptoms rather than diseases
@@ -571,6 +575,11 @@ def phase_generate(args, hallmarks: list, mechanisms: list) -> list:
 
     for entry in global_map:
         if entry.get("already_exists"):
+            continue
+
+        # Re-apply content filters (raw file may predate filter additions)
+        if not passes_filter(entry["name"], include_syndromes=False):
+            rejected_count += 1
             continue
 
         count = entry["total_count"]
