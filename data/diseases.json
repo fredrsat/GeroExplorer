@@ -1812,6 +1812,41 @@
       {
         "hallmark_id": "hallmark_mitochondrial_dysfunction",
         "confidence": 0.78
+      },
+      {
+        "hallmark_id": "hallmark_altered_intercellular_communication",
+        "confidence": 0.9,
+        "notes": "PubTator co-occurrence: 33 papers"
+      },
+      {
+        "hallmark_id": "hallmark_dysbiosis",
+        "confidence": 0.9,
+        "notes": "PubTator co-occurrence: 36 papers"
+      },
+      {
+        "hallmark_id": "hallmark_genomic_instability",
+        "confidence": 0.71,
+        "notes": "PubTator co-occurrence: 22 papers"
+      },
+      {
+        "hallmark_id": "hallmark_deregulated_nutrient_sensing",
+        "confidence": 0.69,
+        "notes": "PubTator co-occurrence: 21 papers"
+      },
+      {
+        "hallmark_id": "hallmark_epigenetic_alterations",
+        "confidence": 0.41,
+        "notes": "PubTator co-occurrence: 11 papers"
+      },
+      {
+        "hallmark_id": "hallmark_telomere_attrition",
+        "confidence": 0.3,
+        "notes": "PubTator co-occurrence: 7 papers"
+      },
+      {
+        "hallmark_id": "hallmark_disabled_macroautophagy",
+        "confidence": 0.18,
+        "notes": "PubTator co-occurrence: 3 papers"
       }
     ],
     "pubmed_search_terms": [
@@ -3491,6 +3526,36 @@
       {
         "hallmark_id": "hallmark_altered_intercellular_communication",
         "confidence": 0.7
+      },
+      {
+        "hallmark_id": "hallmark_epigenetic_alterations",
+        "confidence": 0.9,
+        "notes": "PubTator co-occurrence: 18 papers"
+      },
+      {
+        "hallmark_id": "hallmark_dysbiosis",
+        "confidence": 0.9,
+        "notes": "PubTator co-occurrence: 19 papers"
+      },
+      {
+        "hallmark_id": "hallmark_disabled_macroautophagy",
+        "confidence": 0.76,
+        "notes": "PubTator co-occurrence: 12 papers"
+      },
+      {
+        "hallmark_id": "hallmark_telomere_attrition",
+        "confidence": 0.43,
+        "notes": "PubTator co-occurrence: 6 papers"
+      },
+      {
+        "hallmark_id": "hallmark_deregulated_nutrient_sensing",
+        "confidence": 0.21,
+        "notes": "PubTator co-occurrence: 2 papers"
+      },
+      {
+        "hallmark_id": "hallmark_genomic_instability",
+        "confidence": 0.15,
+        "notes": "PubTator co-occurrence: 1 papers"
       }
     ],
     "pubmed_search_terms": [
@@ -3772,75 +3837,6 @@
     ]
   },
   {
-    "id": "disease_frailty",
-    "name": "Frailty",
-    "mesh_id": "MESH:D000073496",
-    "icd10": "TBD",
-    "system": "unknown",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_altered_intercellular_communication",
-        "confidence": 0.9,
-        "notes": "PubTator co-occurrence: 33 papers"
-      },
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.9,
-        "notes": "PubTator co-occurrence: 38 papers"
-      },
-      {
-        "hallmark_id": "hallmark_dysbiosis",
-        "confidence": 0.9,
-        "notes": "PubTator co-occurrence: 36 papers"
-      },
-      {
-        "hallmark_id": "hallmark_genomic_instability",
-        "confidence": 0.71,
-        "notes": "PubTator co-occurrence: 22 papers"
-      },
-      {
-        "hallmark_id": "hallmark_deregulated_nutrient_sensing",
-        "confidence": 0.69,
-        "notes": "PubTator co-occurrence: 21 papers"
-      },
-      {
-        "hallmark_id": "hallmark_stem_cell_exhaustion",
-        "confidence": 0.69,
-        "notes": "PubTator co-occurrence: 21 papers"
-      },
-      {
-        "hallmark_id": "hallmark_epigenetic_alterations",
-        "confidence": 0.41,
-        "notes": "PubTator co-occurrence: 11 papers"
-      },
-      {
-        "hallmark_id": "hallmark_telomere_attrition",
-        "confidence": 0.3,
-        "notes": "PubTator co-occurrence: 7 papers"
-      },
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.21,
-        "notes": "PubTator co-occurrence: 4 papers"
-      },
-      {
-        "hallmark_id": "hallmark_disabled_macroautophagy",
-        "confidence": 0.18,
-        "notes": "PubTator co-occurrence: 3 papers"
-      },
-      {
-        "hallmark_id": "hallmark_mitochondrial_dysfunction",
-        "confidence": 0.13,
-        "notes": "PubTator co-occurrence: 1 papers"
-      }
-    ],
-    "pubmed_search_terms": [
-      "Frailty aging"
-    ]
-  },
-  {
     "id": "disease_pulmonary_disease_chronic_obstructive",
     "name": "Pulmonary Disease Chronic Obstructive",
     "mesh_id": "MESH:D029424",
@@ -4114,70 +4110,6 @@
     ],
     "pubmed_search_terms": [
       "Heart Failure aging"
-    ]
-  },
-  {
-    "id": "disease_stroke",
-    "name": "Stroke",
-    "mesh_id": "MESH:D020521",
-    "icd10": "TBD",
-    "system": "unknown",
-    "description": "Identified via PubTator NER co-occurrence analysis.",
-    "mechanism_links": [],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_epigenetic_alterations",
-        "confidence": 0.9,
-        "notes": "PubTator co-occurrence: 18 papers"
-      },
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.9,
-        "notes": "PubTator co-occurrence: 15 papers"
-      },
-      {
-        "hallmark_id": "hallmark_dysbiosis",
-        "confidence": 0.9,
-        "notes": "PubTator co-occurrence: 19 papers"
-      },
-      {
-        "hallmark_id": "hallmark_disabled_macroautophagy",
-        "confidence": 0.76,
-        "notes": "PubTator co-occurrence: 12 papers"
-      },
-      {
-        "hallmark_id": "hallmark_mitochondrial_dysfunction",
-        "confidence": 0.54,
-        "notes": "PubTator co-occurrence: 8 papers"
-      },
-      {
-        "hallmark_id": "hallmark_altered_intercellular_communication",
-        "confidence": 0.48,
-        "notes": "PubTator co-occurrence: 7 papers"
-      },
-      {
-        "hallmark_id": "hallmark_telomere_attrition",
-        "confidence": 0.43,
-        "notes": "PubTator co-occurrence: 6 papers"
-      },
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.26,
-        "notes": "PubTator co-occurrence: 3 papers"
-      },
-      {
-        "hallmark_id": "hallmark_deregulated_nutrient_sensing",
-        "confidence": 0.21,
-        "notes": "PubTator co-occurrence: 2 papers"
-      },
-      {
-        "hallmark_id": "hallmark_genomic_instability",
-        "confidence": 0.15,
-        "notes": "PubTator co-occurrence: 1 papers"
-      }
-    ],
-    "pubmed_search_terms": [
-      "Stroke aging"
     ]
   },
   {
