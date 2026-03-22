@@ -113,6 +113,24 @@ function connectionGroupLabel(otherType) {
   return 'Related'
 }
 
+// Short label describing the nature of the edge, from the perspective of
+// the currently viewed node (thisType) toward the other node (otherType).
+function relationLabel(edgeType, thisType, otherType) {
+  if (edgeType === 'hallmark_to_mechanism') {
+    if (thisType === 'hallmark')   return 'Drives this mechanism'
+    if (thisType === 'mechanism')  return 'Root hallmark driver'
+  }
+  if (edgeType === 'hallmark_to_disease') {
+    if (thisType === 'hallmark')   return 'Directly promotes disease'
+    if (thisType === 'disease')    return 'Root cause hallmark'
+  }
+  if (edgeType === 'mechanism_to_disease') {
+    if (thisType === 'mechanism')  return 'Mediates this disease'
+    if (thisType === 'disease')    return 'Contributing mechanism'
+  }
+  return null
+}
+
 // ─── DescriptionBlock: collapsible description ────────────────────────────────
 function DescriptionBlock({ text }) {
   const [expanded, setExpanded] = useState(false)
@@ -154,7 +172,7 @@ export default function NodeDetail({ node, allNodes, allEdges, onClose, onNodeSe
   // This prevents duplicate section headings like "Associated Diseases" twice
   const connections = useMemo(() => {
     if (!node) return {}
-    const groups = {}  // otherType → [{node, confidence}]
+    const groups = {}  // otherType → [{node, confidence, edgeType}]
     allEdges.forEach(e => {
       const srcId = typeof e.source === 'object' ? e.source.id : e.source
       const tgtId = typeof e.target === 'object' ? e.target.id : e.target
@@ -166,7 +184,7 @@ export default function NodeDetail({ node, allNodes, allEdges, onClose, onNodeSe
       if (!other) return
       const key = other.type ?? 'related'
       if (!groups[key]) groups[key] = []
-      groups[key].push({ node: other, confidence: e.confidence })
+      groups[key].push({ node: other, confidence: e.confidence, edgeType: e.type })
     })
     // Sort each group by confidence desc
     Object.values(groups).forEach(arr => arr.sort((a, b) => (b.confidence ?? 0) - (a.confidence ?? 0)))
@@ -276,7 +294,7 @@ export default function NodeDetail({ node, allNodes, allEdges, onClose, onNodeSe
               {connectionGroupLabel(otherType)}
             </SectionHeading>
             <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
-              {items.map(({ node: other, confidence }) => (
+              {items.map(({ node: other, confidence, edgeType }) => (
                 <div
                   key={other.id}
                   onClick={() => onNodeSelect?.(other)}
@@ -296,7 +314,7 @@ export default function NodeDetail({ node, allNodes, allEdges, onClose, onNodeSe
                     e.currentTarget.style.background = '#0f172a'
                   }}
                 >
-                  <div style={{ display: 'flex', alignItems: 'flex-start', gap: 7, marginBottom: 6 }}>
+                  <div style={{ display: 'flex', alignItems: 'flex-start', gap: 7, marginBottom: 4 }}>
                     <span style={{
                       width: 7, height: 7, borderRadius: '50%',
                       background: TYPE_COLORS[other.type] ?? '#94a3b8',
@@ -306,6 +324,11 @@ export default function NodeDetail({ node, allNodes, allEdges, onClose, onNodeSe
                       {other.label}
                     </span>
                   </div>
+                  {relationLabel(edgeType, node.type, other.type) && (
+                    <div style={{ fontSize: 10, color: '#475569', fontStyle: 'italic', marginBottom: 6, paddingLeft: 14 }}>
+                      {relationLabel(edgeType, node.type, other.type)}
+                    </div>
+                  )}
                   <ConfidenceBar confidence={confidence} />
                 </div>
               ))}
