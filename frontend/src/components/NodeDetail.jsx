@@ -146,7 +146,7 @@ function SectionHeading({ children, count }) {
 }
 
 // ─── main component ───────────────────────────────────────────────────────────
-export default function NodeDetail({ node, allNodes, allEdges, onClose }) {
+export default function NodeDetail({ node, allNodes, allEdges, onClose, onNodeSelect }) {
   const nodeMap = useMemo(() => {
     const m = new Map()
     allNodes.forEach(n => m.set(n.id, n))
@@ -321,12 +321,27 @@ export default function NodeDetail({ node, allNodes, allEdges, onClose }) {
             </SectionHeading>
             <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
               {items.map(({ node: other, confidence }) => (
-                <div key={other.id} style={{
-                  background: '#0f172a',
-                  borderRadius: 8,
-                  padding: '8px 10px',
-                  border: '1px solid #334155'
-                }}>
+                <div
+                  key={other.id}
+                  onClick={() => onNodeSelect?.(other)}
+                  style={{
+                    background: '#0f172a',
+                    borderRadius: 8,
+                    padding: '8px 10px',
+                    border: '1px solid #334155',
+                    cursor: onNodeSelect ? 'pointer' : 'default',
+                    transition: 'border-color 0.15s, background 0.15s'
+                  }}
+                  onMouseEnter={e => {
+                    if (!onNodeSelect) return
+                    e.currentTarget.style.borderColor = TYPE_COLORS[other.type] ?? '#64748b'
+                    e.currentTarget.style.background = 'rgba(255,255,255,0.04)'
+                  }}
+                  onMouseLeave={e => {
+                    e.currentTarget.style.borderColor = '#334155'
+                    e.currentTarget.style.background = '#0f172a'
+                  }}
+                >
                   <div style={{ display: 'flex', alignItems: 'flex-start', gap: 7, marginBottom: 6 }}>
                     <span style={{
                       width: 7, height: 7,

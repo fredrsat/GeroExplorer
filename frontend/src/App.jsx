@@ -121,6 +121,7 @@ export default function App() {
           allNodes={graphData?.nodes ?? []}
           allEdges={graphData?.edges ?? []}
           onClose={handleCloseDetail}
+          onNodeSelect={handleNodeClick}
         />
       )}
     </div>
