@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "tittel": "\"Read more\" på beskrivelse av en gitt hallmark eller sykdom i node detaljer",
+    "opprettet": "2026-03-22"
+  },
+  {
+    "id": 2,
+    "tittel": "Skal kunne trykke fra en mekanisme eller sykdom fra node detaljer å komme til sykdommen/mekanismen",
+    "opprettet": "2026-03-22"
+  },
+  {
+    "id": 3,
+    "tittel": "Layout: highlight-modus med 1-hopp full opacity, 2-hopp 60%, resten 10%",
+    "opprettet": "2026-03-22",
+    "tags": ["diskutert"]
+  },
+  {
+    "id": 4,
+    "tittel": "Layout: dynamisk spacing – økt repulsion rundt valgt node og naboer ved klikk (noder 'puster ut')",
+    "opprettet": "2026-03-22",
+    "tags": ["diskutert"]
+  },
+  {
+    "id": 5,
+    "tittel": "Layout: labels kun på hallmarks/mekanismer default, alle fremhevede noder ved valg, ingen på nedtonede",
+    "opprettet": "2026-03-22",
+    "tags": ["diskutert"]
+  },
+  {
+    "id": 6,
+    "tittel": "Disease overlap view: klikk sykdom viser søstersykdommer gruppert per delt mekanisme",
+    "opprettet": "2026-03-22",
+    "tags": ["diskutert"]
+  },
+  {
+    "id": 7,
+    "tittel": "Kjøre fetch_pubmed.py for å kalibrere confidence scores med reelle PubMed-tall",
+    "opprettet": "2026-03-22",
+    "tags": ["diskutert"]
+  },
+  {
+    "id": 8,
+    "tittel": "Frontend: brukervalg mellom konfidenskilder (bibliometrisk / PubTator NER / abstract-parsing)",
+    "opprettet": "2026-03-22",
+    "tags": ["diskutert"]
+  },
+  {
+    "id": 9,
+    "tittel": "Abstract-parsing pipeline (NLP for relasjonsretning og effektstørrelse) – avventer beslutning",
+    "opprettet": "2026-03-22",
+    "tags": ["diskutert"]
+  },
+  {
+    "id": 10,
+    "tittel": "Berike PubTator-sykdommer med mekanisme-koblinger (mechanism_links er tomme etter auto-import)",
+    "opprettet": "2026-03-22",
+    "tags": ["diskutert"]
+  },
+  {
+    "id": 11,
+    "tittel": "Kjøre ny PubTator-runde med terskel >=10 for bredere sykdomsdekning",
+    "opprettet": "2026-03-22",
+    "tags": ["diskutert"]
+  }
+]

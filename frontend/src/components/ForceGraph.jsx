@@ -14,30 +14,51 @@ const BASE_NODE_SIZE = {
   disease: 10
 }
 
+// Opacity levels for highlight tiers
+const OPACITY = {
+  selected:   1.0,
+  hop1:       0.95,
+  hop2:       0.55,
+  dimmed:     0.08,
+  edgeActive: null,   // uses edgeOpacity(confidence)
+  edgeDimmed: 0.04,
+}
+
+// Charge multipliers per tier when a node is selected
+const CHARGE_MULTIPLIER = {
+  selected: 3.5,
+  hop1:     2.5,
+  hop2:     1.4,
+  dimmed:   0.6,
+}
+
 function edgeColor(confidence) {
+  if (confidence == null) return '#6B7280'
   if (confidence > 0.85) return '#22C55E'
-  if (confidence >= 0.6) return '#EAB308'
+  if (confidence >= 0.6)  return '#EAB308'
   return '#F97316'
 }
 
 function edgeOpacity(confidence) {
+  if (confidence == null) return 0.25
   return confidence * 0.8 + 0.1
 }
 
 function edgeWidth(confidence) {
+  if (confidence == null) return 0.8
   return 0.5 + confidence * 3
 }
 
-function nodeManyBodyStrength(type) {
-  if (type === 'hallmark') return -300
-  if (type === 'mechanism') return -150
-  return -80
+function baseManyBodyStrength(type) {
+  if (type === 'hallmark')   return -320
+  if (type === 'mechanism')  return -160
+  return -85
 }
 
 function linkDistance(linkType) {
-  if (linkType === 'hallmark_to_mechanism') return 120
-  if (linkType === 'mechanism_to_disease') return 80
-  return 150 // hallmark_to_disease
+  if (linkType === 'hallmark_to_mechanism') return 130
+  if (linkType === 'mechanism_to_disease')  return 85
+  return 160 // hallmark_to_disease
 }
 
 function nodeRadius(node) {
@@ -45,103 +66,210 @@ function nodeRadius(node) {
   return Math.min(base, 36)
 }
 
-// ─── component ────────────────────────────────────────────────────────────────
+// Determine whether a label should be visible in the default (no-selection) state
+function defaultLabelVisible(node) {
+  if (node.type === 'hallmark') return true
+  if (node.type === 'mechanism' && nodeRadius(node) > 16) return true
+  return false
+}
+
+// ─── Component ────────────────────────────────────────────────────────────────
 export default function ForceGraph({ filters, searchQuery, onNodeHover, onNodeClick, selectedNodeId }) {
-  const svgRef = useRef(null)
-  const simRef = useRef(null)
-  const gRef = useRef(null)
-  const nodesDataRef = useRef([])
-  const allNodesRef = useRef([])
-  const allLinksRef = useRef([])
-  const tooltipRef = useRef(null)
+  const svgRef            = useRef(null)
+  const simRef            = useRef(null)
+  const gRef              = useRef(null)
+  const nodesDataRef      = useRef([])
+  const allNodesRef       = useRef([])
+  const allLinksRef       = useRef([])
+  const tooltipRef        = useRef(null)
   const selectedNodeIdRef = useRef(selectedNodeId)
   const [loading, setLoading] = useState(true)
-  const [error, setError] = useState(null)
+  const [error,   setError]   = useState(null)
 
   selectedNodeIdRef.current = selectedNodeId
 
   // ── Filter helper ──────────────────────────────────────────────────────────
   const getFilteredData = useCallback((allNodes, allLinks, filt, query) => {
     const q = query.trim().toLowerCase()
-
     const visibleIds = new Set()
+
     allNodes.forEach(n => {
-      if (n.type === 'hallmark' && !filt.showHallmarks) return
+      if (n.type === 'hallmark'  && !filt.showHallmarks)  return
       if (n.type === 'mechanism' && !filt.showMechanisms) return
-      if (n.type === 'disease' && !filt.showDiseases) return
+      if (n.type === 'disease'   && !filt.showDiseases)   return
       if (n.type === 'disease' && filt.selectedSystem !== 'all') {
-        // diseases use `category` as the system field
         if (n.category !== filt.selectedSystem) return
       }
       if (q) {
         const inLabel = n.label.toLowerCase().includes(q)
-        const inDesc = (n.description ?? '').toLowerCase().includes(q)
+        const inDesc  = (n.description ?? '').toLowerCase().includes(q)
         if (!inLabel && !inDesc) return
       }
       visibleIds.add(n.id)
     })
 
     const filteredNodes = allNodes.filter(n => visibleIds.has(n.id))
-
     const filteredLinks = allLinks.filter(l => {
-      const srcId = typeof l.source === 'object' ? l.source.id : l.source
-      const tgtId = typeof l.target === 'object' ? l.target.id : l.target
-      if (!visibleIds.has(srcId) || !visibleIds.has(tgtId)) return false
-      if (l.confidence < filt.minConfidence / 100) return false
+      const s = typeof l.source === 'object' ? l.source.id : l.source
+      const t = typeof l.target === 'object' ? l.target.id : l.target
+      if (!visibleIds.has(s) || !visibleIds.has(t)) return false
+      if ((l.confidence ?? 1) < filt.minConfidence / 100) return false
       return true
     })
 
     return { filteredNodes, filteredLinks }
   }, [])
 
-  // ── Selection style helper ─────────────────────────────────────────────────
-  const applySelectionStyle = useCallback((svg, selId) => {
-    if (!svg || svg.empty()) return
+  // ── Build hop sets for a given selected ID ────────────────────────────────
+  const buildHopSets = useCallback((svg, selId) => {
+    const hop1 = new Set()
+    const hop2 = new Set()
+    if (!selId) return { hop1, hop2 }
 
-    if (!selId) {
-      svg.selectAll('.link-line')
-        .attr('stroke-opacity', d => edgeOpacity(d.confidence))
-        .attr('stroke-width', d => edgeWidth(d.confidence))
-      svg.selectAll('.node-circle')
-        .attr('stroke-width', d => d.type === 'hallmark' ? 2.5 : 1.5)
-        .attr('stroke', d => d3.color(NODE_COLORS[d.type]).brighter(0.5))
-      return
-    }
-
-    const connectedIds = new Set([selId])
+    // 1-hop: directly connected
     svg.selectAll('.link-line').each(function(d) {
       const s = typeof d.source === 'object' ? d.source.id : d.source
       const t = typeof d.target === 'object' ? d.target.id : d.target
-      if (s === selId || t === selId) {
-        connectedIds.add(s)
-        connectedIds.add(t)
-      }
+      if (s === selId) hop1.add(t)
+      if (t === selId) hop1.add(s)
     })
 
+    // 2-hop: connected to any 1-hop node (but not selected or already in hop1)
+    svg.selectAll('.link-line').each(function(d) {
+      const s = typeof d.source === 'object' ? d.source.id : d.source
+      const t = typeof d.target === 'object' ? d.target.id : d.target
+      if (hop1.has(s) && t !== selId && !hop1.has(t)) hop2.add(t)
+      if (hop1.has(t) && s !== selId && !hop1.has(s)) hop2.add(s)
+    })
+
+    return { hop1, hop2 }
+  }, [])
+
+  // ── Apply visual highlight + dynamic spacing ───────────────────────────────
+  const applySelectionStyle = useCallback((svg, selId) => {
+    if (!svg || svg.empty()) return
+
+    // ── No selection: restore defaults ──────────────────────────────────────
+    if (!selId) {
+      svg.selectAll('.link-line')
+        .transition().duration(300)
+        .attr('stroke-opacity', d => edgeOpacity(d.confidence))
+        .attr('stroke-width',   d => edgeWidth(d.confidence))
+
+      svg.selectAll('.node-circle')
+        .transition().duration(300)
+        .attr('fill-opacity', 0.85)
+        .attr('stroke-width', d => d.type === 'hallmark' ? 2.5 : 1.5)
+        .attr('stroke', d => d3.color(NODE_COLORS[d.type]).brighter(0.5))
+
+      svg.selectAll('.node-label')
+        .transition().duration(300)
+        .style('opacity', d => defaultLabelVisible(d) ? 1 : 0)
+        .style('display', d => defaultLabelVisible(d) ? null : 'none')
+
+      // Restore default charge forces
+      const sim = simRef.current
+      if (sim) {
+        sim.force('charge',
+          d3.forceManyBody()
+            .strength(d => baseManyBodyStrength(d.type))
+            .distanceMax(600)
+        )
+        sim.force('collide',
+          d3.forceCollide().radius(d => nodeRadius(d) + 6).iterations(2)
+        )
+        sim.alpha(0.12).restart()
+      }
+      return
+    }
+
+    const { hop1, hop2 } = buildHopSets(svg, selId)
+
+    const nodeTier = id => {
+      if (id === selId)    return 'selected'
+      if (hop1.has(id))    return 'hop1'
+      if (hop2.has(id))    return 'hop2'
+      return 'dimmed'
+    }
+
+    // ── Links ────────────────────────────────────────────────────────────────
     svg.selectAll('.link-line')
+      .transition().duration(250)
       .attr('stroke-opacity', function(d) {
         const s = typeof d.source === 'object' ? d.source.id : d.source
         const t = typeof d.target === 'object' ? d.target.id : d.target
-        return (s === selId || t === selId) ? edgeOpacity(d.confidence) : 0.04
+        if (s === selId || t === selId) return edgeOpacity(d.confidence)
+        if (hop1.has(s) && hop1.has(t)) return edgeOpacity(d.confidence) * 0.6
+        return OPACITY.edgeDimmed
       })
       .attr('stroke-width', function(d) {
         const s = typeof d.source === 'object' ? d.source.id : d.source
         const t = typeof d.target === 'object' ? d.target.id : d.target
-        return (s === selId || t === selId) ? edgeWidth(d.confidence) * 1.6 : 0.5
+        if (s === selId || t === selId) return edgeWidth(d.confidence) * 1.6
+        return 0.5
       })
 
+    // ── Nodes ────────────────────────────────────────────────────────────────
     svg.selectAll('.node-circle')
+      .transition().duration(250)
+      .attr('fill-opacity', d => {
+        const tier = nodeTier(d.id)
+        if (tier === 'selected') return 1.0
+        if (tier === 'hop1')     return OPACITY.hop1
+        if (tier === 'hop2')     return OPACITY.hop2
+        return OPACITY.dimmed
+      })
       .attr('stroke-width', d => {
-        if (d.id === selId) return 4
-        if (connectedIds.has(d.id)) return 2.5
+        if (d.id === selId)    return 4
+        if (hop1.has(d.id))   return 2.5
         return 1
       })
       .attr('stroke', d => {
-        if (d.id === selId) return '#ffffff'
-        if (connectedIds.has(d.id)) return d3.color(NODE_COLORS[d.type]).brighter(1)
+        if (d.id === selId)   return '#ffffff'
+        if (hop1.has(d.id))   return d3.color(NODE_COLORS[d.type]).brighter(1)
         return d3.color(NODE_COLORS[d.type]).brighter(0.5)
       })
-  }, [])
+
+    // ── Labels: show for selected + hop1 + hop2, hide for dimmed ─────────────
+    svg.selectAll('.node-label')
+      .each(function(d) {
+        const tier = nodeTier(d.id)
+        const visible = tier !== 'dimmed'
+        d3.select(this)
+          .style('display', visible ? null : 'none')
+          .transition().duration(250)
+          .style('opacity', () => {
+            if (tier === 'selected') return 1.0
+            if (tier === 'hop1')     return 0.95
+            if (tier === 'hop2')     return 0.55
+            return 0
+          })
+      })
+
+    // ── Dynamic spacing: boost repulsion for highlighted nodes ────────────────
+    const sim = simRef.current
+    if (sim) {
+      sim.force('charge',
+        d3.forceManyBody()
+          .strength(d => {
+            const tier = nodeTier(d.id)
+            return baseManyBodyStrength(d.type) * CHARGE_MULTIPLIER[tier]
+          })
+          .distanceMax(800)
+      )
+      sim.force('collide',
+        d3.forceCollide()
+          .radius(d => {
+            const tier = nodeTier(d.id)
+            const mult = tier === 'selected' ? 2.5 : tier === 'hop1' ? 1.8 : 1.0
+            return nodeRadius(d) * mult + 6
+          })
+          .iterations(3)
+      )
+      // Gentle reheat — enough to breathe out, not enough to scramble the layout
+      sim.alpha(0.25).restart()
+    }
+  }, [buildHopSets])
 
   // ── One-time SVG setup & data load ─────────────────────────────────────────
   useEffect(() => {
@@ -153,7 +281,7 @@ export default function ForceGraph({ filters, searchQuery, onNodeHover, onNodeCl
 
     svg.attr('width', w).attr('height', h)
 
-    // Defs (glow filter)
+    // Defs: glow filter
     const defs = svg.append('defs')
     const filter = defs.append('filter').attr('id', 'node-glow')
     filter.append('feGaussianBlur').attr('stdDeviation', '4').attr('result', 'coloredBlur')
@@ -171,12 +299,10 @@ export default function ForceGraph({ filters, searchQuery, onNodeHover, onNodeCl
     const zoom = d3.zoom()
       .scaleExtent([0.08, 12])
       .on('zoom', ev => g.attr('transform', ev.transform))
-
     svg.call(zoom)
-    // Centre the graph with a comfortable initial zoom
     svg.call(zoom.transform, d3.zoomIdentity.translate(w / 2, h / 2).scale(0.55))
 
-    // Disable default dblclick zoom; use it to deselect
+    // Deselect on background dblclick
     svg.on('dblclick.zoom', null)
     svg.on('dblclick', ev => {
       if (ev.target === el || ev.target.tagName === 'svg') onNodeClick(null)
@@ -189,12 +315,10 @@ export default function ForceGraph({ filters, searchQuery, onNodeHover, onNodeCl
       .style('display', 'none')
     tooltipRef.current = tip
 
-    // Resize
+    // Resize observer
     const ro = new ResizeObserver(() => {
       if (!svgRef.current) return
-      const nw = svgRef.current.clientWidth
-      const nh = svgRef.current.clientHeight
-      svg.attr('width', nw).attr('height', nh)
+      svg.attr('width', svgRef.current.clientWidth).attr('height', svgRef.current.clientHeight)
       simRef.current?.force('center', d3.forceCenter(0, 0)).alpha(0.1).restart()
     })
     ro.observe(el.parentElement)
@@ -222,7 +346,7 @@ export default function ForceGraph({ filters, searchQuery, onNodeHover, onNodeCl
       svg.selectAll('*').remove()
       svg.on('.zoom', null).on('dblclick', null)
     }
-  }, []) // intentionally run once
+  }, []) // run once
 
   // ── Rebuild simulation when data ready or filters change ───────────────────
   useEffect(() => {
@@ -232,10 +356,7 @@ export default function ForceGraph({ filters, searchQuery, onNodeHover, onNodeCl
     if (!g) return
 
     const { filteredNodes, filteredLinks } = getFilteredData(
-      allNodesRef.current,
-      allLinksRef.current,
-      filters,
-      searchQuery
+      allNodesRef.current, allLinksRef.current, filters, searchQuery
     )
 
     // Preserve positions from previous run
@@ -243,7 +364,6 @@ export default function ForceGraph({ filters, searchQuery, onNodeHover, onNodeCl
     nodesDataRef.current.forEach(n => {
       if (n.x != null) posMap.set(n.id, { x: n.x, y: n.y, vx: n.vx ?? 0, vy: n.vy ?? 0 })
     })
-
     const isFirstRun = posMap.size === 0
 
     filteredNodes.forEach(n => {
@@ -254,12 +374,9 @@ export default function ForceGraph({ filters, searchQuery, onNodeHover, onNodeCl
         n.x = (Math.random() - 0.5) * 300
         n.y = (Math.random() - 0.5) * 300
       }
-      // else: let d3 place randomly on first run (undefined x/y)
     })
-
     nodesDataRef.current = filteredNodes
 
-    // Stop previous sim
     simRef.current?.stop()
 
     // ── Simulation ────────────────────────────────────────────────────────
@@ -272,14 +389,12 @@ export default function ForceGraph({ filters, searchQuery, onNodeHover, onNodeCl
       )
       .force('charge',
         d3.forceManyBody()
-          .strength(d => nodeManyBodyStrength(d.type))
+          .strength(d => baseManyBodyStrength(d.type))
           .distanceMax(600)
       )
       .force('center', d3.forceCenter(0, 0).strength(0.04))
       .force('collide',
-        d3.forceCollide()
-          .radius(d => nodeRadius(d) + 6)
-          .iterations(2)
+        d3.forceCollide().radius(d => nodeRadius(d) + 6).iterations(2)
       )
       .alphaDecay(0.018)
       .velocityDecay(0.38)
@@ -319,7 +434,7 @@ export default function ForceGraph({ filters, searchQuery, onNodeHover, onNodeCl
       .attr('stroke-width', d => d.type === 'hallmark' ? 2.5 : 1.5)
       .attr('fill-opacity', 0.85)
 
-    // Labels: always for hallmarks, conditionally for mechanisms
+    // Labels: hallmarks always, large mechanisms always, rest hidden by default
     nodeGroups.append('text')
       .attr('class', 'node-label')
       .attr('dy', d => nodeRadius(d) + 12)
@@ -328,11 +443,8 @@ export default function ForceGraph({ filters, searchQuery, onNodeHover, onNodeCl
       .attr('font-size', d => d.type === 'hallmark' ? 11 : 9)
       .attr('font-weight', d => d.type === 'hallmark' ? 600 : 400)
       .attr('pointer-events', 'none')
-      .style('display', d => {
-        if (d.type === 'hallmark') return null
-        if (d.type === 'mechanism' && nodeRadius(d) > 16) return null
-        return 'none'
-      })
+      .style('display', d => defaultLabelVisible(d) ? null : 'none')
+      .style('opacity', d => defaultLabelVisible(d) ? 1 : 0)
       .text(d => {
         const words = d.label.split(' ')
         return words.length <= 3 ? d.label : words.slice(0, 3).join(' ') + '…'
@@ -345,9 +457,7 @@ export default function ForceGraph({ filters, searchQuery, onNodeHover, onNodeCl
         d.fx = d.x; d.fy = d.y
         d3.select(this).raise()
       })
-      .on('drag', function(ev, d) {
-        d.fx = ev.x; d.fy = ev.y
-      })
+      .on('drag', function(ev, d) { d.fx = ev.x; d.fy = ev.y })
       .on('end', function(ev, d) {
         if (!ev.active) sim.alphaTarget(0)
         d.fx = null; d.fy = null
@@ -366,21 +476,21 @@ export default function ForceGraph({ filters, searchQuery, onNodeHover, onNodeCl
         d3.select(this).select('.node-circle')
           .attr('filter', 'url(#node-glow)')
           .attr('fill-opacity', 1)
-          .attr('r', nodeRadius(d) * 1.1)
+          .attr('r', nodeRadius(d) * 1.12)
       })
       .on('mousemove', function(ev) {
         if (!tooltipRef.current || !svgRef.current) return
         const rect = svgRef.current.parentElement.getBoundingClientRect()
         tooltipRef.current
           .style('left', (ev.clientX - rect.left + 14) + 'px')
-          .style('top', (ev.clientY - rect.top - 10) + 'px')
+          .style('top',  (ev.clientY - rect.top  - 10) + 'px')
       })
       .on('mouseleave', function(ev, d) {
         onNodeHover(null)
         tooltipRef.current?.style('display', 'none')
         d3.select(this).select('.node-circle')
           .attr('filter', null)
-          .attr('fill-opacity', 0.85)
+          .attr('fill-opacity', selectedNodeIdRef.current === d.id ? 1.0 : 0.85)
           .attr('r', nodeRadius(d))
       })
       .on('click', function(ev, d) {
@@ -399,11 +509,10 @@ export default function ForceGraph({ filters, searchQuery, onNodeHover, onNodeCl
         .attr('y1', d => d.source.y)
         .attr('x2', d => d.target.x)
         .attr('y2', d => d.target.y)
-
       nodeGroups.attr('transform', d => `translate(${d.x ?? 0},${d.y ?? 0})`)
     })
 
-    // Apply any existing selection highlight
+    // Apply any active selection highlight after rebuild
     applySelectionStyle(svg, selectedNodeIdRef.current)
 
     return () => { sim.stop() }
@@ -430,7 +539,7 @@ export default function ForceGraph({ filters, searchQuery, onNodeHover, onNodeCl
             <p>{error}</p>
             <p style={{ marginTop: 8 }}>
               Make sure you have run <code>python scripts/build_graph.py</code> first,
-              then start the dev server from the <code>frontend/</code> directory with <code>npm run dev</code>.
+              then start the dev server from <code>frontend/</code> with <code>npm run dev</code>.
             </p>
           </div>
         </div>
