@@ -617,6 +617,7 @@ def phase_generate(args, hallmarks: list, mechanisms: list) -> list:
 
         candidate = {
             "id": "disease_" + snake_case(name),
+            "generated_id": "disease_" + snake_case(name),  # preserve for dedup check
             "name": name,
             "mesh_id": mesh_id,
             "icd10": "TBD",
@@ -731,7 +732,8 @@ def phase_merge(args, diseases: list) -> None:
 
     candidates: list[dict] = load_json(CANDIDATES_FILE)
     existing_names = [(d["name"], d["id"]) for d in diseases]
-    existing_mesh = {
+    existing_ids   = {d["id"] for d in diseases}
+    existing_mesh  = {
         d.get("mesh_id", "").upper(): d["id"]
         for d in diseases
         if d.get("mesh_id")
@@ -741,31 +743,51 @@ def phase_merge(args, diseases: list) -> None:
     skipped = []
 
     for cand in candidates:
-        mesh = cand.get("mesh_id", "").upper()
+        mesh      = cand.get("mesh_id", "").upper()
         cand_name = cand["name"]
+        cand_id   = cand.get("generated_id") or cand["id"]
 
-        # Check MESH ID exact match
+        # ── Check 1: exact ID collision ──────────────────────────────────────
+        # "Stroke" → disease_stroke collides with existing "Ischemic Stroke"
+        if cand_id in existing_ids:
+            skipped.append((cand_name, f"ID collision → {cand_id} already exists"))
+            continue
+
+        # ── Check 2: MESH ID exact match ─────────────────────────────────────
         if mesh and mesh in existing_mesh:
             skipped.append((cand_name, f"MESH match → {existing_mesh[mesh]}"))
             continue
 
-        # Check name similarity (threshold 0.85)
-        # Require that the shorter name is at least 60% of the longer one
-        # to avoid false positives like "Renal Insufficiency" ↔ "Adrenal Insufficiency"
-        best_ratio = 0.0
+        # ── Check 3: name similarity + word overlap ───────────────────────────
+        # Uses both character-level similarity AND word overlap to catch cases
+        # like "Stroke" ↔ "Ischemic Stroke" (low char ratio, full word overlap)
+        best_score = 0.0
         best_match = None
+        cand_words = set(cand_name.lower().split())
+
         for ename, eid in existing_names:
+            # Skip if lengths are too different (guards "Renal" ↔ "Adrenal")
             len_ratio = min(len(cand_name), len(ename)) / max(len(cand_name), len(ename))
-            if len_ratio < 0.6:
-                continue  # too different in length to be a true duplicate
-            ratio = name_similarity(cand_name, ename)
-            if ratio > best_ratio:
-                best_ratio = ratio
+
+            # Character similarity
+            char_sim = name_similarity(cand_name, ename) if len_ratio >= 0.6 else 0.0
+
+            # Word overlap: fraction of candidate words found in existing name
+            exist_words = set(ename.lower().split())
+            if cand_words and exist_words:
+                word_overlap = len(cand_words & exist_words) / len(cand_words)
+            else:
+                word_overlap = 0.0
+
+            # Combined score: high char_sim OR all candidate words appear in existing name
+            score = max(char_sim, word_overlap if word_overlap == 1.0 else 0.0)
+            if score > best_score:
+                best_score = score
                 best_match = eid
 
-        if best_ratio >= 0.85:
+        if best_score >= 0.85:
             skipped.append(
-                (cand_name, f"name similarity {best_ratio:.2f} → {best_match}")
+                (cand_name, f"name/word match {best_score:.2f} → {best_match}")
             )
             continue
 
@@ -801,10 +823,11 @@ def phase_merge(args, diseases: list) -> None:
         print("\n[info] Nothing new to merge.")
         return
 
-    # Strip pubtator_stats (internal field) before writing to diseases.json
+    # Strip internal fields before writing to diseases.json
+    _INTERNAL_FIELDS = {"pubtator_stats", "confidence_source", "is_syndrome", "generated_id"}
     clean_entries = []
     for cand in to_add:
-        entry = {k: v for k, v in cand.items() if k not in ("pubtator_stats", "confidence_source", "is_syndrome")}
+        entry = {k: v for k, v in cand.items() if k not in _INTERNAL_FIELDS}
         clean_entries.append(entry)
 
     merged = diseases + clean_entries

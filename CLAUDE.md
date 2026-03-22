@@ -93,6 +93,21 @@ Phase 3 — Merge:     fetch_pubtator.py --phase merge --confirm
                      → Run build_graph.py after
 ```
 
+### Deduplication logic (three-layer, in priority order)
+
+1. **ID collision** — `"disease_" + snake_case(name)` already exists in diseases.json.
+   Catches cases like "Stroke" → `disease_stroke` colliding with "Ischemic Stroke".
+2. **MESH ID match** — exact match on MESH concept identifier (most reliable).
+3. **Name similarity + word overlap** — character-level similarity ≥ 0.85 OR all
+   candidate words appear in an existing name (word_overlap == 1.0). The word overlap
+   check catches subset names like "Stroke" ⊂ "Ischemic Stroke".
+   Length guard: names must be within 60% length of each other for char similarity
+   (prevents "Renal Insufficiency" ↔ "Adrenal Insufficiency" false positives).
+
+**Known limitation fixed (2026-03-22):** PubTator merge previously created duplicate
+`disease_stroke` and `disease_frailty` entries because name similarity alone didn't
+catch "Stroke" vs "Ischemic Stroke" (ratio ~0.7). Fixed by adding ID collision check.
+
 ### Tiered threshold filter
 A disease is included if it passes **both** criteria:
 ```python

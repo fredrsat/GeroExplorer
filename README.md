@@ -68,6 +68,9 @@ Confidence scores on every edge reflect bibliometric evidence (PubMed publicatio
   - **Color**: green (confidence > 0.85), yellow (0.60–0.85), orange (< 0.60)
   - **Width/opacity**: proportional to confidence score
 - Click any node → side panel with description, all connections, confidence bars, PubMed link
+- Click any connected node in the detail panel → jump to that node as new focus
+- 2-hop highlight on selection: selected=full, 1-hop=95%, 2-hop=55%, rest=8%
+- Dynamic spacing: highlighted nodes physically separate on selection
 - Filter panel: toggle node types, confidence threshold slider, body system filter
 - Search by name, zoom/pan/drag
 
@@ -138,6 +141,16 @@ GeroExplorer/
 ├── CLAUDE.md                   # AI assistant context
 └── README.md
 ```
+
+---
+
+## Data Pipeline — Deduplication
+
+When merging PubTator candidates into `diseases.json`, three checks run in order:
+
+1. **ID collision** — generated `disease_snake_case` ID already exists (catches e.g. "Stroke" → same ID as "Ischemic Stroke")
+2. **MESH ID** — exact match on MESH concept identifier
+3. **Name + word overlap** — character similarity ≥ 0.85, OR all candidate words appear in an existing entry ("Stroke" ⊂ "Ischemic Stroke")
 
 ---
 
