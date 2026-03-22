@@ -86,7 +86,7 @@ EXPORT_ENDPOINT = PUBTATOR_BASE + "/publications/export/biocjson"
 REQUEST_DELAY = 0.5   # seconds between API calls
 MAX_RETRIES = 3
 BACKOFF_BASE = 2      # exponential backoff multiplier
-PMIDS_PER_QUERY = 50  # number of PMIDs to fetch per search query
+PMIDS_PER_QUERY = 200 # number of PMIDs to fetch per search query
 ANNOTATION_BATCH = 20 # PMIDs per annotation request
 
 # ---------------------------------------------------------------------------
@@ -108,6 +108,13 @@ SYMPTOM_SUFFIXES = [
 ]
 
 SYNDROME_KEYWORDS = ["syndrome"]
+
+# Broad MESH category terms — groups of diseases, not specific diagnoses
+BROAD_CATEGORY_PATTERNS = re.compile(
+    r"\b(diseases?|disorders?|neoplasms?|conditions?|abnormalities|complications?"
+    r"|manifestations?|injuries|wounds?|poisoning|defects?)\s*$",
+    re.IGNORECASE,
+)
 
 # Simple heuristic: names that look like pure symptoms rather than diseases
 SYMPTOM_PATTERNS = re.compile(
@@ -264,11 +271,18 @@ def is_pure_symptom(name: str) -> bool:
     return False
 
 
+def is_broad_category(name: str) -> bool:
+    """Return True if this is a broad disease category rather than a specific diagnosis."""
+    return bool(BROAD_CATEGORY_PATTERNS.search(name.strip()))
+
+
 def passes_filter(name: str, include_syndromes: bool) -> bool:
     """Return True if this disease entity should be kept."""
     if is_infectious(name):
         return False
     if is_pure_symptom(name):
+        return False
+    if is_broad_category(name):
         return False
     if not include_syndromes and is_syndrome(name):
         return False
