@@ -495,7 +495,8 @@ export default function ForceGraph({ filters, searchQuery, onNodeHover, onNodeCl
       })
       .on('click', function(ev, d) {
         ev.stopPropagation()
-        onNodeClick(d)
+        // Click selected node again → deselect
+        onNodeClick(selectedNodeIdRef.current === d.id ? null : d)
       })
       .on('dblclick', function(ev) {
         ev.stopPropagation()

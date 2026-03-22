@@ -3,6 +3,7 @@ import ForceGraph from './components/ForceGraph.jsx'
 import NodeDetail from './components/NodeDetail.jsx'
 import FilterPanel from './components/FilterPanel.jsx'
 import Legend from './components/Legend.jsx'
+import About from './components/About.jsx'
 
 const DEFAULT_FILTERS = {
   showHallmarks: true,
@@ -14,25 +15,23 @@ const DEFAULT_FILTERS = {
 
 export default function App() {
   const [selectedNode, setSelectedNode] = useState(null)
-  const [hoveredNode, setHoveredNode] = useState(null)
-  const [filters, setFilters] = useState(DEFAULT_FILTERS)
-  const [searchQuery, setSearchQuery] = useState('')
-  const [graphData, setGraphData] = useState(null)
-  const [nodeCount, setNodeCount] = useState({ hallmarks: 0, mechanisms: 0, diseases: 0 })
+  const [filters, setFilters]           = useState(DEFAULT_FILTERS)
+  const [searchQuery, setSearchQuery]   = useState('')
+  const [graphData, setGraphData]       = useState(null)
+  const [nodeCount, setNodeCount]       = useState({ hallmarks: 0, mechanisms: 0, diseases: 0 })
+  const [showAbout, setShowAbout]       = useState(false)
 
-  // Load graph data once so FilterPanel and NodeDetail can use it
   useEffect(() => {
     fetch('/graph.json')
       .then(r => r.json())
       .then(data => {
         const counts = { hallmarks: 0, mechanisms: 0, diseases: 0 }
         data.nodes.forEach(n => {
-          if (n.type === 'hallmark') counts.hallmarks++
-          else if (n.type === 'mechanism') counts.mechanisms++
-          else if (n.type === 'disease') counts.diseases++
+          if (n.type === 'hallmark')        counts.hallmarks++
+          else if (n.type === 'mechanism')  counts.mechanisms++
+          else if (n.type === 'disease')    counts.diseases++
         })
         setNodeCount(counts)
-        // Normalise: graph.json uses `links` key — expose as both for consumers
         setGraphData({ ...data, edges: data.links ?? [] })
       })
       .catch(() => {})
@@ -40,17 +39,13 @@ export default function App() {
 
   const handleNodeClick = useCallback((node) => {
     setSelectedNode(node)
+    if (node) setShowAbout(false)
   }, [])
 
-  const handleNodeHover = useCallback((node) => {
-    setHoveredNode(node)
-  }, [])
-
-  const handleFilterChange = useCallback((newFilters) => {
-    setFilters(newFilters)
-  }, [])
-
-  const handleCloseDetail = useCallback(() => {
+  const handleFilterChange  = useCallback((f) => setFilters(f), [])
+  const handleCloseDetail   = useCallback(() => setSelectedNode(null), [])
+  const handleToggleAbout   = useCallback(() => {
+    setShowAbout(v => !v)
     setSelectedNode(null)
   }, [])
 
@@ -59,8 +54,29 @@ export default function App() {
       {/* Left sidebar */}
       <aside className="sidebar">
         <div className="sidebar-header">
-          <div className="sidebar-title">GeroExplorer</div>
-          <div className="sidebar-subtitle">Aging Disease Network</div>
+          <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between' }}>
+            <div>
+              <div className="sidebar-title">GeroExplorer</div>
+              <div className="sidebar-subtitle">Aging Disease Network</div>
+            </div>
+            <button
+              onClick={handleToggleAbout}
+              title="About"
+              style={{
+                width: 28, height: 28, borderRadius: '50%',
+                background: showAbout ? '#3B82F6' : '#334155',
+                color: showAbout ? '#fff' : '#94a3b8',
+                fontSize: 14, fontWeight: 700, border: 'none', cursor: 'pointer',
+                display: 'flex', alignItems: 'center', justifyContent: 'center',
+                flexShrink: 0, transition: 'background 0.15s, color 0.15s',
+                marginTop: 2
+              }}
+              onMouseEnter={e => { if (!showAbout) e.currentTarget.style.background = '#475569' }}
+              onMouseLeave={e => { if (!showAbout) e.currentTarget.style.background = '#334155' }}
+            >
+              ?
+            </button>
+          </div>
         </div>
 
         <div className="sidebar-search">
@@ -90,12 +106,11 @@ export default function App() {
         <ForceGraph
           filters={filters}
           searchQuery={searchQuery}
-          onNodeHover={handleNodeHover}
+          onNodeHover={() => {}}
           onNodeClick={handleNodeClick}
           selectedNodeId={selectedNode?.id ?? null}
         />
 
-        {/* Stats bar */}
         <div className="stats-bar">
           <span className="stat-item">
             <span className="stat-dot" style={{ background: '#F59E0B' }} />
@@ -114,8 +129,11 @@ export default function App() {
         <Legend />
       </main>
 
-      {/* Right detail panel */}
-      {selectedNode && (
+      {/* Right panels — About or NodeDetail, mutually exclusive */}
+      {showAbout && (
+        <About onClose={() => setShowAbout(false)} />
+      )}
+      {!showAbout && selectedNode && (
         <NodeDetail
           node={selectedNode}
           allNodes={graphData?.nodes ?? []}

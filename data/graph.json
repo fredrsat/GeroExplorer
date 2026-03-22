@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-03-22T16:20:38.848526+00:00",
+    "generated_at": "2026-03-22T16:42:50.424807+00:00",
     "node_count": 206,
     "edge_count": 1327,
     "stats": {
@@ -2280,7 +2280,7 @@
       "type": "disease",
       "category": "metabolic",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Diabetes mellitus is a group of metabolic disorders characterized by chronic hyperglycemia resulting from defects in insulin secretion, insulin action, or both, leading to widespread microvascular and macrovascular complications. Aging is a major risk factor, as decades of metabolic stress drive progressive beta-cell senescence, insulin resistance, and telomere shortening in pancreatic and peripheral tissues. The disease shares core aging hallmarks including deregulated nutrient sensing via the mTOR and AMPK pathways, chronic low-grade inflammation, and mitochondrial dysfunction in muscle and adipose tissue.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Diabetes Mellitus aging"
@@ -2294,7 +2294,7 @@
       "type": "disease",
       "category": "ophthalmic",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Macular degeneration is a progressive retinal disorder causing deterioration of the macula, the central region of the retina responsible for high-acuity vision, leading to central vision loss. Age-related macular degeneration (AMD) is the leading cause of irreversible blindness in adults over 60, driven by accumulation of drusen deposits, oxidative damage to retinal pigment epithelium (RPE), and complement dysregulation. Key aging mechanisms include mitochondrial dysfunction in RPE cells, impaired autophagy leading to lipofuscin accumulation, and telomere shortening accelerating photoreceptor and RPE cell loss.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Macular Degeneration aging"
@@ -2308,7 +2308,7 @@
       "type": "disease",
       "category": "metabolic",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Type 2 diabetes mellitus is a chronic metabolic disorder characterized by progressive insulin resistance in peripheral tissues and relative insulin deficiency due to beta-cell dysfunction, resulting in sustained hyperglycemia. It is strongly age-associated, with prevalence rising sharply after age 45, and shares mechanistic overlap with the hallmarks of aging including cellular senescence in adipose tissue, impaired proteostasis, dysbiosis of the gut microbiome, and deregulated mTOR/IRS-1 nutrient-sensing signaling. Chronic low-grade inflammation mediated by adipokines and pro-inflammatory cytokines further accelerates both diabetes progression and systemic aging.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Diabetes Mellitus Type 2 aging"
@@ -2322,7 +2322,7 @@
       "type": "disease",
       "category": "pulmonary",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Chronic obstructive pulmonary disease (COPD) is characterized by persistent, largely irreversible airflow limitation resulting from chronic bronchitis, emphysema, or both, typically caused by long-term exposure to noxious particles or gases. COPD exhibits striking hallmarks of accelerated lung aging, including telomere shortening in airway epithelial cells, premature cellular senescence with senescence-associated secretory phenotype (SASP) driving ongoing inflammation, and impaired autophagy that fails to clear damaged cellular components. The disease exemplifies the concept of accelerated organ aging, with COPD lungs displaying transcriptomic and epigenetic profiles resembling tissues 20–30 years older than chronological age.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Pulmonary Disease Chronic Obstructive aging"
@@ -2336,7 +2336,7 @@
       "type": "disease",
       "category": "renal",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Chronic renal insufficiency, also termed chronic kidney disease (CKD), is a progressive and irreversible loss of renal function characterized by sustained reduction in glomerular filtration rate, leading to accumulation of uremic toxins and dysregulation of fluid, electrolyte, and hormonal homeostasis. The aging kidney undergoes progressive nephron loss, glomerulosclerosis, tubular atrophy, and interstitial fibrosis that are mechanistically indistinguishable from CKD pathology, making advanced age the strongest independent risk factor. Telomere attrition in renal tubular cells, mitochondrial dysfunction impairing tubular energetics, dysbiosis-driven uremic toxin production, and cellular senescence of pericytes and podocytes are central to both age-related renal decline and CKD progression.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Renal Insufficiency Chronic aging"
@@ -2350,7 +2350,7 @@
       "type": "disease",
       "category": "neurological",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Dementia is an umbrella clinical syndrome of progressive cognitive decline—affecting memory, language, executive function, and behavior—severe enough to impair daily activities, arising from diverse underlying neurodegenerative and vascular pathologies. Age is the dominant risk factor, with dementia prevalence doubling approximately every five years after age 65, reflecting decades of cumulative neuronal loss, protein aggregation, synaptic failure, and neuroinflammation. Common upstream aging mechanisms include deregulated nutrient sensing via IGF-1/insulin signaling, impaired proteostasis enabling accumulation of amyloid-beta, tau, and TDP-43 aggregates, and chronic neuroinflammation sustained by senescent microglia.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Dementia aging"
@@ -2364,7 +2364,7 @@
       "type": "disease",
       "category": "cardiovascular",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Heart failure is a clinical syndrome in which the heart is unable to pump sufficient blood to meet the body's metabolic demands or can do so only at elevated filling pressures, resulting in dyspnea, fatigue, and fluid retention. Age is the most powerful risk factor, as the aging myocardium undergoes cardiomyocyte hypertrophy, loss of regenerative capacity, increased fibrosis, and impaired calcium handling that collectively reduce systolic and diastolic reserve. Key aging hallmarks driving heart failure include gut dysbiosis promoting TMAO-mediated cardiac fibrosis, epigenetic reprogramming of cardiomyocytes, deregulated mTOR-dependent hypertrophic signaling, and telomere attrition limiting cardiomyocyte renewal.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Heart Failure aging"
@@ -2378,7 +2378,7 @@
       "type": "disease",
       "category": "cardiovascular",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Restrictive cardiomyopathy is characterized by abnormal diastolic filling of one or both ventricles due to increased myocardial stiffness, typically with preserved or near-normal systolic function and normal or reduced ventricular volumes. Many forms arise from infiltrative pathologies (amyloidosis, hemochromatosis, sarcoidosis) whose prevalence or severity increases with age, and idiopathic forms share mechanisms of age-related myocardial fibrosis including TGF-β–mediated collagen deposition and impaired proteostasis. Deregulated nutrient-sensing pathways, epigenetic remodeling of cardiac fibroblasts, and telomere dysfunction in cardiomyocytes contribute to the age-associated increase in diastolic stiffness underlying this condition.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Cardiomyopathy Restrictive aging"
@@ -2392,7 +2392,7 @@
       "type": "disease",
       "category": "pulmonary",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Asthma is a chronic inflammatory airway disease characterized by variable and recurring symptoms of bronchospasm, airflow obstruction, and airway hyperresponsiveness, driven by Th2-skewed immune responses and, in severe cases, non-eosinophilic neutrophilic inflammation. Late-onset and severe asthma in older adults is associated with airway epithelial cellular senescence, altered gut microbiome composition, and telomere shortening in bronchial cells that impair tissue repair and sustain inflammatory signaling. The aging immune system's shift toward inflammaging creates a permissive environment for persistent eosinophilic and neutrophilic airway inflammation, making asthma increasingly difficult to control in the elderly.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Asthma aging"
@@ -2406,7 +2406,7 @@
       "type": "disease",
       "category": "oncological",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Hepatocellular carcinoma (HCC) is the most common primary liver malignancy, arising from hepatocytes typically in the context of chronic liver disease, cirrhosis, or viral hepatitis, with peak incidence in the sixth and seventh decades of life. The aging liver accumulates somatic mutations, epigenetic alterations, and chromosomal instability that progressively increase oncogenic risk, with telomere shortening triggering crisis-driven genomic rearrangements that initiate hepatocarcinogenesis. Impaired hepatic autophagy, chronic hepatic inflammation sustained by senescent stellate cells, and the carcinogenic microenvironment of cirrhotic tissue represent convergent aging-related mechanisms driving HCC development.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Carcinoma Hepatocellular aging"
@@ -2418,9 +2418,9 @@
       "id": "disease_intervertebral_disc_degeneration",
       "label": "Intervertebral Disc Degeneration",
       "type": "disease",
-      "category": "unknown",
+      "category": "musculoskeletal",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Intervertebral disc degeneration (IDD) is a progressive structural deterioration of the nucleus pulposus and annulus fibrosus, leading to loss of disc height, decreased water and proteoglycan content, and ultimately to back pain and spinal stenosis. IDD is a prototypical aging disease, with nearly universal radiographic evidence in adults over 60, driven by senescence of nucleus pulposus cells, reduced notochordal cell survival, and impaired matrix synthesis relative to degradation. Cellular senescence with SASP-driven matrix metalloproteinase secretion, mitochondrial dysfunction in disc cells, and deregulated nutrient sensing via mTOR are established aging mechanisms linking systemic biological aging to disc pathology.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Intervertebral Disc Degeneration aging"
@@ -2434,7 +2434,7 @@
       "type": "disease",
       "category": "oncological",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Leukemia is a group of hematological malignancies characterized by clonal proliferation of abnormal hematopoietic progenitor cells in the bone marrow and peripheral blood, classified by cell lineage (myeloid vs. lymphoid) and clinical course (acute vs. chronic). Most leukemia subtypes show steeply age-dependent incidence, reflecting the progressive accumulation of somatic mutations in hematopoietic stem cells (clonal hematopoiesis of indeterminate potential, CHIP) and the age-related exhaustion and epigenetic drift of the stem cell pool. Stem cell exhaustion with dysregulated self-renewal, genomic instability from DNA repair decline, and chronic inflammatory bone marrow microenvironment changes are central aging mechanisms predisposing to leukemic transformation.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Leukemia aging"
@@ -2446,9 +2446,9 @@
       "id": "disease_aa_amyloidosis",
       "label": "AA amyloidosis",
       "type": "disease",
-      "category": "unknown",
+      "category": "systemic",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "AA amyloidosis is a systemic disorder caused by extracellular deposition of insoluble fibrils derived from serum amyloid A (SAA), an acute-phase reactant chronically elevated during persistent inflammatory or infectious conditions, with preferential involvement of kidney, liver, and spleen. The aging process substantially increases susceptibility, as decades of subclinical or overt chronic inflammation raise circulating SAA concentrations, and impaired proteostasis reduces the cellular capacity to clear misfolded amyloidogenic precursors. Deficits in autophagy and ubiquitin-proteasome clearance—established hallmarks of aging—permit amyloid fibril accumulation, linking AA amyloidosis pathogenesis directly to age-related decline in protein quality control.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "AA amyloidosis aging"
@@ -2460,9 +2460,9 @@
       "id": "disease_cystic_fibrosis",
       "label": "Cystic Fibrosis",
       "type": "disease",
-      "category": "unknown",
+      "category": "pulmonary",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Cystic fibrosis (CF) is an autosomal recessive disorder caused by mutations in the CFTR gene encoding a chloride channel, leading to production of abnormally thick mucus that obstructs the airways, pancreatic ducts, and other exocrine organs, causing progressive multi-organ failure. Although CF is a monogenic disease of childhood onset, affected individuals exhibit features of accelerated biological aging including premature telomere attrition in bronchial epithelial cells, gut dysbiosis, impaired proteostasis in CFTR-expressing cells, and chronic pulmonary inflammation driven by persistent bacterial infections. With improved survival into adulthood, CF patients increasingly manifest age-related comorbidities such as diabetes, osteoporosis, and liver disease, reflecting the convergence of CFTR dysfunction with canonical aging hallmarks.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Cystic Fibrosis aging"
@@ -2476,7 +2476,7 @@
       "type": "disease",
       "category": "neurological",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Traumatic brain injury (TBI) encompasses a spectrum of acquired neurological injuries resulting from external mechanical forces, ranging from mild concussion to severe contusion, causing primary neuronal death and secondary cascades of excitotoxicity, neuroinflammation, oxidative stress, and blood-brain barrier disruption. Aging significantly worsens TBI outcomes and recovery, as the aged brain has diminished neuroplasticity, impaired glial clearance mechanisms, and pre-existing neuroinflammation that amplify secondary injury cascades. TBI is also recognized as a major risk factor for accelerated neurodegeneration in later life, with evidence that the injury promotes tau hyperphosphorylation, amyloid deposition, and persistent microglial senescence that mirror and potentiate canonical brain aging processes.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Brain Injuries Traumatic aging"
@@ -2488,9 +2488,9 @@
       "id": "disease_muscular_atrophy",
       "label": "Muscular Atrophy",
       "type": "disease",
-      "category": "unknown",
+      "category": "musculoskeletal",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Muscular atrophy is the pathological loss of skeletal muscle mass and strength resulting from reduced protein synthesis, increased proteolysis, denervation, disuse, or systemic disease, manifesting as weakness, exercise intolerance, and functional impairment. Sarcopenia—the age-related form—affects the majority of individuals over 80 and is mechanistically driven by decline in anabolic signaling (IGF-1/mTOR/Akt), impaired satellite cell self-renewal reflecting stem cell exhaustion, and mitophagy failure accumulating dysfunctional mitochondria in muscle fibers. Impaired proteostasis with upregulated ubiquitin-proteasome and autophagy-lysosome degradation pathways, combined with chronic low-grade inflammation generating muscle-wasting cytokines such as IL-6 and TNF-α, establishes direct links between aging hallmarks and muscular atrophy.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Muscular Atrophy aging"
@@ -2502,9 +2502,9 @@
       "id": "disease_aneuploidy",
       "label": "Aneuploidy",
       "type": "disease",
-      "category": "unknown",
+      "category": "genomic",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Aneuploidy refers to an abnormal number of chromosomes in a cell deviating from the expected diploid complement, arising from errors in chromosome segregation during mitosis or meiosis, and is implicated in cancer, miscarriage, and congenital disorders. Age-related aneuploidy is a well-documented consequence of genomic instability, particularly in oocytes where spindle assembly checkpoint fidelity declines with reproductive aging, and in somatic cells where mitotic fidelity deteriorates due to accumulated oxidative damage, telomere dysfunction, and cohesion fatigue. Somatic mosaicism for aneuploid clones increases exponentially with age across multiple tissues and is increasingly recognized as a contributor to cancer risk and organ dysfunction in the elderly.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Aneuploidy aging"
@@ -2516,9 +2516,9 @@
       "id": "disease_infertility",
       "label": "Infertility",
       "type": "disease",
-      "category": "unknown",
+      "category": "reproductive",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Infertility is defined as the failure to achieve a clinical pregnancy after 12 or more months of regular unprotected sexual intercourse, encompassing a broad range of underlying pathologies affecting ovarian reserve, spermatogenesis, gamete quality, implantation, or embryonic development. Reproductive aging is a major contributor, particularly in women, where oocyte telomere attrition, mitochondrial dysfunction in oocytes impairing meiotic spindle assembly, and declining follicular reserve converge to reduce fertility with advancing age. In both sexes, systemic aging processes including epigenetic drift in gametes and gonadal tissue, chronic inflammation affecting the gonadal microenvironment, and deregulated hormonal signaling link infertility directly to hallmarks of biological aging.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Infertility aging"
@@ -2532,7 +2532,7 @@
       "type": "disease",
       "category": "hepatic",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Liver failure represents severe hepatic dysfunction in which the liver loses critical mass of functional hepatocytes, resulting in coagulopathy, encephalopathy, jaundice, and susceptibility to multi-organ failure; it may be acute (fulminant) or a decompensation of chronic liver disease. Aging impairs hepatic regeneration by exhausting liver progenitor cells and reducing hepatocyte proliferative capacity, while simultaneously promoting gut dysbiosis that increases portal delivery of lipopolysaccharide and bacterial metabolites, driving hepatic inflammation and stellate cell activation. Impaired mitochondrial function, age-related decline in autophagy and mitophagy necessary for hepatocyte quality control, and accumulation of dysfunctional senescent hepatic stellate cells collectively accelerate progression from compensated to decompensated liver disease.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Liver Failure aging"
@@ -2546,7 +2546,7 @@
       "type": "disease",
       "category": "musculoskeletal",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Rheumatoid arthritis (RA) is a chronic systemic autoimmune disease characterized by symmetric inflammatory polyarthritis, synovial hyperplasia, pannus formation, and progressive cartilage and bone destruction, with peak onset in the fourth to sixth decades. RA exemplifies immunosenescence-driven pathology: age-related contraction of T-cell receptor diversity, defective DNA damage repair in synovial fibroblasts generating a senescence-associated secretory phenotype, and chronically activated synovial macrophages sustaining joint inflammation even in the absence of overt autoantigen stimulation. Cellular senescence of fibroblast-like synoviocytes with SASP-mediated IL-6, IL-1β, and matrix metalloproteinase secretion is a central mechanism linking aging hallmarks to the invasive and destructive RA phenotype.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Arthritis Rheumatoid aging"
@@ -2558,9 +2558,9 @@
       "id": "disease_genetic_diseases_inborn",
       "label": "Genetic Diseases Inborn",
       "type": "disease",
-      "category": "unknown",
+      "category": "genomic",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Inborn genetic diseases encompass a broad category of disorders caused by heritable mutations present from birth, including chromosomal abnormalities, single-gene disorders, and multifactorial conditions, affecting virtually every organ system. Many inborn genetic diseases are directly relevant to aging research because they model specific hallmarks of aging at an accelerated pace: progeroid syndromes (Werner, Hutchinson-Gilford), mitochondrial diseases, and DNA repair disorders recapitulate telomere attrition, genomic instability, and epigenetic deregulation seen in normal aging. Studying these conditions has provided fundamental insights into the molecular mechanisms of normal aging, including the roles of lamin A processing, RecQ helicase function, and nuclear architecture in maintaining genome stability and longevity.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Genetic Diseases Inborn aging"
@@ -2572,9 +2572,9 @@
       "id": "disease_periodontitis",
       "label": "Periodontitis",
       "type": "disease",
-      "category": "unknown",
+      "category": "dental",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Periodontitis is a chronic infectious-inflammatory disease of the periodontium caused by dysbiotic oral biofilms, characterized by progressive destruction of the alveolar bone and periodontal ligament supporting the teeth, leading to tooth loss if untreated. Aging is a significant risk factor, as the aged oral microbiome undergoes dysbiotic shifts favoring periodontal pathogens, senescent gingival fibroblasts display impaired wound healing and elevated SASP cytokine secretion, and immunosenescence reduces the capacity to resolve oral infection. Periodontitis is bidirectionally linked to systemic aging-related diseases including cardiovascular disease, diabetes, and Alzheimer's disease through shared mechanisms of systemic inflammation and microbial translocation from the oral cavity.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Periodontitis aging"
@@ -2586,9 +2586,9 @@
       "id": "disease_proteostasis_deficiencies",
       "label": "Proteostasis Deficiencies",
       "type": "disease",
-      "category": "unknown",
+      "category": "systemic",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Proteostasis deficiencies refer to disorders arising from impaired protein homeostasis—the cellular network of chaperones, ubiquitin-proteasome system, and autophagy that ensures proteins are correctly folded, localized, and degraded—leading to accumulation of misfolded, aggregated, or toxic protein species. Loss of proteostasis is a canonical hallmark of aging, as all three arms of the proteostasis network decline progressively with age due to reduced chaperone induction, proteasome activity, and autophagic flux, making the aged proteome vulnerable to aggregation. This category includes conditions such as systemic and tissue-specific amyloidoses, inclusion body disorders, and protein conformation diseases that are strongly age-associated because of this age-dependent deterioration of cellular protein quality control.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Proteostasis Deficiencies aging"
@@ -2600,9 +2600,9 @@
       "id": "disease_progeria",
       "label": "Progeria",
       "type": "disease",
-      "category": "unknown",
+      "category": "genomic",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Progeria (Hutchinson-Gilford Progeria Syndrome, HGPS) is an ultra-rare autosomal dominant premature aging disorder caused by a de novo LMNA point mutation producing progerin, a truncated and permanently farnesylated form of lamin A that disrupts nuclear architecture and triggers accelerated aging phenotypes in children. Affected individuals develop within the first decade features of advanced aging including alopecia, atherosclerosis, lipodystrophy, osteoporosis, and sclerodermatous skin, dying predominantly of myocardial infarction or stroke in their early teens. The disease is an invaluable model for normal aging because progerin disrupts virtually all canonical aging hallmarks—inducing genomic instability, telomere dysfunction, epigenetic deregulation, deregulated nutrient sensing via mTOR, and impaired proteostasis—in a compressed and severe form.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Progeria aging"
@@ -2614,9 +2614,9 @@
       "id": "disease_sleep_apnea_obstructive",
       "label": "Sleep Apnea Obstructive",
       "type": "disease",
-      "category": "unknown",
+      "category": "pulmonary",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Obstructive sleep apnea (OSA) is a disorder of repetitive upper airway collapse during sleep, causing episodic hypoxia, hypercapnia, and sleep fragmentation, with consequent daytime somnolence, cognitive impairment, and increased cardiovascular risk. Prevalence increases markedly with age due to pharyngeal muscle atrophy, reduced neural compensatory reflexes, and central respiratory control changes that reflect aging-related loss of neuromuscular reserve and deregulated nutrient-sensing pathways governing adipose tissue distribution. Chronic intermittent hypoxia drives genomic instability, epigenetic reprogramming, altered mTOR-dependent metabolic signaling, and systemic inflammation, establishing OSA as both a consequence of biological aging and an accelerator of organ aging through oxidative and inflammatory damage.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Sleep Apnea Obstructive aging"
@@ -2630,7 +2630,7 @@
       "type": "disease",
       "category": "neurological",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Cognitive dysfunction encompasses a spectrum of deficits in memory, attention, processing speed, executive function, and visuospatial ability that fall short of dementia criteria, including mild cognitive impairment (MCI), which represents a significant risk state for progression to Alzheimer's disease and other dementias. Age is the single most powerful determinant of cognitive decline, with normal aging producing measurable reductions in episodic memory and processing speed, and pathological aging producing MCI in approximately 15–20% of adults over 65. Telomere attrition in hippocampal neurons, impaired autophagy reducing clearance of neurotoxic aggregates, and deregulated insulin-IGF-1 signaling that alters synaptic plasticity and neurogenesis are established aging mechanisms linking the hallmarks of aging to progressive cognitive deterioration.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Cognitive Dysfunction aging"
@@ -2644,7 +2644,7 @@
       "type": "disease",
       "category": "psychiatric",
       "color": "#EF4444",
-      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "description": "Anxiety disorders are a cluster of psychiatric conditions characterized by excessive, persistent fear, worry, or dread accompanied by somatic symptoms, encompassing generalized anxiety disorder, panic disorder, phobias, and social anxiety disorder. Aging influences anxiety through multiple pathways: telomere shortening in leukocytes is associated with anxiety severity, gut dysbiosis disrupts the gut-brain axis producing anxiety-like behavior via microbial metabolite and vagal signaling, and epigenetic modifications in stress-response genes alter HPA-axis reactivity. Late-life anxiety carries clinical importance as a risk factor for cognitive decline, cardiovascular disease, and accelerated biological aging reflected in shortened leukocyte telomere length and elevated inflammatory markers.",
       "icd10": "TBD",
       "pubmed_search_terms": [
         "Anxiety aging"
