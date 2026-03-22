@@ -750,9 +750,14 @@ def phase_merge(args, diseases: list) -> None:
             continue
 
         # Check name similarity (threshold 0.85)
+        # Require that the shorter name is at least 60% of the longer one
+        # to avoid false positives like "Renal Insufficiency" ↔ "Adrenal Insufficiency"
         best_ratio = 0.0
         best_match = None
         for ename, eid in existing_names:
+            len_ratio = min(len(cand_name), len(ename)) / max(len(cand_name), len(ename))
+            if len_ratio < 0.6:
+                continue  # too different in length to be a true duplicate
             ratio = name_similarity(cand_name, ename)
             if ratio > best_ratio:
                 best_ratio = ratio

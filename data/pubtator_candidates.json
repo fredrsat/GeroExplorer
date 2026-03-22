@@ -1,3561 +1,18 @@
 [
   {
-    "id": "disease_alzheimers",
-    "name": "Alzheimer's Disease",
-    "icd10": "G30",
-    "system": "neurological",
-    "description": "Progressive neurodegenerative disorder characterized by amyloid-beta plaques, neurofibrillary tau tangles, synaptic loss, and widespread cortical neuronal death leading to dementia. The most common cause of dementia, with incidence doubling every five years after age 65.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_amyloid_aggregation",
-        "confidence": 0.95,
-        "notes": "Aβ plaques are pathognomonic; amyloid cascade hypothesis central"
-      },
-      {
-        "mechanism_id": "mech_tau_hyperphosphorylation",
-        "confidence": 0.93,
-        "notes": "Neurofibrillary tangles correlate with disease stage"
-      },
-      {
-        "mechanism_id": "mech_neuroinflammation",
-        "confidence": 0.88,
-        "notes": "Microglial activation and TREM2 signaling"
-      },
-      {
-        "mechanism_id": "mech_synaptic_dysfunction",
-        "confidence": 0.85,
-        "notes": "Synaptic loss best correlates with cognitive decline"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_loss_of_proteostasis",
-        "confidence": 0.95
-      },
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.88
-      },
-      {
-        "hallmark_id": "hallmark_mitochondrial_dysfunction",
-        "confidence": 0.78
-      },
-      {
-        "hallmark_id": "hallmark_disabled_macroautophagy",
-        "confidence": 0.82
-      }
-    ],
-    "pubmed_search_terms": [
-      "Alzheimer disease aging hallmarks",
-      "amyloid tau aging neurodegeneration"
-    ]
-  },
-  {
-    "id": "disease_parkinsons",
-    "name": "Parkinson's Disease",
-    "icd10": "G20",
-    "system": "neurological",
-    "description": "Neurodegenerative disorder defined by loss of dopaminergic neurons in the substantia nigra and presence of Lewy body inclusions containing alpha-synuclein. Cardinal features include resting tremor, rigidity, bradykinesia, and postural instability.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_alpha_synuclein",
-        "confidence": 0.95,
-        "notes": "Lewy bodies are pathological hallmark; αSyn propagates prion-like"
-      },
-      {
-        "mechanism_id": "mech_mitophagy_impairment",
-        "confidence": 0.9,
-        "notes": "PINK1-Parkin pathway loss-of-function causes familial PD"
-      },
-      {
-        "mechanism_id": "mech_oxidative_stress",
-        "confidence": 0.85,
-        "notes": "Dopamine metabolism generates oxidative burden in SNpc"
-      },
-      {
-        "mechanism_id": "mech_neuroinflammation",
-        "confidence": 0.8,
-        "notes": "Activated microglia surround Lewy-body neurons"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_loss_of_proteostasis",
-        "confidence": 0.93
-      },
-      {
-        "hallmark_id": "hallmark_mitochondrial_dysfunction",
-        "confidence": 0.9
-      },
-      {
-        "hallmark_id": "hallmark_disabled_macroautophagy",
-        "confidence": 0.85
-      },
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.78
-      }
-    ],
-    "pubmed_search_terms": [
-      "Parkinson disease aging alpha-synuclein",
-      "PINK1 Parkin neurodegeneration aging"
-    ]
-  },
-  {
-    "id": "disease_als",
-    "name": "Amyotrophic Lateral Sclerosis",
-    "icd10": "G12.21",
-    "system": "neurological",
-    "description": "Fatal neurodegenerative disease of upper and lower motor neurons leading to progressive paralysis and respiratory failure. TDP-43 proteinopathy is present in >97% of cases; SOD1, FUS, and C9orf72 mutations account for most familial cases.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_proteome_imbalance",
-        "confidence": 0.92,
-        "notes": "TDP-43, FUS, SOD1 aggregation in motor neurons"
-      },
-      {
-        "mechanism_id": "mech_axonal_transport",
-        "confidence": 0.88,
-        "notes": "Defective retrograde transport precedes motor neuron death"
-      },
-      {
-        "mechanism_id": "mech_mitophagy_impairment",
-        "confidence": 0.78,
-        "notes": "Mitochondrial clustering and dysfunction in motor axons"
-      },
-      {
-        "mechanism_id": "mech_neuroinflammation",
-        "confidence": 0.75,
-        "notes": "Activated microglia and astrogliosis accelerate disease"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_loss_of_proteostasis",
-        "confidence": 0.92
-      },
-      {
-        "hallmark_id": "hallmark_mitochondrial_dysfunction",
-        "confidence": 0.82
-      },
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.72
-      },
-      {
-        "hallmark_id": "hallmark_genomic_instability",
-        "confidence": 0.6
-      }
-    ],
-    "pubmed_search_terms": [
-      "ALS TDP-43 aging neurodegeneration",
-      "motor neuron disease aging mechanisms"
-    ]
-  },
-  {
-    "id": "disease_vascular_dementia",
-    "name": "Vascular Dementia",
-    "icd10": "F01",
-    "system": "neurological",
-    "description": "Second most common cause of dementia, resulting from cumulative cerebrovascular injury including large vessel strokes, small vessel disease, white matter hyperintensities, and lacunar infarcts. Often co-occurs with Alzheimer's pathology.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_vascular_inflammation",
-        "confidence": 0.9,
-        "notes": "Endothelial dysfunction and BBB breakdown central"
-      },
-      {
-        "mechanism_id": "mech_cholesterol_dysregulation",
-        "confidence": 0.78,
-        "notes": "Atherosclerotic risk factors drive large vessel disease"
-      },
-      {
-        "mechanism_id": "mech_oxidative_stress",
-        "confidence": 0.75,
-        "notes": "Ischemia-reperfusion ROS damage to brain tissue"
-      },
-      {
-        "mechanism_id": "mech_synaptic_dysfunction",
-        "confidence": 0.7,
-        "notes": "White matter lesions disrupt cortico-subcortical circuits"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.88
-      },
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.75
-      },
-      {
-        "hallmark_id": "hallmark_mitochondrial_dysfunction",
-        "confidence": 0.7
-      },
-      {
-        "hallmark_id": "hallmark_altered_intercellular_communication",
-        "confidence": 0.72
-      }
-    ],
-    "pubmed_search_terms": [
-      "vascular dementia aging mechanisms",
-      "cerebrovascular disease aging inflammation"
-    ]
-  },
-  {
-    "id": "disease_lewy_body_dementia",
-    "name": "Lewy Body Dementia",
-    "icd10": "G31.83",
-    "system": "neurological",
-    "description": "Second most common neurodegenerative dementia, characterized by fluctuating cognition, visual hallucinations, parkinsonism, and REM sleep behavior disorder. Cortical and limbic Lewy bodies containing alpha-synuclein are the pathological substrate.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_alpha_synuclein",
-        "confidence": 0.95,
-        "notes": "Cortical and limbic Lewy body deposition drives neuronal dysfunction"
-      },
-      {
-        "mechanism_id": "mech_autophagy_lysosomal",
-        "confidence": 0.82,
-        "notes": "Impaired lysosomal clearance of αSyn"
-      },
-      {
-        "mechanism_id": "mech_neuroinflammation",
-        "confidence": 0.78,
-        "notes": "Neuroinflammatory cascade accelerates spread"
-      },
-      {
-        "mechanism_id": "mech_synaptic_dysfunction",
-        "confidence": 0.8,
-        "notes": "Cholinergic and dopaminergic synaptic loss underlies symptoms"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_loss_of_proteostasis",
-        "confidence": 0.93
-      },
-      {
-        "hallmark_id": "hallmark_disabled_macroautophagy",
-        "confidence": 0.82
-      },
-      {
-        "hallmark_id": "hallmark_mitochondrial_dysfunction",
-        "confidence": 0.78
-      },
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.72
-      }
-    ],
-    "pubmed_search_terms": [
-      "Lewy body dementia aging alpha-synuclein",
-      "DLB aging proteostasis"
-    ]
-  },
-  {
-    "id": "disease_huntingtons",
-    "name": "Huntington's Disease",
-    "icd10": "G10",
-    "system": "neurological",
-    "description": "Autosomal dominant neurodegenerative disorder caused by CAG repeat expansion in the HTT gene, producing mutant huntingtin protein that aggregates in striatal and cortical neurons. Manifests with chorea, cognitive decline, and psychiatric symptoms in midlife.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_proteome_imbalance",
-        "confidence": 0.93,
-        "notes": "Mutant huntingtin aggregates sequester functional proteins"
-      },
-      {
-        "mechanism_id": "mech_mitophagy_impairment",
-        "confidence": 0.82,
-        "notes": "mHTT impairs mitophagy receptor recognition"
-      },
-      {
-        "mechanism_id": "mech_autophagy_flux_decline",
-        "confidence": 0.8,
-        "notes": "mHTT loads autophagosome but impairs cargo recognition"
-      },
-      {
-        "mechanism_id": "mech_nad_depletion",
-        "confidence": 0.72,
-        "notes": "PARP hyperactivation by DNA damage depletes NAD+"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_loss_of_proteostasis",
-        "confidence": 0.93
-      },
-      {
-        "hallmark_id": "hallmark_disabled_macroautophagy",
-        "confidence": 0.82
-      },
-      {
-        "hallmark_id": "hallmark_mitochondrial_dysfunction",
-        "confidence": 0.8
-      },
-      {
-        "hallmark_id": "hallmark_genomic_instability",
-        "confidence": 0.62
-      }
-    ],
-    "pubmed_search_terms": [
-      "Huntington's disease aging mechanisms",
-      "huntingtin aggregation autophagy aging"
-    ]
-  },
-  {
-    "id": "disease_multiple_sclerosis",
-    "name": "Multiple Sclerosis",
-    "icd10": "G35",
-    "system": "neurological",
-    "description": "Chronic autoimmune demyelinating disease of the CNS with progressive neurological disability. Autoreactive T and B cells attack myelin sheaths; with aging the progressive phase dominates due to neurodegeneration and failed remyelination rather than acute inflammation.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_neuroinflammation",
-        "confidence": 0.88,
-        "notes": "CNS-confined inflammation drives demyelination"
-      },
-      {
-        "mechanism_id": "mech_immunosenescence",
-        "confidence": 0.78,
-        "notes": "Exhausted regulatory T cells fail to suppress autoreactivity"
-      },
-      {
-        "mechanism_id": "mech_mitochondrial_biogenesis",
-        "confidence": 0.72,
-        "notes": "Oligodendrocyte mitochondrial failure impairs remyelination"
-      },
-      {
-        "mechanism_id": "mech_oxidative_stress",
-        "confidence": 0.75,
-        "notes": "Oxidative damage to exposed axons in chronic lesions"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.9
-      },
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.7
-      },
-      {
-        "hallmark_id": "hallmark_mitochondrial_dysfunction",
-        "confidence": 0.72
-      },
-      {
-        "hallmark_id": "hallmark_stem_cell_exhaustion",
-        "confidence": 0.65
-      }
-    ],
-    "pubmed_search_terms": [
-      "multiple sclerosis aging progression",
-      "MS neurodegeneration aging mechanisms"
-    ]
-  },
-  {
-    "id": "disease_late_onset_epilepsy",
-    "name": "Late-Onset Epilepsy",
-    "icd10": "G40.309",
-    "system": "neurological",
-    "description": "New-onset seizures after age 60, frequently caused by cortical scarring from stroke, neurodegeneration, or tumors. Aging-associated changes in neuronal excitability, GABAergic inhibition decline, and increased cortical hyperexcitability contribute to seizure threshold lowering.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_vascular_inflammation",
-        "confidence": 0.78,
-        "notes": "Cerebrovascular disease is the leading structural cause"
-      },
-      {
-        "mechanism_id": "mech_neuroinflammation",
-        "confidence": 0.75,
-        "notes": "Inflammatory signaling lowers seizure threshold"
-      },
-      {
-        "mechanism_id": "mech_oxidative_stress",
-        "confidence": 0.65,
-        "notes": "Oxidative neuronal damage increases hyperexcitability"
-      },
-      {
-        "mechanism_id": "mech_synaptic_dysfunction",
-        "confidence": 0.7,
-        "notes": "Disrupted inhibitory-excitatory balance"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.75
-      },
-      {
-        "hallmark_id": "hallmark_mitochondrial_dysfunction",
-        "confidence": 0.65
-      },
-      {
-        "hallmark_id": "hallmark_altered_intercellular_communication",
-        "confidence": 0.68
-      }
-    ],
-    "pubmed_search_terms": [
-      "late-onset epilepsy aging mechanisms",
-      "seizures elderly neuroinflammation"
-    ]
-  },
-  {
-    "id": "disease_atherosclerosis",
-    "name": "Atherosclerosis",
-    "icd10": "I70",
-    "system": "cardiovascular",
-    "description": "Chronic inflammatory disease of large and medium arteries characterized by lipid-laden plaque formation in the intima. Foam cell accumulation, fibrous cap formation, and plaque rupture cause acute coronary syndromes and stroke. Accelerated by age-related endothelial dysfunction and systemic inflammation.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_vascular_inflammation",
-        "confidence": 0.93,
-        "notes": "Endothelial dysfunction and monocyte recruitment initiate plaque"
-      },
-      {
-        "mechanism_id": "mech_cholesterol_dysregulation",
-        "confidence": 0.9,
-        "notes": "oxLDL uptake by macrophages forms foam cells"
-      },
-      {
-        "mechanism_id": "mech_sasp",
-        "confidence": 0.8,
-        "notes": "Senescent vascular smooth muscle cells destabilize plaque"
-      },
-      {
-        "mechanism_id": "mech_oxidative_stress",
-        "confidence": 0.82,
-        "notes": "ROS oxidize LDL and impair endothelial NO synthesis"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.92
-      },
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.82
-      },
-      {
-        "hallmark_id": "hallmark_mitochondrial_dysfunction",
-        "confidence": 0.72
-      },
-      {
-        "hallmark_id": "hallmark_epigenetic_alterations",
-        "confidence": 0.65
-      }
-    ],
-    "pubmed_search_terms": [
-      "atherosclerosis aging inflammation hallmarks",
-      "vascular aging atherosclerosis mechanisms"
-    ]
-  },
-  {
-    "id": "disease_hfpef",
-    "name": "Heart Failure with Preserved Ejection Fraction (HFpEF)",
-    "icd10": "I50.30",
-    "system": "cardiovascular",
-    "description": "Heart failure syndrome with normal or near-normal left ventricular ejection fraction but impaired diastolic filling due to myocardial stiffness. Driven by systemic inflammation, metabolic syndrome, and cardiac fibrosis. Predominantly affects older obese women and lacks approved disease-modifying therapies.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_ecm_stiffening",
-        "confidence": 0.88,
-        "notes": "Collagen crosslinking and TGF-β fibrosis reduce LV compliance"
-      },
-      {
-        "mechanism_id": "mech_insulin_resistance",
-        "confidence": 0.85,
-        "notes": "Metabolic syndrome is dominant comorbidity; hyperinsulinemia drives cardiac hypertrophy"
-      },
-      {
-        "mechanism_id": "mech_vascular_inflammation",
-        "confidence": 0.8,
-        "notes": "Coronary microvascular inflammation impairs perfusion"
-      },
-      {
-        "mechanism_id": "mech_sasp",
-        "confidence": 0.72,
-        "notes": "Senescent cardiomyocytes contribute to diastolic dysfunction"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.85
-      },
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.78
-      },
-      {
-        "hallmark_id": "hallmark_deregulated_nutrient_sensing",
-        "confidence": 0.8
-      },
-      {
-        "hallmark_id": "hallmark_altered_intercellular_communication",
-        "confidence": 0.72
-      }
-    ],
-    "pubmed_search_terms": [
-      "HFpEF aging mechanisms inflammation",
-      "diastolic heart failure aging senescence"
-    ]
-  },
-  {
-    "id": "disease_hfref",
-    "name": "Heart Failure with Reduced Ejection Fraction (HFrEF)",
-    "icd10": "I50.20",
-    "system": "cardiovascular",
-    "description": "Heart failure characterized by reduced left ventricular systolic function (EF <40%), typically following myocardial infarction or dilated cardiomyopathy. Cardiomyocyte loss, maladaptive remodeling, and neurohormonal activation drive progressive contractile failure.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_mitophagy_impairment",
-        "confidence": 0.85,
-        "notes": "Mitochondrial dysfunction central to cardiomyocyte energy failure"
-      },
-      {
-        "mechanism_id": "mech_sasp",
-        "confidence": 0.78,
-        "notes": "Senescent cardiomyocytes and fibroblasts impair contractile function"
-      },
-      {
-        "mechanism_id": "mech_oxidative_stress",
-        "confidence": 0.82,
-        "notes": "Ischemia-reperfusion ROS damage and ongoing oxidative stress"
-      },
-      {
-        "mechanism_id": "mech_ecm_stiffening",
-        "confidence": 0.75,
-        "notes": "Replacement fibrosis after cardiomyocyte death"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_mitochondrial_dysfunction",
-        "confidence": 0.88
-      },
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.78
-      },
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.75
-      },
-      {
-        "hallmark_id": "hallmark_stem_cell_exhaustion",
-        "confidence": 0.65
-      }
-    ],
-    "pubmed_search_terms": [
-      "HFrEF aging cardiomyopathy mechanisms",
-      "systolic heart failure aging mitochondria"
-    ]
-  },
-  {
-    "id": "disease_atrial_fibrillation",
-    "name": "Atrial Fibrillation",
-    "icd10": "I48",
-    "system": "cardiovascular",
-    "description": "Most common cardiac arrhythmia, with prevalence rising steeply with age. Atrial fibrosis, electrical remodeling, and autonomic dysregulation create the substrate for chaotic atrial depolarization. Dramatically increases stroke risk and heart failure progression.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_ecm_stiffening",
-        "confidence": 0.85,
-        "notes": "Atrial fibrosis creates reentrant arrhythmia substrate"
-      },
-      {
-        "mechanism_id": "mech_vascular_inflammation",
-        "confidence": 0.78,
-        "notes": "Inflammatory state promotes atrial structural remodeling"
-      },
-      {
-        "mechanism_id": "mech_oxidative_stress",
-        "confidence": 0.75,
-        "notes": "ROS impair calcium handling in atrial cardiomyocytes"
-      },
-      {
-        "mechanism_id": "mech_sasp",
-        "confidence": 0.68,
-        "notes": "Senescent atrial fibroblasts drive fibrotic remodeling"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.8
-      },
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.72
-      },
-      {
-        "hallmark_id": "hallmark_mitochondrial_dysfunction",
-        "confidence": 0.68
-      },
-      {
-        "hallmark_id": "hallmark_altered_intercellular_communication",
-        "confidence": 0.65
-      }
-    ],
-    "pubmed_search_terms": [
-      "atrial fibrillation aging mechanisms fibrosis",
-      "AF aging inflammation senescence"
-    ]
-  },
-  {
-    "id": "disease_hypertension",
-    "name": "Hypertension",
-    "icd10": "I10",
-    "system": "cardiovascular",
-    "description": "Sustained elevation of arterial blood pressure, the most prevalent age-related cardiovascular risk factor. Driven by arterial stiffening, impaired endothelial function, sympathetic activation, and renin-angiotensin-aldosterone system dysregulation. Leads to target organ damage in heart, brain, and kidneys.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_vascular_inflammation",
-        "confidence": 0.9,
-        "notes": "Endothelial dysfunction reduces NO-mediated vasodilation"
-      },
-      {
-        "mechanism_id": "mech_ecm_stiffening",
-        "confidence": 0.88,
-        "notes": "Arterial stiffening due to elastin degradation and collagen crosslinking increases pulse pressure"
-      },
-      {
-        "mechanism_id": "mech_oxidative_stress",
-        "confidence": 0.8,
-        "notes": "ROS scavenge NO and activate vasoconstrictive signaling"
-      },
-      {
-        "mechanism_id": "mech_insulin_resistance",
-        "confidence": 0.72,
-        "notes": "Hyperinsulinemia promotes sodium retention and sympathetic activation"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.85
-      },
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.78
-      },
-      {
-        "hallmark_id": "hallmark_mitochondrial_dysfunction",
-        "confidence": 0.65
-      },
-      {
-        "hallmark_id": "hallmark_epigenetic_alterations",
-        "confidence": 0.6
-      }
-    ],
-    "pubmed_search_terms": [
-      "hypertension aging vascular mechanisms",
-      "arterial stiffness aging blood pressure"
-    ]
-  },
-  {
-    "id": "disease_coronary_artery_disease",
-    "name": "Coronary Artery Disease",
-    "icd10": "I25",
-    "system": "cardiovascular",
-    "description": "Atherosclerotic narrowing of epicardial coronary arteries causing myocardial ischemia. Age is the dominant non-modifiable risk factor. Plaque rupture causes acute MI; stable angina from demand-supply mismatch in chronic disease.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_cholesterol_dysregulation",
-        "confidence": 0.9,
-        "notes": "LDL accumulation and oxidation drive plaque formation"
-      },
-      {
-        "mechanism_id": "mech_vascular_inflammation",
-        "confidence": 0.88,
-        "notes": "Endothelial inflammation recruits monocytes to intima"
-      },
-      {
-        "mechanism_id": "mech_clonal_hematopoiesis",
-        "confidence": 0.72,
-        "notes": "TET2-mutant macrophages produce excess IL-1β in plaques"
-      },
-      {
-        "mechanism_id": "mech_oxidative_stress",
-        "confidence": 0.78,
-        "notes": "Oxidative modification of LDL and endothelial cells"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.9
-      },
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.78
-      },
-      {
-        "hallmark_id": "hallmark_deregulated_nutrient_sensing",
-        "confidence": 0.7
-      },
-      {
-        "hallmark_id": "hallmark_epigenetic_alterations",
-        "confidence": 0.6
-      }
-    ],
-    "pubmed_search_terms": [
-      "coronary artery disease aging mechanisms",
-      "CAD aging inflammation cholesterol hallmarks"
-    ]
-  },
-  {
-    "id": "disease_aortic_stenosis",
-    "name": "Aortic Stenosis",
-    "icd10": "I35.0",
-    "system": "cardiovascular",
-    "description": "Progressive calcification and fibrosis of the aortic valve leaflets leading to obstruction of left ventricular outflow. Most common valvular heart disease in the elderly; shares pathobiological features with atherosclerosis. Treated by surgical or transcatheter valve replacement.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_ecm_stiffening",
-        "confidence": 0.85,
-        "notes": "Fibro-calcific remodeling of valve leaflets by myofibroblasts"
-      },
-      {
-        "mechanism_id": "mech_vascular_inflammation",
-        "confidence": 0.8,
-        "notes": "Inflammatory infiltration precedes calcification"
-      },
-      {
-        "mechanism_id": "mech_cholesterol_dysregulation",
-        "confidence": 0.72,
-        "notes": "Lipid deposition and oxLDL in valve initiates disease"
-      },
-      {
-        "mechanism_id": "mech_oxidative_stress",
-        "confidence": 0.7,
-        "notes": "Oxidative stress activates valve interstitial cells"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.8
-      },
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.7
-      },
-      {
-        "hallmark_id": "hallmark_altered_intercellular_communication",
-        "confidence": 0.65
-      }
-    ],
-    "pubmed_search_terms": [
-      "aortic stenosis aging calcification mechanisms",
-      "valvular heart disease aging inflammation"
-    ]
-  },
-  {
-    "id": "disease_cardiac_hypertrophy",
-    "name": "Cardiac Hypertrophy",
-    "icd10": "I51.7",
-    "system": "cardiovascular",
-    "description": "Pathological enlargement of the myocardium in response to chronic pressure or volume overload, neurohormonal activation, and direct aging effects. Maladaptive hypertrophy leads to fibrosis, diastolic dysfunction, and eventual heart failure.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_mtor_hyperactivation",
-        "confidence": 0.82,
-        "notes": "mTORC1 promotes cardiomyocyte protein synthesis and hypertrophy"
-      },
-      {
-        "mechanism_id": "mech_ecm_stiffening",
-        "confidence": 0.8,
-        "notes": "Interstitial fibrosis accompanies and perpetuates hypertrophy"
-      },
-      {
-        "mechanism_id": "mech_mitophagy_impairment",
-        "confidence": 0.72,
-        "notes": "Impaired mitophagy increases oxidative burden in hypertrophied cardiomyocytes"
-      },
-      {
-        "mechanism_id": "mech_nfkb_signaling",
-        "confidence": 0.68,
-        "notes": "NF-κB drives pro-hypertrophic and pro-fibrotic gene programs"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_deregulated_nutrient_sensing",
-        "confidence": 0.78
-      },
-      {
-        "hallmark_id": "hallmark_mitochondrial_dysfunction",
-        "confidence": 0.75
-      },
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.68
-      },
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.62
-      }
-    ],
-    "pubmed_search_terms": [
-      "cardiac hypertrophy aging mTOR fibrosis",
-      "pathological hypertrophy aging mechanisms"
-    ]
-  },
-  {
-    "id": "disease_type2_diabetes",
-    "name": "Type 2 Diabetes",
-    "icd10": "E11",
-    "system": "metabolic",
-    "description": "Metabolic disorder characterized by progressive insulin resistance, compensatory hyperinsulinemia, and eventual pancreatic beta-cell failure leading to hyperglycemia. Strongly age-associated; complications affect cardiovascular, renal, neurological, and ophthalmological systems.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_insulin_resistance",
-        "confidence": 0.97,
-        "notes": "Peripheral insulin resistance is the primary defect in T2D"
-      },
-      {
-        "mechanism_id": "mech_er_stress",
-        "confidence": 0.85,
-        "notes": "Beta-cell ER stress drives apoptosis under chronic glucose/lipid load"
-      },
-      {
-        "mechanism_id": "mech_amyloid_aggregation",
-        "confidence": 0.78,
-        "notes": "IAPP amyloid deposits destroy islet beta-cells"
-      },
-      {
-        "mechanism_id": "mech_adipose_dysfunction",
-        "confidence": 0.88,
-        "notes": "Visceral adiposity and lipotoxicity drive insulin resistance"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_deregulated_nutrient_sensing",
-        "confidence": 0.95
-      },
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.85
-      },
-      {
-        "hallmark_id": "hallmark_mitochondrial_dysfunction",
-        "confidence": 0.78
-      },
-      {
-        "hallmark_id": "hallmark_loss_of_proteostasis",
-        "confidence": 0.72
-      }
-    ],
-    "pubmed_search_terms": [
-      "type 2 diabetes aging mechanisms hallmarks",
-      "T2D aging insulin resistance beta cell"
-    ]
-  },
-  {
-    "id": "disease_metabolic_syndrome",
-    "name": "Metabolic Syndrome",
-    "icd10": "E88.81",
-    "system": "metabolic",
-    "description": "Cluster of interrelated metabolic abnormalities including central obesity, hypertriglyceridemia, low HDL, hypertension, and hyperglycemia. Substantially increases risk for T2D and cardiovascular disease. Prevalence rises sharply with age.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_adipose_dysfunction",
-        "confidence": 0.9,
-        "notes": "Visceral adipose dysfunction is central to metabolic syndrome"
-      },
-      {
-        "mechanism_id": "mech_insulin_resistance",
-        "confidence": 0.92,
-        "notes": "Insulin resistance links all components of the syndrome"
-      },
-      {
-        "mechanism_id": "mech_cholesterol_dysregulation",
-        "confidence": 0.8,
-        "notes": "Dyslipidemia driven by ectopic lipid and impaired clearance"
-      },
-      {
-        "mechanism_id": "mech_gut_permeability",
-        "confidence": 0.7,
-        "notes": "Gut-derived LPS activates macrophages promoting metabolic inflammation"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_deregulated_nutrient_sensing",
-        "confidence": 0.9
-      },
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.85
-      },
-      {
-        "hallmark_id": "hallmark_dysbiosis",
-        "confidence": 0.72
-      },
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.68
-      }
-    ],
-    "pubmed_search_terms": [
-      "metabolic syndrome aging mechanisms",
-      "MetSyn aging inflammation adipose"
-    ]
-  },
-  {
-    "id": "disease_nafld",
-    "name": "NAFLD/NASH",
-    "icd10": "K76.0",
-    "system": "metabolic",
-    "description": "Nonalcoholic fatty liver disease (NAFLD) and its inflammatory form NASH represent a spectrum from hepatic steatosis to steatohepatitis, fibrosis, and cirrhosis. Increasingly common with aging, obesity, and metabolic syndrome; a leading cause of hepatocellular carcinoma.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_adipose_dysfunction",
-        "confidence": 0.88,
-        "notes": "Increased free fatty acid flux from dysfunctional adipose to liver"
-      },
-      {
-        "mechanism_id": "mech_er_stress",
-        "confidence": 0.82,
-        "notes": "Hepatocyte ER stress triggers lipoapoptosis and inflammation"
-      },
-      {
-        "mechanism_id": "mech_gut_permeability",
-        "confidence": 0.8,
-        "notes": "Portal delivery of bacterial products activates hepatic TLR4"
-      },
-      {
-        "mechanism_id": "mech_mitophagy_impairment",
-        "confidence": 0.75,
-        "notes": "Impaired hepatic mitophagy amplifies oxidative stress"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_deregulated_nutrient_sensing",
-        "confidence": 0.88
-      },
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.82
-      },
-      {
-        "hallmark_id": "hallmark_dysbiosis",
-        "confidence": 0.75
-      },
-      {
-        "hallmark_id": "hallmark_mitochondrial_dysfunction",
-        "confidence": 0.78
-      }
-    ],
-    "pubmed_search_terms": [
-      "NAFLD NASH aging mechanisms",
-      "nonalcoholic fatty liver aging inflammation aging"
-    ]
-  },
-  {
-    "id": "disease_obesity",
-    "name": "Obesity",
-    "icd10": "E66",
-    "system": "metabolic",
-    "description": "Excess body fat accumulation, particularly visceral adiposity, that promotes systemic inflammation, insulin resistance, and accelerated biological aging. Age-related changes in appetite regulation, energy expenditure, and adipose biology promote weight gain.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_adipose_dysfunction",
-        "confidence": 0.92,
-        "notes": "Adipose senescence and inflammation are central to obesity pathology"
-      },
-      {
-        "mechanism_id": "mech_mtor_hyperactivation",
-        "confidence": 0.8,
-        "notes": "Nutrient excess chronically activates mTORC1"
-      },
-      {
-        "mechanism_id": "mech_insulin_resistance",
-        "confidence": 0.88,
-        "notes": "Adipokine imbalance and lipotoxicity drive peripheral insulin resistance"
-      },
-      {
-        "mechanism_id": "mech_gut_permeability",
-        "confidence": 0.72,
-        "notes": "Obesity-associated dysbiosis increases gut permeability and metabolic endotoxemia"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_deregulated_nutrient_sensing",
-        "confidence": 0.88
-      },
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.85
-      },
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.78
-      },
-      {
-        "hallmark_id": "hallmark_dysbiosis",
-        "confidence": 0.72
-      }
-    ],
-    "pubmed_search_terms": [
-      "obesity aging mechanisms hallmarks",
-      "adipose senescence aging inflammation"
-    ]
-  },
-  {
-    "id": "disease_gout",
-    "name": "Gout",
-    "icd10": "M10",
-    "system": "metabolic",
-    "description": "Crystal arthropathy caused by monosodium urate deposition in joints, driven by hyperuricemia. Incidence rises steeply with age due to declining renal urate clearance, diuretic use, and metabolic syndrome. NLRP3 inflammasome activation by urate crystals drives acute attacks.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_nfkb_signaling",
-        "confidence": 0.82,
-        "notes": "NF-κB drives IL-1β production in response to urate crystals"
-      },
-      {
-        "mechanism_id": "mech_kidney_filtration",
-        "confidence": 0.78,
-        "notes": "Declining GFR reduces renal uric acid excretion"
-      },
-      {
-        "mechanism_id": "mech_insulin_resistance",
-        "confidence": 0.7,
-        "notes": "Insulin inhibits renal urate excretion; metabolic syndrome major risk factor"
-      },
-      {
-        "mechanism_id": "mech_oxidative_stress",
-        "confidence": 0.62,
-        "notes": "Xanthine oxidase-generated ROS contribute to uric acid production"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.85
-      },
-      {
-        "hallmark_id": "hallmark_deregulated_nutrient_sensing",
-        "confidence": 0.68
-      },
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.55
-      }
-    ],
-    "pubmed_search_terms": [
-      "gout aging NLRP3 uric acid",
-      "hyperuricemia aging inflammation mechanisms"
-    ]
-  },
-  {
-    "id": "disease_hypothyroidism",
-    "name": "Hypothyroidism",
-    "icd10": "E03.9",
-    "system": "metabolic",
-    "description": "Deficient thyroid hormone production causing metabolic slowing, fatigue, cognitive impairment, and cardiovascular risk. Prevalence increases with age; subclinical hypothyroidism is common. Autoimmune destruction (Hashimoto's) and iodine deficiency are leading causes.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_hormonal_dysregulation",
-        "confidence": 0.85,
-        "notes": "Thyroid hormone is a key metabolic regulator declining with age in some"
-      },
-      {
-        "mechanism_id": "mech_mitochondrial_biogenesis",
-        "confidence": 0.78,
-        "notes": "Thyroid hormone drives PGC-1α and mitochondrial biogenesis"
-      },
-      {
-        "mechanism_id": "mech_immunosenescence",
-        "confidence": 0.68,
-        "notes": "Autoimmune thyroiditis linked to immune dysregulation with aging"
-      },
-      {
-        "mechanism_id": "mech_nfkb_signaling",
-        "confidence": 0.6,
-        "notes": "Inflammatory signaling impairs thyroid gland function"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_altered_intercellular_communication",
-        "confidence": 0.8
-      },
-      {
-        "hallmark_id": "hallmark_mitochondrial_dysfunction",
-        "confidence": 0.68
-      },
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.62
-      }
-    ],
-    "pubmed_search_terms": [
-      "hypothyroidism aging mechanisms",
-      "thyroid aging immune dysfunction"
-    ]
-  },
-  {
-    "id": "disease_multiple_myeloma",
-    "name": "Multiple Myeloma",
-    "icd10": "C90.0",
-    "system": "cancer",
-    "description": "Malignancy of plasma cells in the bone marrow producing monoclonal immunoglobulin. Median age at diagnosis is 69. Bone marrow microenvironment aging, genomic instability, and immunosenescence contribute to disease initiation and progression from MGUS.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_clonal_hematopoiesis",
-        "confidence": 0.75,
-        "notes": "Clonal B-lineage expansion preceding myeloma shares mechanisms with CHIP"
-      },
-      {
-        "mechanism_id": "mech_immunosenescence",
-        "confidence": 0.8,
-        "notes": "Impaired immune surveillance allows MGUS-to-myeloma progression"
-      },
-      {
-        "mechanism_id": "mech_epigenetic_clock",
-        "confidence": 0.72,
-        "notes": "Epigenetic drift in plasma cell precursors enables malignant transformation"
-      },
-      {
-        "mechanism_id": "mech_stem_niche_dysfunction",
-        "confidence": 0.7,
-        "notes": "Aged bone marrow niche supports myeloma cell survival"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_genomic_instability",
-        "confidence": 0.88
-      },
-      {
-        "hallmark_id": "hallmark_epigenetic_alterations",
-        "confidence": 0.78
-      },
-      {
-        "hallmark_id": "hallmark_stem_cell_exhaustion",
-        "confidence": 0.7
-      },
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.72
-      }
-    ],
-    "pubmed_search_terms": [
-      "multiple myeloma aging mechanisms hallmarks",
-      "myeloma aging bone marrow microenvironment"
-    ]
-  },
-  {
-    "id": "disease_colorectal_cancer",
-    "name": "Colorectal Cancer",
-    "icd10": "C18",
-    "system": "cancer",
-    "description": "Adenocarcinoma arising from colorectal epithelium, predominantly through chromosomal instability or microsatellite instability pathways. Incidence strongly age-related; cumulative DNA damage, dysbiosis, and impaired immune surveillance drive malignant transformation of adenomatous polyps.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_dna_methylation_drift",
-        "confidence": 0.85,
-        "notes": "Promoter hypermethylation silences tumor suppressors (MLH1, CDKN2A)"
-      },
-      {
-        "mechanism_id": "mech_gut_permeability",
-        "confidence": 0.78,
-        "notes": "Bacterial genotoxins (colibactin, CDT) damage colonocyte DNA"
-      },
-      {
-        "mechanism_id": "mech_sasp",
-        "confidence": 0.72,
-        "notes": "SASP creates pro-tumorigenic microenvironment"
-      },
-      {
-        "mechanism_id": "mech_nfkb_signaling",
-        "confidence": 0.75,
-        "notes": "NF-κB drives survival, proliferation, and inflammation in tumors"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_genomic_instability",
-        "confidence": 0.92
-      },
-      {
-        "hallmark_id": "hallmark_epigenetic_alterations",
-        "confidence": 0.85
-      },
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.78
-      },
-      {
-        "hallmark_id": "hallmark_dysbiosis",
-        "confidence": 0.72
-      }
-    ],
-    "pubmed_search_terms": [
-      "colorectal cancer aging mechanisms hallmarks",
-      "colon cancer aging DNA damage dysbiosis"
-    ]
-  },
-  {
-    "id": "disease_lung_cancer",
-    "name": "Lung Cancer",
-    "icd10": "C34",
-    "system": "cancer",
-    "description": "Leading cause of cancer mortality, predominantly non-small cell (NSCLC: adenocarcinoma, squamous cell) driven by tobacco carcinogen-induced DNA mutations. Age-related accumulation of somatic mutations and immunosenescence create permissive conditions for malignant transformation.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_epigenetic_clock",
-        "confidence": 0.8,
-        "notes": "Accelerated epigenetic aging in lung epithelium predicts cancer risk"
-      },
-      {
-        "mechanism_id": "mech_oxidative_stress",
-        "confidence": 0.85,
-        "notes": "Tobacco-induced and endogenous ROS drive DNA mutation burden"
-      },
-      {
-        "mechanism_id": "mech_immunosenescence",
-        "confidence": 0.75,
-        "notes": "Declining cancer immunosurveillance with age"
-      },
-      {
-        "mechanism_id": "mech_sasp",
-        "confidence": 0.7,
-        "notes": "SASP from senescent alveolar cells supports tumor microenvironment"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_genomic_instability",
-        "confidence": 0.9
-      },
-      {
-        "hallmark_id": "hallmark_epigenetic_alterations",
-        "confidence": 0.78
-      },
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.72
-      },
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.7
-      }
-    ],
-    "pubmed_search_terms": [
-      "lung cancer aging mechanisms hallmarks",
-      "NSCLC aging genomic instability immunosenescence"
-    ]
-  },
-  {
-    "id": "disease_breast_cancer",
-    "name": "Breast Cancer",
-    "icd10": "C50",
-    "system": "cancer",
-    "description": "Most common cancer in women, with incidence rising with age. Hormonal changes at menopause, accumulated DNA damage in ductal epithelium, and altered stromal microenvironment all contribute. ER+ subtype predominates in postmenopausal women.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_hormonal_dysregulation",
-        "confidence": 0.82,
-        "notes": "Estrogen decline at menopause alters breast epithelial biology"
-      },
-      {
-        "mechanism_id": "mech_dna_methylation_drift",
-        "confidence": 0.8,
-        "notes": "BRCA1/2 promoter methylation; hormone receptor gene silencing"
-      },
-      {
-        "mechanism_id": "mech_sasp",
-        "confidence": 0.75,
-        "notes": "Senescent stromal cells promote tumor initiation and progression"
-      },
-      {
-        "mechanism_id": "mech_adipose_dysfunction",
-        "confidence": 0.7,
-        "notes": "Breast adipose inflammation post-menopause promotes tumor growth"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_genomic_instability",
-        "confidence": 0.88
-      },
-      {
-        "hallmark_id": "hallmark_epigenetic_alterations",
-        "confidence": 0.82
-      },
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.72
-      },
-      {
-        "hallmark_id": "hallmark_altered_intercellular_communication",
-        "confidence": 0.68
-      }
-    ],
-    "pubmed_search_terms": [
-      "breast cancer aging mechanisms hallmarks",
-      "postmenopausal breast cancer aging senescence"
-    ]
-  },
-  {
-    "id": "disease_prostate_cancer",
-    "name": "Prostate Cancer",
-    "icd10": "C61",
-    "system": "cancer",
-    "description": "Most common cancer in men, with incidence and lethal potential rising sharply with age. Age-related androgen signaling changes, accumulated somatic mutations, and senescent stromal cells drive malignant transformation of luminal epithelial cells.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_sasp",
-        "confidence": 0.78,
-        "notes": "Senescent prostate stromal cells secrete growth factors promoting tumor"
-      },
-      {
-        "mechanism_id": "mech_hormonal_dysregulation",
-        "confidence": 0.75,
-        "notes": "Androgen axis changes with aging alter prostate epithelial homeostasis"
-      },
-      {
-        "mechanism_id": "mech_epigenetic_clock",
-        "confidence": 0.72,
-        "notes": "Epigenetic age acceleration in prostate tissue predicts cancer risk"
-      },
-      {
-        "mechanism_id": "mech_dna_methylation_drift",
-        "confidence": 0.78,
-        "notes": "GSTP1 promoter methylation is hallmark of prostate cancer"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_genomic_instability",
-        "confidence": 0.85
-      },
-      {
-        "hallmark_id": "hallmark_epigenetic_alterations",
-        "confidence": 0.82
-      },
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.7
-      },
-      {
-        "hallmark_id": "hallmark_altered_intercellular_communication",
-        "confidence": 0.65
-      }
-    ],
-    "pubmed_search_terms": [
-      "prostate cancer aging mechanisms",
-      "prostate cancer aging epigenetics senescence"
-    ]
-  },
-  {
-    "id": "disease_pancreatic_cancer",
-    "name": "Pancreatic Cancer",
-    "icd10": "C25",
-    "system": "cancer",
-    "description": "Pancreatic ductal adenocarcinoma (PDAC) is among the most lethal malignancies with five-year survival under 12%. Age-related KRAS mutations, chronic pancreatitis, and a highly immunosuppressive tumor microenvironment drive rapid progression.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_sasp",
-        "confidence": 0.8,
-        "notes": "SASP factors create highly immunosuppressive and desmoplastic stroma"
-      },
-      {
-        "mechanism_id": "mech_insulin_resistance",
-        "confidence": 0.75,
-        "notes": "New-onset diabetes often precedes diagnosis; metabolic syndrome is risk factor"
-      },
-      {
-        "mechanism_id": "mech_nfkb_signaling",
-        "confidence": 0.78,
-        "notes": "NF-κB constitutively active in majority of PDACs"
-      },
-      {
-        "mechanism_id": "mech_gut_permeability",
-        "confidence": 0.6,
-        "notes": "Microbiome alterations contribute to pancreatic cancer pathogenesis"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_genomic_instability",
-        "confidence": 0.9
-      },
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.8
-      },
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.72
-      },
-      {
-        "hallmark_id": "hallmark_epigenetic_alterations",
-        "confidence": 0.75
-      }
-    ],
-    "pubmed_search_terms": [
-      "pancreatic cancer aging mechanisms KRAS",
-      "PDAC aging inflammation hallmarks"
-    ]
-  },
-  {
-    "id": "disease_aml",
-    "name": "Acute Myeloid Leukemia",
-    "icd10": "C91.0",
-    "system": "cancer",
-    "description": "Aggressive hematological malignancy arising from myeloid progenitor cells. Incidence increases markedly with age, frequently arising from clonal hematopoiesis. Associated with poor outcomes in the elderly due to comorbidities, frailty, and adverse cytogenetics.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_clonal_hematopoiesis",
-        "confidence": 0.9,
-        "notes": "CHIP is direct precursor state; DNMT3A/TET2/ASXL1 mutations"
-      },
-      {
-        "mechanism_id": "mech_dna_methylation_drift",
-        "confidence": 0.85,
-        "notes": "TET2 and DNMT3A mutations cause epigenetic dysregulation in HSCs"
-      },
-      {
-        "mechanism_id": "mech_stem_niche_dysfunction",
-        "confidence": 0.72,
-        "notes": "Aged bone marrow niche favors malignant over normal hematopoiesis"
-      },
-      {
-        "mechanism_id": "mech_immunosenescence",
-        "confidence": 0.7,
-        "notes": "Reduced immunosurveillance allows leukemic clone expansion"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_genomic_instability",
-        "confidence": 0.92
-      },
-      {
-        "hallmark_id": "hallmark_epigenetic_alterations",
-        "confidence": 0.88
-      },
-      {
-        "hallmark_id": "hallmark_stem_cell_exhaustion",
-        "confidence": 0.8
-      },
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.72
-      }
-    ],
-    "pubmed_search_terms": [
-      "AML aging CHIP mechanisms",
-      "acute myeloid leukemia aging clonal hematopoiesis"
-    ]
-  },
-  {
-    "id": "disease_melanoma",
-    "name": "Melanoma",
-    "icd10": "C43",
-    "system": "cancer",
-    "description": "Malignancy of melanocytes driven by UV-induced DNA damage and somatic mutations (BRAF, NRAS). Incidence rises with cumulative UV exposure and aging. Immunosenescence impairs tumor immunosurveillance, allowing emergence of melanocytic malignancy.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_oxidative_stress",
-        "confidence": 0.82,
-        "notes": "UV-generated ROS drive melanocyte DNA mutation"
-      },
-      {
-        "mechanism_id": "mech_immunosenescence",
-        "confidence": 0.78,
-        "notes": "Age-related T cell exhaustion reduces melanoma immunosurveillance"
-      },
-      {
-        "mechanism_id": "mech_epigenetic_clock",
-        "confidence": 0.72,
-        "notes": "UV accelerates epigenetic aging in skin"
-      },
-      {
-        "mechanism_id": "mech_sasp",
-        "confidence": 0.68,
-        "notes": "Senescent dermal fibroblasts create pro-tumorigenic niche"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_genomic_instability",
-        "confidence": 0.9
-      },
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.72
-      },
-      {
-        "hallmark_id": "hallmark_epigenetic_alterations",
-        "confidence": 0.7
-      },
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.65
-      }
-    ],
-    "pubmed_search_terms": [
-      "melanoma aging UV DNA damage mechanisms",
-      "melanoma aging immunosenescence hallmarks"
-    ]
-  },
-  {
-    "id": "disease_bladder_cancer",
-    "name": "Bladder Cancer",
-    "icd10": "C67",
-    "system": "cancer",
-    "description": "Urothelial carcinoma of the bladder with strong age-dependence; median age at diagnosis is 73. Cumulative exposure to carcinogens (tobacco, aromatic amines) and chronic inflammation from recurrent infections drive mucosal DNA damage and malignant transformation.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_dna_methylation_drift",
-        "confidence": 0.8,
-        "notes": "Promoter methylation silences tumor suppressors in urothelium"
-      },
-      {
-        "mechanism_id": "mech_nfkb_signaling",
-        "confidence": 0.75,
-        "notes": "Chronic inflammation activates NF-κB in urothelial cells"
-      },
-      {
-        "mechanism_id": "mech_oxidative_stress",
-        "confidence": 0.78,
-        "notes": "Carcinogen-activated ROS damage urothelial DNA"
-      },
-      {
-        "mechanism_id": "mech_immunosenescence",
-        "confidence": 0.7,
-        "notes": "Reduced immune elimination of transformed urothelial cells"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_genomic_instability",
-        "confidence": 0.88
-      },
-      {
-        "hallmark_id": "hallmark_epigenetic_alterations",
-        "confidence": 0.78
-      },
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.72
-      },
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.62
-      }
-    ],
-    "pubmed_search_terms": [
-      "bladder cancer aging mechanisms DNA damage",
-      "urothelial carcinoma aging inflammation"
-    ]
-  },
-  {
-    "id": "disease_sarcopenia",
-    "name": "Sarcopenia",
-    "icd10": "M62.84",
-    "system": "musculoskeletal",
-    "description": "Progressive age-related loss of skeletal muscle mass, strength, and function. Affects >50% of adults over 80 and is a primary driver of frailty, disability, falls, and metabolic dysfunction. Interplay between anabolic resistance, neuromuscular denervation, and inflammation drives muscle wasting.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_muscle_atrophy",
-        "confidence": 0.97,
-        "notes": "Sarcopenia pathway mechanisms directly underlie this condition"
-      },
-      {
-        "mechanism_id": "mech_mitochondrial_biogenesis",
-        "confidence": 0.85,
-        "notes": "Declining mitochondrial biogenesis reduces muscle oxidative capacity"
-      },
-      {
-        "mechanism_id": "mech_stem_niche_dysfunction",
-        "confidence": 0.82,
-        "notes": "Satellite cell niche dysfunction impairs muscle regeneration"
-      },
-      {
-        "mechanism_id": "mech_hormonal_dysregulation",
-        "confidence": 0.78,
-        "notes": "GH/IGF-1/testosterone decline blunts anabolic signaling"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_stem_cell_exhaustion",
-        "confidence": 0.88
-      },
-      {
-        "hallmark_id": "hallmark_mitochondrial_dysfunction",
-        "confidence": 0.85
-      },
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.8
-      },
-      {
-        "hallmark_id": "hallmark_deregulated_nutrient_sensing",
-        "confidence": 0.82
-      }
-    ],
-    "pubmed_search_terms": [
-      "sarcopenia aging mechanisms hallmarks",
-      "muscle wasting aging satellite cell mitochondria"
-    ]
-  },
-  {
-    "id": "disease_osteoporosis",
-    "name": "Osteoporosis",
-    "icd10": "M81",
-    "system": "musculoskeletal",
-    "description": "Systemic skeletal disease characterized by reduced bone mineral density and microarchitectural deterioration, predisposing to fragility fractures. Major public health problem in aging populations; hip fractures carry high morbidity and mortality.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_bone_remodeling",
-        "confidence": 0.95,
-        "notes": "Uncoupled bone remodeling favoring resorption is the primary mechanism"
-      },
-      {
-        "mechanism_id": "mech_hormonal_dysregulation",
-        "confidence": 0.88,
-        "notes": "Estrogen and testosterone deficiency accelerate osteoclast activity"
-      },
-      {
-        "mechanism_id": "mech_oxidative_stress",
-        "confidence": 0.72,
-        "notes": "ROS impair osteoblast differentiation and survival"
-      },
-      {
-        "mechanism_id": "mech_sasp",
-        "confidence": 0.75,
-        "notes": "Senescent osteocytes produce SASP that activates osteoclasts"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_stem_cell_exhaustion",
-        "confidence": 0.85
-      },
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.8
-      },
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.75
-      },
-      {
-        "hallmark_id": "hallmark_deregulated_nutrient_sensing",
-        "confidence": 0.68
-      }
-    ],
-    "pubmed_search_terms": [
-      "osteoporosis aging mechanisms hallmarks",
-      "bone loss aging osteoblast osteoclast aging"
-    ]
-  },
-  {
-    "id": "disease_osteoarthritis",
-    "name": "Osteoarthritis",
-    "icd10": "M19",
-    "system": "musculoskeletal",
-    "description": "Degenerative joint disease characterized by articular cartilage loss, subchondral bone remodeling, osteophyte formation, and synovial inflammation. Most prevalent joint disorder in the elderly; strongly driven by cellular senescence in chondrocytes and synoviocytes.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_proteolytic_imbalance",
-        "confidence": 0.88,
-        "notes": "MMP-mediated cartilage matrix degradation exceeds synthesis"
-      },
-      {
-        "mechanism_id": "mech_sasp",
-        "confidence": 0.85,
-        "notes": "Senescent chondrocyte SASP drives catabolic cartilage destruction"
-      },
-      {
-        "mechanism_id": "mech_ecm_stiffening",
-        "confidence": 0.78,
-        "notes": "Subchondral bone stiffening alters cartilage biomechanical load"
-      },
-      {
-        "mechanism_id": "mech_oxidative_stress",
-        "confidence": 0.72,
-        "notes": "Mitochondrial ROS in chondrocytes impair matrix synthesis"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.88
-      },
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.82
-      },
-      {
-        "hallmark_id": "hallmark_altered_intercellular_communication",
-        "confidence": 0.72
-      },
-      {
-        "hallmark_id": "hallmark_mitochondrial_dysfunction",
-        "confidence": 0.65
-      }
-    ],
-    "pubmed_search_terms": [
-      "osteoarthritis aging senescence mechanisms",
-      "cartilage aging MMP senescence hallmarks"
-    ]
-  },
-  {
-    "id": "disease_rheumatoid_arthritis",
-    "name": "Rheumatoid Arthritis",
-    "icd10": "M06",
-    "system": "musculoskeletal",
-    "description": "Chronic autoimmune inflammatory arthritis targeting synovial joints with systemic manifestations. Late-onset RA (>60 years) is common and often seronegative; immunosenescence, epigenetic alterations in T cells, and synoviocyte senescence contribute to joint destruction.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_immunosenescence",
-        "confidence": 0.82,
-        "notes": "Senescent T cells escape regulation and accumulate in synovium"
-      },
-      {
-        "mechanism_id": "mech_nfkb_signaling",
-        "confidence": 0.85,
-        "notes": "NF-κB drives synoviocyte invasiveness and cytokine production"
-      },
-      {
-        "mechanism_id": "mech_sasp",
-        "confidence": 0.8,
-        "notes": "Senescent fibroblast-like synoviocytes perpetuate inflammation"
-      },
-      {
-        "mechanism_id": "mech_proteolytic_imbalance",
-        "confidence": 0.82,
-        "notes": "MMP-mediated destruction of cartilage and bone"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.92
-      },
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.8
-      },
-      {
-        "hallmark_id": "hallmark_epigenetic_alterations",
-        "confidence": 0.72
-      },
-      {
-        "hallmark_id": "hallmark_altered_intercellular_communication",
-        "confidence": 0.75
-      }
-    ],
-    "pubmed_search_terms": [
-      "rheumatoid arthritis aging mechanisms immunosenescence",
-      "RA aging senescence synovium hallmarks"
-    ]
-  },
-  {
-    "id": "disease_frailty",
-    "name": "Frailty Syndrome",
-    "icd10": "R54",
-    "system": "musculoskeletal",
-    "description": "Geriatric syndrome of decreased physiological reserve and increased vulnerability to stressors, characterized by unintentional weight loss, exhaustion, weakness, slowness, and low activity. Represents a convergence of multiple aging hallmarks and is the most powerful predictor of adverse outcomes in older adults.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_muscle_atrophy",
-        "confidence": 0.9,
-        "notes": "Sarcopenia is the dominant physical substrate of frailty"
-      },
-      {
-        "mechanism_id": "mech_sasp",
-        "confidence": 0.85,
-        "notes": "Elevated SASP factors drive systemic inflammation in frail individuals"
-      },
-      {
-        "mechanism_id": "mech_nad_depletion",
-        "confidence": 0.72,
-        "notes": "NAD+ deficit impairs mitochondrial function in multiple organ systems"
-      },
-      {
-        "mechanism_id": "mech_hormonal_dysregulation",
-        "confidence": 0.78,
-        "notes": "Multi-hormonal deficiency (GH, sex steroids, DHEA) underlies frailty"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.85
-      },
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.88
-      },
-      {
-        "hallmark_id": "hallmark_stem_cell_exhaustion",
-        "confidence": 0.8
-      },
-      {
-        "hallmark_id": "hallmark_mitochondrial_dysfunction",
-        "confidence": 0.78
-      }
-    ],
-    "pubmed_search_terms": [
-      "frailty aging mechanisms hallmarks",
-      "frailty syndrome aging SASP inflammation sarcopenia"
-    ]
-  },
-  {
-    "id": "disease_ckd",
-    "name": "Chronic Kidney Disease",
-    "icd10": "N18",
-    "system": "renal",
-    "description": "Progressive and irreversible loss of kidney function with GFR <60 mL/min for >3 months. Age is a dominant risk factor; CKD accelerates systemic aging through uremic toxin accumulation, inflammation, and mineral-bone disorder.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_kidney_filtration",
-        "confidence": 0.97,
-        "notes": "Declining GFR through glomerulosclerosis and interstitial fibrosis"
-      },
-      {
-        "mechanism_id": "mech_ecm_stiffening",
-        "confidence": 0.82,
-        "notes": "TGF-β driven renal interstitial fibrosis replaces functional nephrons"
-      },
-      {
-        "mechanism_id": "mech_oxidative_stress",
-        "confidence": 0.78,
-        "notes": "Uremic toxins and reduced antioxidant defense in CKD"
-      },
-      {
-        "mechanism_id": "mech_sasp",
-        "confidence": 0.72,
-        "notes": "Senescent tubular cells perpetuate fibrotic signaling"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.82
-      },
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.85
-      },
-      {
-        "hallmark_id": "hallmark_mitochondrial_dysfunction",
-        "confidence": 0.72
-      },
-      {
-        "hallmark_id": "hallmark_altered_intercellular_communication",
-        "confidence": 0.72
-      }
-    ],
-    "pubmed_search_terms": [
-      "chronic kidney disease aging mechanisms hallmarks",
-      "CKD aging senescence fibrosis"
-    ]
-  },
-  {
-    "id": "disease_diabetic_nephropathy",
-    "name": "Diabetic Nephropathy",
-    "icd10": "E11.65",
-    "system": "renal",
-    "description": "Leading cause of end-stage renal disease, caused by glomerular and tubular damage from hyperglycemia, AGE accumulation, and oxidative stress. Characterized by albuminuria, progressive GFR decline, and glomerular fibrosis.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_kidney_filtration",
-        "confidence": 0.9,
-        "notes": "Glomerular hypertension and mesangial expansion reduce functional nephron mass"
-      },
-      {
-        "mechanism_id": "mech_oxidative_stress",
-        "confidence": 0.88,
-        "notes": "Glucose-driven mitochondrial ROS damage glomerular and tubular cells"
-      },
-      {
-        "mechanism_id": "mech_ecm_stiffening",
-        "confidence": 0.82,
-        "notes": "AGE crosslinking and TGF-β fibrosis define diabetic glomerulopathy"
-      },
-      {
-        "mechanism_id": "mech_insulin_resistance",
-        "confidence": 0.78,
-        "notes": "Hyperglycemia from insulin resistance is the primary driver"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.82
-      },
-      {
-        "hallmark_id": "hallmark_mitochondrial_dysfunction",
-        "confidence": 0.8
-      },
-      {
-        "hallmark_id": "hallmark_deregulated_nutrient_sensing",
-        "confidence": 0.85
-      },
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.7
-      }
-    ],
-    "pubmed_search_terms": [
-      "diabetic nephropathy aging oxidative stress mechanisms",
-      "kidney diabetes aging fibrosis hallmarks"
-    ]
-  },
-  {
-    "id": "disease_renal_fibrosis",
-    "name": "Renal Fibrosis",
-    "icd10": "N26.9",
-    "system": "renal",
-    "description": "Final common pathway of virtually all progressive kidney diseases, characterized by tubular atrophy, glomerulosclerosis, and interstitial fibrosis driven by myofibroblast activation and ECM deposition. Irreversible loss of functional kidney architecture.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_ecm_stiffening",
-        "confidence": 0.92,
-        "notes": "TGF-β1 drives pericyte-to-myofibroblast transition and fibrosis"
-      },
-      {
-        "mechanism_id": "mech_sasp",
-        "confidence": 0.8,
-        "notes": "Senescent tubular cells secrete TGF-β and other pro-fibrotic SASP factors"
-      },
-      {
-        "mechanism_id": "mech_kidney_filtration",
-        "confidence": 0.85,
-        "notes": "Fibrosis reduces nephron number perpetuating GFR decline"
-      },
-      {
-        "mechanism_id": "mech_mitophagy_impairment",
-        "confidence": 0.72,
-        "notes": "Tubular mitochondrial dysfunction activates fibrotic pathways"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.8
-      },
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.78
-      },
-      {
-        "hallmark_id": "hallmark_altered_intercellular_communication",
-        "confidence": 0.75
-      },
-      {
-        "hallmark_id": "hallmark_mitochondrial_dysfunction",
-        "confidence": 0.68
-      }
-    ],
-    "pubmed_search_terms": [
-      "renal fibrosis aging mechanisms TGF-beta",
-      "kidney fibrosis aging senescence hallmarks"
-    ]
-  },
-  {
-    "id": "disease_copd",
-    "name": "COPD",
-    "icd10": "J44",
-    "system": "pulmonary",
-    "description": "Chronic obstructive pulmonary disease encompasses emphysema and chronic bronchitis, causing irreversible airflow limitation. Tobacco smoke-accelerated lung aging, with cellular senescence, elastin destruction, and impaired repair, are central mechanisms. Leading cause of respiratory morbidity.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_sasp",
-        "confidence": 0.85,
-        "notes": "Senescent alveolar epithelial cells and fibroblasts drive emphysematous destruction"
-      },
-      {
-        "mechanism_id": "mech_proteolytic_imbalance",
-        "confidence": 0.88,
-        "notes": "MMP-elastase imbalance destroys alveolar walls in emphysema"
-      },
-      {
-        "mechanism_id": "mech_oxidative_stress",
-        "confidence": 0.85,
-        "notes": "Tobacco-generated ROS accelerate lung senescence"
-      },
-      {
-        "mechanism_id": "mech_autophagy_flux_decline",
-        "confidence": 0.72,
-        "notes": "Impaired autophagy promotes senescence and inflammation in alveolar cells"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.88
-      },
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.85
-      },
-      {
-        "hallmark_id": "hallmark_mitochondrial_dysfunction",
-        "confidence": 0.72
-      },
-      {
-        "hallmark_id": "hallmark_epigenetic_alterations",
-        "confidence": 0.68
-      }
-    ],
-    "pubmed_search_terms": [
-      "COPD aging senescence mechanisms hallmarks",
-      "emphysema lung aging cellular senescence"
-    ]
-  },
-  {
-    "id": "disease_ipf",
-    "name": "Idiopathic Pulmonary Fibrosis",
-    "icd10": "J84.112",
-    "system": "pulmonary",
-    "description": "Progressive fibrotic lung disease of unknown cause predominantly affecting adults over 60. Accumulation of senescent alveolar type II epithelial cells, failure of regeneration, and aberrant fibroblast activation replace functional lung with scar tissue.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_ecm_stiffening",
-        "confidence": 0.9,
-        "notes": "TGF-β-driven fibroblast activation and collagen deposition"
-      },
-      {
-        "mechanism_id": "mech_sasp",
-        "confidence": 0.88,
-        "notes": "Senescent AEC2 cells drive fibrotic signaling via SASP"
-      },
-      {
-        "mechanism_id": "mech_telomerase_insufficiency",
-        "confidence": 0.82,
-        "notes": "Telomere mutations account for ~25% of familial IPF"
-      },
-      {
-        "mechanism_id": "mech_er_stress",
-        "confidence": 0.75,
-        "notes": "AEC2 ER stress from misfolded surfactant proteins drives apoptosis"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.9
-      },
-      {
-        "hallmark_id": "hallmark_telomere_attrition",
-        "confidence": 0.8
-      },
-      {
-        "hallmark_id": "hallmark_altered_intercellular_communication",
-        "confidence": 0.78
-      },
-      {
-        "hallmark_id": "hallmark_loss_of_proteostasis",
-        "confidence": 0.68
-      }
-    ],
-    "pubmed_search_terms": [
-      "IPF aging senescence telomere mechanisms",
-      "pulmonary fibrosis aging hallmarks cellular senescence"
-    ]
-  },
-  {
-    "id": "disease_pulmonary_hypertension",
-    "name": "Pulmonary Hypertension",
-    "icd10": "I27.20",
-    "system": "pulmonary",
-    "description": "Elevated pulmonary arterial pressure from remodeling of small pulmonary arteries, leading to right heart failure. Age-related endothelial dysfunction, inflammation, and vascular smooth muscle cell senescence contribute to pulmonary vascular remodeling.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_vascular_inflammation",
-        "confidence": 0.85,
-        "notes": "Endothelial dysfunction and inflammation drive pulmonary arterial remodeling"
-      },
-      {
-        "mechanism_id": "mech_sasp",
-        "confidence": 0.72,
-        "notes": "Senescent pulmonary arterial endothelial cells impair vascular homeostasis"
-      },
-      {
-        "mechanism_id": "mech_oxidative_stress",
-        "confidence": 0.78,
-        "notes": "ROS impair NO-mediated pulmonary vasodilation"
-      },
-      {
-        "mechanism_id": "mech_mitophagy_impairment",
-        "confidence": 0.65,
-        "notes": "Mitochondrial dysfunction in pulmonary arterial smooth muscle cells"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.82
-      },
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.72
-      },
-      {
-        "hallmark_id": "hallmark_mitochondrial_dysfunction",
-        "confidence": 0.68
-      },
-      {
-        "hallmark_id": "hallmark_altered_intercellular_communication",
-        "confidence": 0.65
-      }
-    ],
-    "pubmed_search_terms": [
-      "pulmonary hypertension aging mechanisms",
-      "PAH aging endothelial dysfunction senescence"
-    ]
-  },
-  {
-    "id": "disease_sleep_apnea",
-    "name": "Obstructive Sleep Apnea",
-    "icd10": "G47.33",
-    "system": "pulmonary",
-    "description": "Repetitive upper airway obstruction during sleep causing intermittent hypoxia and sleep fragmentation. Prevalence increases with age and obesity. Intermittent hypoxia drives oxidative stress, systemic inflammation, and accelerates cardiovascular and metabolic aging.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_oxidative_stress",
-        "confidence": 0.85,
-        "notes": "Intermittent hypoxia-reoxygenation cycles generate burst ROS"
-      },
-      {
-        "mechanism_id": "mech_nfkb_signaling",
-        "confidence": 0.8,
-        "notes": "Hypoxia activates NF-κB promoting systemic inflammatory cytokines"
-      },
-      {
-        "mechanism_id": "mech_adipose_dysfunction",
-        "confidence": 0.72,
-        "notes": "Visceral obesity is the primary structural risk factor"
-      },
-      {
-        "mechanism_id": "mech_mitophagy_impairment",
-        "confidence": 0.62,
-        "notes": "Intermittent hypoxia impairs mitochondrial quality control"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.82
-      },
-      {
-        "hallmark_id": "hallmark_mitochondrial_dysfunction",
-        "confidence": 0.72
-      },
-      {
-        "hallmark_id": "hallmark_epigenetic_alterations",
-        "confidence": 0.62
-      },
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.6
-      }
-    ],
-    "pubmed_search_terms": [
-      "sleep apnea aging oxidative stress inflammation",
-      "OSA aging mechanisms hallmarks intermittent hypoxia"
-    ]
-  },
-  {
-    "id": "disease_amd",
-    "name": "Age-Related Macular Degeneration",
-    "icd10": "H35.30",
-    "system": "ophthalmological",
-    "description": "Leading cause of blindness in the elderly, caused by degeneration of the retinal pigment epithelium (RPE) and photoreceptors in the macula. Drusen accumulation, complement dysregulation, and neovascularization (wet AMD) drive progressive central vision loss.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_autophagy_lysosomal",
-        "confidence": 0.88,
-        "notes": "RPE lysosomal dysfunction leads to lipofuscin and drusen accumulation"
-      },
-      {
-        "mechanism_id": "mech_oxidative_stress",
-        "confidence": 0.85,
-        "notes": "High oxygen consumption and light exposure make retina vulnerable to ROS"
-      },
-      {
-        "mechanism_id": "mech_sasp",
-        "confidence": 0.78,
-        "notes": "Senescent RPE cells produce pro-inflammatory SASP factors"
-      },
-      {
-        "mechanism_id": "mech_mitophagy_impairment",
-        "confidence": 0.75,
-        "notes": "Mitochondrial dysfunction in RPE cells impairs phagocytic capacity"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_disabled_macroautophagy",
-        "confidence": 0.88
-      },
-      {
-        "hallmark_id": "hallmark_mitochondrial_dysfunction",
-        "confidence": 0.82
-      },
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.78
-      },
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.8
-      }
-    ],
-    "pubmed_search_terms": [
-      "age-related macular degeneration aging mechanisms hallmarks",
-      "AMD aging RPE senescence autophagy"
-    ]
-  },
-  {
-    "id": "disease_glaucoma",
-    "name": "Glaucoma",
-    "icd10": "H40",
-    "system": "ophthalmological",
-    "description": "Progressive optic neuropathy with retinal ganglion cell loss, associated with elevated intraocular pressure. The second leading cause of blindness worldwide; age is the dominant risk factor. Mitochondrial dysfunction and oxidative stress in RGCs and trabecular meshwork cells contribute to neurodegeneration.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_oxidative_stress",
-        "confidence": 0.82,
-        "notes": "ROS impair trabecular meshwork cell function and RGC survival"
-      },
-      {
-        "mechanism_id": "mech_mitophagy_impairment",
-        "confidence": 0.78,
-        "notes": "Mitochondrial dysfunction in RGCs impairs axonal transport and survival"
-      },
-      {
-        "mechanism_id": "mech_sasp",
-        "confidence": 0.72,
-        "notes": "Senescent trabecular meshwork cells reduce aqueous humor outflow"
-      },
-      {
-        "mechanism_id": "mech_axonal_transport",
-        "confidence": 0.75,
-        "notes": "Pressure-induced axonal transport failure at lamina cribrosa"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_mitochondrial_dysfunction",
-        "confidence": 0.82
-      },
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.75
-      },
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.68
-      },
-      {
-        "hallmark_id": "hallmark_loss_of_proteostasis",
-        "confidence": 0.62
-      }
-    ],
-    "pubmed_search_terms": [
-      "glaucoma aging mitochondria senescence mechanisms",
-      "glaucoma aging RGC oxidative stress"
-    ]
-  },
-  {
-    "id": "disease_cataracts",
-    "name": "Cataracts",
-    "icd10": "H26",
-    "system": "ophthalmological",
-    "description": "Age-related opacification of the crystalline lens due to progressive misfolding and aggregation of crystallin proteins. Lens epithelial cells are among the longest-lived non-dividing cells; their lifetime accumulation of oxidative damage and protein aggregation makes cataract a canonical proteostasis disease.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_proteome_imbalance",
-        "confidence": 0.9,
-        "notes": "Crystallin protein aggregation and cross-linking causes lens opacity"
-      },
-      {
-        "mechanism_id": "mech_oxidative_stress",
-        "confidence": 0.88,
-        "notes": "Lifetime UV and ROS exposure damages lens crystallins"
-      },
-      {
-        "mechanism_id": "mech_autophagy_lysosomal",
-        "confidence": 0.72,
-        "notes": "Impaired autophagy in lens epithelial cells fails to clear damaged proteins"
-      },
-      {
-        "mechanism_id": "mech_er_stress",
-        "confidence": 0.65,
-        "notes": "Misfolded crystallins activate UPR in lens cells"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_loss_of_proteostasis",
-        "confidence": 0.92
-      },
-      {
-        "hallmark_id": "hallmark_mitochondrial_dysfunction",
-        "confidence": 0.72
-      },
-      {
-        "hallmark_id": "hallmark_disabled_macroautophagy",
-        "confidence": 0.68
-      },
-      {
-        "hallmark_id": "hallmark_genomic_instability",
-        "confidence": 0.55
-      }
-    ],
-    "pubmed_search_terms": [
-      "cataract aging crystallin aggregation mechanisms",
-      "lens aging proteostasis oxidative stress"
-    ]
-  },
-  {
-    "id": "disease_diabetic_retinopathy",
-    "name": "Diabetic Retinopathy",
-    "icd10": "E11.319",
-    "system": "ophthalmological",
-    "description": "Microvascular complication of diabetes causing pericyte loss, retinal ischemia, neovascularization, and vision loss. Hyperglycemia-driven oxidative stress, inflammation, and AGE accumulation damage retinal vasculature. Leading cause of blindness in working-age adults.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_oxidative_stress",
-        "confidence": 0.88,
-        "notes": "Glucose-derived ROS damage retinal pericytes and endothelial cells"
-      },
-      {
-        "mechanism_id": "mech_vascular_inflammation",
-        "confidence": 0.82,
-        "notes": "Endothelial dysfunction and leukostasis in retinal microvasculature"
-      },
-      {
-        "mechanism_id": "mech_insulin_resistance",
-        "confidence": 0.8,
-        "notes": "Hyperglycemia activates PKC and AGE pathways in retinal cells"
-      },
-      {
-        "mechanism_id": "mech_mitophagy_impairment",
-        "confidence": 0.68,
-        "notes": "Retinal mitochondrial dysfunction under hyperglycemia"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_mitochondrial_dysfunction",
-        "confidence": 0.82
-      },
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.8
-      },
-      {
-        "hallmark_id": "hallmark_deregulated_nutrient_sensing",
-        "confidence": 0.78
-      },
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.65
-      }
-    ],
-    "pubmed_search_terms": [
-      "diabetic retinopathy aging mechanisms oxidative stress",
-      "retinal aging diabetes vascular inflammation"
-    ]
-  },
-  {
-    "id": "disease_skin_aging",
-    "name": "Skin Aging and Photoaging",
-    "icd10": "L57.8",
-    "system": "dermatological",
-    "description": "Cumulative intrinsic and UV-driven skin aging manifesting as wrinkles, loss of elasticity, hyperpigmentation, and impaired wound healing. Loss of dermal fibroblast function, collagen degradation, and accumulation of senescent cells are primary mechanisms.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_sasp",
-        "confidence": 0.85,
-        "notes": "Senescent dermal fibroblasts secrete MMPs degrading ECM"
-      },
-      {
-        "mechanism_id": "mech_ecm_stiffening",
-        "confidence": 0.8,
-        "notes": "Paradoxical collagen crosslinking with MMP-mediated degradation"
-      },
-      {
-        "mechanism_id": "mech_oxidative_stress",
-        "confidence": 0.88,
-        "notes": "UV-generated ROS damage dermal DNA, proteins, and lipids"
-      },
-      {
-        "mechanism_id": "mech_epigenetic_clock",
-        "confidence": 0.78,
-        "notes": "Skin epigenetic clock closely tracks photoaging severity"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.88
-      },
-      {
-        "hallmark_id": "hallmark_epigenetic_alterations",
-        "confidence": 0.78
-      },
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.72
-      },
-      {
-        "hallmark_id": "hallmark_altered_intercellular_communication",
-        "confidence": 0.68
-      }
-    ],
-    "pubmed_search_terms": [
-      "skin aging photoaging mechanisms hallmarks",
-      "dermal senescence aging UV collagen"
-    ]
-  },
-  {
-    "id": "disease_psoriasis_late",
-    "name": "Psoriasis (Late-Onset)",
-    "icd10": "L40",
-    "system": "dermatological",
-    "description": "Chronic immune-mediated inflammatory skin disease with keratinocyte hyperproliferation and T cell-driven skin inflammation. Late-onset psoriasis (>40 years) shows distinct immunological features related to immunosenescence and inflammaging.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_nfkb_signaling",
-        "confidence": 0.85,
-        "notes": "NF-κB drives keratinocyte hyperproliferation and cytokine production"
-      },
-      {
-        "mechanism_id": "mech_immunosenescence",
-        "confidence": 0.72,
-        "notes": "Age-related shift in Th17/Treg balance promotes psoriatic inflammation"
-      },
-      {
-        "mechanism_id": "mech_sasp",
-        "confidence": 0.7,
-        "notes": "Senescent keratinocytes contribute to psoriatic skin inflammation"
-      },
-      {
-        "mechanism_id": "mech_gut_permeability",
-        "confidence": 0.62,
-        "notes": "Gut dysbiosis and intestinal permeability correlate with psoriasis severity"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.88
-      },
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.68
-      },
-      {
-        "hallmark_id": "hallmark_dysbiosis",
-        "confidence": 0.62
-      },
-      {
-        "hallmark_id": "hallmark_epigenetic_alterations",
-        "confidence": 0.65
-      }
-    ],
-    "pubmed_search_terms": [
-      "psoriasis aging late-onset mechanisms",
-      "psoriasis inflammaging immunosenescence"
-    ]
-  },
-  {
-    "id": "disease_wound_healing",
-    "name": "Impaired Wound Healing",
-    "icd10": "L97",
-    "system": "dermatological",
-    "description": "Age-related decline in wound healing capacity manifesting as chronic non-healing ulcers. Reduced keratinocyte and fibroblast proliferative capacity, impaired immune cell recruitment, senescent cells impairing regeneration, and poor vascularization all contribute.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_stem_niche_dysfunction",
-        "confidence": 0.82,
-        "notes": "Epidermal stem cell niche dysfunction impairs re-epithelialization"
-      },
-      {
-        "mechanism_id": "mech_sasp",
-        "confidence": 0.8,
-        "notes": "Senescent fibroblasts fail to contract wounds and overexpress MMPs"
-      },
-      {
-        "mechanism_id": "mech_vascular_inflammation",
-        "confidence": 0.75,
-        "notes": "Microvascular aging impairs angiogenic response to injury"
-      },
-      {
-        "mechanism_id": "mech_immunosenescence",
-        "confidence": 0.72,
-        "notes": "Impaired macrophage phase transitions delay wound resolution"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.85
-      },
-      {
-        "hallmark_id": "hallmark_stem_cell_exhaustion",
-        "confidence": 0.8
-      },
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.75
-      },
-      {
-        "hallmark_id": "hallmark_altered_intercellular_communication",
-        "confidence": 0.72
-      }
-    ],
-    "pubmed_search_terms": [
-      "wound healing aging mechanisms hallmarks",
-      "chronic wound aging senescence stem cell"
-    ]
-  },
-  {
-    "id": "disease_immunosenescence",
-    "name": "Immunosenescence",
-    "icd10": "D89.9",
-    "system": "immunological",
-    "description": "Age-related decline and dysregulation of the immune system characterized by thymic involution, T cell repertoire contraction, impaired vaccine responses, and paradoxical chronic inflammation. Drives susceptibility to infections, cancer, and autoimmunity.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_immunosenescence",
-        "confidence": 0.97,
-        "notes": "Immunosenescence is the defining mechanism"
-      },
-      {
-        "mechanism_id": "mech_telomere_ddr",
-        "confidence": 0.82,
-        "notes": "Telomere shortening in lymphocytes drives replicative senescence"
-      },
-      {
-        "mechanism_id": "mech_stem_niche_dysfunction",
-        "confidence": 0.78,
-        "notes": "Thymic niche degeneration reduces naive T cell output"
-      },
-      {
-        "mechanism_id": "mech_epigenetic_clock",
-        "confidence": 0.75,
-        "notes": "Epigenetic aging of immune cells tracks immune functional decline"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.88
-      },
-      {
-        "hallmark_id": "hallmark_stem_cell_exhaustion",
-        "confidence": 0.85
-      },
-      {
-        "hallmark_id": "hallmark_telomere_attrition",
-        "confidence": 0.78
-      },
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.8
-      }
-    ],
-    "pubmed_search_terms": [
-      "immunosenescence aging mechanisms hallmarks",
-      "thymic involution aging T cell aging"
-    ]
-  },
-  {
-    "id": "disease_autoimmune_thyroiditis",
-    "name": "Autoimmune Thyroiditis (Hashimoto's)",
-    "icd10": "E06.3",
-    "system": "immunological",
-    "description": "Chronic lymphocytic thyroiditis driven by autoreactive T and B cells destroying thyroid follicular cells. Prevalence increases with age; immunosenescence-associated breakdown of self-tolerance underlies late-onset presentation.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_immunosenescence",
-        "confidence": 0.82,
-        "notes": "Regulatory T cell decline allows autoreactive lymphocyte expansion"
-      },
-      {
-        "mechanism_id": "mech_nfkb_signaling",
-        "confidence": 0.75,
-        "notes": "NF-κB drives local thyroid inflammation and cytokine production"
-      },
-      {
-        "mechanism_id": "mech_dna_methylation_drift",
-        "confidence": 0.68,
-        "notes": "Epigenetic drift in regulatory T cells impairs self-tolerance"
-      },
-      {
-        "mechanism_id": "mech_gut_permeability",
-        "confidence": 0.62,
-        "notes": "Intestinal dysbiosis and permeability correlate with thyroid autoimmunity"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.82
-      },
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.68
-      },
-      {
-        "hallmark_id": "hallmark_epigenetic_alterations",
-        "confidence": 0.65
-      },
-      {
-        "hallmark_id": "hallmark_dysbiosis",
-        "confidence": 0.6
-      }
-    ],
-    "pubmed_search_terms": [
-      "Hashimoto thyroiditis aging autoimmunity mechanisms",
-      "autoimmune thyroid disease aging immunosenescence"
-    ]
-  },
-  {
-    "id": "disease_lada",
-    "name": "Late-Onset Autoimmune Diabetes (LADA)",
-    "icd10": "E13",
-    "system": "immunological",
-    "description": "Slowly progressive autoimmune diabetes in adults, sharing features of type 1 and type 2 diabetes. Immunosenescence may paradoxically permit slow immune-mediated beta-cell destruction while metabolic stress and aging accelerate progression.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_immunosenescence",
-        "confidence": 0.78,
-        "notes": "Altered regulatory T cell function permits chronic beta-cell autoimmunity"
-      },
-      {
-        "mechanism_id": "mech_er_stress",
-        "confidence": 0.72,
-        "notes": "Beta-cell ER stress under autoimmune attack and metabolic load"
-      },
-      {
-        "mechanism_id": "mech_insulin_resistance",
-        "confidence": 0.68,
-        "notes": "Peripheral insulin resistance accelerates beta-cell exhaustion"
-      },
-      {
-        "mechanism_id": "mech_nfkb_signaling",
-        "confidence": 0.65,
-        "notes": "Islet inflammation via NF-κB in infiltrating T cells and macrophages"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.78
-      },
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.65
-      },
-      {
-        "hallmark_id": "hallmark_loss_of_proteostasis",
-        "confidence": 0.6
-      },
-      {
-        "hallmark_id": "hallmark_deregulated_nutrient_sensing",
-        "confidence": 0.72
-      }
-    ],
-    "pubmed_search_terms": [
-      "LADA late autoimmune diabetes aging mechanisms",
-      "adult-onset T1D aging immunosenescence"
-    ]
-  },
-  {
-    "id": "disease_late_onset_depression",
-    "name": "Late-Onset Depression",
-    "icd10": "F32.1",
-    "system": "psychiatric",
-    "description": "Major depressive disorder with onset after age 60, associated with vascular changes, neuroinflammation, hippocampal volume loss, and HPA axis dysregulation. Distinct from early-onset depression in its biological substrate and poor treatment response.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_neuroinflammation",
-        "confidence": 0.82,
-        "notes": "Elevated pro-inflammatory cytokines directly induce depressive symptoms"
-      },
-      {
-        "mechanism_id": "mech_vascular_inflammation",
-        "confidence": 0.78,
-        "notes": "White matter hyperintensities from small vessel disease common in late-life depression"
-      },
-      {
-        "mechanism_id": "mech_nad_depletion",
-        "confidence": 0.65,
-        "notes": "NAD+/SIRT1 pathway regulates BDNF and synaptic plasticity"
-      },
-      {
-        "mechanism_id": "mech_synaptic_dysfunction",
-        "confidence": 0.75,
-        "notes": "Prefrontal and hippocampal synaptic loss contributes to depressive phenotype"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.82
-      },
-      {
-        "hallmark_id": "hallmark_altered_intercellular_communication",
-        "confidence": 0.75
-      },
-      {
-        "hallmark_id": "hallmark_mitochondrial_dysfunction",
-        "confidence": 0.68
-      },
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.62
-      }
-    ],
-    "pubmed_search_terms": [
-      "late-onset depression aging neuroinflammation mechanisms",
-      "geriatric depression aging vascular inflammation"
-    ]
-  },
-  {
-    "id": "disease_late_onset_anxiety",
-    "name": "Late-Onset Anxiety",
-    "icd10": "F41.1",
-    "system": "psychiatric",
-    "description": "Generalized anxiety disorder and anxiety syndromes arising or persisting in older age. Driven by neurobiological changes including amygdala hyperreactivity, prefrontal decline, HPA axis hyperactivation, and neuroinflammation interacting with psychosocial stressors.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_neuroinflammation",
-        "confidence": 0.78,
-        "notes": "IL-1β and TNF-α alter limbic circuit function and anxiety behavior"
-      },
-      {
-        "mechanism_id": "mech_synaptic_dysfunction",
-        "confidence": 0.72,
-        "notes": "Prefrontal GABAergic circuit decline reduces anxiety inhibition"
-      },
-      {
-        "mechanism_id": "mech_hormonal_dysregulation",
-        "confidence": 0.68,
-        "notes": "HPA axis dysregulation and cortisol elevation promote anxiety"
-      },
-      {
-        "mechanism_id": "mech_oxidative_stress",
-        "confidence": 0.62,
-        "notes": "Oxidative stress in amygdala promotes hyperreactive fear circuits"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.75
-      },
-      {
-        "hallmark_id": "hallmark_altered_intercellular_communication",
-        "confidence": 0.7
-      },
-      {
-        "hallmark_id": "hallmark_mitochondrial_dysfunction",
-        "confidence": 0.6
-      },
-      {
-        "hallmark_id": "hallmark_epigenetic_alterations",
-        "confidence": 0.58
-      }
-    ],
-    "pubmed_search_terms": [
-      "late-onset anxiety aging mechanisms neuroinflammation",
-      "anxiety aging HPA axis neuroinflammation"
-    ]
-  },
-  {
-    "id": "disease_dementia_psychosis",
-    "name": "Dementia-Related Psychosis",
-    "icd10": "F06.2",
-    "system": "psychiatric",
-    "description": "Psychotic symptoms (delusions, hallucinations) occurring in the context of neurodegenerative dementia, particularly Lewy body dementia, Parkinson's dementia, and Alzheimer's disease. Dopaminergic and cholinergic imbalance, neuroinflammation, and cortical Lewy body burden are key contributors.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_alpha_synuclein",
-        "confidence": 0.82,
-        "notes": "Cortical Lewy bodies disrupt visual and association cortex function"
-      },
-      {
-        "mechanism_id": "mech_neuroinflammation",
-        "confidence": 0.78,
-        "notes": "Microglial activation correlates with psychotic symptoms in dementia"
-      },
-      {
-        "mechanism_id": "mech_synaptic_dysfunction",
-        "confidence": 0.8,
-        "notes": "Cholinergic and dopaminergic synaptic loss drives psychotic phenotype"
-      },
-      {
-        "mechanism_id": "mech_proteome_imbalance",
-        "confidence": 0.72,
-        "notes": "Protein aggregates disrupt neurotransmitter signaling circuits"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_loss_of_proteostasis",
-        "confidence": 0.8
-      },
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.75
-      },
-      {
-        "hallmark_id": "hallmark_altered_intercellular_communication",
-        "confidence": 0.78
-      },
-      {
-        "hallmark_id": "hallmark_mitochondrial_dysfunction",
-        "confidence": 0.65
-      }
-    ],
-    "pubmed_search_terms": [
-      "dementia psychosis aging mechanisms",
-      "Lewy body psychosis aging neuroinflammation"
-    ]
-  },
-  {
-    "id": "disease_ibd",
-    "name": "Inflammatory Bowel Disease",
-    "icd10": "K51",
-    "system": "gastrointestinal",
-    "description": "Chronic relapsing inflammatory disorders of the gastrointestinal tract including Crohn's disease and ulcerative colitis. Late-onset IBD (>60 years) is increasingly recognized; aging-associated dysbiosis, intestinal barrier impairment, and immunosenescence contribute to a distinct pathobiology.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_gut_permeability",
-        "confidence": 0.9,
-        "notes": "Barrier dysfunction allows luminal bacteria to trigger mucosal inflammation"
-      },
-      {
-        "mechanism_id": "mech_scfa_reduction",
-        "confidence": 0.82,
-        "notes": "Reduced butyrate impairs colonocyte energy and barrier function"
-      },
-      {
-        "mechanism_id": "mech_nfkb_signaling",
-        "confidence": 0.85,
-        "notes": "NF-κB constitutively active in inflamed intestinal epithelium"
-      },
-      {
-        "mechanism_id": "mech_immunosenescence",
-        "confidence": 0.72,
-        "notes": "Dysregulated immune tolerance in aged intestinal mucosa"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.9
-      },
-      {
-        "hallmark_id": "hallmark_dysbiosis",
-        "confidence": 0.85
-      },
-      {
-        "hallmark_id": "hallmark_altered_intercellular_communication",
-        "confidence": 0.75
-      },
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.65
-      }
-    ],
-    "pubmed_search_terms": [
-      "inflammatory bowel disease aging mechanisms dysbiosis",
-      "IBD aging immunosenescence gut barrier"
-    ]
-  },
-  {
-    "id": "disease_colorectal_polyps",
-    "name": "Colorectal Polyps",
-    "icd10": "K63.5",
-    "system": "gastrointestinal",
-    "description": "Premalignant adenomatous polyps of the colorectum arising from accumulated somatic mutations and epigenetic alterations in colonocytes. Incidence rises sharply with age; serrated and advanced adenomas carry highest cancer risk.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_dna_methylation_drift",
-        "confidence": 0.85,
-        "notes": "CpG island methylator phenotype (CIMP) characterizes serrated polyps"
-      },
-      {
-        "mechanism_id": "mech_gut_permeability",
-        "confidence": 0.72,
-        "notes": "Bacterial genotoxins accumulate mutation burden in colonocytes"
-      },
-      {
-        "mechanism_id": "mech_sasp",
-        "confidence": 0.68,
-        "notes": "Senescent colonic stromal cells create polyp-promoting microenvironment"
-      },
-      {
-        "mechanism_id": "mech_insulin_resistance",
-        "confidence": 0.65,
-        "notes": "Hyperinsulinemia promotes colonocyte proliferation via IGF-1R"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_genomic_instability",
-        "confidence": 0.85
-      },
-      {
-        "hallmark_id": "hallmark_epigenetic_alterations",
-        "confidence": 0.82
-      },
-      {
-        "hallmark_id": "hallmark_dysbiosis",
-        "confidence": 0.68
-      },
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.62
-      }
-    ],
-    "pubmed_search_terms": [
-      "colorectal polyp aging mechanisms epigenetics",
-      "adenoma aging DNA methylation senescence"
-    ]
-  },
-  {
-    "id": "disease_hepatic_fibrosis",
-    "name": "Hepatic Fibrosis",
-    "icd10": "K74.0",
-    "system": "gastrointestinal",
-    "description": "Excessive accumulation of extracellular matrix proteins in the liver resulting from chronic injury or NASH, leading to cirrhosis and liver failure. Hepatic stellate cell activation by TGF-β, oxidative stress, and SASP factors drives progressive fibrosis.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_ecm_stiffening",
-        "confidence": 0.92,
-        "notes": "TGF-β-mediated hepatic stellate cell activation and collagen deposition"
-      },
-      {
-        "mechanism_id": "mech_sasp",
-        "confidence": 0.82,
-        "notes": "Senescent hepatocytes secrete TGF-β and inflammatory SASP factors"
-      },
-      {
-        "mechanism_id": "mech_gut_permeability",
-        "confidence": 0.8,
-        "notes": "Portal LPS activates hepatic TLR4 driving stellate cell activation"
-      },
-      {
-        "mechanism_id": "mech_oxidative_stress",
-        "confidence": 0.78,
-        "notes": "Mitochondrial ROS in hepatocytes activate JNK and TGF-β pathways"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.82
-      },
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.85
-      },
-      {
-        "hallmark_id": "hallmark_altered_intercellular_communication",
-        "confidence": 0.78
-      },
-      {
-        "hallmark_id": "hallmark_dysbiosis",
-        "confidence": 0.72
-      }
-    ],
-    "pubmed_search_terms": [
-      "hepatic fibrosis aging senescence TGF-beta",
-      "liver fibrosis aging mechanisms hallmarks"
-    ]
-  },
-  {
-    "id": "disease_barretts_esophagus",
-    "name": "Barrett's Esophagus",
-    "icd10": "K22.70",
-    "system": "gastrointestinal",
-    "description": "Metaplastic replacement of esophageal squamous epithelium by intestinal-type columnar epithelium in response to chronic acid reflux. Age-related reduction in lower esophageal sphincter tone and increased prevalence of GERD drive Barrett's metaplasia and adenocarcinoma risk.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_dna_methylation_drift",
-        "confidence": 0.82,
-        "notes": "Epigenetic silencing of tumor suppressors in metaplastic epithelium"
-      },
-      {
-        "mechanism_id": "mech_sasp",
-        "confidence": 0.75,
-        "notes": "Senescent esophageal epithelial cells create inflammatory niche"
-      },
-      {
-        "mechanism_id": "mech_oxidative_stress",
-        "confidence": 0.78,
-        "notes": "Acid and bile-induced ROS damage esophageal epithelial DNA"
-      },
-      {
-        "mechanism_id": "mech_nfkb_signaling",
-        "confidence": 0.72,
-        "notes": "Acid reflux activates NF-κB promoting intestinal metaplasia genes"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_epigenetic_alterations",
-        "confidence": 0.82
-      },
-      {
-        "hallmark_id": "hallmark_genomic_instability",
-        "confidence": 0.75
-      },
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.7
-      },
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.78
-      }
-    ],
-    "pubmed_search_terms": [
-      "Barrett's esophagus aging mechanisms epigenetics",
-      "esophageal metaplasia aging senescence oxidative stress"
-    ]
-  },
-  {
-    "id": "disease_menopause_conditions",
-    "name": "Menopause-Related Conditions",
-    "icd10": "N95.1",
-    "system": "reproductive",
-    "description": "Cluster of conditions arising from ovarian estrogen depletion at menopause including vasomotor symptoms, urogenital atrophy, accelerated bone loss, and cardiovascular risk increase. Estrogen loss accelerates multiple aging processes simultaneously.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_hormonal_dysregulation",
-        "confidence": 0.95,
-        "notes": "Estrogen withdrawal is the primary driver of all menopause-related conditions"
-      },
-      {
-        "mechanism_id": "mech_bone_remodeling",
-        "confidence": 0.88,
-        "notes": "Estrogen loss removes osteoclast suppression causing rapid bone loss"
-      },
-      {
-        "mechanism_id": "mech_vascular_inflammation",
-        "confidence": 0.8,
-        "notes": "Loss of estrogen's vasculo-protective effects accelerates atherosclerosis"
-      },
-      {
-        "mechanism_id": "mech_adipose_dysfunction",
-        "confidence": 0.75,
-        "notes": "Menopause-associated visceral adiposity shift increases metabolic risk"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_altered_intercellular_communication",
-        "confidence": 0.9
-      },
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.78
-      },
-      {
-        "hallmark_id": "hallmark_stem_cell_exhaustion",
-        "confidence": 0.72
-      },
-      {
-        "hallmark_id": "hallmark_epigenetic_alterations",
-        "confidence": 0.65
-      }
-    ],
-    "pubmed_search_terms": [
-      "menopause aging estrogen mechanisms hallmarks",
-      "postmenopause aging hormonal aging biology"
-    ]
-  },
-  {
-    "id": "disease_bph",
-    "name": "Benign Prostatic Hyperplasia",
-    "icd10": "N40",
-    "system": "reproductive",
-    "description": "Non-malignant enlargement of the prostate gland causing lower urinary tract symptoms in aging men. Driven by age-related hormonal changes (DHT/estrogen ratio), prostatic stromal senescence, and inflammation creating a proliferative microenvironment.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_hormonal_dysregulation",
-        "confidence": 0.88,
-        "notes": "Shifting testosterone to estrogen/DHT balance drives prostatic growth"
-      },
-      {
-        "mechanism_id": "mech_sasp",
-        "confidence": 0.78,
-        "notes": "Senescent prostatic stromal cells secrete growth factors stimulating epithelial proliferation"
-      },
-      {
-        "mechanism_id": "mech_nfkb_signaling",
-        "confidence": 0.72,
-        "notes": "Chronic prostatic inflammation via NF-κB promotes stromal growth"
-      },
-      {
-        "mechanism_id": "mech_insulin_resistance",
-        "confidence": 0.65,
-        "notes": "Hyperinsulinemia and IGF-1 elevation promote prostatic cell proliferation"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_altered_intercellular_communication",
-        "confidence": 0.82
-      },
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.75
-      },
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.72
-      },
-      {
-        "hallmark_id": "hallmark_deregulated_nutrient_sensing",
-        "confidence": 0.62
-      }
-    ],
-    "pubmed_search_terms": [
-      "BPH aging mechanisms hormonal senescence",
-      "benign prostatic hyperplasia aging inflammation hallmarks"
-    ]
-  },
-  {
-    "id": "disease_erectile_dysfunction",
-    "name": "Erectile Dysfunction",
-    "icd10": "N52",
-    "system": "reproductive",
-    "description": "Inability to achieve or maintain a penile erection sufficient for sexual intercourse. Prevalence increases dramatically with age, driven by endothelial dysfunction, reduced NO bioavailability, hypogonadism, and autonomic neuropathy.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_vascular_inflammation",
-        "confidence": 0.88,
-        "notes": "Penile endothelial dysfunction and reduced eNOS activity impair NO release"
-      },
-      {
-        "mechanism_id": "mech_hormonal_dysregulation",
-        "confidence": 0.82,
-        "notes": "Testosterone decline reduces libido and smooth muscle responsiveness"
-      },
-      {
-        "mechanism_id": "mech_oxidative_stress",
-        "confidence": 0.78,
-        "notes": "Superoxide scavenges NO in penile vasculature, impairing erection"
-      },
-      {
-        "mechanism_id": "mech_sasp",
-        "confidence": 0.65,
-        "notes": "Senescent cavernous endothelial cells reduce vascular responsiveness"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.75
-      },
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.72
-      },
-      {
-        "hallmark_id": "hallmark_altered_intercellular_communication",
-        "confidence": 0.78
-      },
-      {
-        "hallmark_id": "hallmark_mitochondrial_dysfunction",
-        "confidence": 0.6
-      }
-    ],
-    "pubmed_search_terms": [
-      "erectile dysfunction aging mechanisms endothelial",
-      "ED aging vascular senescence NO"
-    ]
-  },
-  {
-    "id": "disease_clonal_hematopoiesis",
-    "name": "Clonal Hematopoiesis of Indeterminate Potential (CHIP)",
-    "icd10": "D47.4",
-    "system": "hematological",
-    "description": "Age-related expansion of hematopoietic stem cell clones carrying somatic mutations (DNMT3A, TET2, ASXL1) that confer clonal fitness advantages. Present in >10% of adults >70; associated with hematological malignancies, cardiovascular disease, and all-cause mortality.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_clonal_hematopoiesis",
-        "confidence": 0.98,
-        "notes": "Clonal hematopoiesis is the defining mechanism of CHIP"
-      },
-      {
-        "mechanism_id": "mech_dna_methylation_drift",
-        "confidence": 0.88,
-        "notes": "DNMT3A and TET2 mutations directly alter DNA methylation programs"
-      },
-      {
-        "mechanism_id": "mech_telomere_ddr",
-        "confidence": 0.75,
-        "notes": "Telomere shortening creates selective pressure favoring mutant clones"
-      },
-      {
-        "mechanism_id": "mech_nfkb_signaling",
-        "confidence": 0.8,
-        "notes": "TET2-mutant macrophages show NF-κB hyperactivation and excess IL-1β"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_genomic_instability",
-        "confidence": 0.9
-      },
-      {
-        "hallmark_id": "hallmark_epigenetic_alterations",
-        "confidence": 0.88
-      },
-      {
-        "hallmark_id": "hallmark_stem_cell_exhaustion",
-        "confidence": 0.82
-      },
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.8
-      }
-    ],
-    "pubmed_search_terms": [
-      "CHIP aging clonal hematopoiesis mechanisms hallmarks",
-      "somatic mutation aging hematopoiesis cardiovascular"
-    ]
-  },
-  {
-    "id": "disease_anemia_aging",
-    "name": "Anemia of Aging",
-    "icd10": "D64.9",
-    "system": "hematological",
-    "description": "Unexplained normocytic anemia in older adults not attributable to nutritional deficiency, renal disease, or bone marrow failure. Driven by impaired erythropoiesis, chronic low-grade inflammation, and declining hematopoietic stem cell function with age.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_immunosenescence",
-        "confidence": 0.72,
-        "notes": "Inflammaging elevates hepcidin reducing iron bioavailability"
-      },
-      {
-        "mechanism_id": "mech_stem_niche_dysfunction",
-        "confidence": 0.8,
-        "notes": "Bone marrow niche aging impairs erythroid progenitor expansion"
-      },
-      {
-        "mechanism_id": "mech_clonal_hematopoiesis",
-        "confidence": 0.68,
-        "notes": "CHIP clones can outcompete normal erythroid progenitors"
-      },
-      {
-        "mechanism_id": "mech_nad_depletion",
-        "confidence": 0.62,
-        "notes": "Mitochondrial dysfunction impairs erythroid differentiation energy demand"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_stem_cell_exhaustion",
-        "confidence": 0.82
-      },
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.78
-      },
-      {
-        "hallmark_id": "hallmark_mitochondrial_dysfunction",
-        "confidence": 0.62
-      },
-      {
-        "hallmark_id": "hallmark_epigenetic_alterations",
-        "confidence": 0.6
-      }
-    ],
-    "pubmed_search_terms": [
-      "anemia of aging mechanisms hematopoiesis inflammation",
-      "age-related anemia stem cell exhaustion aging"
-    ]
-  },
-  {
-    "id": "disease_thrombocytopenia_aging",
-    "name": "Thrombocytopenia of Aging",
-    "icd10": "D69.6",
-    "system": "hematological",
-    "description": "Age-associated reduction in platelet counts due to declining megakaryopoiesis, increased platelet clearance, and immune dysregulation. Subclinical thrombocytopenia increases bleeding risk and may reflect impaired HSC and megakaryocyte progenitor function.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_stem_niche_dysfunction",
-        "confidence": 0.78,
-        "notes": "Bone marrow niche aging impairs megakaryocyte differentiation"
-      },
-      {
-        "mechanism_id": "mech_clonal_hematopoiesis",
-        "confidence": 0.65,
-        "notes": "Clonal hematopoiesis can skew lineage output away from megakaryocytic"
-      },
-      {
-        "mechanism_id": "mech_immunosenescence",
-        "confidence": 0.62,
-        "notes": "Autoimmune platelet clearance may increase with immune dysregulation"
-      },
-      {
-        "mechanism_id": "mech_oxidative_stress",
-        "confidence": 0.55,
-        "notes": "Oxidative damage to megakaryocyte progenitors impairs thrombopoiesis"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_stem_cell_exhaustion",
-        "confidence": 0.78
-      },
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.65
-      },
-      {
-        "hallmark_id": "hallmark_epigenetic_alterations",
-        "confidence": 0.58
-      }
-    ],
-    "pubmed_search_terms": [
-      "thrombocytopenia aging megakaryocyte stem cell",
-      "platelet decline aging bone marrow mechanisms"
-    ]
-  },
-  {
-    "id": "disease_adrenal_insufficiency",
-    "name": "Adrenal Insufficiency",
-    "icd10": "E27.1",
-    "system": "endocrine",
-    "description": "Deficient glucocorticoid and mineralocorticoid production from adrenal cortex atrophy or autoimmune destruction. Aging-related adrenal atrophy reduces reserve capacity; DHEA and cortisol dynamics are altered with age. Autoimmune Addison's disease prevalence increases with immunosenescence.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_hormonal_dysregulation",
-        "confidence": 0.88,
-        "notes": "Adrenal hormone axis impairment is the primary mechanism"
-      },
-      {
-        "mechanism_id": "mech_immunosenescence",
-        "confidence": 0.72,
-        "notes": "Autoimmune adrenalitis driven by regulatory T cell dysfunction"
-      },
-      {
-        "mechanism_id": "mech_oxidative_stress",
-        "confidence": 0.62,
-        "notes": "ROS damage adrenocortical mitochondria-rich steroidogenic cells"
-      },
-      {
-        "mechanism_id": "mech_mitochondrial_biogenesis",
-        "confidence": 0.65,
-        "notes": "Mitochondria are critical for steroidogenesis in adrenal cortex cells"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_altered_intercellular_communication",
-        "confidence": 0.8
-      },
-      {
-        "hallmark_id": "hallmark_mitochondrial_dysfunction",
-        "confidence": 0.65
-      },
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.6
-      },
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.62
-      }
-    ],
-    "pubmed_search_terms": [
-      "adrenal insufficiency aging mechanisms",
-      "adrenal aging steroidogenesis mitochondria autoimmune"
-    ]
-  },
-  {
-    "id": "disease_gh_deficiency",
-    "name": "Growth Hormone Deficiency (Somatopause)",
-    "icd10": "E23.0",
-    "system": "endocrine",
-    "description": "Age-related decline in growth hormone secretion and IGF-1 levels (somatopause) contributing to sarcopenia, adiposity, impaired immune function, and frailty. GH pulse amplitude and frequency decline progressively after age 30.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_hormonal_dysregulation",
-        "confidence": 0.92,
-        "notes": "Somatotroph axis decline with aging is the defining mechanism"
-      },
-      {
-        "mechanism_id": "mech_muscle_atrophy",
-        "confidence": 0.82,
-        "notes": "GH/IGF-1 axis is a major anabolic signal for skeletal muscle"
-      },
-      {
-        "mechanism_id": "mech_mitochondrial_biogenesis",
-        "confidence": 0.7,
-        "notes": "GH/IGF-1 promotes mitochondrial biogenesis via PGC-1α"
-      },
-      {
-        "mechanism_id": "mech_immunosenescence",
-        "confidence": 0.65,
-        "notes": "GH deficiency accelerates thymic involution"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_altered_intercellular_communication",
-        "confidence": 0.88
-      },
-      {
-        "hallmark_id": "hallmark_stem_cell_exhaustion",
-        "confidence": 0.72
-      },
-      {
-        "hallmark_id": "hallmark_mitochondrial_dysfunction",
-        "confidence": 0.62
-      },
-      {
-        "hallmark_id": "hallmark_deregulated_nutrient_sensing",
-        "confidence": 0.7
-      }
-    ],
-    "pubmed_search_terms": [
-      "somatopause aging GH IGF-1 decline mechanisms",
-      "growth hormone deficiency aging sarcopenia frailty"
-    ]
-  },
-  {
-    "id": "disease_stroke",
-    "name": "Ischemic Stroke",
-    "icd10": "I63",
-    "system": "neurological",
-    "description": "Acute focal brain infarction due to thromboembolism or small vessel occlusion. Incidence doubles each decade after 55. Atherosclerosis, atrial fibrillation, hypertension, and clonal hematopoiesis are the dominant age-amplified risk factors. Post-stroke neurodegeneration accelerates cognitive decline.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_vascular_inflammation",
-        "confidence": 0.9,
-        "notes": "Endothelial dysfunction and atherosclerosis drive cardioembolic and large vessel stroke"
-      },
-      {
-        "mechanism_id": "mech_clonal_hematopoiesis",
-        "confidence": 0.75,
-        "notes": "TET2-mutant macrophages exacerbate ischemia-reperfusion injury"
-      },
-      {
-        "mechanism_id": "mech_oxidative_stress",
-        "confidence": 0.85,
-        "notes": "Ischemia-reperfusion burst ROS drive excitotoxic neuronal death"
-      },
-      {
-        "mechanism_id": "mech_neuroinflammation",
-        "confidence": 0.8,
-        "notes": "Post-ischemic microglial activation extends infarct volume"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.88
-      },
-      {
-        "hallmark_id": "hallmark_cellular_senescence",
-        "confidence": 0.72
-      },
-      {
-        "hallmark_id": "hallmark_mitochondrial_dysfunction",
-        "confidence": 0.8
-      },
-      {
-        "hallmark_id": "hallmark_altered_intercellular_communication",
-        "confidence": 0.7
-      }
-    ],
-    "pubmed_search_terms": [
-      "ischemic stroke aging mechanisms hallmarks",
-      "stroke aging inflammation vascular senescence"
-    ]
-  },
-  {
-    "id": "disease_type2_diabetes_neuropathy",
-    "name": "Diabetic Peripheral Neuropathy",
-    "icd10": "E11.40",
-    "system": "neurological",
-    "description": "Most common chronic complication of diabetes, affecting >50% of diabetic patients over time. Hyperglycemia-driven oxidative stress, advanced glycation end-products, and impaired axonal transport in peripheral neurons lead to length-dependent sensorimotor neuropathy.",
-    "mechanism_links": [
-      {
-        "mechanism_id": "mech_oxidative_stress",
-        "confidence": 0.88,
-        "notes": "Glucose-driven mitochondrial ROS damage dorsal root ganglion neurons"
-      },
-      {
-        "mechanism_id": "mech_axonal_transport",
-        "confidence": 0.82,
-        "notes": "AGE modification of cytoskeletal proteins impairs axonal transport"
-      },
-      {
-        "mechanism_id": "mech_insulin_resistance",
-        "confidence": 0.8,
-        "notes": "Hyperglycemia activates polyol and hexosamine pathways in neurons"
-      },
-      {
-        "mechanism_id": "mech_mitophagy_impairment",
-        "confidence": 0.72,
-        "notes": "Mitochondrial dysfunction in peripheral sensory neurons"
-      }
-    ],
-    "hallmark_direct_links": [
-      {
-        "hallmark_id": "hallmark_mitochondrial_dysfunction",
-        "confidence": 0.85
-      },
-      {
-        "hallmark_id": "hallmark_deregulated_nutrient_sensing",
-        "confidence": 0.82
-      },
-      {
-        "hallmark_id": "hallmark_chronic_inflammation",
-        "confidence": 0.72
-      },
-      {
-        "hallmark_id": "hallmark_loss_of_proteostasis",
-        "confidence": 0.65
-      }
-    ],
-    "pubmed_search_terms": [
-      "diabetic neuropathy aging mechanisms oxidative stress",
-      "peripheral neuropathy diabetes aging mitochondria"
-    ]
-  },
-  {
     "id": "disease_diabetes_mellitus",
     "name": "Diabetes Mellitus",
     "mesh_id": "MESH:D003920",
     "icd10": "TBD",
     "system": "metabolic",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 255,
+      "relative_frequency": 0.024425,
+      "n_hallmarks": 12
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -3630,6 +87,13 @@
     "icd10": "TBD",
     "system": "ophthalmic",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 235,
+      "relative_frequency": 0.02251,
+      "n_hallmarks": 12
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -3704,6 +168,13 @@
     "icd10": "TBD",
     "system": "metabolic",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 224,
+      "relative_frequency": 0.021456,
+      "n_hallmarks": 12
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -3778,6 +249,13 @@
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 197,
+      "relative_frequency": 0.01887,
+      "n_hallmarks": 11
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -3847,6 +325,13 @@
     "icd10": "TBD",
     "system": "pulmonary",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 134,
+      "relative_frequency": 0.012835,
+      "n_hallmarks": 11
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -3916,6 +401,13 @@
     "icd10": "TBD",
     "system": "renal",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 133,
+      "relative_frequency": 0.012739,
+      "n_hallmarks": 10
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -3980,6 +472,13 @@
     "icd10": "TBD",
     "system": "neurological",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 131,
+      "relative_frequency": 0.012548,
+      "n_hallmarks": 12
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -4054,6 +553,13 @@
     "icd10": "TBD",
     "system": "cardiovascular",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 128,
+      "relative_frequency": 0.012261,
+      "n_hallmarks": 11
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -4123,6 +629,13 @@
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 91,
+      "relative_frequency": 0.008716,
+      "n_hallmarks": 10
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -4187,6 +700,13 @@
     "icd10": "TBD",
     "system": "cardiovascular",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 82,
+      "relative_frequency": 0.007854,
+      "n_hallmarks": 8
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -4235,12 +755,100 @@
     ]
   },
   {
+    "id": "disease_parkinson_disease_10",
+    "name": "Parkinson Disease 10",
+    "mesh_id": "MESH:C564653",
+    "icd10": "TBD",
+    "system": "neurological",
+    "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 75,
+      "relative_frequency": 0.007184,
+      "n_hallmarks": 12
+    },
+    "mechanism_links": [],
+    "hallmark_direct_links": [
+      {
+        "hallmark_id": "hallmark_genomic_instability",
+        "confidence": 0.9,
+        "notes": "PubTator co-occurrence: 11 papers"
+      },
+      {
+        "hallmark_id": "hallmark_cellular_senescence",
+        "confidence": 0.9,
+        "notes": "PubTator co-occurrence: 10 papers"
+      },
+      {
+        "hallmark_id": "hallmark_deregulated_nutrient_sensing",
+        "confidence": 0.82,
+        "notes": "PubTator co-occurrence: 9 papers"
+      },
+      {
+        "hallmark_id": "hallmark_stem_cell_exhaustion",
+        "confidence": 0.74,
+        "notes": "PubTator co-occurrence: 8 papers"
+      },
+      {
+        "hallmark_id": "hallmark_telomere_attrition",
+        "confidence": 0.66,
+        "notes": "PubTator co-occurrence: 7 papers"
+      },
+      {
+        "hallmark_id": "hallmark_disabled_macroautophagy",
+        "confidence": 0.66,
+        "notes": "PubTator co-occurrence: 7 papers"
+      },
+      {
+        "hallmark_id": "hallmark_altered_intercellular_communication",
+        "confidence": 0.58,
+        "notes": "PubTator co-occurrence: 6 papers"
+      },
+      {
+        "hallmark_id": "hallmark_chronic_inflammation",
+        "confidence": 0.58,
+        "notes": "PubTator co-occurrence: 6 papers"
+      },
+      {
+        "hallmark_id": "hallmark_dysbiosis",
+        "confidence": 0.42,
+        "notes": "PubTator co-occurrence: 4 papers"
+      },
+      {
+        "hallmark_id": "hallmark_loss_of_proteostasis",
+        "confidence": 0.34,
+        "notes": "PubTator co-occurrence: 3 papers"
+      },
+      {
+        "hallmark_id": "hallmark_epigenetic_alterations",
+        "confidence": 0.26,
+        "notes": "PubTator co-occurrence: 2 papers"
+      },
+      {
+        "hallmark_id": "hallmark_mitochondrial_dysfunction",
+        "confidence": 0.26,
+        "notes": "PubTator co-occurrence: 2 papers"
+      }
+    ],
+    "pubmed_search_terms": [
+      "Parkinson Disease 10 aging"
+    ]
+  },
+  {
     "id": "disease_asthma",
     "name": "Asthma",
     "mesh_id": "MESH:D001249",
     "icd10": "TBD",
     "system": "pulmonary",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 72,
+      "relative_frequency": 0.006897,
+      "n_hallmarks": 8
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -4295,6 +903,13 @@
     "icd10": "TBD",
     "system": "oncological",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 65,
+      "relative_frequency": 0.006226,
+      "n_hallmarks": 10
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -4359,6 +974,13 @@
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 63,
+      "relative_frequency": 0.006034,
+      "n_hallmarks": 7
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -4402,12 +1024,75 @@
     ]
   },
   {
+    "id": "disease_cataract",
+    "name": "Cataract",
+    "mesh_id": "MESH:D002386",
+    "icd10": "TBD",
+    "system": "ophthalmic",
+    "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 57,
+      "relative_frequency": 0.00546,
+      "n_hallmarks": 7
+    },
+    "mechanism_links": [],
+    "hallmark_direct_links": [
+      {
+        "hallmark_id": "hallmark_loss_of_proteostasis",
+        "confidence": 0.9,
+        "notes": "PubTator co-occurrence: 42 papers"
+      },
+      {
+        "hallmark_id": "hallmark_cellular_senescence",
+        "confidence": 0.47,
+        "notes": "PubTator co-occurrence: 6 papers"
+      },
+      {
+        "hallmark_id": "hallmark_mitochondrial_dysfunction",
+        "confidence": 0.28,
+        "notes": "PubTator co-occurrence: 3 papers"
+      },
+      {
+        "hallmark_id": "hallmark_genomic_instability",
+        "confidence": 0.22,
+        "notes": "PubTator co-occurrence: 2 papers"
+      },
+      {
+        "hallmark_id": "hallmark_altered_intercellular_communication",
+        "confidence": 0.22,
+        "notes": "PubTator co-occurrence: 2 papers"
+      },
+      {
+        "hallmark_id": "hallmark_disabled_macroautophagy",
+        "confidence": 0.16,
+        "notes": "PubTator co-occurrence: 1 papers"
+      },
+      {
+        "hallmark_id": "hallmark_deregulated_nutrient_sensing",
+        "confidence": 0.16,
+        "notes": "PubTator co-occurrence: 1 papers"
+      }
+    ],
+    "pubmed_search_terms": [
+      "Cataract aging"
+    ]
+  },
+  {
     "id": "disease_leukemia",
     "name": "Leukemia",
     "mesh_id": "MESH:D007938",
     "icd10": "TBD",
     "system": "oncological",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 56,
+      "relative_frequency": 0.005364,
+      "n_hallmarks": 8
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -4462,6 +1147,13 @@
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 55,
+      "relative_frequency": 0.005268,
+      "n_hallmarks": 8
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -4516,6 +1208,13 @@
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 55,
+      "relative_frequency": 0.005268,
+      "n_hallmarks": 8
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -4570,6 +1269,13 @@
     "icd10": "TBD",
     "system": "neurological",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 53,
+      "relative_frequency": 0.005077,
+      "n_hallmarks": 7
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -4619,6 +1325,13 @@
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 52,
+      "relative_frequency": 0.004981,
+      "n_hallmarks": 11
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -4688,6 +1401,13 @@
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 51,
+      "relative_frequency": 0.004885,
+      "n_hallmarks": 8
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -4742,6 +1462,13 @@
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 48,
+      "relative_frequency": 0.004598,
+      "n_hallmarks": 9
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -4801,6 +1528,13 @@
     "icd10": "TBD",
     "system": "hepatic",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 47,
+      "relative_frequency": 0.004502,
+      "n_hallmarks": 7
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -4850,6 +1584,13 @@
     "icd10": "TBD",
     "system": "musculoskeletal",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 46,
+      "relative_frequency": 0.004406,
+      "n_hallmarks": 6
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -4894,6 +1635,13 @@
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 45,
+      "relative_frequency": 0.00431,
+      "n_hallmarks": 10
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -4958,6 +1706,13 @@
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 45,
+      "relative_frequency": 0.00431,
+      "n_hallmarks": 5
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -4997,6 +1752,13 @@
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 45,
+      "relative_frequency": 0.00431,
+      "n_hallmarks": 5
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -5036,6 +1798,13 @@
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 44,
+      "relative_frequency": 0.004215,
+      "n_hallmarks": 8
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -5090,6 +1859,13 @@
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 44,
+      "relative_frequency": 0.004215,
+      "n_hallmarks": 6
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -5134,6 +1910,13 @@
     "icd10": "TBD",
     "system": "neurological",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 44,
+      "relative_frequency": 0.004215,
+      "n_hallmarks": 9
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -5193,6 +1976,13 @@
     "icd10": "TBD",
     "system": "psychiatric",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 43,
+      "relative_frequency": 0.004119,
+      "n_hallmarks": 9
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -5246,12 +2036,75 @@
     ]
   },
   {
+    "id": "disease_diabetic_nephropathies",
+    "name": "Diabetic Nephropathies",
+    "mesh_id": "MESH:D003928",
+    "icd10": "TBD",
+    "system": "renal",
+    "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 43,
+      "relative_frequency": 0.004119,
+      "n_hallmarks": 7
+    },
+    "mechanism_links": [],
+    "hallmark_direct_links": [
+      {
+        "hallmark_id": "hallmark_mitochondrial_dysfunction",
+        "confidence": 0.83,
+        "notes": "PubTator co-occurrence: 9 papers"
+      },
+      {
+        "hallmark_id": "hallmark_genomic_instability",
+        "confidence": 0.75,
+        "notes": "PubTator co-occurrence: 8 papers"
+      },
+      {
+        "hallmark_id": "hallmark_telomere_attrition",
+        "confidence": 0.75,
+        "notes": "PubTator co-occurrence: 8 papers"
+      },
+      {
+        "hallmark_id": "hallmark_altered_intercellular_communication",
+        "confidence": 0.75,
+        "notes": "PubTator co-occurrence: 8 papers"
+      },
+      {
+        "hallmark_id": "hallmark_dysbiosis",
+        "confidence": 0.75,
+        "notes": "PubTator co-occurrence: 8 papers"
+      },
+      {
+        "hallmark_id": "hallmark_cellular_senescence",
+        "confidence": 0.18,
+        "notes": "PubTator co-occurrence: 1 papers"
+      },
+      {
+        "hallmark_id": "hallmark_chronic_inflammation",
+        "confidence": 0.18,
+        "notes": "PubTator co-occurrence: 1 papers"
+      }
+    ],
+    "pubmed_search_terms": [
+      "Diabetic Nephropathies aging"
+    ]
+  },
+  {
     "id": "disease_heredodegenerative_disorders_nervous_system",
     "name": "Heredodegenerative Disorders Nervous System",
     "mesh_id": "MESH:D020271",
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 42,
+      "relative_frequency": 0.004023,
+      "n_hallmarks": 11
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -5321,6 +2174,13 @@
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 42,
+      "relative_frequency": 0.004023,
+      "n_hallmarks": 5
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -5360,6 +2220,13 @@
     "icd10": "TBD",
     "system": "oncological",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 40,
+      "relative_frequency": 0.003831,
+      "n_hallmarks": 4
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -5394,6 +2261,13 @@
     "icd10": "TBD",
     "system": "cardiovascular",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 39,
+      "relative_frequency": 0.003736,
+      "n_hallmarks": 10
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -5458,6 +2332,13 @@
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 36,
+      "relative_frequency": 0.003448,
+      "n_hallmarks": 9
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -5517,6 +2398,13 @@
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 36,
+      "relative_frequency": 0.003448,
+      "n_hallmarks": 3
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -5546,6 +2434,13 @@
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 35,
+      "relative_frequency": 0.003352,
+      "n_hallmarks": 6
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -5590,6 +2485,13 @@
     "icd10": "TBD",
     "system": "renal",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 33,
+      "relative_frequency": 0.003161,
+      "n_hallmarks": 7
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -5639,6 +2541,13 @@
     "icd10": "TBD",
     "system": "psychiatric",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 33,
+      "relative_frequency": 0.003161,
+      "n_hallmarks": 7
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -5688,6 +2597,13 @@
     "icd10": "TBD",
     "system": "hematological",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 32,
+      "relative_frequency": 0.003065,
+      "n_hallmarks": 5
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -5727,6 +2643,13 @@
     "icd10": "TBD",
     "system": "ophthalmic",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 32,
+      "relative_frequency": 0.003065,
+      "n_hallmarks": 1
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -5746,6 +2669,13 @@
     "icd10": "TBD",
     "system": "hematological",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 31,
+      "relative_frequency": 0.002969,
+      "n_hallmarks": 5
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -5785,6 +2715,13 @@
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 31,
+      "relative_frequency": 0.002969,
+      "n_hallmarks": 7
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -5828,12 +2765,55 @@
     ]
   },
   {
+    "id": "disease_prostatic_hyperplasia",
+    "name": "Prostatic Hyperplasia",
+    "mesh_id": "MESH:D011470",
+    "icd10": "TBD",
+    "system": "unknown",
+    "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 31,
+      "relative_frequency": 0.002969,
+      "n_hallmarks": 3
+    },
+    "mechanism_links": [],
+    "hallmark_direct_links": [
+      {
+        "hallmark_id": "hallmark_mitochondrial_dysfunction",
+        "confidence": 0.68,
+        "notes": "PubTator co-occurrence: 12 papers"
+      },
+      {
+        "hallmark_id": "hallmark_cellular_senescence",
+        "confidence": 0.58,
+        "notes": "PubTator co-occurrence: 10 papers"
+      },
+      {
+        "hallmark_id": "hallmark_dysbiosis",
+        "confidence": 0.54,
+        "notes": "PubTator co-occurrence: 9 papers"
+      }
+    ],
+    "pubmed_search_terms": [
+      "Prostatic Hyperplasia aging"
+    ]
+  },
+  {
     "id": "disease_lead_poisoning_nervous_system",
     "name": "Lead Poisoning Nervous System",
     "mesh_id": "MESH:D020263",
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 30,
+      "relative_frequency": 0.002874,
+      "n_hallmarks": 7
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -5883,6 +2863,13 @@
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 30,
+      "relative_frequency": 0.002874,
+      "n_hallmarks": 8
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -5937,6 +2924,13 @@
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 29,
+      "relative_frequency": 0.002778,
+      "n_hallmarks": 6
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -5981,6 +2975,13 @@
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 29,
+      "relative_frequency": 0.002778,
+      "n_hallmarks": 7
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -6030,6 +3031,13 @@
     "icd10": "TBD",
     "system": "hepatic",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 29,
+      "relative_frequency": 0.002778,
+      "n_hallmarks": 10
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -6094,6 +3102,13 @@
     "icd10": "TBD",
     "system": "metabolic",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 29,
+      "relative_frequency": 0.002778,
+      "n_hallmarks": 9
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -6153,6 +3168,13 @@
     "icd10": "TBD",
     "system": "pulmonary",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 28,
+      "relative_frequency": 0.002682,
+      "n_hallmarks": 5
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -6192,6 +3214,13 @@
     "icd10": "TBD",
     "system": "pulmonary",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 28,
+      "relative_frequency": 0.002682,
+      "n_hallmarks": 3
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -6221,6 +3250,13 @@
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 28,
+      "relative_frequency": 0.002682,
+      "n_hallmarks": 2
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -6245,6 +3281,13 @@
     "icd10": "TBD",
     "system": "metabolic",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 28,
+      "relative_frequency": 0.002682,
+      "n_hallmarks": 1
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -6264,6 +3307,13 @@
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 27,
+      "relative_frequency": 0.002586,
+      "n_hallmarks": 11
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -6333,6 +3383,13 @@
     "icd10": "TBD",
     "system": "ophthalmic",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 27,
+      "relative_frequency": 0.002586,
+      "n_hallmarks": 7
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -6382,6 +3439,13 @@
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 27,
+      "relative_frequency": 0.002586,
+      "n_hallmarks": 2
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -6406,6 +3470,13 @@
     "icd10": "TBD",
     "system": "pulmonary",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 27,
+      "relative_frequency": 0.002586,
+      "n_hallmarks": 6
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -6450,6 +3521,13 @@
     "icd10": "TBD",
     "system": "cardiovascular",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 26,
+      "relative_frequency": 0.00249,
+      "n_hallmarks": 9
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -6509,6 +3587,13 @@
     "icd10": "TBD",
     "system": "oncological",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 26,
+      "relative_frequency": 0.00249,
+      "n_hallmarks": 5
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -6548,6 +3633,13 @@
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 25,
+      "relative_frequency": 0.002395,
+      "n_hallmarks": 1
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -6567,6 +3659,13 @@
     "icd10": "TBD",
     "system": "cardiovascular",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 25,
+      "relative_frequency": 0.002395,
+      "n_hallmarks": 6
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -6611,6 +3710,13 @@
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 24,
+      "relative_frequency": 0.002299,
+      "n_hallmarks": 5
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -6650,6 +3756,13 @@
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 24,
+      "relative_frequency": 0.002299,
+      "n_hallmarks": 5
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -6689,6 +3802,13 @@
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 24,
+      "relative_frequency": 0.002299,
+      "n_hallmarks": 4
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -6723,6 +3843,13 @@
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 24,
+      "relative_frequency": 0.002299,
+      "n_hallmarks": 6
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -6767,6 +3894,13 @@
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 24,
+      "relative_frequency": 0.002299,
+      "n_hallmarks": 1
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -6786,6 +3920,13 @@
     "icd10": "TBD",
     "system": "oncological",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 23,
+      "relative_frequency": 0.002203,
+      "n_hallmarks": 5
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -6825,6 +3966,13 @@
     "icd10": "TBD",
     "system": "cardiovascular",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 23,
+      "relative_frequency": 0.002203,
+      "n_hallmarks": 6
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -6869,6 +4017,13 @@
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 23,
+      "relative_frequency": 0.002203,
+      "n_hallmarks": 8
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -6923,6 +4078,13 @@
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 23,
+      "relative_frequency": 0.002203,
+      "n_hallmarks": 3
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -6952,6 +4114,13 @@
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 23,
+      "relative_frequency": 0.002203,
+      "n_hallmarks": 5
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -6991,6 +4160,13 @@
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 23,
+      "relative_frequency": 0.002203,
+      "n_hallmarks": 3
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -7014,12 +4190,75 @@
     ]
   },
   {
+    "id": "disease_renal_insufficiency",
+    "name": "Renal Insufficiency",
+    "mesh_id": "MESH:D051437",
+    "icd10": "TBD",
+    "system": "renal",
+    "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 22,
+      "relative_frequency": 0.002107,
+      "n_hallmarks": 7
+    },
+    "mechanism_links": [],
+    "hallmark_direct_links": [
+      {
+        "hallmark_id": "hallmark_loss_of_proteostasis",
+        "confidence": 0.9,
+        "notes": "PubTator co-occurrence: 8 papers"
+      },
+      {
+        "hallmark_id": "hallmark_mitochondrial_dysfunction",
+        "confidence": 0.74,
+        "notes": "PubTator co-occurrence: 4 papers"
+      },
+      {
+        "hallmark_id": "hallmark_genomic_instability",
+        "confidence": 0.58,
+        "notes": "PubTator co-occurrence: 3 papers"
+      },
+      {
+        "hallmark_id": "hallmark_telomere_attrition",
+        "confidence": 0.42,
+        "notes": "PubTator co-occurrence: 2 papers"
+      },
+      {
+        "hallmark_id": "hallmark_cellular_senescence",
+        "confidence": 0.42,
+        "notes": "PubTator co-occurrence: 2 papers"
+      },
+      {
+        "hallmark_id": "hallmark_dysbiosis",
+        "confidence": 0.42,
+        "notes": "PubTator co-occurrence: 2 papers"
+      },
+      {
+        "hallmark_id": "hallmark_altered_intercellular_communication",
+        "confidence": 0.26,
+        "notes": "PubTator co-occurrence: 1 papers"
+      }
+    ],
+    "pubmed_search_terms": [
+      "Renal Insufficiency aging"
+    ]
+  },
+  {
     "id": "disease_blindness",
     "name": "Blindness",
     "mesh_id": "MESH:D001766",
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 22,
+      "relative_frequency": 0.002107,
+      "n_hallmarks": 7
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -7069,6 +4308,13 @@
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 22,
+      "relative_frequency": 0.002107,
+      "n_hallmarks": 6
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -7113,6 +4359,13 @@
     "icd10": "TBD",
     "system": "musculoskeletal",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 22,
+      "relative_frequency": 0.002107,
+      "n_hallmarks": 7
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -7162,6 +4415,13 @@
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 22,
+      "relative_frequency": 0.002107,
+      "n_hallmarks": 5
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -7201,6 +4461,13 @@
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 21,
+      "relative_frequency": 0.002011,
+      "n_hallmarks": 9
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -7260,6 +4527,13 @@
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 21,
+      "relative_frequency": 0.002011,
+      "n_hallmarks": 5
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -7299,6 +4573,13 @@
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 21,
+      "relative_frequency": 0.002011,
+      "n_hallmarks": 4
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -7333,6 +4614,13 @@
     "icd10": "TBD",
     "system": "neurological",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 20,
+      "relative_frequency": 0.001916,
+      "n_hallmarks": 5
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -7372,6 +4660,13 @@
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 20,
+      "relative_frequency": 0.001916,
+      "n_hallmarks": 9
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -7431,6 +4726,13 @@
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 20,
+      "relative_frequency": 0.001916,
+      "n_hallmarks": 8
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -7485,6 +4787,13 @@
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 20,
+      "relative_frequency": 0.001916,
+      "n_hallmarks": 6
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -7529,6 +4838,13 @@
     "icd10": "TBD",
     "system": "dermatological",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 20,
+      "relative_frequency": 0.001916,
+      "n_hallmarks": 5
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -7568,6 +4884,13 @@
     "icd10": "TBD",
     "system": "pulmonary",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 20,
+      "relative_frequency": 0.001916,
+      "n_hallmarks": 8
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -7622,6 +4945,13 @@
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 20,
+      "relative_frequency": 0.001916,
+      "n_hallmarks": 6
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -7666,6 +4996,13 @@
     "icd10": "TBD",
     "system": "unknown",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 20,
+      "relative_frequency": 0.001916,
+      "n_hallmarks": 8
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {
@@ -7720,6 +5057,13 @@
     "icd10": "TBD",
     "system": "metabolic",
     "description": "Identified via PubTator NER co-occurrence analysis.",
+    "confidence_source": "pubtator_ner",
+    "is_syndrome": false,
+    "pubtator_stats": {
+      "total_count": 20,
+      "relative_frequency": 0.001916,
+      "n_hallmarks": 3
+    },
     "mechanism_links": [],
     "hallmark_direct_links": [
       {

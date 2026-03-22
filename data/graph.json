@@ -1,68 +1,68 @@
 {
   "metadata": {
-    "generated_at": "2026-03-22T13:13:19.886485+00:00",
-    "node_count": 121,
-    "edge_count": 740,
+    "generated_at": "2026-03-22T16:09:59.342371+00:00",
+    "node_count": 208,
+    "edge_count": 1335,
     "stats": {
-      "node_count": 121,
-      "edge_count": 740,
-      "avg_degree": 12.231,
-      "avg_confidence": 0.78,
+      "node_count": 208,
+      "edge_count": 1335,
+      "avg_degree": 12.961,
+      "avg_confidence": 0.665,
       "edge_type_counts": {
         "hallmark_to_mechanism": 185,
         "mechanism_to_disease": 280,
-        "hallmark_to_disease": 275
+        "hallmark_to_disease": 870
       },
       "most_connected_nodes": [
         {
           "id": "hallmark_chronic_inflammation",
           "label": "Chronic Inflammation (Inflammaging)",
-          "degree": 92
+          "degree": 155
         },
         {
           "id": "hallmark_cellular_senescence",
           "label": "Cellular Senescence",
-          "degree": 73
+          "degree": 121
         },
         {
           "id": "hallmark_mitochondrial_dysfunction",
           "label": "Mitochondrial Dysfunction",
-          "degree": 63
+          "degree": 104
         },
         {
           "id": "hallmark_altered_intercellular_communication",
           "label": "Altered Intercellular Communication",
-          "degree": 41
+          "degree": 101
         },
         {
           "id": "hallmark_epigenetic_alterations",
           "label": "Epigenetic Alterations",
-          "degree": 40
-        },
-        {
-          "id": "mech_oxidative_stress",
-          "label": "Oxidative Stress",
-          "degree": 39
-        },
-        {
-          "id": "mech_sasp",
-          "label": "Senescence-Associated Secretory Phenotype (SASP)",
-          "degree": 34
-        },
-        {
-          "id": "hallmark_deregulated_nutrient_sensing",
-          "label": "Deregulated Nutrient Sensing",
-          "degree": 30
-        },
-        {
-          "id": "hallmark_stem_cell_exhaustion",
-          "label": "Stem Cell Exhaustion",
-          "degree": 29
+          "degree": 91
         },
         {
           "id": "hallmark_genomic_instability",
           "label": "Genomic Instability",
-          "degree": 28
+          "degree": 84
+        },
+        {
+          "id": "hallmark_deregulated_nutrient_sensing",
+          "label": "Deregulated Nutrient Sensing",
+          "degree": 78
+        },
+        {
+          "id": "hallmark_loss_of_proteostasis",
+          "label": "Loss of Proteostasis",
+          "degree": 68
+        },
+        {
+          "id": "hallmark_stem_cell_exhaustion",
+          "label": "Stem Cell Exhaustion",
+          "degree": 68
+        },
+        {
+          "id": "hallmark_telomere_attrition",
+          "label": "Telomere Attrition",
+          "degree": 64
         }
       ]
     }
@@ -111,7 +111,7 @@
         "DDR aging hallmark",
         "somatic mutation aging"
       ],
-      "size": 52.92,
+      "size": 91.65,
       "confidence": null
     },
     {
@@ -150,7 +150,7 @@
         "telomerase aging",
         "telomere length mortality"
       ],
-      "size": 24.49,
+      "size": 80.0,
       "confidence": null
     },
     {
@@ -194,7 +194,7 @@
         "histone modifications aging",
         "epigenetic drift aging"
       ],
-      "size": 63.25,
+      "size": 95.39,
       "confidence": null
     },
     {
@@ -234,7 +234,7 @@
         "proteasome dysfunction aging",
         "chaperone aging"
       ],
-      "size": 51.96,
+      "size": 82.46,
       "confidence": null
     },
     {
@@ -277,7 +277,7 @@
         "autophagic flux aging",
         "TFEB aging"
       ],
-      "size": 38.73,
+      "size": 80.0,
       "confidence": null
     },
     {
@@ -323,7 +323,7 @@
         "IIS pathway aging",
         "AMPK aging sirtuins"
       ],
-      "size": 54.77,
+      "size": 88.32,
       "confidence": null
     },
     {
@@ -371,7 +371,7 @@
         "mitochondrial biogenesis aging",
         "ROS aging mitochondria"
       ],
-      "size": 79.37,
+      "size": 101.98,
       "confidence": null
     },
     {
@@ -416,7 +416,7 @@
         "senolytic aging",
         "p16 senescence aging"
       ],
-      "size": 85.44,
+      "size": 110.0,
       "confidence": null
     },
     {
@@ -460,7 +460,7 @@
         "neural stem cell aging",
         "intestinal stem cell aging"
       ],
-      "size": 53.85,
+      "size": 82.46,
       "confidence": null
     },
     {
@@ -505,7 +505,7 @@
         "heterochronic parabiosis aging",
         "aging plasma proteome"
       ],
-      "size": 64.03,
+      "size": 100.5,
       "confidence": null
     },
     {
@@ -555,7 +555,7 @@
         "cGAS-STING aging",
         "sterile inflammation aging"
       ],
-      "size": 95.92,
+      "size": 124.5,
       "confidence": null
     },
     {
@@ -599,7 +599,7 @@
         "gut microbiota aging hallmark",
         "intestinal permeability aging"
       ],
-      "size": 40.0,
+      "size": 75.5,
       "confidence": null
     },
     {
@@ -1761,7 +1761,7 @@
         "frailty aging mechanisms hallmarks",
         "frailty syndrome aging SASP inflammation sarcopenia"
       ],
-      "size": 28.28,
+      "size": 43.59,
       "confidence": null
     },
     {
@@ -2256,7 +2256,7 @@
         "ischemic stroke aging mechanisms hallmarks",
         "stroke aging inflammation vascular senescence"
       ],
-      "size": 28.28,
+      "size": 42.43,
       "confidence": null
     },
     {
@@ -2272,6 +2272,1224 @@
         "peripheral neuropathy diabetes aging mitochondria"
       ],
       "size": 28.28,
+      "confidence": null
+    },
+    {
+      "id": "disease_diabetes_mellitus",
+      "label": "Diabetes Mellitus",
+      "type": "disease",
+      "category": "metabolic",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Diabetes Mellitus aging"
+      ],
+      "size": 34.64,
+      "confidence": null
+    },
+    {
+      "id": "disease_macular_degeneration",
+      "label": "Macular Degeneration",
+      "type": "disease",
+      "category": "ophthalmic",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Macular Degeneration aging"
+      ],
+      "size": 34.64,
+      "confidence": null
+    },
+    {
+      "id": "disease_diabetes_mellitus_type_2",
+      "label": "Diabetes Mellitus Type 2",
+      "type": "disease",
+      "category": "metabolic",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Diabetes Mellitus Type 2 aging"
+      ],
+      "size": 34.64,
+      "confidence": null
+    },
+    {
+      "id": "disease_frailty",
+      "label": "Frailty",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Frailty aging"
+      ],
+      "size": 43.59,
+      "confidence": null
+    },
+    {
+      "id": "disease_pulmonary_disease_chronic_obstructive",
+      "label": "Pulmonary Disease Chronic Obstructive",
+      "type": "disease",
+      "category": "pulmonary",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Pulmonary Disease Chronic Obstructive aging"
+      ],
+      "size": 33.17,
+      "confidence": null
+    },
+    {
+      "id": "disease_renal_insufficiency_chronic",
+      "label": "Renal Insufficiency Chronic",
+      "type": "disease",
+      "category": "renal",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Renal Insufficiency Chronic aging"
+      ],
+      "size": 31.62,
+      "confidence": null
+    },
+    {
+      "id": "disease_dementia",
+      "label": "Dementia",
+      "type": "disease",
+      "category": "neurological",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Dementia aging"
+      ],
+      "size": 34.64,
+      "confidence": null
+    },
+    {
+      "id": "disease_heart_failure",
+      "label": "Heart Failure",
+      "type": "disease",
+      "category": "cardiovascular",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Heart Failure aging"
+      ],
+      "size": 33.17,
+      "confidence": null
+    },
+    {
+      "id": "disease_stroke",
+      "label": "Stroke",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Stroke aging"
+      ],
+      "size": 42.43,
+      "confidence": null
+    },
+    {
+      "id": "disease_cardiomyopathy_restrictive",
+      "label": "Cardiomyopathy Restrictive",
+      "type": "disease",
+      "category": "cardiovascular",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Cardiomyopathy Restrictive aging"
+      ],
+      "size": 28.28,
+      "confidence": null
+    },
+    {
+      "id": "disease_asthma",
+      "label": "Asthma",
+      "type": "disease",
+      "category": "pulmonary",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Asthma aging"
+      ],
+      "size": 28.28,
+      "confidence": null
+    },
+    {
+      "id": "disease_carcinoma_hepatocellular",
+      "label": "Carcinoma Hepatocellular",
+      "type": "disease",
+      "category": "oncological",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Carcinoma Hepatocellular aging"
+      ],
+      "size": 31.62,
+      "confidence": null
+    },
+    {
+      "id": "disease_intervertebral_disc_degeneration",
+      "label": "Intervertebral Disc Degeneration",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Intervertebral Disc Degeneration aging"
+      ],
+      "size": 26.46,
+      "confidence": null
+    },
+    {
+      "id": "disease_leukemia",
+      "label": "Leukemia",
+      "type": "disease",
+      "category": "oncological",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Leukemia aging"
+      ],
+      "size": 28.28,
+      "confidence": null
+    },
+    {
+      "id": "disease_aa_amyloidosis",
+      "label": "AA amyloidosis",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "AA amyloidosis aging"
+      ],
+      "size": 28.28,
+      "confidence": null
+    },
+    {
+      "id": "disease_cystic_fibrosis",
+      "label": "Cystic Fibrosis",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Cystic Fibrosis aging"
+      ],
+      "size": 28.28,
+      "confidence": null
+    },
+    {
+      "id": "disease_brain_injuries_traumatic",
+      "label": "Brain Injuries Traumatic",
+      "type": "disease",
+      "category": "neurological",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Brain Injuries Traumatic aging"
+      ],
+      "size": 26.46,
+      "confidence": null
+    },
+    {
+      "id": "disease_muscular_atrophy",
+      "label": "Muscular Atrophy",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Muscular Atrophy aging"
+      ],
+      "size": 33.17,
+      "confidence": null
+    },
+    {
+      "id": "disease_aneuploidy",
+      "label": "Aneuploidy",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Aneuploidy aging"
+      ],
+      "size": 28.28,
+      "confidence": null
+    },
+    {
+      "id": "disease_infertility",
+      "label": "Infertility",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Infertility aging"
+      ],
+      "size": 30.0,
+      "confidence": null
+    },
+    {
+      "id": "disease_liver_failure",
+      "label": "Liver Failure",
+      "type": "disease",
+      "category": "hepatic",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Liver Failure aging"
+      ],
+      "size": 26.46,
+      "confidence": null
+    },
+    {
+      "id": "disease_arthritis_rheumatoid",
+      "label": "Arthritis Rheumatoid",
+      "type": "disease",
+      "category": "musculoskeletal",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Arthritis Rheumatoid aging"
+      ],
+      "size": 24.49,
+      "confidence": null
+    },
+    {
+      "id": "disease_genetic_diseases_inborn",
+      "label": "Genetic Diseases Inborn",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Genetic Diseases Inborn aging"
+      ],
+      "size": 31.62,
+      "confidence": null
+    },
+    {
+      "id": "disease_periodontitis",
+      "label": "Periodontitis",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Periodontitis aging"
+      ],
+      "size": 22.36,
+      "confidence": null
+    },
+    {
+      "id": "disease_proteostasis_deficiencies",
+      "label": "Proteostasis Deficiencies",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Proteostasis Deficiencies aging"
+      ],
+      "size": 22.36,
+      "confidence": null
+    },
+    {
+      "id": "disease_progeria",
+      "label": "Progeria",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Progeria aging"
+      ],
+      "size": 28.28,
+      "confidence": null
+    },
+    {
+      "id": "disease_sleep_apnea_obstructive",
+      "label": "Sleep Apnea Obstructive",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Sleep Apnea Obstructive aging"
+      ],
+      "size": 24.49,
+      "confidence": null
+    },
+    {
+      "id": "disease_cognitive_dysfunction",
+      "label": "Cognitive Dysfunction",
+      "type": "disease",
+      "category": "neurological",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Cognitive Dysfunction aging"
+      ],
+      "size": 30.0,
+      "confidence": null
+    },
+    {
+      "id": "disease_anxiety",
+      "label": "Anxiety",
+      "type": "disease",
+      "category": "psychiatric",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Anxiety aging"
+      ],
+      "size": 30.0,
+      "confidence": null
+    },
+    {
+      "id": "disease_heredodegenerative_disorders_nervous_system",
+      "label": "Heredodegenerative Disorders Nervous System",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Heredodegenerative Disorders Nervous System aging"
+      ],
+      "size": 33.17,
+      "confidence": null
+    },
+    {
+      "id": "disease_tauopathies",
+      "label": "Tauopathies",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Tauopathies aging"
+      ],
+      "size": 22.36,
+      "confidence": null
+    },
+    {
+      "id": "disease_leukemia_myeloid_acute",
+      "label": "Leukemia Myeloid Acute",
+      "type": "disease",
+      "category": "oncological",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Leukemia Myeloid Acute aging"
+      ],
+      "size": 20.0,
+      "confidence": null
+    },
+    {
+      "id": "disease_cardiomyopathies",
+      "label": "Cardiomyopathies",
+      "type": "disease",
+      "category": "cardiovascular",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Cardiomyopathies aging"
+      ],
+      "size": 31.62,
+      "confidence": null
+    },
+    {
+      "id": "disease_614878",
+      "label": "614878",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "614878 aging"
+      ],
+      "size": 30.0,
+      "confidence": null
+    },
+    {
+      "id": "disease_myopathies_structural_congenital",
+      "label": "Myopathies Structural Congenital",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Myopathies Structural Congenital aging"
+      ],
+      "size": 17.32,
+      "confidence": null
+    },
+    {
+      "id": "disease_glioblastoma",
+      "label": "Glioblastoma",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Glioblastoma aging"
+      ],
+      "size": 24.49,
+      "confidence": null
+    },
+    {
+      "id": "disease_acute_kidney_injury",
+      "label": "Acute Kidney Injury",
+      "type": "disease",
+      "category": "renal",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Acute Kidney Injury aging"
+      ],
+      "size": 26.46,
+      "confidence": null
+    },
+    {
+      "id": "disease_schizophrenia",
+      "label": "Schizophrenia",
+      "type": "disease",
+      "category": "psychiatric",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Schizophrenia aging"
+      ],
+      "size": 26.46,
+      "confidence": null
+    },
+    {
+      "id": "disease_anemia",
+      "label": "Anemia",
+      "type": "disease",
+      "category": "hematological",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Anemia aging"
+      ],
+      "size": 22.36,
+      "confidence": null
+    },
+    {
+      "id": "disease_optic_atrophy_hereditary_leber",
+      "label": "Optic Atrophy Hereditary Leber",
+      "type": "disease",
+      "category": "ophthalmic",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Optic Atrophy Hereditary Leber aging"
+      ],
+      "size": 10.0,
+      "confidence": null
+    },
+    {
+      "id": "disease_fanconi_anemia",
+      "label": "Fanconi Anemia",
+      "type": "disease",
+      "category": "hematological",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Fanconi Anemia aging"
+      ],
+      "size": 22.36,
+      "confidence": null
+    },
+    {
+      "id": "disease_overweight",
+      "label": "Overweight",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Overweight aging"
+      ],
+      "size": 26.46,
+      "confidence": null
+    },
+    {
+      "id": "disease_lead_poisoning_nervous_system",
+      "label": "Lead Poisoning Nervous System",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Lead Poisoning Nervous System aging"
+      ],
+      "size": 26.46,
+      "confidence": null
+    },
+    {
+      "id": "disease_malnutrition",
+      "label": "Malnutrition",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Malnutrition aging"
+      ],
+      "size": 28.28,
+      "confidence": null
+    },
+    {
+      "id": "disease_cyclic_neutropenia",
+      "label": "Cyclic neutropenia",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Cyclic neutropenia aging"
+      ],
+      "size": 24.49,
+      "confidence": null
+    },
+    {
+      "id": "disease_ependymoma",
+      "label": "Ependymoma",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Ependymoma aging"
+      ],
+      "size": 26.46,
+      "confidence": null
+    },
+    {
+      "id": "disease_liver_cirrhosis",
+      "label": "Liver Cirrhosis",
+      "type": "disease",
+      "category": "hepatic",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Liver Cirrhosis aging"
+      ],
+      "size": 31.62,
+      "confidence": null
+    },
+    {
+      "id": "disease_fatty_liver",
+      "label": "Fatty Liver",
+      "type": "disease",
+      "category": "metabolic",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Fatty Liver aging"
+      ],
+      "size": 30.0,
+      "confidence": null
+    },
+    {
+      "id": "disease_pulmonary_fibrosis",
+      "label": "Pulmonary Fibrosis",
+      "type": "disease",
+      "category": "pulmonary",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Pulmonary Fibrosis aging"
+      ],
+      "size": 22.36,
+      "confidence": null
+    },
+    {
+      "id": "disease_acute_lung_injury",
+      "label": "Acute Lung Injury",
+      "type": "disease",
+      "category": "pulmonary",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Acute Lung Injury aging"
+      ],
+      "size": 17.32,
+      "confidence": null
+    },
+    {
+      "id": "disease_paraparesis_tropical_spastic",
+      "label": "Paraparesis Tropical Spastic",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Paraparesis Tropical Spastic aging"
+      ],
+      "size": 14.14,
+      "confidence": null
+    },
+    {
+      "id": "disease_diabetes_mellitus_type_1",
+      "label": "Diabetes Mellitus Type 1",
+      "type": "disease",
+      "category": "metabolic",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Diabetes Mellitus Type 1 aging"
+      ],
+      "size": 10.0,
+      "confidence": null
+    },
+    {
+      "id": "disease_multiple_organ_failure",
+      "label": "Multiple Organ Failure",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Multiple Organ Failure aging"
+      ],
+      "size": 33.17,
+      "confidence": null
+    },
+    {
+      "id": "disease_retinal_degeneration",
+      "label": "Retinal Degeneration",
+      "type": "disease",
+      "category": "ophthalmic",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Retinal Degeneration aging"
+      ],
+      "size": 26.46,
+      "confidence": null
+    },
+    {
+      "id": "disease_dyskeratosis_congenita",
+      "label": "Dyskeratosis Congenita",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Dyskeratosis Congenita aging"
+      ],
+      "size": 14.14,
+      "confidence": null
+    },
+    {
+      "id": "disease_lung_diseases_interstitial",
+      "label": "Lung Diseases Interstitial",
+      "type": "disease",
+      "category": "pulmonary",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Lung Diseases Interstitial aging"
+      ],
+      "size": 24.49,
+      "confidence": null
+    },
+    {
+      "id": "disease_myocardial_infarction",
+      "label": "Myocardial Infarction",
+      "type": "disease",
+      "category": "cardiovascular",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Myocardial Infarction aging"
+      ],
+      "size": 30.0,
+      "confidence": null
+    },
+    {
+      "id": "disease_leukemia_myeloid_accelerated_phase",
+      "label": "Leukemia Myeloid Accelerated Phase",
+      "type": "disease",
+      "category": "oncological",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Leukemia Myeloid Accelerated Phase aging"
+      ],
+      "size": 22.36,
+      "confidence": null
+    },
+    {
+      "id": "disease_microsatellite_instability",
+      "label": "Microsatellite Instability",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Microsatellite Instability aging"
+      ],
+      "size": 10.0,
+      "confidence": null
+    },
+    {
+      "id": "disease_cardiomyopathy_hypertrophic",
+      "label": "Cardiomyopathy Hypertrophic",
+      "type": "disease",
+      "category": "cardiovascular",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Cardiomyopathy Hypertrophic aging"
+      ],
+      "size": 24.49,
+      "confidence": null
+    },
+    {
+      "id": "disease_drug_hypersensitivity",
+      "label": "Drug Hypersensitivity",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Drug Hypersensitivity aging"
+      ],
+      "size": 22.36,
+      "confidence": null
+    },
+    {
+      "id": "disease_meningioma",
+      "label": "Meningioma",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Meningioma aging"
+      ],
+      "size": 22.36,
+      "confidence": null
+    },
+    {
+      "id": "disease_premature_birth",
+      "label": "Premature Birth",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Premature Birth aging"
+      ],
+      "size": 20.0,
+      "confidence": null
+    },
+    {
+      "id": "disease_hypertrophy",
+      "label": "Hypertrophy",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Hypertrophy aging"
+      ],
+      "size": 24.49,
+      "confidence": null
+    },
+    {
+      "id": "disease_constipation",
+      "label": "Constipation",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Constipation aging"
+      ],
+      "size": 10.0,
+      "confidence": null
+    },
+    {
+      "id": "disease_lymphoma",
+      "label": "Lymphoma",
+      "type": "disease",
+      "category": "oncological",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Lymphoma aging"
+      ],
+      "size": 22.36,
+      "confidence": null
+    },
+    {
+      "id": "disease_myocardial_ischemia",
+      "label": "Myocardial Ischemia",
+      "type": "disease",
+      "category": "cardiovascular",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Myocardial Ischemia aging"
+      ],
+      "size": 24.49,
+      "confidence": null
+    },
+    {
+      "id": "disease_overnutrition",
+      "label": "Overnutrition",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Overnutrition aging"
+      ],
+      "size": 28.28,
+      "confidence": null
+    },
+    {
+      "id": "disease_stress_disorders_post_traumatic",
+      "label": "Stress Disorders Post-Traumatic",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Stress Disorders Post-Traumatic aging"
+      ],
+      "size": 17.32,
+      "confidence": null
+    },
+    {
+      "id": "disease_seizures",
+      "label": "Seizures",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Seizures aging"
+      ],
+      "size": 22.36,
+      "confidence": null
+    },
+    {
+      "id": "disease_hip_fractures",
+      "label": "Hip Fractures",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Hip Fractures aging"
+      ],
+      "size": 17.32,
+      "confidence": null
+    },
+    {
+      "id": "disease_blindness",
+      "label": "Blindness",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Blindness aging"
+      ],
+      "size": 26.46,
+      "confidence": null
+    },
+    {
+      "id": "disease_hearing_loss",
+      "label": "Hearing Loss",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Hearing Loss aging"
+      ],
+      "size": 24.49,
+      "confidence": null
+    },
+    {
+      "id": "disease_fractures_bone",
+      "label": "Fractures Bone",
+      "type": "disease",
+      "category": "musculoskeletal",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Fractures Bone aging"
+      ],
+      "size": 26.46,
+      "confidence": null
+    },
+    {
+      "id": "disease_psychological_distress",
+      "label": "Psychological Distress",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Psychological Distress aging"
+      ],
+      "size": 22.36,
+      "confidence": null
+    },
+    {
+      "id": "disease_tooth_loss",
+      "label": "Tooth Loss",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Tooth Loss aging"
+      ],
+      "size": 30.0,
+      "confidence": null
+    },
+    {
+      "id": "disease_infertility_male",
+      "label": "Infertility Male",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Infertility Male aging"
+      ],
+      "size": 22.36,
+      "confidence": null
+    },
+    {
+      "id": "disease_pre_eclampsia",
+      "label": "Pre-Eclampsia",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Pre-Eclampsia aging"
+      ],
+      "size": 20.0,
+      "confidence": null
+    },
+    {
+      "id": "disease_frontotemporal_dementia",
+      "label": "Frontotemporal Dementia",
+      "type": "disease",
+      "category": "neurological",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Frontotemporal Dementia aging"
+      ],
+      "size": 22.36,
+      "confidence": null
+    },
+    {
+      "id": "disease_hyperglycemia",
+      "label": "Hyperglycemia",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Hyperglycemia aging"
+      ],
+      "size": 30.0,
+      "confidence": null
+    },
+    {
+      "id": "disease_aphasia_conduction",
+      "label": "Aphasia Conduction",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Aphasia Conduction aging"
+      ],
+      "size": 28.28,
+      "confidence": null
+    },
+    {
+      "id": "disease_synucleinopathies",
+      "label": "Synucleinopathies",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Synucleinopathies aging"
+      ],
+      "size": 24.49,
+      "confidence": null
+    },
+    {
+      "id": "disease_psoriasis",
+      "label": "Psoriasis",
+      "type": "disease",
+      "category": "dermatological",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Psoriasis aging"
+      ],
+      "size": 22.36,
+      "confidence": null
+    },
+    {
+      "id": "disease_respiratory_insufficiency",
+      "label": "Respiratory Insufficiency",
+      "type": "disease",
+      "category": "pulmonary",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Respiratory Insufficiency aging"
+      ],
+      "size": 28.28,
+      "confidence": null
+    },
+    {
+      "id": "disease_weight_gain",
+      "label": "Weight Gain",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Weight Gain aging"
+      ],
+      "size": 24.49,
+      "confidence": null
+    },
+    {
+      "id": "disease_myopathy_with_giant_abnormal_mitochondria",
+      "label": "Myopathy with Giant Abnormal Mitochondria",
+      "type": "disease",
+      "category": "unknown",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Myopathy with Giant Abnormal Mitochondria aging"
+      ],
+      "size": 28.28,
+      "confidence": null
+    },
+    {
+      "id": "disease_diabetes_gestational",
+      "label": "Diabetes Gestational",
+      "type": "disease",
+      "category": "metabolic",
+      "color": "#EF4444",
+      "description": "Identified via PubTator NER co-occurrence analysis.",
+      "icd10": "TBD",
+      "pubmed_search_terms": [
+        "Diabetes Gestational aging"
+      ],
+      "size": 17.32,
       "confidence": null
     }
   ],
@@ -8195,6 +9413,4766 @@
       "type": "hallmark_to_disease",
       "color": "#AEB821",
       "width": 3.6
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_diabetes_mellitus",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_diabetes_mellitus",
+      "confidence": 0.76,
+      "type": "hallmark_to_disease",
+      "color": "#82BC34",
+      "width": 4.04
+    },
+    {
+      "source": "hallmark_dysbiosis",
+      "target": "disease_diabetes_mellitus",
+      "confidence": 0.71,
+      "type": "hallmark_to_disease",
+      "color": "#96BA2C",
+      "width": 3.84
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_diabetes_mellitus",
+      "confidence": 0.69,
+      "type": "hallmark_to_disease",
+      "color": "#9EB928",
+      "width": 3.76
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_diabetes_mellitus",
+      "confidence": 0.69,
+      "type": "hallmark_to_disease",
+      "color": "#9EB928",
+      "width": 3.76
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_diabetes_mellitus",
+      "confidence": 0.62,
+      "type": "hallmark_to_disease",
+      "color": "#BAB71C",
+      "width": 3.48
+    },
+    {
+      "source": "hallmark_mitochondrial_dysfunction",
+      "target": "disease_diabetes_mellitus",
+      "confidence": 0.59,
+      "type": "hallmark_to_disease",
+      "color": "#C6B617",
+      "width": 3.36
+    },
+    {
+      "source": "hallmark_loss_of_proteostasis",
+      "target": "disease_diabetes_mellitus",
+      "confidence": 0.57,
+      "type": "hallmark_to_disease",
+      "color": "#CEB514",
+      "width": 3.28
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_diabetes_mellitus",
+      "confidence": 0.45,
+      "type": "hallmark_to_disease",
+      "color": "#EAA70E",
+      "width": 2.8
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_diabetes_mellitus",
+      "confidence": 0.41,
+      "type": "hallmark_to_disease",
+      "color": "#EA9F12",
+      "width": 2.64
+    },
+    {
+      "source": "hallmark_stem_cell_exhaustion",
+      "target": "disease_diabetes_mellitus",
+      "confidence": 0.34,
+      "type": "hallmark_to_disease",
+      "color": "#EB8F1B",
+      "width": 2.36
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_diabetes_mellitus",
+      "confidence": 0.29,
+      "type": "hallmark_to_disease",
+      "color": "#EC8421",
+      "width": 2.16
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_macular_degeneration",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_macular_degeneration",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_mitochondrial_dysfunction",
+      "target": "disease_macular_degeneration",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_macular_degeneration",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_loss_of_proteostasis",
+      "target": "disease_macular_degeneration",
+      "confidence": 0.74,
+      "type": "hallmark_to_disease",
+      "color": "#8ABB31",
+      "width": 3.96
+    },
+    {
+      "source": "hallmark_dysbiosis",
+      "target": "disease_macular_degeneration",
+      "confidence": 0.48,
+      "type": "hallmark_to_disease",
+      "color": "#EAAE0A",
+      "width": 2.92
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_macular_degeneration",
+      "confidence": 0.46,
+      "type": "hallmark_to_disease",
+      "color": "#EAAA0C",
+      "width": 2.84
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_macular_degeneration",
+      "confidence": 0.33,
+      "type": "hallmark_to_disease",
+      "color": "#EB8D1C",
+      "width": 2.32
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_macular_degeneration",
+      "confidence": 0.28,
+      "type": "hallmark_to_disease",
+      "color": "#EC8222",
+      "width": 2.12
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_macular_degeneration",
+      "confidence": 0.25,
+      "type": "hallmark_to_disease",
+      "color": "#EC7B26",
+      "width": 2.0
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_macular_degeneration",
+      "confidence": 0.18,
+      "type": "hallmark_to_disease",
+      "color": "#ED6B2E",
+      "width": 1.72
+    },
+    {
+      "source": "hallmark_stem_cell_exhaustion",
+      "target": "disease_macular_degeneration",
+      "confidence": 0.13,
+      "type": "hallmark_to_disease",
+      "color": "#ED6034",
+      "width": 1.52
+    },
+    {
+      "source": "hallmark_loss_of_proteostasis",
+      "target": "disease_diabetes_mellitus_type_2",
+      "confidence": 0.85,
+      "type": "hallmark_to_disease",
+      "color": "#5EBF44",
+      "width": 4.4
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_diabetes_mellitus_type_2",
+      "confidence": 0.74,
+      "type": "hallmark_to_disease",
+      "color": "#8ABB31",
+      "width": 3.96
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_diabetes_mellitus_type_2",
+      "confidence": 0.74,
+      "type": "hallmark_to_disease",
+      "color": "#8ABB31",
+      "width": 3.96
+    },
+    {
+      "source": "hallmark_dysbiosis",
+      "target": "disease_diabetes_mellitus_type_2",
+      "confidence": 0.74,
+      "type": "hallmark_to_disease",
+      "color": "#8ABB31",
+      "width": 3.96
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_diabetes_mellitus_type_2",
+      "confidence": 0.72,
+      "type": "hallmark_to_disease",
+      "color": "#92BA2D",
+      "width": 3.88
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_diabetes_mellitus_type_2",
+      "confidence": 0.72,
+      "type": "hallmark_to_disease",
+      "color": "#92BA2D",
+      "width": 3.88
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_diabetes_mellitus_type_2",
+      "confidence": 0.61,
+      "type": "hallmark_to_disease",
+      "color": "#BEB61A",
+      "width": 3.44
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_diabetes_mellitus_type_2",
+      "confidence": 0.5,
+      "type": "hallmark_to_disease",
+      "color": "#EAB308",
+      "width": 3.0
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_diabetes_mellitus_type_2",
+      "confidence": 0.47,
+      "type": "hallmark_to_disease",
+      "color": "#EAAC0B",
+      "width": 2.88
+    },
+    {
+      "source": "hallmark_mitochondrial_dysfunction",
+      "target": "disease_diabetes_mellitus_type_2",
+      "confidence": 0.39,
+      "type": "hallmark_to_disease",
+      "color": "#EB9A15",
+      "width": 2.56
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_diabetes_mellitus_type_2",
+      "confidence": 0.37,
+      "type": "hallmark_to_disease",
+      "color": "#EB9617",
+      "width": 2.48
+    },
+    {
+      "source": "hallmark_stem_cell_exhaustion",
+      "target": "disease_diabetes_mellitus_type_2",
+      "confidence": 0.34,
+      "type": "hallmark_to_disease",
+      "color": "#EB8F1B",
+      "width": 2.36
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_frailty",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_frailty",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_dysbiosis",
+      "target": "disease_frailty",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_frailty",
+      "confidence": 0.71,
+      "type": "hallmark_to_disease",
+      "color": "#96BA2C",
+      "width": 3.84
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_frailty",
+      "confidence": 0.69,
+      "type": "hallmark_to_disease",
+      "color": "#9EB928",
+      "width": 3.76
+    },
+    {
+      "source": "hallmark_stem_cell_exhaustion",
+      "target": "disease_frailty",
+      "confidence": 0.69,
+      "type": "hallmark_to_disease",
+      "color": "#9EB928",
+      "width": 3.76
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_frailty",
+      "confidence": 0.41,
+      "type": "hallmark_to_disease",
+      "color": "#EA9F12",
+      "width": 2.64
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_frailty",
+      "confidence": 0.3,
+      "type": "hallmark_to_disease",
+      "color": "#EC8620",
+      "width": 2.2
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_frailty",
+      "confidence": 0.21,
+      "type": "hallmark_to_disease",
+      "color": "#EC722A",
+      "width": 1.84
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_frailty",
+      "confidence": 0.18,
+      "type": "hallmark_to_disease",
+      "color": "#ED6B2E",
+      "width": 1.72
+    },
+    {
+      "source": "hallmark_mitochondrial_dysfunction",
+      "target": "disease_frailty",
+      "confidence": 0.13,
+      "type": "hallmark_to_disease",
+      "color": "#ED6034",
+      "width": 1.52
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_pulmonary_disease_chronic_obstructive",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_pulmonary_disease_chronic_obstructive",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_pulmonary_disease_chronic_obstructive",
+      "confidence": 0.8,
+      "type": "hallmark_to_disease",
+      "color": "#71BD3B",
+      "width": 4.2
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_pulmonary_disease_chronic_obstructive",
+      "confidence": 0.76,
+      "type": "hallmark_to_disease",
+      "color": "#82BC34",
+      "width": 4.04
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_pulmonary_disease_chronic_obstructive",
+      "confidence": 0.67,
+      "type": "hallmark_to_disease",
+      "color": "#A6B925",
+      "width": 3.68
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_pulmonary_disease_chronic_obstructive",
+      "confidence": 0.63,
+      "type": "hallmark_to_disease",
+      "color": "#B6B71E",
+      "width": 3.52
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_pulmonary_disease_chronic_obstructive",
+      "confidence": 0.26,
+      "type": "hallmark_to_disease",
+      "color": "#EC7D24",
+      "width": 2.04
+    },
+    {
+      "source": "hallmark_stem_cell_exhaustion",
+      "target": "disease_pulmonary_disease_chronic_obstructive",
+      "confidence": 0.26,
+      "type": "hallmark_to_disease",
+      "color": "#EC7D24",
+      "width": 2.04
+    },
+    {
+      "source": "hallmark_dysbiosis",
+      "target": "disease_pulmonary_disease_chronic_obstructive",
+      "confidence": 0.26,
+      "type": "hallmark_to_disease",
+      "color": "#EC7D24",
+      "width": 2.04
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_pulmonary_disease_chronic_obstructive",
+      "confidence": 0.22,
+      "type": "hallmark_to_disease",
+      "color": "#EC7429",
+      "width": 1.88
+    },
+    {
+      "source": "hallmark_loss_of_proteostasis",
+      "target": "disease_pulmonary_disease_chronic_obstructive",
+      "confidence": 0.18,
+      "type": "hallmark_to_disease",
+      "color": "#ED6B2E",
+      "width": 1.72
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_renal_insufficiency_chronic",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_mitochondrial_dysfunction",
+      "target": "disease_renal_insufficiency_chronic",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_dysbiosis",
+      "target": "disease_renal_insufficiency_chronic",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_renal_insufficiency_chronic",
+      "confidence": 0.78,
+      "type": "hallmark_to_disease",
+      "color": "#79BD38",
+      "width": 4.12
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_renal_insufficiency_chronic",
+      "confidence": 0.78,
+      "type": "hallmark_to_disease",
+      "color": "#79BD38",
+      "width": 4.12
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_renal_insufficiency_chronic",
+      "confidence": 0.51,
+      "type": "hallmark_to_disease",
+      "color": "#E6B309",
+      "width": 3.04
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_renal_insufficiency_chronic",
+      "confidence": 0.48,
+      "type": "hallmark_to_disease",
+      "color": "#EAAE0A",
+      "width": 2.92
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_renal_insufficiency_chronic",
+      "confidence": 0.29,
+      "type": "hallmark_to_disease",
+      "color": "#EC8421",
+      "width": 2.16
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_renal_insufficiency_chronic",
+      "confidence": 0.14,
+      "type": "hallmark_to_disease",
+      "color": "#ED6333",
+      "width": 1.56
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_renal_insufficiency_chronic",
+      "confidence": 0.14,
+      "type": "hallmark_to_disease",
+      "color": "#ED6333",
+      "width": 1.56
+    },
+    {
+      "source": "hallmark_loss_of_proteostasis",
+      "target": "disease_dementia",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_dementia",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_dementia",
+      "confidence": 0.83,
+      "type": "hallmark_to_disease",
+      "color": "#66BE40",
+      "width": 4.32
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_dementia",
+      "confidence": 0.79,
+      "type": "hallmark_to_disease",
+      "color": "#75BD39",
+      "width": 4.16
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_dementia",
+      "confidence": 0.74,
+      "type": "hallmark_to_disease",
+      "color": "#8ABB31",
+      "width": 3.96
+    },
+    {
+      "source": "hallmark_dysbiosis",
+      "target": "disease_dementia",
+      "confidence": 0.65,
+      "type": "hallmark_to_disease",
+      "color": "#AEB821",
+      "width": 3.6
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_dementia",
+      "confidence": 0.47,
+      "type": "hallmark_to_disease",
+      "color": "#EAAC0B",
+      "width": 2.88
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_dementia",
+      "confidence": 0.37,
+      "type": "hallmark_to_disease",
+      "color": "#EB9617",
+      "width": 2.48
+    },
+    {
+      "source": "hallmark_mitochondrial_dysfunction",
+      "target": "disease_dementia",
+      "confidence": 0.33,
+      "type": "hallmark_to_disease",
+      "color": "#EB8D1C",
+      "width": 2.32
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_dementia",
+      "confidence": 0.28,
+      "type": "hallmark_to_disease",
+      "color": "#EC8222",
+      "width": 2.12
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_dementia",
+      "confidence": 0.24,
+      "type": "hallmark_to_disease",
+      "color": "#EC7927",
+      "width": 1.96
+    },
+    {
+      "source": "hallmark_stem_cell_exhaustion",
+      "target": "disease_dementia",
+      "confidence": 0.15,
+      "type": "hallmark_to_disease",
+      "color": "#ED6532",
+      "width": 1.6
+    },
+    {
+      "source": "hallmark_dysbiosis",
+      "target": "disease_heart_failure",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_heart_failure",
+      "confidence": 0.74,
+      "type": "hallmark_to_disease",
+      "color": "#8ABB31",
+      "width": 3.96
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_heart_failure",
+      "confidence": 0.74,
+      "type": "hallmark_to_disease",
+      "color": "#8ABB31",
+      "width": 3.96
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_heart_failure",
+      "confidence": 0.7,
+      "type": "hallmark_to_disease",
+      "color": "#9ABA2A",
+      "width": 3.8
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_heart_failure",
+      "confidence": 0.66,
+      "type": "hallmark_to_disease",
+      "color": "#AAB823",
+      "width": 3.64
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_heart_failure",
+      "confidence": 0.62,
+      "type": "hallmark_to_disease",
+      "color": "#BAB71C",
+      "width": 3.48
+    },
+    {
+      "source": "hallmark_mitochondrial_dysfunction",
+      "target": "disease_heart_failure",
+      "confidence": 0.4,
+      "type": "hallmark_to_disease",
+      "color": "#EB9C14",
+      "width": 2.6
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_heart_failure",
+      "confidence": 0.36,
+      "type": "hallmark_to_disease",
+      "color": "#EB9318",
+      "width": 2.44
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_heart_failure",
+      "confidence": 0.27,
+      "type": "hallmark_to_disease",
+      "color": "#EC7F23",
+      "width": 2.08
+    },
+    {
+      "source": "hallmark_loss_of_proteostasis",
+      "target": "disease_heart_failure",
+      "confidence": 0.23,
+      "type": "hallmark_to_disease",
+      "color": "#EC7728",
+      "width": 1.92
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_heart_failure",
+      "confidence": 0.19,
+      "type": "hallmark_to_disease",
+      "color": "#ED6E2D",
+      "width": 1.76
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_stroke",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_stroke",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_dysbiosis",
+      "target": "disease_stroke",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_stroke",
+      "confidence": 0.76,
+      "type": "hallmark_to_disease",
+      "color": "#82BC34",
+      "width": 4.04
+    },
+    {
+      "source": "hallmark_mitochondrial_dysfunction",
+      "target": "disease_stroke",
+      "confidence": 0.54,
+      "type": "hallmark_to_disease",
+      "color": "#DAB40E",
+      "width": 3.16
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_stroke",
+      "confidence": 0.48,
+      "type": "hallmark_to_disease",
+      "color": "#EAAE0A",
+      "width": 2.92
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_stroke",
+      "confidence": 0.43,
+      "type": "hallmark_to_disease",
+      "color": "#EAA310",
+      "width": 2.72
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_stroke",
+      "confidence": 0.26,
+      "type": "hallmark_to_disease",
+      "color": "#EC7D24",
+      "width": 2.04
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_stroke",
+      "confidence": 0.21,
+      "type": "hallmark_to_disease",
+      "color": "#EC722A",
+      "width": 1.84
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_stroke",
+      "confidence": 0.15,
+      "type": "hallmark_to_disease",
+      "color": "#ED6532",
+      "width": 1.6
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_cardiomyopathy_restrictive",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_cardiomyopathy_restrictive",
+      "confidence": 0.78,
+      "type": "hallmark_to_disease",
+      "color": "#79BD38",
+      "width": 4.12
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_cardiomyopathy_restrictive",
+      "confidence": 0.64,
+      "type": "hallmark_to_disease",
+      "color": "#B2B820",
+      "width": 3.56
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_cardiomyopathy_restrictive",
+      "confidence": 0.54,
+      "type": "hallmark_to_disease",
+      "color": "#DAB40E",
+      "width": 3.16
+    },
+    {
+      "source": "hallmark_stem_cell_exhaustion",
+      "target": "disease_cardiomyopathy_restrictive",
+      "confidence": 0.49,
+      "type": "hallmark_to_disease",
+      "color": "#EAB009",
+      "width": 2.96
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_cardiomyopathy_restrictive",
+      "confidence": 0.49,
+      "type": "hallmark_to_disease",
+      "color": "#EAB009",
+      "width": 2.96
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_cardiomyopathy_restrictive",
+      "confidence": 0.39,
+      "type": "hallmark_to_disease",
+      "color": "#EB9A15",
+      "width": 2.56
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_cardiomyopathy_restrictive",
+      "confidence": 0.25,
+      "type": "hallmark_to_disease",
+      "color": "#EC7B26",
+      "width": 2.0
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_asthma",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_dysbiosis",
+      "target": "disease_asthma",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_asthma",
+      "confidence": 0.49,
+      "type": "hallmark_to_disease",
+      "color": "#EAB009",
+      "width": 2.96
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_asthma",
+      "confidence": 0.49,
+      "type": "hallmark_to_disease",
+      "color": "#EAB009",
+      "width": 2.96
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_asthma",
+      "confidence": 0.27,
+      "type": "hallmark_to_disease",
+      "color": "#EC7F23",
+      "width": 2.08
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_asthma",
+      "confidence": 0.21,
+      "type": "hallmark_to_disease",
+      "color": "#EC722A",
+      "width": 1.84
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_asthma",
+      "confidence": 0.21,
+      "type": "hallmark_to_disease",
+      "color": "#EC722A",
+      "width": 1.84
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_asthma",
+      "confidence": 0.16,
+      "type": "hallmark_to_disease",
+      "color": "#ED6730",
+      "width": 1.64
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_carcinoma_hepatocellular",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_carcinoma_hepatocellular",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_carcinoma_hepatocellular",
+      "confidence": 0.79,
+      "type": "hallmark_to_disease",
+      "color": "#75BD39",
+      "width": 4.16
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_carcinoma_hepatocellular",
+      "confidence": 0.79,
+      "type": "hallmark_to_disease",
+      "color": "#75BD39",
+      "width": 4.16
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_carcinoma_hepatocellular",
+      "confidence": 0.48,
+      "type": "hallmark_to_disease",
+      "color": "#EAAE0A",
+      "width": 2.92
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_carcinoma_hepatocellular",
+      "confidence": 0.41,
+      "type": "hallmark_to_disease",
+      "color": "#EA9F12",
+      "width": 2.64
+    },
+    {
+      "source": "hallmark_mitochondrial_dysfunction",
+      "target": "disease_carcinoma_hepatocellular",
+      "confidence": 0.25,
+      "type": "hallmark_to_disease",
+      "color": "#EC7B26",
+      "width": 2.0
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_carcinoma_hepatocellular",
+      "confidence": 0.25,
+      "type": "hallmark_to_disease",
+      "color": "#EC7B26",
+      "width": 2.0
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_carcinoma_hepatocellular",
+      "confidence": 0.18,
+      "type": "hallmark_to_disease",
+      "color": "#ED6B2E",
+      "width": 1.72
+    },
+    {
+      "source": "hallmark_dysbiosis",
+      "target": "disease_carcinoma_hepatocellular",
+      "confidence": 0.18,
+      "type": "hallmark_to_disease",
+      "color": "#ED6B2E",
+      "width": 1.72
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_intervertebral_disc_degeneration",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_mitochondrial_dysfunction",
+      "target": "disease_intervertebral_disc_degeneration",
+      "confidence": 0.82,
+      "type": "hallmark_to_disease",
+      "color": "#6ABE3F",
+      "width": 4.28
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_intervertebral_disc_degeneration",
+      "confidence": 0.71,
+      "type": "hallmark_to_disease",
+      "color": "#96BA2C",
+      "width": 3.84
+    },
+    {
+      "source": "hallmark_stem_cell_exhaustion",
+      "target": "disease_intervertebral_disc_degeneration",
+      "confidence": 0.43,
+      "type": "hallmark_to_disease",
+      "color": "#EAA310",
+      "width": 2.72
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_intervertebral_disc_degeneration",
+      "confidence": 0.32,
+      "type": "hallmark_to_disease",
+      "color": "#EB8B1D",
+      "width": 2.28
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_intervertebral_disc_degeneration",
+      "confidence": 0.21,
+      "type": "hallmark_to_disease",
+      "color": "#EC722A",
+      "width": 1.84
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_intervertebral_disc_degeneration",
+      "confidence": 0.16,
+      "type": "hallmark_to_disease",
+      "color": "#ED6730",
+      "width": 1.64
+    },
+    {
+      "source": "hallmark_stem_cell_exhaustion",
+      "target": "disease_leukemia",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_leukemia",
+      "confidence": 0.81,
+      "type": "hallmark_to_disease",
+      "color": "#6DBE3D",
+      "width": 4.24
+    },
+    {
+      "source": "hallmark_loss_of_proteostasis",
+      "target": "disease_leukemia",
+      "confidence": 0.6,
+      "type": "hallmark_to_disease",
+      "color": "#C2B619",
+      "width": 3.4
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_leukemia",
+      "confidence": 0.39,
+      "type": "hallmark_to_disease",
+      "color": "#EB9A15",
+      "width": 2.56
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_leukemia",
+      "confidence": 0.31,
+      "type": "hallmark_to_disease",
+      "color": "#EB881E",
+      "width": 2.24
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_leukemia",
+      "confidence": 0.24,
+      "type": "hallmark_to_disease",
+      "color": "#EC7927",
+      "width": 1.96
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_leukemia",
+      "confidence": 0.17,
+      "type": "hallmark_to_disease",
+      "color": "#ED692F",
+      "width": 1.68
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_leukemia",
+      "confidence": 0.17,
+      "type": "hallmark_to_disease",
+      "color": "#ED692F",
+      "width": 1.68
+    },
+    {
+      "source": "hallmark_loss_of_proteostasis",
+      "target": "disease_aa_amyloidosis",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_aa_amyloidosis",
+      "confidence": 0.32,
+      "type": "hallmark_to_disease",
+      "color": "#EB8B1D",
+      "width": 2.28
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_aa_amyloidosis",
+      "confidence": 0.25,
+      "type": "hallmark_to_disease",
+      "color": "#EC7B26",
+      "width": 2.0
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_aa_amyloidosis",
+      "confidence": 0.25,
+      "type": "hallmark_to_disease",
+      "color": "#EC7B26",
+      "width": 2.0
+    },
+    {
+      "source": "hallmark_dysbiosis",
+      "target": "disease_aa_amyloidosis",
+      "confidence": 0.25,
+      "type": "hallmark_to_disease",
+      "color": "#EC7B26",
+      "width": 2.0
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_aa_amyloidosis",
+      "confidence": 0.17,
+      "type": "hallmark_to_disease",
+      "color": "#ED692F",
+      "width": 1.68
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_aa_amyloidosis",
+      "confidence": 0.17,
+      "type": "hallmark_to_disease",
+      "color": "#ED692F",
+      "width": 1.68
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_aa_amyloidosis",
+      "confidence": 0.17,
+      "type": "hallmark_to_disease",
+      "color": "#ED692F",
+      "width": 1.68
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_cystic_fibrosis",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_loss_of_proteostasis",
+      "target": "disease_cystic_fibrosis",
+      "confidence": 0.75,
+      "type": "hallmark_to_disease",
+      "color": "#86BC33",
+      "width": 4.0
+    },
+    {
+      "source": "hallmark_dysbiosis",
+      "target": "disease_cystic_fibrosis",
+      "confidence": 0.75,
+      "type": "hallmark_to_disease",
+      "color": "#86BC33",
+      "width": 4.0
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_cystic_fibrosis",
+      "confidence": 0.61,
+      "type": "hallmark_to_disease",
+      "color": "#BEB61A",
+      "width": 3.44
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_cystic_fibrosis",
+      "confidence": 0.61,
+      "type": "hallmark_to_disease",
+      "color": "#BEB61A",
+      "width": 3.44
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_cystic_fibrosis",
+      "confidence": 0.61,
+      "type": "hallmark_to_disease",
+      "color": "#BEB61A",
+      "width": 3.44
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_cystic_fibrosis",
+      "confidence": 0.17,
+      "type": "hallmark_to_disease",
+      "color": "#ED692F",
+      "width": 1.68
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_cystic_fibrosis",
+      "confidence": 0.17,
+      "type": "hallmark_to_disease",
+      "color": "#ED692F",
+      "width": 1.68
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_brain_injuries_traumatic",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_brain_injuries_traumatic",
+      "confidence": 0.89,
+      "type": "hallmark_to_disease",
+      "color": "#4EC14B",
+      "width": 4.56
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_brain_injuries_traumatic",
+      "confidence": 0.83,
+      "type": "hallmark_to_disease",
+      "color": "#66BE40",
+      "width": 4.32
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_brain_injuries_traumatic",
+      "confidence": 0.36,
+      "type": "hallmark_to_disease",
+      "color": "#EB9318",
+      "width": 2.44
+    },
+    {
+      "source": "hallmark_loss_of_proteostasis",
+      "target": "disease_brain_injuries_traumatic",
+      "confidence": 0.23,
+      "type": "hallmark_to_disease",
+      "color": "#EC7728",
+      "width": 1.92
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_brain_injuries_traumatic",
+      "confidence": 0.17,
+      "type": "hallmark_to_disease",
+      "color": "#ED692F",
+      "width": 1.68
+    },
+    {
+      "source": "hallmark_dysbiosis",
+      "target": "disease_brain_injuries_traumatic",
+      "confidence": 0.17,
+      "type": "hallmark_to_disease",
+      "color": "#ED692F",
+      "width": 1.68
+    },
+    {
+      "source": "hallmark_loss_of_proteostasis",
+      "target": "disease_muscular_atrophy",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_muscular_atrophy",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_mitochondrial_dysfunction",
+      "target": "disease_muscular_atrophy",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_muscular_atrophy",
+      "confidence": 0.52,
+      "type": "hallmark_to_disease",
+      "color": "#E2B30B",
+      "width": 3.08
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_muscular_atrophy",
+      "confidence": 0.31,
+      "type": "hallmark_to_disease",
+      "color": "#EB881E",
+      "width": 2.24
+    },
+    {
+      "source": "hallmark_dysbiosis",
+      "target": "disease_muscular_atrophy",
+      "confidence": 0.31,
+      "type": "hallmark_to_disease",
+      "color": "#EB881E",
+      "width": 2.24
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_muscular_atrophy",
+      "confidence": 0.21,
+      "type": "hallmark_to_disease",
+      "color": "#EC722A",
+      "width": 1.84
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_muscular_atrophy",
+      "confidence": 0.21,
+      "type": "hallmark_to_disease",
+      "color": "#EC722A",
+      "width": 1.84
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_muscular_atrophy",
+      "confidence": 0.21,
+      "type": "hallmark_to_disease",
+      "color": "#EC722A",
+      "width": 1.84
+    },
+    {
+      "source": "hallmark_stem_cell_exhaustion",
+      "target": "disease_muscular_atrophy",
+      "confidence": 0.21,
+      "type": "hallmark_to_disease",
+      "color": "#EC722A",
+      "width": 1.84
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_muscular_atrophy",
+      "confidence": 0.21,
+      "type": "hallmark_to_disease",
+      "color": "#EC722A",
+      "width": 1.84
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_aneuploidy",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_aneuploidy",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_aneuploidy",
+      "confidence": 0.41,
+      "type": "hallmark_to_disease",
+      "color": "#EA9F12",
+      "width": 2.64
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_aneuploidy",
+      "confidence": 0.41,
+      "type": "hallmark_to_disease",
+      "color": "#EA9F12",
+      "width": 2.64
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_aneuploidy",
+      "confidence": 0.41,
+      "type": "hallmark_to_disease",
+      "color": "#EA9F12",
+      "width": 2.64
+    },
+    {
+      "source": "hallmark_stem_cell_exhaustion",
+      "target": "disease_aneuploidy",
+      "confidence": 0.34,
+      "type": "hallmark_to_disease",
+      "color": "#EB8F1B",
+      "width": 2.36
+    },
+    {
+      "source": "hallmark_loss_of_proteostasis",
+      "target": "disease_aneuploidy",
+      "confidence": 0.18,
+      "type": "hallmark_to_disease",
+      "color": "#ED6B2E",
+      "width": 1.72
+    },
+    {
+      "source": "hallmark_mitochondrial_dysfunction",
+      "target": "disease_aneuploidy",
+      "confidence": 0.18,
+      "type": "hallmark_to_disease",
+      "color": "#ED6B2E",
+      "width": 1.72
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_infertility",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_mitochondrial_dysfunction",
+      "target": "disease_infertility",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_infertility",
+      "confidence": 0.76,
+      "type": "hallmark_to_disease",
+      "color": "#82BC34",
+      "width": 4.04
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_infertility",
+      "confidence": 0.47,
+      "type": "hallmark_to_disease",
+      "color": "#EAAC0B",
+      "width": 2.88
+    },
+    {
+      "source": "hallmark_stem_cell_exhaustion",
+      "target": "disease_infertility",
+      "confidence": 0.47,
+      "type": "hallmark_to_disease",
+      "color": "#EAAC0B",
+      "width": 2.88
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_infertility",
+      "confidence": 0.38,
+      "type": "hallmark_to_disease",
+      "color": "#EB9816",
+      "width": 2.52
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_infertility",
+      "confidence": 0.29,
+      "type": "hallmark_to_disease",
+      "color": "#EC8421",
+      "width": 2.16
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_infertility",
+      "confidence": 0.29,
+      "type": "hallmark_to_disease",
+      "color": "#EC8421",
+      "width": 2.16
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_infertility",
+      "confidence": 0.19,
+      "type": "hallmark_to_disease",
+      "color": "#ED6E2D",
+      "width": 1.76
+    },
+    {
+      "source": "hallmark_dysbiosis",
+      "target": "disease_liver_failure",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_liver_failure",
+      "confidence": 0.77,
+      "type": "hallmark_to_disease",
+      "color": "#7EBC36",
+      "width": 4.08
+    },
+    {
+      "source": "hallmark_mitochondrial_dysfunction",
+      "target": "disease_liver_failure",
+      "confidence": 0.77,
+      "type": "hallmark_to_disease",
+      "color": "#7EBC36",
+      "width": 4.08
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_liver_failure",
+      "confidence": 0.4,
+      "type": "hallmark_to_disease",
+      "color": "#EB9C14",
+      "width": 2.6
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_liver_failure",
+      "confidence": 0.32,
+      "type": "hallmark_to_disease",
+      "color": "#EB8B1D",
+      "width": 2.28
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_liver_failure",
+      "confidence": 0.17,
+      "type": "hallmark_to_disease",
+      "color": "#ED692F",
+      "width": 1.68
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_liver_failure",
+      "confidence": 0.17,
+      "type": "hallmark_to_disease",
+      "color": "#ED692F",
+      "width": 1.68
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_arthritis_rheumatoid",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_arthritis_rheumatoid",
+      "confidence": 0.88,
+      "type": "hallmark_to_disease",
+      "color": "#52C049",
+      "width": 4.52
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_arthritis_rheumatoid",
+      "confidence": 0.88,
+      "type": "hallmark_to_disease",
+      "color": "#52C049",
+      "width": 4.52
+    },
+    {
+      "source": "hallmark_stem_cell_exhaustion",
+      "target": "disease_arthritis_rheumatoid",
+      "confidence": 0.56,
+      "type": "hallmark_to_disease",
+      "color": "#D1B512",
+      "width": 3.24
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_arthritis_rheumatoid",
+      "confidence": 0.17,
+      "type": "hallmark_to_disease",
+      "color": "#ED692F",
+      "width": 1.68
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_arthritis_rheumatoid",
+      "confidence": 0.17,
+      "type": "hallmark_to_disease",
+      "color": "#ED692F",
+      "width": 1.68
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_genetic_diseases_inborn",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_mitochondrial_dysfunction",
+      "target": "disease_genetic_diseases_inborn",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_genetic_diseases_inborn",
+      "confidence": 0.88,
+      "type": "hallmark_to_disease",
+      "color": "#52C049",
+      "width": 4.52
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_genetic_diseases_inborn",
+      "confidence": 0.66,
+      "type": "hallmark_to_disease",
+      "color": "#AAB823",
+      "width": 3.64
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_genetic_diseases_inborn",
+      "confidence": 0.43,
+      "type": "hallmark_to_disease",
+      "color": "#EAA310",
+      "width": 2.72
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_genetic_diseases_inborn",
+      "confidence": 0.43,
+      "type": "hallmark_to_disease",
+      "color": "#EAA310",
+      "width": 2.72
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_genetic_diseases_inborn",
+      "confidence": 0.43,
+      "type": "hallmark_to_disease",
+      "color": "#EAA310",
+      "width": 2.72
+    },
+    {
+      "source": "hallmark_loss_of_proteostasis",
+      "target": "disease_genetic_diseases_inborn",
+      "confidence": 0.32,
+      "type": "hallmark_to_disease",
+      "color": "#EB8B1D",
+      "width": 2.28
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_genetic_diseases_inborn",
+      "confidence": 0.32,
+      "type": "hallmark_to_disease",
+      "color": "#EB8B1D",
+      "width": 2.28
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_genetic_diseases_inborn",
+      "confidence": 0.21,
+      "type": "hallmark_to_disease",
+      "color": "#EC722A",
+      "width": 1.84
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_periodontitis",
+      "confidence": 0.88,
+      "type": "hallmark_to_disease",
+      "color": "#52C049",
+      "width": 4.52
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_periodontitis",
+      "confidence": 0.88,
+      "type": "hallmark_to_disease",
+      "color": "#52C049",
+      "width": 4.52
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_periodontitis",
+      "confidence": 0.66,
+      "type": "hallmark_to_disease",
+      "color": "#AAB823",
+      "width": 3.64
+    },
+    {
+      "source": "hallmark_dysbiosis",
+      "target": "disease_periodontitis",
+      "confidence": 0.38,
+      "type": "hallmark_to_disease",
+      "color": "#EB9816",
+      "width": 2.52
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_periodontitis",
+      "confidence": 0.21,
+      "type": "hallmark_to_disease",
+      "color": "#EC722A",
+      "width": 1.84
+    },
+    {
+      "source": "hallmark_loss_of_proteostasis",
+      "target": "disease_proteostasis_deficiencies",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_proteostasis_deficiencies",
+      "confidence": 0.27,
+      "type": "hallmark_to_disease",
+      "color": "#EC7F23",
+      "width": 2.08
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_proteostasis_deficiencies",
+      "confidence": 0.21,
+      "type": "hallmark_to_disease",
+      "color": "#EC722A",
+      "width": 1.84
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_proteostasis_deficiencies",
+      "confidence": 0.16,
+      "type": "hallmark_to_disease",
+      "color": "#ED6730",
+      "width": 1.64
+    },
+    {
+      "source": "hallmark_stem_cell_exhaustion",
+      "target": "disease_proteostasis_deficiencies",
+      "confidence": 0.16,
+      "type": "hallmark_to_disease",
+      "color": "#ED6730",
+      "width": 1.64
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_progeria",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_progeria",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_progeria",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_progeria",
+      "confidence": 0.37,
+      "type": "hallmark_to_disease",
+      "color": "#EB9617",
+      "width": 2.48
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_progeria",
+      "confidence": 0.28,
+      "type": "hallmark_to_disease",
+      "color": "#EC8222",
+      "width": 2.12
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_progeria",
+      "confidence": 0.28,
+      "type": "hallmark_to_disease",
+      "color": "#EC8222",
+      "width": 2.12
+    },
+    {
+      "source": "hallmark_loss_of_proteostasis",
+      "target": "disease_progeria",
+      "confidence": 0.19,
+      "type": "hallmark_to_disease",
+      "color": "#ED6E2D",
+      "width": 1.76
+    },
+    {
+      "source": "hallmark_stem_cell_exhaustion",
+      "target": "disease_progeria",
+      "confidence": 0.19,
+      "type": "hallmark_to_disease",
+      "color": "#ED6E2D",
+      "width": 1.76
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_sleep_apnea_obstructive",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_sleep_apnea_obstructive",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_sleep_apnea_obstructive",
+      "confidence": 0.58,
+      "type": "hallmark_to_disease",
+      "color": "#CAB515",
+      "width": 3.32
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_sleep_apnea_obstructive",
+      "confidence": 0.37,
+      "type": "hallmark_to_disease",
+      "color": "#EB9617",
+      "width": 2.48
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_sleep_apnea_obstructive",
+      "confidence": 0.24,
+      "type": "hallmark_to_disease",
+      "color": "#EC7927",
+      "width": 1.96
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_sleep_apnea_obstructive",
+      "confidence": 0.24,
+      "type": "hallmark_to_disease",
+      "color": "#EC7927",
+      "width": 1.96
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_cognitive_dysfunction",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_cognitive_dysfunction",
+      "confidence": 0.82,
+      "type": "hallmark_to_disease",
+      "color": "#6ABE3F",
+      "width": 4.28
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_cognitive_dysfunction",
+      "confidence": 0.71,
+      "type": "hallmark_to_disease",
+      "color": "#96BA2C",
+      "width": 3.84
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_cognitive_dysfunction",
+      "confidence": 0.71,
+      "type": "hallmark_to_disease",
+      "color": "#96BA2C",
+      "width": 3.84
+    },
+    {
+      "source": "hallmark_stem_cell_exhaustion",
+      "target": "disease_cognitive_dysfunction",
+      "confidence": 0.61,
+      "type": "hallmark_to_disease",
+      "color": "#BEB61A",
+      "width": 3.44
+    },
+    {
+      "source": "hallmark_loss_of_proteostasis",
+      "target": "disease_cognitive_dysfunction",
+      "confidence": 0.51,
+      "type": "hallmark_to_disease",
+      "color": "#E6B309",
+      "width": 3.04
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_cognitive_dysfunction",
+      "confidence": 0.51,
+      "type": "hallmark_to_disease",
+      "color": "#E6B309",
+      "width": 3.04
+    },
+    {
+      "source": "hallmark_dysbiosis",
+      "target": "disease_cognitive_dysfunction",
+      "confidence": 0.3,
+      "type": "hallmark_to_disease",
+      "color": "#EC8620",
+      "width": 2.2
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_cognitive_dysfunction",
+      "confidence": 0.2,
+      "type": "hallmark_to_disease",
+      "color": "#ED702C",
+      "width": 1.8
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_anxiety",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_dysbiosis",
+      "target": "disease_anxiety",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_anxiety",
+      "confidence": 0.41,
+      "type": "hallmark_to_disease",
+      "color": "#EA9F12",
+      "width": 2.64
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_anxiety",
+      "confidence": 0.31,
+      "type": "hallmark_to_disease",
+      "color": "#EB881E",
+      "width": 2.24
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_anxiety",
+      "confidence": 0.31,
+      "type": "hallmark_to_disease",
+      "color": "#EB881E",
+      "width": 2.24
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_anxiety",
+      "confidence": 0.31,
+      "type": "hallmark_to_disease",
+      "color": "#EB881E",
+      "width": 2.24
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_anxiety",
+      "confidence": 0.2,
+      "type": "hallmark_to_disease",
+      "color": "#ED702C",
+      "width": 1.8
+    },
+    {
+      "source": "hallmark_loss_of_proteostasis",
+      "target": "disease_anxiety",
+      "confidence": 0.2,
+      "type": "hallmark_to_disease",
+      "color": "#ED702C",
+      "width": 1.8
+    },
+    {
+      "source": "hallmark_mitochondrial_dysfunction",
+      "target": "disease_anxiety",
+      "confidence": 0.2,
+      "type": "hallmark_to_disease",
+      "color": "#ED702C",
+      "width": 1.8
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_heredodegenerative_disorders_nervous_system",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_dysbiosis",
+      "target": "disease_heredodegenerative_disorders_nervous_system",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_heredodegenerative_disorders_nervous_system",
+      "confidence": 0.75,
+      "type": "hallmark_to_disease",
+      "color": "#86BC33",
+      "width": 4.0
+    },
+    {
+      "source": "hallmark_loss_of_proteostasis",
+      "target": "disease_heredodegenerative_disorders_nervous_system",
+      "confidence": 0.49,
+      "type": "hallmark_to_disease",
+      "color": "#EAB009",
+      "width": 2.96
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_heredodegenerative_disorders_nervous_system",
+      "confidence": 0.49,
+      "type": "hallmark_to_disease",
+      "color": "#EAB009",
+      "width": 2.96
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_heredodegenerative_disorders_nervous_system",
+      "confidence": 0.49,
+      "type": "hallmark_to_disease",
+      "color": "#EAB009",
+      "width": 2.96
+    },
+    {
+      "source": "hallmark_stem_cell_exhaustion",
+      "target": "disease_heredodegenerative_disorders_nervous_system",
+      "confidence": 0.36,
+      "type": "hallmark_to_disease",
+      "color": "#EB9318",
+      "width": 2.44
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_heredodegenerative_disorders_nervous_system",
+      "confidence": 0.23,
+      "type": "hallmark_to_disease",
+      "color": "#EC7728",
+      "width": 1.92
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_heredodegenerative_disorders_nervous_system",
+      "confidence": 0.23,
+      "type": "hallmark_to_disease",
+      "color": "#EC7728",
+      "width": 1.92
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_heredodegenerative_disorders_nervous_system",
+      "confidence": 0.23,
+      "type": "hallmark_to_disease",
+      "color": "#EC7728",
+      "width": 1.92
+    },
+    {
+      "source": "hallmark_mitochondrial_dysfunction",
+      "target": "disease_heredodegenerative_disorders_nervous_system",
+      "confidence": 0.23,
+      "type": "hallmark_to_disease",
+      "color": "#EC7728",
+      "width": 1.92
+    },
+    {
+      "source": "hallmark_loss_of_proteostasis",
+      "target": "disease_tauopathies",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_tauopathies",
+      "confidence": 0.81,
+      "type": "hallmark_to_disease",
+      "color": "#6DBE3D",
+      "width": 4.24
+    },
+    {
+      "source": "hallmark_stem_cell_exhaustion",
+      "target": "disease_tauopathies",
+      "confidence": 0.22,
+      "type": "hallmark_to_disease",
+      "color": "#EC7429",
+      "width": 1.88
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_tauopathies",
+      "confidence": 0.22,
+      "type": "hallmark_to_disease",
+      "color": "#EC7429",
+      "width": 1.88
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_tauopathies",
+      "confidence": 0.16,
+      "type": "hallmark_to_disease",
+      "color": "#ED6730",
+      "width": 1.64
+    },
+    {
+      "source": "hallmark_stem_cell_exhaustion",
+      "target": "disease_leukemia_myeloid_acute",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_leukemia_myeloid_acute",
+      "confidence": 0.45,
+      "type": "hallmark_to_disease",
+      "color": "#EAA70E",
+      "width": 2.8
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_leukemia_myeloid_acute",
+      "confidence": 0.25,
+      "type": "hallmark_to_disease",
+      "color": "#EC7B26",
+      "width": 2.0
+    },
+    {
+      "source": "hallmark_loss_of_proteostasis",
+      "target": "disease_leukemia_myeloid_acute",
+      "confidence": 0.2,
+      "type": "hallmark_to_disease",
+      "color": "#ED702C",
+      "width": 1.8
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_cardiomyopathies",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_cardiomyopathies",
+      "confidence": 0.87,
+      "type": "hallmark_to_disease",
+      "color": "#56C047",
+      "width": 4.48
+    },
+    {
+      "source": "hallmark_mitochondrial_dysfunction",
+      "target": "disease_cardiomyopathies",
+      "confidence": 0.87,
+      "type": "hallmark_to_disease",
+      "color": "#56C047",
+      "width": 4.48
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_cardiomyopathies",
+      "confidence": 0.74,
+      "type": "hallmark_to_disease",
+      "color": "#8ABB31",
+      "width": 3.96
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_cardiomyopathies",
+      "confidence": 0.61,
+      "type": "hallmark_to_disease",
+      "color": "#BEB61A",
+      "width": 3.44
+    },
+    {
+      "source": "hallmark_loss_of_proteostasis",
+      "target": "disease_cardiomyopathies",
+      "confidence": 0.48,
+      "type": "hallmark_to_disease",
+      "color": "#EAAE0A",
+      "width": 2.92
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_cardiomyopathies",
+      "confidence": 0.36,
+      "type": "hallmark_to_disease",
+      "color": "#EB9318",
+      "width": 2.44
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_cardiomyopathies",
+      "confidence": 0.36,
+      "type": "hallmark_to_disease",
+      "color": "#EB9318",
+      "width": 2.44
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_cardiomyopathies",
+      "confidence": 0.36,
+      "type": "hallmark_to_disease",
+      "color": "#EB9318",
+      "width": 2.44
+    },
+    {
+      "source": "hallmark_stem_cell_exhaustion",
+      "target": "disease_cardiomyopathies",
+      "confidence": 0.23,
+      "type": "hallmark_to_disease",
+      "color": "#EC7728",
+      "width": 1.92
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_614878",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_dysbiosis",
+      "target": "disease_614878",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_614878",
+      "confidence": 0.85,
+      "type": "hallmark_to_disease",
+      "color": "#5EBF44",
+      "width": 4.4
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_614878",
+      "confidence": 0.85,
+      "type": "hallmark_to_disease",
+      "color": "#5EBF44",
+      "width": 4.4
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_614878",
+      "confidence": 0.35,
+      "type": "hallmark_to_disease",
+      "color": "#EB911A",
+      "width": 2.4
+    },
+    {
+      "source": "hallmark_loss_of_proteostasis",
+      "target": "disease_614878",
+      "confidence": 0.35,
+      "type": "hallmark_to_disease",
+      "color": "#EB911A",
+      "width": 2.4
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_614878",
+      "confidence": 0.35,
+      "type": "hallmark_to_disease",
+      "color": "#EB911A",
+      "width": 2.4
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_614878",
+      "confidence": 0.23,
+      "type": "hallmark_to_disease",
+      "color": "#EC7728",
+      "width": 1.92
+    },
+    {
+      "source": "hallmark_mitochondrial_dysfunction",
+      "target": "disease_614878",
+      "confidence": 0.23,
+      "type": "hallmark_to_disease",
+      "color": "#EC7728",
+      "width": 1.92
+    },
+    {
+      "source": "hallmark_loss_of_proteostasis",
+      "target": "disease_myopathies_structural_congenital",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_myopathies_structural_congenital",
+      "confidence": 0.23,
+      "type": "hallmark_to_disease",
+      "color": "#EC7728",
+      "width": 1.92
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_myopathies_structural_congenital",
+      "confidence": 0.14,
+      "type": "hallmark_to_disease",
+      "color": "#ED6333",
+      "width": 1.56
+    },
+    {
+      "source": "hallmark_mitochondrial_dysfunction",
+      "target": "disease_glioblastoma",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_glioblastoma",
+      "confidence": 0.79,
+      "type": "hallmark_to_disease",
+      "color": "#75BD39",
+      "width": 4.16
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_glioblastoma",
+      "confidence": 0.79,
+      "type": "hallmark_to_disease",
+      "color": "#75BD39",
+      "width": 4.16
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_glioblastoma",
+      "confidence": 0.36,
+      "type": "hallmark_to_disease",
+      "color": "#EB9318",
+      "width": 2.44
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_glioblastoma",
+      "confidence": 0.36,
+      "type": "hallmark_to_disease",
+      "color": "#EB9318",
+      "width": 2.44
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_glioblastoma",
+      "confidence": 0.19,
+      "type": "hallmark_to_disease",
+      "color": "#ED6E2D",
+      "width": 1.76
+    },
+    {
+      "source": "hallmark_mitochondrial_dysfunction",
+      "target": "disease_acute_kidney_injury",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_acute_kidney_injury",
+      "confidence": 0.84,
+      "type": "hallmark_to_disease",
+      "color": "#62BF42",
+      "width": 4.36
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_acute_kidney_injury",
+      "confidence": 0.63,
+      "type": "hallmark_to_disease",
+      "color": "#B6B71E",
+      "width": 3.52
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_acute_kidney_injury",
+      "confidence": 0.42,
+      "type": "hallmark_to_disease",
+      "color": "#EAA111",
+      "width": 2.68
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_acute_kidney_injury",
+      "confidence": 0.42,
+      "type": "hallmark_to_disease",
+      "color": "#EAA111",
+      "width": 2.68
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_acute_kidney_injury",
+      "confidence": 0.31,
+      "type": "hallmark_to_disease",
+      "color": "#EB881E",
+      "width": 2.24
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_acute_kidney_injury",
+      "confidence": 0.21,
+      "type": "hallmark_to_disease",
+      "color": "#EC722A",
+      "width": 1.84
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_schizophrenia",
+      "confidence": 0.84,
+      "type": "hallmark_to_disease",
+      "color": "#62BF42",
+      "width": 4.36
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_schizophrenia",
+      "confidence": 0.84,
+      "type": "hallmark_to_disease",
+      "color": "#62BF42",
+      "width": 4.36
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_schizophrenia",
+      "confidence": 0.84,
+      "type": "hallmark_to_disease",
+      "color": "#62BF42",
+      "width": 4.36
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_schizophrenia",
+      "confidence": 0.84,
+      "type": "hallmark_to_disease",
+      "color": "#62BF42",
+      "width": 4.36
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_schizophrenia",
+      "confidence": 0.42,
+      "type": "hallmark_to_disease",
+      "color": "#EAA111",
+      "width": 2.68
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_schizophrenia",
+      "confidence": 0.21,
+      "type": "hallmark_to_disease",
+      "color": "#EC722A",
+      "width": 1.84
+    },
+    {
+      "source": "hallmark_dysbiosis",
+      "target": "disease_schizophrenia",
+      "confidence": 0.21,
+      "type": "hallmark_to_disease",
+      "color": "#EC722A",
+      "width": 1.84
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_anemia",
+      "confidence": 0.72,
+      "type": "hallmark_to_disease",
+      "color": "#92BA2D",
+      "width": 3.88
+    },
+    {
+      "source": "hallmark_stem_cell_exhaustion",
+      "target": "disease_anemia",
+      "confidence": 0.65,
+      "type": "hallmark_to_disease",
+      "color": "#AEB821",
+      "width": 3.6
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_anemia",
+      "confidence": 0.65,
+      "type": "hallmark_to_disease",
+      "color": "#AEB821",
+      "width": 3.6
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_anemia",
+      "confidence": 0.65,
+      "type": "hallmark_to_disease",
+      "color": "#AEB821",
+      "width": 3.6
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_anemia",
+      "confidence": 0.33,
+      "type": "hallmark_to_disease",
+      "color": "#EB8D1C",
+      "width": 2.32
+    },
+    {
+      "source": "hallmark_mitochondrial_dysfunction",
+      "target": "disease_optic_atrophy_hereditary_leber",
+      "confidence": 0.6,
+      "type": "hallmark_to_disease",
+      "color": "#C2B619",
+      "width": 3.4
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_fanconi_anemia",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_fanconi_anemia",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_fanconi_anemia",
+      "confidence": 0.34,
+      "type": "hallmark_to_disease",
+      "color": "#EB8F1B",
+      "width": 2.36
+    },
+    {
+      "source": "hallmark_stem_cell_exhaustion",
+      "target": "disease_fanconi_anemia",
+      "confidence": 0.26,
+      "type": "hallmark_to_disease",
+      "color": "#EC7D24",
+      "width": 2.04
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_fanconi_anemia",
+      "confidence": 0.18,
+      "type": "hallmark_to_disease",
+      "color": "#ED6B2E",
+      "width": 1.72
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_overweight",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_overweight",
+      "confidence": 0.78,
+      "type": "hallmark_to_disease",
+      "color": "#79BD38",
+      "width": 4.12
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_overweight",
+      "confidence": 0.78,
+      "type": "hallmark_to_disease",
+      "color": "#79BD38",
+      "width": 4.12
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_overweight",
+      "confidence": 0.66,
+      "type": "hallmark_to_disease",
+      "color": "#AAB823",
+      "width": 3.64
+    },
+    {
+      "source": "hallmark_dysbiosis",
+      "target": "disease_overweight",
+      "confidence": 0.55,
+      "type": "hallmark_to_disease",
+      "color": "#D5B410",
+      "width": 3.2
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_overweight",
+      "confidence": 0.21,
+      "type": "hallmark_to_disease",
+      "color": "#EC722A",
+      "width": 1.84
+    },
+    {
+      "source": "hallmark_loss_of_proteostasis",
+      "target": "disease_overweight",
+      "confidence": 0.21,
+      "type": "hallmark_to_disease",
+      "color": "#EC722A",
+      "width": 1.84
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_lead_poisoning_nervous_system",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_lead_poisoning_nervous_system",
+      "confidence": 0.68,
+      "type": "hallmark_to_disease",
+      "color": "#A2B926",
+      "width": 3.72
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_lead_poisoning_nervous_system",
+      "confidence": 0.57,
+      "type": "hallmark_to_disease",
+      "color": "#CEB514",
+      "width": 3.28
+    },
+    {
+      "source": "hallmark_stem_cell_exhaustion",
+      "target": "disease_lead_poisoning_nervous_system",
+      "confidence": 0.57,
+      "type": "hallmark_to_disease",
+      "color": "#CEB514",
+      "width": 3.28
+    },
+    {
+      "source": "hallmark_mitochondrial_dysfunction",
+      "target": "disease_lead_poisoning_nervous_system",
+      "confidence": 0.22,
+      "type": "hallmark_to_disease",
+      "color": "#EC7429",
+      "width": 1.88
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_lead_poisoning_nervous_system",
+      "confidence": 0.22,
+      "type": "hallmark_to_disease",
+      "color": "#EC7429",
+      "width": 1.88
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_lead_poisoning_nervous_system",
+      "confidence": 0.22,
+      "type": "hallmark_to_disease",
+      "color": "#EC7429",
+      "width": 1.88
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_malnutrition",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_malnutrition",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_malnutrition",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_dysbiosis",
+      "target": "disease_malnutrition",
+      "confidence": 0.77,
+      "type": "hallmark_to_disease",
+      "color": "#7EBC36",
+      "width": 4.08
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_malnutrition",
+      "confidence": 0.23,
+      "type": "hallmark_to_disease",
+      "color": "#EC7728",
+      "width": 1.92
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_malnutrition",
+      "confidence": 0.23,
+      "type": "hallmark_to_disease",
+      "color": "#EC7728",
+      "width": 1.92
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_malnutrition",
+      "confidence": 0.23,
+      "type": "hallmark_to_disease",
+      "color": "#EC7728",
+      "width": 1.92
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_malnutrition",
+      "confidence": 0.23,
+      "type": "hallmark_to_disease",
+      "color": "#EC7728",
+      "width": 1.92
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_cyclic_neutropenia",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_stem_cell_exhaustion",
+      "target": "disease_cyclic_neutropenia",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_mitochondrial_dysfunction",
+      "target": "disease_cyclic_neutropenia",
+      "confidence": 0.62,
+      "type": "hallmark_to_disease",
+      "color": "#BAB71C",
+      "width": 3.48
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_cyclic_neutropenia",
+      "confidence": 0.41,
+      "type": "hallmark_to_disease",
+      "color": "#EA9F12",
+      "width": 2.64
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_cyclic_neutropenia",
+      "confidence": 0.31,
+      "type": "hallmark_to_disease",
+      "color": "#EB881E",
+      "width": 2.24
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_cyclic_neutropenia",
+      "confidence": 0.2,
+      "type": "hallmark_to_disease",
+      "color": "#ED702C",
+      "width": 1.8
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_ependymoma",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_loss_of_proteostasis",
+      "target": "disease_ependymoma",
+      "confidence": 0.7,
+      "type": "hallmark_to_disease",
+      "color": "#9ABA2A",
+      "width": 3.8
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_ependymoma",
+      "confidence": 0.7,
+      "type": "hallmark_to_disease",
+      "color": "#9ABA2A",
+      "width": 3.8
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_ependymoma",
+      "confidence": 0.46,
+      "type": "hallmark_to_disease",
+      "color": "#EAAA0C",
+      "width": 2.84
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_ependymoma",
+      "confidence": 0.34,
+      "type": "hallmark_to_disease",
+      "color": "#EB8F1B",
+      "width": 2.36
+    },
+    {
+      "source": "hallmark_mitochondrial_dysfunction",
+      "target": "disease_ependymoma",
+      "confidence": 0.34,
+      "type": "hallmark_to_disease",
+      "color": "#EB8F1B",
+      "width": 2.36
+    },
+    {
+      "source": "hallmark_stem_cell_exhaustion",
+      "target": "disease_ependymoma",
+      "confidence": 0.22,
+      "type": "hallmark_to_disease",
+      "color": "#EC7429",
+      "width": 1.88
+    },
+    {
+      "source": "hallmark_stem_cell_exhaustion",
+      "target": "disease_liver_cirrhosis",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_dysbiosis",
+      "target": "disease_liver_cirrhosis",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_liver_cirrhosis",
+      "confidence": 0.79,
+      "type": "hallmark_to_disease",
+      "color": "#75BD39",
+      "width": 4.16
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_liver_cirrhosis",
+      "confidence": 0.62,
+      "type": "hallmark_to_disease",
+      "color": "#BAB71C",
+      "width": 3.48
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_liver_cirrhosis",
+      "confidence": 0.44,
+      "type": "hallmark_to_disease",
+      "color": "#EAA50F",
+      "width": 2.76
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_liver_cirrhosis",
+      "confidence": 0.44,
+      "type": "hallmark_to_disease",
+      "color": "#EAA50F",
+      "width": 2.76
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_liver_cirrhosis",
+      "confidence": 0.44,
+      "type": "hallmark_to_disease",
+      "color": "#EAA50F",
+      "width": 2.76
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_liver_cirrhosis",
+      "confidence": 0.27,
+      "type": "hallmark_to_disease",
+      "color": "#EC7F23",
+      "width": 2.08
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_liver_cirrhosis",
+      "confidence": 0.27,
+      "type": "hallmark_to_disease",
+      "color": "#EC7F23",
+      "width": 2.08
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_liver_cirrhosis",
+      "confidence": 0.27,
+      "type": "hallmark_to_disease",
+      "color": "#EC7F23",
+      "width": 2.08
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_fatty_liver",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_fatty_liver",
+      "confidence": 0.72,
+      "type": "hallmark_to_disease",
+      "color": "#92BA2D",
+      "width": 3.88
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_fatty_liver",
+      "confidence": 0.72,
+      "type": "hallmark_to_disease",
+      "color": "#92BA2D",
+      "width": 3.88
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_fatty_liver",
+      "confidence": 0.57,
+      "type": "hallmark_to_disease",
+      "color": "#CEB514",
+      "width": 3.28
+    },
+    {
+      "source": "hallmark_mitochondrial_dysfunction",
+      "target": "disease_fatty_liver",
+      "confidence": 0.57,
+      "type": "hallmark_to_disease",
+      "color": "#CEB514",
+      "width": 3.28
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_fatty_liver",
+      "confidence": 0.57,
+      "type": "hallmark_to_disease",
+      "color": "#CEB514",
+      "width": 3.28
+    },
+    {
+      "source": "hallmark_loss_of_proteostasis",
+      "target": "disease_fatty_liver",
+      "confidence": 0.41,
+      "type": "hallmark_to_disease",
+      "color": "#EA9F12",
+      "width": 2.64
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_fatty_liver",
+      "confidence": 0.41,
+      "type": "hallmark_to_disease",
+      "color": "#EA9F12",
+      "width": 2.64
+    },
+    {
+      "source": "hallmark_dysbiosis",
+      "target": "disease_fatty_liver",
+      "confidence": 0.26,
+      "type": "hallmark_to_disease",
+      "color": "#EC7D24",
+      "width": 2.04
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_pulmonary_fibrosis",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_pulmonary_fibrosis",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_pulmonary_fibrosis",
+      "confidence": 0.37,
+      "type": "hallmark_to_disease",
+      "color": "#EB9617",
+      "width": 2.48
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_pulmonary_fibrosis",
+      "confidence": 0.19,
+      "type": "hallmark_to_disease",
+      "color": "#ED6E2D",
+      "width": 1.76
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_pulmonary_fibrosis",
+      "confidence": 0.19,
+      "type": "hallmark_to_disease",
+      "color": "#ED6E2D",
+      "width": 1.76
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_acute_lung_injury",
+      "confidence": 0.8,
+      "type": "hallmark_to_disease",
+      "color": "#71BD3B",
+      "width": 4.2
+    },
+    {
+      "source": "hallmark_mitochondrial_dysfunction",
+      "target": "disease_acute_lung_injury",
+      "confidence": 0.8,
+      "type": "hallmark_to_disease",
+      "color": "#71BD3B",
+      "width": 4.2
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_acute_lung_injury",
+      "confidence": 0.21,
+      "type": "hallmark_to_disease",
+      "color": "#EC722A",
+      "width": 1.84
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_paraparesis_tropical_spastic",
+      "confidence": 0.6,
+      "type": "hallmark_to_disease",
+      "color": "#C2B619",
+      "width": 3.4
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_paraparesis_tropical_spastic",
+      "confidence": 0.6,
+      "type": "hallmark_to_disease",
+      "color": "#C2B619",
+      "width": 3.4
+    },
+    {
+      "source": "hallmark_dysbiosis",
+      "target": "disease_diabetes_mellitus_type_1",
+      "confidence": 0.6,
+      "type": "hallmark_to_disease",
+      "color": "#C2B619",
+      "width": 3.4
+    },
+    {
+      "source": "hallmark_stem_cell_exhaustion",
+      "target": "disease_multiple_organ_failure",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_multiple_organ_failure",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_multiple_organ_failure",
+      "confidence": 0.71,
+      "type": "hallmark_to_disease",
+      "color": "#96BA2C",
+      "width": 3.84
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_multiple_organ_failure",
+      "confidence": 0.71,
+      "type": "hallmark_to_disease",
+      "color": "#96BA2C",
+      "width": 3.84
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_multiple_organ_failure",
+      "confidence": 0.51,
+      "type": "hallmark_to_disease",
+      "color": "#E6B309",
+      "width": 3.04
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_multiple_organ_failure",
+      "confidence": 0.51,
+      "type": "hallmark_to_disease",
+      "color": "#E6B309",
+      "width": 3.04
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_multiple_organ_failure",
+      "confidence": 0.51,
+      "type": "hallmark_to_disease",
+      "color": "#E6B309",
+      "width": 3.04
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_multiple_organ_failure",
+      "confidence": 0.3,
+      "type": "hallmark_to_disease",
+      "color": "#EC8620",
+      "width": 2.2
+    },
+    {
+      "source": "hallmark_loss_of_proteostasis",
+      "target": "disease_multiple_organ_failure",
+      "confidence": 0.3,
+      "type": "hallmark_to_disease",
+      "color": "#EC8620",
+      "width": 2.2
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_multiple_organ_failure",
+      "confidence": 0.3,
+      "type": "hallmark_to_disease",
+      "color": "#EC8620",
+      "width": 2.2
+    },
+    {
+      "source": "hallmark_dysbiosis",
+      "target": "disease_multiple_organ_failure",
+      "confidence": 0.3,
+      "type": "hallmark_to_disease",
+      "color": "#EC8620",
+      "width": 2.2
+    },
+    {
+      "source": "hallmark_mitochondrial_dysfunction",
+      "target": "disease_retinal_degeneration",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_retinal_degeneration",
+      "confidence": 0.88,
+      "type": "hallmark_to_disease",
+      "color": "#52C049",
+      "width": 4.52
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_retinal_degeneration",
+      "confidence": 0.49,
+      "type": "hallmark_to_disease",
+      "color": "#EAB009",
+      "width": 2.96
+    },
+    {
+      "source": "hallmark_loss_of_proteostasis",
+      "target": "disease_retinal_degeneration",
+      "confidence": 0.49,
+      "type": "hallmark_to_disease",
+      "color": "#EAB009",
+      "width": 2.96
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_retinal_degeneration",
+      "confidence": 0.49,
+      "type": "hallmark_to_disease",
+      "color": "#EAB009",
+      "width": 2.96
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_retinal_degeneration",
+      "confidence": 0.49,
+      "type": "hallmark_to_disease",
+      "color": "#EAB009",
+      "width": 2.96
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_retinal_degeneration",
+      "confidence": 0.36,
+      "type": "hallmark_to_disease",
+      "color": "#EB9318",
+      "width": 2.44
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_dyskeratosis_congenita",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_stem_cell_exhaustion",
+      "target": "disease_dyskeratosis_congenita",
+      "confidence": 0.14,
+      "type": "hallmark_to_disease",
+      "color": "#ED6333",
+      "width": 1.56
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_lung_diseases_interstitial",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_lung_diseases_interstitial",
+      "confidence": 0.21,
+      "type": "hallmark_to_disease",
+      "color": "#EC722A",
+      "width": 1.84
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_lung_diseases_interstitial",
+      "confidence": 0.21,
+      "type": "hallmark_to_disease",
+      "color": "#EC722A",
+      "width": 1.84
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_lung_diseases_interstitial",
+      "confidence": 0.21,
+      "type": "hallmark_to_disease",
+      "color": "#EC722A",
+      "width": 1.84
+    },
+    {
+      "source": "hallmark_stem_cell_exhaustion",
+      "target": "disease_lung_diseases_interstitial",
+      "confidence": 0.21,
+      "type": "hallmark_to_disease",
+      "color": "#EC722A",
+      "width": 1.84
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_lung_diseases_interstitial",
+      "confidence": 0.21,
+      "type": "hallmark_to_disease",
+      "color": "#EC722A",
+      "width": 1.84
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_myocardial_infarction",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_myocardial_infarction",
+      "confidence": 0.79,
+      "type": "hallmark_to_disease",
+      "color": "#75BD39",
+      "width": 4.16
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_myocardial_infarction",
+      "confidence": 0.62,
+      "type": "hallmark_to_disease",
+      "color": "#BAB71C",
+      "width": 3.48
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_myocardial_infarction",
+      "confidence": 0.45,
+      "type": "hallmark_to_disease",
+      "color": "#EAA70E",
+      "width": 2.8
+    },
+    {
+      "source": "hallmark_dysbiosis",
+      "target": "disease_myocardial_infarction",
+      "confidence": 0.45,
+      "type": "hallmark_to_disease",
+      "color": "#EAA70E",
+      "width": 2.8
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_myocardial_infarction",
+      "confidence": 0.27,
+      "type": "hallmark_to_disease",
+      "color": "#EC7F23",
+      "width": 2.08
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_myocardial_infarction",
+      "confidence": 0.27,
+      "type": "hallmark_to_disease",
+      "color": "#EC7F23",
+      "width": 2.08
+    },
+    {
+      "source": "hallmark_mitochondrial_dysfunction",
+      "target": "disease_myocardial_infarction",
+      "confidence": 0.27,
+      "type": "hallmark_to_disease",
+      "color": "#EC7F23",
+      "width": 2.08
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_myocardial_infarction",
+      "confidence": 0.27,
+      "type": "hallmark_to_disease",
+      "color": "#EC7F23",
+      "width": 2.08
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_leukemia_myeloid_accelerated_phase",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_stem_cell_exhaustion",
+      "target": "disease_leukemia_myeloid_accelerated_phase",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_leukemia_myeloid_accelerated_phase",
+      "confidence": 0.29,
+      "type": "hallmark_to_disease",
+      "color": "#EC8421",
+      "width": 2.16
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_leukemia_myeloid_accelerated_phase",
+      "confidence": 0.29,
+      "type": "hallmark_to_disease",
+      "color": "#EC8421",
+      "width": 2.16
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_leukemia_myeloid_accelerated_phase",
+      "confidence": 0.2,
+      "type": "hallmark_to_disease",
+      "color": "#ED702C",
+      "width": 1.8
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_microsatellite_instability",
+      "confidence": 0.6,
+      "type": "hallmark_to_disease",
+      "color": "#C2B619",
+      "width": 3.4
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_cardiomyopathy_hypertrophic",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_cardiomyopathy_hypertrophic",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_cardiomyopathy_hypertrophic",
+      "confidence": 0.34,
+      "type": "hallmark_to_disease",
+      "color": "#EB8F1B",
+      "width": 2.36
+    },
+    {
+      "source": "hallmark_loss_of_proteostasis",
+      "target": "disease_cardiomyopathy_hypertrophic",
+      "confidence": 0.22,
+      "type": "hallmark_to_disease",
+      "color": "#EC7429",
+      "width": 1.88
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_cardiomyopathy_hypertrophic",
+      "confidence": 0.22,
+      "type": "hallmark_to_disease",
+      "color": "#EC7429",
+      "width": 1.88
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_cardiomyopathy_hypertrophic",
+      "confidence": 0.22,
+      "type": "hallmark_to_disease",
+      "color": "#EC7429",
+      "width": 1.88
+    },
+    {
+      "source": "hallmark_dysbiosis",
+      "target": "disease_drug_hypersensitivity",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_drug_hypersensitivity",
+      "confidence": 0.62,
+      "type": "hallmark_to_disease",
+      "color": "#BAB71C",
+      "width": 3.48
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_drug_hypersensitivity",
+      "confidence": 0.62,
+      "type": "hallmark_to_disease",
+      "color": "#BAB71C",
+      "width": 3.48
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_drug_hypersensitivity",
+      "confidence": 0.2,
+      "type": "hallmark_to_disease",
+      "color": "#ED702C",
+      "width": 1.8
+    },
+    {
+      "source": "hallmark_loss_of_proteostasis",
+      "target": "disease_drug_hypersensitivity",
+      "confidence": 0.2,
+      "type": "hallmark_to_disease",
+      "color": "#ED702C",
+      "width": 1.8
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_meningioma",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_meningioma",
+      "confidence": 0.62,
+      "type": "hallmark_to_disease",
+      "color": "#BAB71C",
+      "width": 3.48
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_meningioma",
+      "confidence": 0.31,
+      "type": "hallmark_to_disease",
+      "color": "#EB881E",
+      "width": 2.24
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_meningioma",
+      "confidence": 0.31,
+      "type": "hallmark_to_disease",
+      "color": "#EB881E",
+      "width": 2.24
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_meningioma",
+      "confidence": 0.31,
+      "type": "hallmark_to_disease",
+      "color": "#EB881E",
+      "width": 2.24
+    },
+    {
+      "source": "hallmark_mitochondrial_dysfunction",
+      "target": "disease_premature_birth",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_premature_birth",
+      "confidence": 0.85,
+      "type": "hallmark_to_disease",
+      "color": "#5EBF44",
+      "width": 4.4
+    },
+    {
+      "source": "hallmark_dysbiosis",
+      "target": "disease_premature_birth",
+      "confidence": 0.35,
+      "type": "hallmark_to_disease",
+      "color": "#EB911A",
+      "width": 2.4
+    },
+    {
+      "source": "hallmark_stem_cell_exhaustion",
+      "target": "disease_premature_birth",
+      "confidence": 0.27,
+      "type": "hallmark_to_disease",
+      "color": "#EC7F23",
+      "width": 2.08
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_hypertrophy",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_hypertrophy",
+      "confidence": 0.6,
+      "type": "hallmark_to_disease",
+      "color": "#C2B619",
+      "width": 3.4
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_hypertrophy",
+      "confidence": 0.47,
+      "type": "hallmark_to_disease",
+      "color": "#EAAC0B",
+      "width": 2.88
+    },
+    {
+      "source": "hallmark_mitochondrial_dysfunction",
+      "target": "disease_hypertrophy",
+      "confidence": 0.35,
+      "type": "hallmark_to_disease",
+      "color": "#EB911A",
+      "width": 2.4
+    },
+    {
+      "source": "hallmark_loss_of_proteostasis",
+      "target": "disease_hypertrophy",
+      "confidence": 0.23,
+      "type": "hallmark_to_disease",
+      "color": "#EC7728",
+      "width": 1.92
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_hypertrophy",
+      "confidence": 0.23,
+      "type": "hallmark_to_disease",
+      "color": "#EC7728",
+      "width": 1.92
+    },
+    {
+      "source": "hallmark_dysbiosis",
+      "target": "disease_constipation",
+      "confidence": 0.6,
+      "type": "hallmark_to_disease",
+      "color": "#C2B619",
+      "width": 3.4
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_lymphoma",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_lymphoma",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_lymphoma",
+      "confidence": 0.43,
+      "type": "hallmark_to_disease",
+      "color": "#EAA310",
+      "width": 2.72
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_lymphoma",
+      "confidence": 0.43,
+      "type": "hallmark_to_disease",
+      "color": "#EAA310",
+      "width": 2.72
+    },
+    {
+      "source": "hallmark_stem_cell_exhaustion",
+      "target": "disease_lymphoma",
+      "confidence": 0.21,
+      "type": "hallmark_to_disease",
+      "color": "#EC722A",
+      "width": 1.84
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_myocardial_ischemia",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_myocardial_ischemia",
+      "confidence": 0.88,
+      "type": "hallmark_to_disease",
+      "color": "#52C049",
+      "width": 4.52
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_myocardial_ischemia",
+      "confidence": 0.49,
+      "type": "hallmark_to_disease",
+      "color": "#EAB009",
+      "width": 2.96
+    },
+    {
+      "source": "hallmark_mitochondrial_dysfunction",
+      "target": "disease_myocardial_ischemia",
+      "confidence": 0.49,
+      "type": "hallmark_to_disease",
+      "color": "#EAB009",
+      "width": 2.96
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_myocardial_ischemia",
+      "confidence": 0.23,
+      "type": "hallmark_to_disease",
+      "color": "#EC7728",
+      "width": 1.92
+    },
+    {
+      "source": "hallmark_loss_of_proteostasis",
+      "target": "disease_myocardial_ischemia",
+      "confidence": 0.23,
+      "type": "hallmark_to_disease",
+      "color": "#EC7728",
+      "width": 1.92
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_overnutrition",
+      "confidence": 0.8,
+      "type": "hallmark_to_disease",
+      "color": "#71BD3B",
+      "width": 4.2
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_overnutrition",
+      "confidence": 0.8,
+      "type": "hallmark_to_disease",
+      "color": "#71BD3B",
+      "width": 4.2
+    },
+    {
+      "source": "hallmark_dysbiosis",
+      "target": "disease_overnutrition",
+      "confidence": 0.8,
+      "type": "hallmark_to_disease",
+      "color": "#71BD3B",
+      "width": 4.2
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_overnutrition",
+      "confidence": 0.62,
+      "type": "hallmark_to_disease",
+      "color": "#BAB71C",
+      "width": 3.48
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_overnutrition",
+      "confidence": 0.62,
+      "type": "hallmark_to_disease",
+      "color": "#BAB71C",
+      "width": 3.48
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_overnutrition",
+      "confidence": 0.62,
+      "type": "hallmark_to_disease",
+      "color": "#BAB71C",
+      "width": 3.48
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_overnutrition",
+      "confidence": 0.27,
+      "type": "hallmark_to_disease",
+      "color": "#EC7F23",
+      "width": 2.08
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_overnutrition",
+      "confidence": 0.27,
+      "type": "hallmark_to_disease",
+      "color": "#EC7F23",
+      "width": 2.08
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_stress_disorders_post_traumatic",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_loss_of_proteostasis",
+      "target": "disease_stress_disorders_post_traumatic",
+      "confidence": 0.23,
+      "type": "hallmark_to_disease",
+      "color": "#EC7728",
+      "width": 1.92
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_stress_disorders_post_traumatic",
+      "confidence": 0.17,
+      "type": "hallmark_to_disease",
+      "color": "#ED692F",
+      "width": 1.68
+    },
+    {
+      "source": "hallmark_stem_cell_exhaustion",
+      "target": "disease_seizures",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_seizures",
+      "confidence": 0.43,
+      "type": "hallmark_to_disease",
+      "color": "#EAA310",
+      "width": 2.72
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_seizures",
+      "confidence": 0.32,
+      "type": "hallmark_to_disease",
+      "color": "#EB8B1D",
+      "width": 2.28
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_seizures",
+      "confidence": 0.21,
+      "type": "hallmark_to_disease",
+      "color": "#EC722A",
+      "width": 1.84
+    },
+    {
+      "source": "hallmark_mitochondrial_dysfunction",
+      "target": "disease_seizures",
+      "confidence": 0.21,
+      "type": "hallmark_to_disease",
+      "color": "#EC722A",
+      "width": 1.84
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_hip_fractures",
+      "confidence": 0.69,
+      "type": "hallmark_to_disease",
+      "color": "#9EB928",
+      "width": 3.76
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_hip_fractures",
+      "confidence": 0.69,
+      "type": "hallmark_to_disease",
+      "color": "#9EB928",
+      "width": 3.76
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_hip_fractures",
+      "confidence": 0.43,
+      "type": "hallmark_to_disease",
+      "color": "#EAA310",
+      "width": 2.72
+    },
+    {
+      "source": "hallmark_loss_of_proteostasis",
+      "target": "disease_blindness",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_mitochondrial_dysfunction",
+      "target": "disease_blindness",
+      "confidence": 0.74,
+      "type": "hallmark_to_disease",
+      "color": "#8ABB31",
+      "width": 3.96
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_blindness",
+      "confidence": 0.58,
+      "type": "hallmark_to_disease",
+      "color": "#CAB515",
+      "width": 3.32
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_blindness",
+      "confidence": 0.58,
+      "type": "hallmark_to_disease",
+      "color": "#CAB515",
+      "width": 3.32
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_blindness",
+      "confidence": 0.42,
+      "type": "hallmark_to_disease",
+      "color": "#EAA111",
+      "width": 2.68
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_blindness",
+      "confidence": 0.42,
+      "type": "hallmark_to_disease",
+      "color": "#EAA111",
+      "width": 2.68
+    },
+    {
+      "source": "hallmark_dysbiosis",
+      "target": "disease_blindness",
+      "confidence": 0.42,
+      "type": "hallmark_to_disease",
+      "color": "#EAA111",
+      "width": 2.68
+    },
+    {
+      "source": "hallmark_mitochondrial_dysfunction",
+      "target": "disease_hearing_loss",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_hearing_loss",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_hearing_loss",
+      "confidence": 0.37,
+      "type": "hallmark_to_disease",
+      "color": "#EB9617",
+      "width": 2.48
+    },
+    {
+      "source": "hallmark_loss_of_proteostasis",
+      "target": "disease_hearing_loss",
+      "confidence": 0.24,
+      "type": "hallmark_to_disease",
+      "color": "#EC7927",
+      "width": 1.96
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_hearing_loss",
+      "confidence": 0.24,
+      "type": "hallmark_to_disease",
+      "color": "#EC7927",
+      "width": 1.96
+    },
+    {
+      "source": "hallmark_stem_cell_exhaustion",
+      "target": "disease_hearing_loss",
+      "confidence": 0.24,
+      "type": "hallmark_to_disease",
+      "color": "#EC7927",
+      "width": 1.96
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_fractures_bone",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_fractures_bone",
+      "confidence": 0.58,
+      "type": "hallmark_to_disease",
+      "color": "#CAB515",
+      "width": 3.32
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_fractures_bone",
+      "confidence": 0.58,
+      "type": "hallmark_to_disease",
+      "color": "#CAB515",
+      "width": 3.32
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_fractures_bone",
+      "confidence": 0.58,
+      "type": "hallmark_to_disease",
+      "color": "#CAB515",
+      "width": 3.32
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_fractures_bone",
+      "confidence": 0.26,
+      "type": "hallmark_to_disease",
+      "color": "#EC7D24",
+      "width": 2.04
+    },
+    {
+      "source": "hallmark_stem_cell_exhaustion",
+      "target": "disease_fractures_bone",
+      "confidence": 0.26,
+      "type": "hallmark_to_disease",
+      "color": "#EC7D24",
+      "width": 2.04
+    },
+    {
+      "source": "hallmark_dysbiosis",
+      "target": "disease_fractures_bone",
+      "confidence": 0.26,
+      "type": "hallmark_to_disease",
+      "color": "#EC7D24",
+      "width": 2.04
+    },
+    {
+      "source": "hallmark_dysbiosis",
+      "target": "disease_psychological_distress",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_mitochondrial_dysfunction",
+      "target": "disease_psychological_distress",
+      "confidence": 0.67,
+      "type": "hallmark_to_disease",
+      "color": "#A6B925",
+      "width": 3.68
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_psychological_distress",
+      "confidence": 0.55,
+      "type": "hallmark_to_disease",
+      "color": "#D5B410",
+      "width": 3.2
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_psychological_distress",
+      "confidence": 0.55,
+      "type": "hallmark_to_disease",
+      "color": "#D5B410",
+      "width": 3.2
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_psychological_distress",
+      "confidence": 0.33,
+      "type": "hallmark_to_disease",
+      "color": "#EB8D1C",
+      "width": 2.32
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_tooth_loss",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_tooth_loss",
+      "confidence": 0.74,
+      "type": "hallmark_to_disease",
+      "color": "#8ABB31",
+      "width": 3.96
+    },
+    {
+      "source": "hallmark_loss_of_proteostasis",
+      "target": "disease_tooth_loss",
+      "confidence": 0.74,
+      "type": "hallmark_to_disease",
+      "color": "#8ABB31",
+      "width": 3.96
+    },
+    {
+      "source": "hallmark_dysbiosis",
+      "target": "disease_tooth_loss",
+      "confidence": 0.74,
+      "type": "hallmark_to_disease",
+      "color": "#8ABB31",
+      "width": 3.96
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_tooth_loss",
+      "confidence": 0.53,
+      "type": "hallmark_to_disease",
+      "color": "#DEB40D",
+      "width": 3.12
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_tooth_loss",
+      "confidence": 0.53,
+      "type": "hallmark_to_disease",
+      "color": "#DEB40D",
+      "width": 3.12
+    },
+    {
+      "source": "hallmark_stem_cell_exhaustion",
+      "target": "disease_tooth_loss",
+      "confidence": 0.53,
+      "type": "hallmark_to_disease",
+      "color": "#DEB40D",
+      "width": 3.12
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_tooth_loss",
+      "confidence": 0.31,
+      "type": "hallmark_to_disease",
+      "color": "#EB881E",
+      "width": 2.24
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_tooth_loss",
+      "confidence": 0.31,
+      "type": "hallmark_to_disease",
+      "color": "#EB881E",
+      "width": 2.24
+    },
+    {
+      "source": "hallmark_mitochondrial_dysfunction",
+      "target": "disease_infertility_male",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_infertility_male",
+      "confidence": 0.81,
+      "type": "hallmark_to_disease",
+      "color": "#6DBE3D",
+      "width": 4.24
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_infertility_male",
+      "confidence": 0.46,
+      "type": "hallmark_to_disease",
+      "color": "#EAAA0C",
+      "width": 2.84
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_infertility_male",
+      "confidence": 0.22,
+      "type": "hallmark_to_disease",
+      "color": "#EC7429",
+      "width": 1.88
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_infertility_male",
+      "confidence": 0.22,
+      "type": "hallmark_to_disease",
+      "color": "#EC7429",
+      "width": 1.88
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_pre_eclampsia",
+      "confidence": 0.86,
+      "type": "hallmark_to_disease",
+      "color": "#5ABF45",
+      "width": 4.44
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_pre_eclampsia",
+      "confidence": 0.77,
+      "type": "hallmark_to_disease",
+      "color": "#7EBC36",
+      "width": 4.08
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_pre_eclampsia",
+      "confidence": 0.58,
+      "type": "hallmark_to_disease",
+      "color": "#CAB515",
+      "width": 3.32
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_pre_eclampsia",
+      "confidence": 0.2,
+      "type": "hallmark_to_disease",
+      "color": "#ED702C",
+      "width": 1.8
+    },
+    {
+      "source": "hallmark_loss_of_proteostasis",
+      "target": "disease_frontotemporal_dementia",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_frontotemporal_dementia",
+      "confidence": 0.6,
+      "type": "hallmark_to_disease",
+      "color": "#C2B619",
+      "width": 3.4
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_frontotemporal_dementia",
+      "confidence": 0.35,
+      "type": "hallmark_to_disease",
+      "color": "#EB911A",
+      "width": 2.4
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_frontotemporal_dementia",
+      "confidence": 0.23,
+      "type": "hallmark_to_disease",
+      "color": "#EC7728",
+      "width": 1.92
+    },
+    {
+      "source": "hallmark_mitochondrial_dysfunction",
+      "target": "disease_frontotemporal_dementia",
+      "confidence": 0.23,
+      "type": "hallmark_to_disease",
+      "color": "#EC7728",
+      "width": 1.92
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_hyperglycemia",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_hyperglycemia",
+      "confidence": 0.77,
+      "type": "hallmark_to_disease",
+      "color": "#7EBC36",
+      "width": 4.08
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_hyperglycemia",
+      "confidence": 0.77,
+      "type": "hallmark_to_disease",
+      "color": "#7EBC36",
+      "width": 4.08
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_hyperglycemia",
+      "confidence": 0.77,
+      "type": "hallmark_to_disease",
+      "color": "#7EBC36",
+      "width": 4.08
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_hyperglycemia",
+      "confidence": 0.77,
+      "type": "hallmark_to_disease",
+      "color": "#7EBC36",
+      "width": 4.08
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_hyperglycemia",
+      "confidence": 0.33,
+      "type": "hallmark_to_disease",
+      "color": "#EB8D1C",
+      "width": 2.32
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_hyperglycemia",
+      "confidence": 0.33,
+      "type": "hallmark_to_disease",
+      "color": "#EB8D1C",
+      "width": 2.32
+    },
+    {
+      "source": "hallmark_loss_of_proteostasis",
+      "target": "disease_hyperglycemia",
+      "confidence": 0.33,
+      "type": "hallmark_to_disease",
+      "color": "#EB8D1C",
+      "width": 2.32
+    },
+    {
+      "source": "hallmark_stem_cell_exhaustion",
+      "target": "disease_hyperglycemia",
+      "confidence": 0.33,
+      "type": "hallmark_to_disease",
+      "color": "#EB8D1C",
+      "width": 2.32
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_aphasia_conduction",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_aphasia_conduction",
+      "confidence": 0.7,
+      "type": "hallmark_to_disease",
+      "color": "#9ABA2A",
+      "width": 3.8
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_aphasia_conduction",
+      "confidence": 0.7,
+      "type": "hallmark_to_disease",
+      "color": "#9ABA2A",
+      "width": 3.8
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_aphasia_conduction",
+      "confidence": 0.5,
+      "type": "hallmark_to_disease",
+      "color": "#EAB308",
+      "width": 3.0
+    },
+    {
+      "source": "hallmark_stem_cell_exhaustion",
+      "target": "disease_aphasia_conduction",
+      "confidence": 0.5,
+      "type": "hallmark_to_disease",
+      "color": "#EAB308",
+      "width": 3.0
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_aphasia_conduction",
+      "confidence": 0.3,
+      "type": "hallmark_to_disease",
+      "color": "#EC8620",
+      "width": 2.2
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_aphasia_conduction",
+      "confidence": 0.3,
+      "type": "hallmark_to_disease",
+      "color": "#EC8620",
+      "width": 2.2
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_aphasia_conduction",
+      "confidence": 0.3,
+      "type": "hallmark_to_disease",
+      "color": "#EC8620",
+      "width": 2.2
+    },
+    {
+      "source": "hallmark_loss_of_proteostasis",
+      "target": "disease_synucleinopathies",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_synucleinopathies",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_synucleinopathies",
+      "confidence": 0.25,
+      "type": "hallmark_to_disease",
+      "color": "#EC7B26",
+      "width": 2.0
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_synucleinopathies",
+      "confidence": 0.25,
+      "type": "hallmark_to_disease",
+      "color": "#EC7B26",
+      "width": 2.0
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_synucleinopathies",
+      "confidence": 0.25,
+      "type": "hallmark_to_disease",
+      "color": "#EC7B26",
+      "width": 2.0
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_synucleinopathies",
+      "confidence": 0.25,
+      "type": "hallmark_to_disease",
+      "color": "#EC7B26",
+      "width": 2.0
+    },
+    {
+      "source": "hallmark_dysbiosis",
+      "target": "disease_psoriasis",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_psoriasis",
+      "confidence": 0.35,
+      "type": "hallmark_to_disease",
+      "color": "#EB911A",
+      "width": 2.4
+    },
+    {
+      "source": "hallmark_genomic_instability",
+      "target": "disease_psoriasis",
+      "confidence": 0.23,
+      "type": "hallmark_to_disease",
+      "color": "#EC7728",
+      "width": 1.92
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_psoriasis",
+      "confidence": 0.23,
+      "type": "hallmark_to_disease",
+      "color": "#EC7728",
+      "width": 1.92
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_psoriasis",
+      "confidence": 0.23,
+      "type": "hallmark_to_disease",
+      "color": "#EC7728",
+      "width": 1.92
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_respiratory_insufficiency",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_dysbiosis",
+      "target": "disease_respiratory_insufficiency",
+      "confidence": 0.7,
+      "type": "hallmark_to_disease",
+      "color": "#9ABA2A",
+      "width": 3.8
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_respiratory_insufficiency",
+      "confidence": 0.5,
+      "type": "hallmark_to_disease",
+      "color": "#EAB308",
+      "width": 3.0
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_respiratory_insufficiency",
+      "confidence": 0.5,
+      "type": "hallmark_to_disease",
+      "color": "#EAB308",
+      "width": 3.0
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_respiratory_insufficiency",
+      "confidence": 0.3,
+      "type": "hallmark_to_disease",
+      "color": "#EC8620",
+      "width": 2.2
+    },
+    {
+      "source": "hallmark_loss_of_proteostasis",
+      "target": "disease_respiratory_insufficiency",
+      "confidence": 0.3,
+      "type": "hallmark_to_disease",
+      "color": "#EC8620",
+      "width": 2.2
+    },
+    {
+      "source": "hallmark_mitochondrial_dysfunction",
+      "target": "disease_respiratory_insufficiency",
+      "confidence": 0.3,
+      "type": "hallmark_to_disease",
+      "color": "#EC8620",
+      "width": 2.2
+    },
+    {
+      "source": "hallmark_altered_intercellular_communication",
+      "target": "disease_respiratory_insufficiency",
+      "confidence": 0.3,
+      "type": "hallmark_to_disease",
+      "color": "#EC8620",
+      "width": 2.2
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_weight_gain",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_dysbiosis",
+      "target": "disease_weight_gain",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_weight_gain",
+      "confidence": 0.4,
+      "type": "hallmark_to_disease",
+      "color": "#EB9C14",
+      "width": 2.6
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_weight_gain",
+      "confidence": 0.25,
+      "type": "hallmark_to_disease",
+      "color": "#EC7B26",
+      "width": 2.0
+    },
+    {
+      "source": "hallmark_mitochondrial_dysfunction",
+      "target": "disease_weight_gain",
+      "confidence": 0.25,
+      "type": "hallmark_to_disease",
+      "color": "#EC7B26",
+      "width": 2.0
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_weight_gain",
+      "confidence": 0.25,
+      "type": "hallmark_to_disease",
+      "color": "#EC7B26",
+      "width": 2.0
+    },
+    {
+      "source": "hallmark_mitochondrial_dysfunction",
+      "target": "disease_myopathy_with_giant_abnormal_mitochondria",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_telomere_attrition",
+      "target": "disease_myopathy_with_giant_abnormal_mitochondria",
+      "confidence": 0.7,
+      "type": "hallmark_to_disease",
+      "color": "#9ABA2A",
+      "width": 3.8
+    },
+    {
+      "source": "hallmark_loss_of_proteostasis",
+      "target": "disease_myopathy_with_giant_abnormal_mitochondria",
+      "confidence": 0.7,
+      "type": "hallmark_to_disease",
+      "color": "#9ABA2A",
+      "width": 3.8
+    },
+    {
+      "source": "hallmark_disabled_macroautophagy",
+      "target": "disease_myopathy_with_giant_abnormal_mitochondria",
+      "confidence": 0.5,
+      "type": "hallmark_to_disease",
+      "color": "#EAB308",
+      "width": 3.0
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_myopathy_with_giant_abnormal_mitochondria",
+      "confidence": 0.3,
+      "type": "hallmark_to_disease",
+      "color": "#EC8620",
+      "width": 2.2
+    },
+    {
+      "source": "hallmark_cellular_senescence",
+      "target": "disease_myopathy_with_giant_abnormal_mitochondria",
+      "confidence": 0.3,
+      "type": "hallmark_to_disease",
+      "color": "#EC8620",
+      "width": 2.2
+    },
+    {
+      "source": "hallmark_stem_cell_exhaustion",
+      "target": "disease_myopathy_with_giant_abnormal_mitochondria",
+      "confidence": 0.3,
+      "type": "hallmark_to_disease",
+      "color": "#EC8620",
+      "width": 2.2
+    },
+    {
+      "source": "hallmark_chronic_inflammation",
+      "target": "disease_myopathy_with_giant_abnormal_mitochondria",
+      "confidence": 0.3,
+      "type": "hallmark_to_disease",
+      "color": "#EC8620",
+      "width": 2.2
+    },
+    {
+      "source": "hallmark_dysbiosis",
+      "target": "disease_diabetes_gestational",
+      "confidence": 0.9,
+      "type": "hallmark_to_disease",
+      "color": "#4AC14C",
+      "width": 4.6
+    },
+    {
+      "source": "hallmark_epigenetic_alterations",
+      "target": "disease_diabetes_gestational",
+      "confidence": 0.47,
+      "type": "hallmark_to_disease",
+      "color": "#EAAC0B",
+      "width": 2.88
+    },
+    {
+      "source": "hallmark_deregulated_nutrient_sensing",
+      "target": "disease_diabetes_gestational",
+      "confidence": 0.18,
+      "type": "hallmark_to_disease",
+      "color": "#ED6B2E",
+      "width": 1.72
     }
   ]
 }
