@@ -116,6 +116,14 @@ BROAD_CATEGORY_PATTERNS = re.compile(
     re.IGNORECASE,
 )
 
+# Biological processes that are not diseases (often appear as MESH disease annotations)
+PROCESS_TERMS = {
+    "inflammation", "carcinogenesis", "fibrosis", "aging", "senescence",
+    "apoptosis", "autophagy", "dysbiosis", "cachexia", "atrophy",
+    "degeneration", "necrosis", "oxidative stress", "hypoxia",
+    "aging premature",  # this is a MESH term for progeroid syndromes — keep separately
+}
+
 # Simple heuristic: names that look like pure symptoms rather than diseases
 SYMPTOM_PATTERNS = re.compile(
     r"\b(pain|ache|fever|nausea|vomiting|diarrhea|fatigue|dyspnea|dyspnoea"
@@ -272,8 +280,12 @@ def is_pure_symptom(name: str) -> bool:
 
 
 def is_broad_category(name: str) -> bool:
-    """Return True if this is a broad disease category rather than a specific diagnosis."""
-    return bool(BROAD_CATEGORY_PATTERNS.search(name.strip()))
+    """Return True if this is a broad disease category or biological process."""
+    if BROAD_CATEGORY_PATTERNS.search(name.strip()):
+        return True
+    if name.lower().strip() in PROCESS_TERMS:
+        return True
+    return False
 
 
 def passes_filter(name: str, include_syndromes: bool) -> bool:
@@ -322,17 +334,29 @@ def query_pubtator_for_hallmark(
             print("    [dry-run] skipping API call")
             continue
 
-        data = api_get(
-            SEARCH_ENDPOINT,
-            params={"text": term, "concepts": "disease", "limit": PMIDS_PER_QUERY},
-            cache=cache,
-        )
-        if data and data.get("results"):
-            pmids = [str(r["pmid"]) for r in data["results"] if r.get("pmid")]
-            all_pmids.extend(pmids)
-            print(f"    → {len(pmids)} PMIDs")
-        else:
-            print(f"    → no results")
+        # PubTator search returns 10 per page — paginate to reach PMIDS_PER_QUERY
+        term_pmids: list[str] = []
+        page = 1
+        max_pages = math.ceil(PMIDS_PER_QUERY / 10)
+        while len(term_pmids) < PMIDS_PER_QUERY:
+            data = api_get(
+                SEARCH_ENDPOINT,
+                params={"text": term, "concepts": "disease", "page": page},
+                cache=cache,
+            )
+            if not data or not data.get("results"):
+                break
+            batch = [str(r["pmid"]) for r in data["results"] if r.get("pmid")]
+            if not batch:
+                break
+            term_pmids.extend(batch)
+            total_pages = data.get("total_pages", 1)
+            if page >= total_pages or page >= max_pages:
+                break
+            page += 1
+
+        all_pmids.extend(term_pmids)
+        print(f"    → {len(term_pmids)} PMIDs (pages: {page})")
 
     if not all_pmids or dry_run:
         return []
