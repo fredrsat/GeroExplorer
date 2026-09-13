@@ -18,7 +18,7 @@ See README.md for full project description.
 ### Data layer (`data/`)
 Three JSON source files → assembled into `graph.json` by `scripts/build_graph.py`.
 
-- `hallmarks.json` — 12 hallmark objects (Lopez-Otín 2013 + 2023)
+- `hallmarks.json` — 12 hallmark objects (López-Otín 2013 + 2023)
 - `mechanisms.json` — mechanism objects with `hallmark_links[]`
 - `diseases.json` — disease objects with `mechanism_links[]` and `hallmark_direct_links[]`
 - `graph.json` — D3-ready `{ nodes[], links[] }` — **never edit directly, always rebuild**

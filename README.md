@@ -38,7 +38,7 @@ Confidence scores on every edge reflect bibliometric evidence (PubMed publicatio
 2. Cellular Senescence — 119
 3. Mitochondrial Dysfunction — 102
 
-**Hallmarks included** (Lopez-Otín 2013 + 2023 update):
+**Hallmarks included** (López-Otín 2013 + 2023 update):
 
 *Primary (cause damage):*
 - Genomic Instability
@@ -182,6 +182,6 @@ Decision affects parser complexity significantly.
 
 ## References
 
-- Lopez-Otín et al. (2013) *The Hallmarks of Aging.* Cell 153(6):1194–1217
-- Lopez-Otín et al. (2023) *Hallmarks of Aging: An Expanding Universe.* Cell 186(2):243–278
+- López-Otín et al. (2013) *The Hallmarks of Aging.* Cell 153(6):1194–1217
+- López-Otín et al. (2023) *Hallmarks of Aging: An Expanding Universe.* Cell 186(2):243–278
 - PubMed/NCBI Entrez API for confidence calibration

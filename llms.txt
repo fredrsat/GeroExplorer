@@ -2,7 +2,7 @@
 
 > Interactive force-directed graph tracing 155 clinical diseases back through 39 pathophysiological mechanisms to the 12 Hallmarks of Aging.
 
-GeroExplorer visualizes the causal chain Hallmarks of Aging (Lopez-Otin 2013 + 2023) -> mechanisms -> diseases as a D3 v7 force graph with 206 nodes and 1776 edges. Cross-links are first-class (e.g. Alzheimer's connects to proteostasis failure, neuroinflammation, and mitochondrial dysfunction simultaneously), and every edge carries a bibliometric confidence score derived from PubMed publication counts.
+GeroExplorer visualizes the causal chain Hallmarks of Aging (López-Otín 2013 + 2023) -> mechanisms -> diseases as a D3 v7 force graph with 206 nodes and 1776 edges. Cross-links are first-class (e.g. Alzheimer's connects to proteostasis failure, neuroinflammation, and mitochondrial dysfunction simultaneously), and every edge carries a bibliometric confidence score derived from PubMed publication counts.
 
 The stack has two halves: a Python data pipeline (JSON source files in `data/` assembled by `scripts/build_graph.py` into `graph.json`, optionally calibrated via NCBI Entrez and extended via PubTator3 NER mining) and a React 18 + Vite frontend that serves the pre-built graph statically — there is no backend at runtime. Deployed via Railway/nixpacks. After editing any data file, `build_graph.py` must be re-run to regenerate `frontend/public/graph.json`.
 
