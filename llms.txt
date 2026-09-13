@@ -1,0 +1,28 @@
+# GeroExplorer
+
+> Interactive force-directed graph tracing 155 clinical diseases back through 39 pathophysiological mechanisms to the 12 Hallmarks of Aging.
+
+GeroExplorer visualizes the causal chain Hallmarks of Aging (Lopez-Otin 2013 + 2023) -> mechanisms -> diseases as a D3 v7 force graph with 206 nodes and 1776 edges. Cross-links are first-class (e.g. Alzheimer's connects to proteostasis failure, neuroinflammation, and mitochondrial dysfunction simultaneously), and every edge carries a bibliometric confidence score derived from PubMed publication counts.
+
+The stack has two halves: a Python data pipeline (JSON source files in `data/` assembled by `scripts/build_graph.py` into `graph.json`, optionally calibrated via NCBI Entrez and extended via PubTator3 NER mining) and a React 18 + Vite frontend that serves the pre-built graph statically — there is no backend at runtime. Deployed via Railway/nixpacks. After editing any data file, `build_graph.py` must be re-run to regenerate `frontend/public/graph.json`.
+
+## Docs
+
+- [README](https://github.com/fredrsat/GeroExplorer/blob/main/README.md): concept, current data counts, quick start, pipeline, dedup rules, roadmap
+- [CLAUDE.md](https://github.com/fredrsat/GeroExplorer/blob/main/CLAUDE.md): AI assistant context — architecture and conventions
+
+## Source
+
+- [scripts/build_graph.py](https://github.com/fredrsat/GeroExplorer/blob/main/scripts/build_graph.py): assembles data files into graph.json and copies it to frontend/public/
+- [scripts/fetch_pubmed.py](https://github.com/fredrsat/GeroExplorer/blob/main/scripts/fetch_pubmed.py): PubMed counts for confidence calibration
+- [scripts/fetch_pubtator.py](https://github.com/fredrsat/GeroExplorer/blob/main/scripts/fetch_pubtator.py): PubTator3 NER pipeline for disease discovery
+- [frontend/src/components/ForceGraph.jsx](https://github.com/fredrsat/GeroExplorer/blob/main/frontend/src/components/ForceGraph.jsx): D3 force simulation (core visualization)
+- [frontend/src/App.jsx](https://github.com/fredrsat/GeroExplorer/blob/main/frontend/src/App.jsx): root layout and state management
+- [frontend/src/components/NodeDetail.jsx](https://github.com/fredrsat/GeroExplorer/blob/main/frontend/src/components/NodeDetail.jsx): node info panel with connections and PubMed links
+
+## Optional
+
+- [data/hallmarks.json](https://github.com/fredrsat/GeroExplorer/blob/main/data/hallmarks.json): 12 hallmarks with metadata, key genes, biomarkers
+- [data/mechanisms.json](https://github.com/fredrsat/GeroExplorer/blob/main/data/mechanisms.json): 39 mechanisms with hallmark links and confidence scores
+- [data/diseases.json](https://github.com/fredrsat/GeroExplorer/blob/main/data/diseases.json): 155 diseases with mechanism and hallmark cross-links
+- [frontend/package.json](https://github.com/fredrsat/GeroExplorer/blob/main/frontend/package.json): frontend scripts and dependencies
